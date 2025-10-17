@@ -32,6 +32,31 @@ const pageSEOConfig = {
     title: 'Download CloverPit: The Descent - Official Download Guide | 321gogame.com',
     description: 'Download CloverPit: The Descent safely and securely. Official download channels, system requirements, and installation guide.',
     keywords: 'download CloverPit, game download, system requirements, installation guide, official download, 321gogame.com'
+  },
+  privacy: {
+    title: 'Privacy Policy - CloverPit Guide | 321gogame.com',
+    description: 'Privacy Policy for 321gogame.com CloverPit guide website. Learn how we protect your personal information and data.',
+    keywords: 'privacy policy, data protection, 321gogame.com, CloverPit guide privacy'
+  },
+  terms: {
+    title: 'Terms of Service - CloverPit Guide | 321gogame.com',
+    description: 'Terms of Service for 321gogame.com CloverPit guide website. Read our terms and conditions for using our services.',
+    keywords: 'terms of service, terms and conditions, 321gogame.com, CloverPit guide terms'
+  },
+  copyright: {
+    title: 'Copyright Notice - CloverPit Guide | 321gogame.com',
+    description: 'Copyright notice for 321gogame.com CloverPit guide website. Information about intellectual property and fair use.',
+    keywords: 'copyright notice, intellectual property, 321gogame.com, CloverPit guide copyright'
+  },
+  about: {
+    title: 'About Us - CloverPit Guide Team | 321gogame.com',
+    description: 'Learn about the 321gogame.com team behind the comprehensive CloverPit guide. Our mission to help players master the game.',
+    keywords: 'about us, 321gogame.com team, CloverPit guide creators, gaming experts'
+  },
+  contact: {
+    title: 'Contact Us - CloverPit Guide Support | 321gogame.com',
+    description: 'Contact the 321gogame.com team for CloverPit guide support, feedback, or collaboration opportunities.',
+    keywords: 'contact us, support, feedback, 321gogame.com contact, CloverPit guide help'
   }
 }
 
@@ -67,6 +92,31 @@ const router = createRouter({
       path: '/cloverpit-download',
       name: 'Download',
       component: () => import('../views/DownloadView.vue')
+    },
+    {
+      path: '/privacy-policy',
+      name: 'Privacy',
+      component: () => import('../views/PrivacyView.vue')
+    },
+    {
+      path: '/terms-of-service',
+      name: 'Terms',
+      component: () => import('../views/TermsView.vue')
+    },
+    {
+      path: '/copyright',
+      name: 'Copyright',
+      component: () => import('../views/CopyrightView.vue')
+    },
+    {
+      path: '/about-us',
+      name: 'About',
+      component: () => import('../views/AboutView.vue')
+    },
+    {
+      path: '/contact-us',
+      name: 'Contact',
+      component: () => import('../views/ContactView.vue')
     }
   ],
 })

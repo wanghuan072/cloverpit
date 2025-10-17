@@ -43,11 +43,11 @@
           <div class="footer-section">
             <h4>Legal</h4>
             <ul class="footer-links">
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms of Service</a></li>
-              <li><a href="#">Copyright</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li><router-link to="/privacy-policy">Privacy Policy</router-link></li>
+              <li><router-link to="/terms-of-service">Terms of Service</router-link></li>
+              <li><router-link to="/copyright">Copyright</router-link></li>
+              <li><router-link to="/about-us">About Us</router-link></li>
+              <li><router-link to="/contact-us">Contact Us</router-link></li>
             </ul>
           </div>
         </div>

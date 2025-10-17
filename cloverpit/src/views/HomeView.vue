@@ -155,8 +155,7 @@
                 <p>Unlock forbidden strategies and cursed techniques to master the machine's hunger and survive your
                   eternal torment.</p>
                 <div class="guide-buttons">
-                  <button class="btn btn-primary">Enter the Abyss</button>
-                  <button class="btn btn-secondary">Cursed Strategies</button>
+                  <a href="/cloverpit-guide" class="btn btn-primary">Enter the Abyss</a>
                 </div>
               </div>
             </div>

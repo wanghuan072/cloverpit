@@ -8,7 +8,7 @@
         <div class="container">
           <div class="hero-wrapper">
             <h1 class="hero-title">Download CloverPit</h1>
-            <p class="hero-description">A rogue-lite slot machine nightmare. Gamble for your life in a never-ending debt simulator!</p>
+            <p class="hero-description">A rogue-lite slot machine nightmare. Gamble for your life in a never-ending debt simulator! Get ready for the ultimate CloverPit download experience.</p>
             
             <!-- Quick Navigation -->
             <div class="download-nav">
@@ -23,6 +23,9 @@
               </div>
               <div class="nav-card" @click="scrollToSection('languages')">
                 <span>Languages</span>
+              </div>
+              <div class="nav-card" @click="scrollToSection('platform-support')">
+                <span>Platform Support</span>
               </div>
               <div class="nav-card" @click="scrollToSection('system-requirements')">
                 <span>System Requirements</span>
@@ -67,6 +70,8 @@
               
               <p>Manipulate the slot machine to earn extra coins. Turn the odds in your favor with various prizes and charms that trigger big big combos, snowballing into a dazzling lucky run. Bend the rules, break the game, and pay off your captor long enough to earn a shot at freedom.</p>
               
+              <p>The game offers endless possibilities for customization and replayability, with a thriving modding community creating new content and experiences.</p>
+              
             </div>
           </div>
         </div>
@@ -86,7 +91,7 @@
               <div class="feature-item">
                 <div class="feature-icon">🔄</div>
                 <h3>Meta-progression</h3>
-                <p>Seeded runs, unlockable run modifiers and power-ups!</p>
+                <p>Seeded runs, unlockable run modifiers and power-ups! Extensive modding support allows the community to create custom content and experiences.</p>
               </div>
               <div class="feature-item">
                 <div class="feature-icon">🏆</div>
@@ -187,6 +192,62 @@
         </div>
       </section>
 
+      <!-- Platform Support Section -->
+      <section id="platform-support" class="section platform-support">
+        <div class="container">
+          <div class="platform-wrapper">
+            <h2 class="section-title">Platform Support & Future Releases</h2>
+            <div class="platform-content">
+              <div class="platform-section">
+                <h3>Current Availability</h3>
+                <div class="platform-item">
+                  <div class="platform-info">
+                    <h4>Windows</h4>
+                    <p>Full CloverPit download available now on Steam for Windows 10 and above. Experience the complete horror slot machine nightmare with all features unlocked.</p>
+                  </div>
+                  <div class="platform-status available">Available Now</div>
+                </div>
+              </div>
+
+              <div class="platform-section">
+                <h3>Coming Soon</h3>
+                <div class="platform-item">
+                  <div class="platform-info">
+                    <h4>Mac Support</h4>
+                    <p>CloverPit Mac version is currently in development. Mac users will soon be able to experience the same twisted gameplay on their preferred platform.</p>
+                  </div>
+                  <div class="platform-status upcoming">Coming Soon</div>
+                </div>
+                
+                <div class="platform-item">
+                  <div class="platform-info">
+                    <h4>Mobile Gaming</h4>
+                    <p>CloverPit mobile adaptation is being developed to bring the slot machine horror experience to your smartphone and tablet devices.</p>
+                  </div>
+                  <div class="platform-status upcoming">In Development</div>
+                </div>
+              </div>
+
+              <div class="platform-section">
+                <h3>Community Features</h3>
+                <div class="platform-item">
+                  <div class="platform-info">
+                    <h4>Modding Support</h4>
+                    <p>Explore the growing CloverPit mods community! Customize your experience with user-created content, new charms, and alternative game modes.</p>
+                  </div>
+                  <div class="platform-status community">Active Community</div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="language-support">
+              <h3>Multi-Language Support</h3>
+              <p>CloverPit descargar is available for Spanish-speaking players, with full interface and subtitle support. The game supports multiple languages to ensure players worldwide can enjoy the horror experience in their native tongue.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- System Requirements Section -->
       <section id="system-requirements" class="section system-requirements">
         <div class="container">
@@ -208,6 +269,7 @@
                 <h3>Recommended Requirements</h3>
                 <ul class="requirement-list">
                   <li><strong>Additional Notes:</strong> Requires a 64-bit processor and operating system</li>
+                  <li><strong>Cross-Platform:</strong> Save files sync across devices via Steam Cloud</li>
                 </ul>
               </div>
             </div>
@@ -637,6 +699,119 @@ const scrollToSection = (sectionId) => {
   border-right: none;
 }
 
+/* Platform Support Section */
+.platform-support {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #2c1810 0%, #1a1a1a 100%);
+}
+
+.platform-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.platform-content {
+  margin-bottom: 50px;
+}
+
+.platform-section {
+  margin-bottom: 40px;
+}
+
+.platform-section h3 {
+  font-size: 1.4rem;
+  color: #ff6b35;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(255, 107, 53, 0.3);
+  text-align: left;
+}
+
+.platform-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: rgba(26, 26, 26, 0.6);
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.platform-item:hover {
+  background: rgba(26, 26, 26, 0.8);
+  border-color: #666;
+}
+
+.platform-info {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.platform-info h4 {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.platform-info p {
+  color: #d1d5db;
+  line-height: 1.6;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.platform-status {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.platform-status.available {
+  background: #10b981;
+  color: #ffffff;
+}
+
+.platform-status.upcoming {
+  background: #f59e0b;
+  color: #ffffff;
+}
+
+.platform-status.community {
+  background: #8b5cf6;
+  color: #ffffff;
+}
+
+.language-support {
+  background: rgba(26, 26, 26, 0.6);
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: left;
+}
+
+.language-support h3 {
+  color: #ff6b35;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(255, 107, 53, 0.3);
+}
+
+.language-support p {
+  color: #d1d5db;
+  line-height: 1.6;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
 /* System Requirements Section */
 .system-requirements {
   padding: 80px 0;
@@ -822,6 +997,20 @@ const scrollToSection = (sectionId) => {
     gap: 10px;
   }
   
+  .platform-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .platform-info {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  
+  .platform-status {
+    align-self: flex-start;
+  }
+  
   .nav-card {
     padding: 10px 5px;
     min-height: 50px;
@@ -968,6 +1157,22 @@ const scrollToSection = (sectionId) => {
   .download-nav {
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
+  }
+  
+  .platform-item {
+    padding: 20px;
+  }
+  
+  .language-support {
+    padding: 20px;
+  }
+  
+  .platform-section h3 {
+    font-size: 1.2rem;
+  }
+  
+  .platform-info h4 {
+    font-size: 1.1rem;
   }
   
   .nav-card {

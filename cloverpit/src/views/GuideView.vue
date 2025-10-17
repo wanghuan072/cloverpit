@@ -13,7 +13,7 @@
             <!-- Description -->
             <div class="hero-description">
               <p>Master the rogue-lite slot machine horror with this comprehensive CloverPit guide featuring beginner
-                tips, advanced strategies, and charm synergies</p>
+                tips, advanced strategies, and charm synergies. Follow our detailed walkthrough to dominate every aspect of the game.</p>
             </div>
 
             <!-- Navigation Cards -->
