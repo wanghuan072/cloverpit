@@ -4,7 +4,10 @@
       <div class="footer-wrapper">
         <div class="footer-content">
           <div class="footer-section">
-            <h3>CloverPit Guide</h3>
+            <div class="footer-section-logo">
+              <img src="../../public/images/logo.webp" alt="CloverPit Logo" />
+              <span>CloverPit</span>
+            </div>
             <p>Your gateway to mastering the cursed slot machine and surviving the eternal torment.</p>
             <div class="social-links">
               <a href="#" class="social-link">
@@ -83,10 +86,22 @@
   margin-bottom: 40px;
 }
 
-.footer-section h3 {
-  color: #ff6b35;
-  font-size: 1.5rem;
+.footer-section-logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
   margin-bottom: 20px;
+}
+
+.footer-section-logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.footer-section-logo span {
+  color: #ff6b35;
+  font-size: 24px;
   font-weight: bold;
 }
 

@@ -3,6 +3,7 @@
     <div class="container">
       <div class="header-content">
         <div class="logo">
+          <img src="../../public/images/logo.webp" alt="CloverPit Logo" />
           <span>CloverPit</span>
         </div>
         
@@ -111,6 +112,18 @@ const closeMobileMenu = () => {
   justify-content: space-between;
   align-items: center;
   height: 70px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
 }
 
 .logo span {
