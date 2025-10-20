@@ -1,0 +1,1869 @@
+{
+    "seo": {
+        "home": {
+            "title": "CloverPit: The Descent - Guide de Jeu Complet & Wiki | 321gogame.com",
+            "description": "Maîtrisez le guide de stratégie ultime pour CloverPit: The Descent. Guides de gameplay complets, combinaisons de charmes, guide des fins, et tutoriels de jeu professionnels.",
+            "keywords": "CloverPit, CloverPit The Descent, rogue-lite, machine à sous, jeu d'horreur, guide de jeu, combinaisons de charmes, guide des fins, wiki de jeu, 321gogame.com"
+        },
+        "guide": {
+            "title": "Guide de Stratégie CloverPit: The Descent - Guide de Gameplay Complet | 321gogame.com",
+            "description": "Maîtrisez la machine à sous d'horreur rogue-lite avec ce guide CloverPit complet comprenant des conseils pour débutants, des stratégies avancées et des synergies de charmes.",
+            "keywords": "guide CloverPit, stratégie CloverPit, guide de gameplay, combinaisons de charmes, conseils de survie, guide de jeu d'horreur, 321gogame.com"
+        },
+        "wiki": {
+            "title": "Wiki CloverPit: The Descent - Encyclopédie Complète du Jeu | 321gogame.com",
+            "description": "Base de données Wiki CloverPit complète des mécanismes de jeu, symboles, motifs et stratégies. Wiki CloverPit complet pour tous les joueurs.",
+            "keywords": "wiki CloverPit, mécanismes de jeu, symboles, motifs, rareté, appels téléphoniques, cartes mémoire, encyclopédie du jeu, 321gogame.com"
+        },
+        "endings": {
+            "title": "Guide des Fins CloverPit: The Descent - Toutes les Fins du Jeu | 321gogame.com",
+            "description": "Maîtrisez l'art de vous échapper de CloverPit avec ce guide complet de toutes les fins, y compris la vraie fin et les bibelots sacrés.",
+            "keywords": "fins CloverPit, toutes les fins, vraie fin, mauvaise fin, bonne fin, bibelots sacrés, guide des fins, 321gogame.com"
+        },
+        "blog": {
+            "title": "Blog CloverPit: The Descent - Dernières Nouvelles & Mises à Jour | 321gogame.com",
+            "description": "Dernières nouvelles, mises à jour et contenu communautaire pour CloverPit: The Descent. Guides experts, astuces, stratégies et aperçus du jeu.",
+            "keywords": "blog CloverPit, actualités du jeu, mises à jour, contenu communautaire, guides experts, astuces, stratégies, 321gogame.com"
+        },
+        "download": {
+            "title": "Télécharger CloverPit: The Descent - Guide de Téléchargement Officiel | 321gogame.com",
+            "description": "Téléchargez CloverPit: The Descent en toute sécurité. Canaux de téléchargement officiels, configuration requise et guide d'installation.",
+            "keywords": "télécharger CloverPit, téléchargement de jeu, configuration requise, guide d'installation, téléchargement officiel, 321gogame.com"
+        },
+        "privacy": {
+            "title": "Politique de Confidentialité - Guide CloverPit | 321gogame.com",
+            "description": "Politique de confidentialité pour le site web du guide CloverPit de 321gogame.com. Découvrez comment nous protégeons vos informations personnelles et vos données.",
+            "keywords": "politique de confidentialité, protection des données, 321gogame.com, confidentialité du guide CloverPit"
+        },
+        "terms": {
+            "title": "Conditions d'Utilisation - Guide CloverPit | 321gogame.com",
+            "description": "Conditions d'utilisation pour le site web du guide CloverPit de 321gogame.com. Lisez nos termes et conditions d'utilisation de nos services.",
+            "keywords": "conditions d'utilisation, termes et conditions, 321gogame.com, conditions du guide CloverPit"
+        },
+        "copyright": {
+            "title": "Avis de Droit d'Auteur - Guide CloverPit | 321gogame.com",
+            "description": "Avis de droit d'auteur pour le site web du guide CloverPit de 321gogame.com. Informations sur la propriété intellectuelle et l'utilisation équitable.",
+            "keywords": "avis de droit d'auteur, propriété intellectuelle, 321gogame.com, droit d'auteur du guide CloverPit"
+        },
+        "about": {
+            "title": "À Propos de Nous - Équipe du Guide CloverPit | 321gogame.com",
+            "description": "Découvrez l'équipe de 321gogame.com derrière le guide CloverPit complet. Notre mission d'aider les joueurs à maîtriser le jeu.",
+            "keywords": "à propos de nous, équipe 321gogame.com, créateurs du guide CloverPit, experts en jeux"
+        },
+        "contact": {
+            "title": "Contactez-Nous - Support du Guide CloverPit | 321gogame.com",
+            "description": "Contactez l'équipe de 321gogame.com pour le support du guide CloverPit, des commentaires ou des opportunités de collaboration.",
+            "keywords": "contactez-nous, support, commentaires, contact 321gogame.com, aide du guide CloverPit"
+        }
+    },
+    "nav": {
+        "home": "Accueil",
+        "guide": "Guide",
+        "wiki": "Wiki",
+        "endings": "Fins",
+        "blog": "Blog",
+        "download": "Télécharger",
+        "openMenu": "Ouvrir Menu",
+        "closeMenu": "Fermer Menu"
+    },
+    "footer": {
+        "description": "Votre porte d'entrée pour maîtriser la machine à sous maudite et survivre au tourment éternel.",
+        "navigation": "Navigation",
+        "legal": "Mentions Légales",
+        "copyright": "© 2025 321gogame.com. Tous droits réservés.",
+        "disclaimer": "321gogame.com n'est pas affilié, approuvé ou lié à l'original ou à ses éditeurs. Ceci est un site de fan indépendant créé à des fins d'information uniquement. Toutes les marques et droits d'auteur appartiennent à leurs propriétaires respectifs.",
+        "links": {
+            "privacyPolicy": "Politique de Confidentialité",
+            "termsOfService": "Conditions d'Utilisation",
+            "copyright": "Droit d'Auteur",
+            "aboutUs": "À Propos de Nous",
+            "contactUs": "Contactez-Nous"
+        }
+    },
+    "HomePage": {
+        "hero": {
+            "banner": {
+                "hotBadge": "Recommandation Chaude",
+                "announcement": "Le Guide Complet de CloverPit: The Descent Est Maintenant en Ligne - Votre Chemin vers la Survie Parfaite"
+            },
+            "title": "Maîtrisez le Guide de Stratégie Ultime pour <span class=\"highlight\">CloverPit: The Descent</span>",
+            "description": "Votre guide <span class=\"text-highlight\">CloverPit: The Descent</span> complet proposant des combinaisons de charmes détaillées, <span class=\"text-highlight\">toutes les fins</span>, des stratégies maudites et des techniques de survie professionnelles pour vous libérer de la faim éternelle de la machine.",
+            "buttons": {
+                "download": "Télécharger le Jeu Maintenant",
+                "guides": "Commencer les Guides"
+            },
+            "footer": {
+                "text": "Conçu par notre équipe de guides professionnels pour vous aider à survivre et à découvrir tous les secrets dans le monde de la machine à sous maudite"
+            }
+        },
+        "about": {
+            "title": "À Propos de CloverPit",
+            "description1": "Dans les profondeurs de votre conscience se trouve <strong>CloverPit</strong> - l'enfant démoniaque de Balatro et Buckshot Roulette, un roguelite qui piège les joueurs dans un enfer de leur propre création. Conçu par les esprits tordus de <strong>Panik Arcade</strong> et dévoilé par <strong>Future Friends Games</strong>, cet abîme psychologique a consumé plus de 500 000 âmes depuis son éveil en septembre 2025, obtenant l'approbation murmurée de plus de 7 300 âmes tourmentées.",
+            "description2": "Vous vous retrouvez enfermé dans une cellule rouillée avec une machine à sous et un distributeur automatique, suspendu au-dessus d'un abîme qui a faim de votre échec. Vous devez rembourser votre dette à la fin de chaque tour, ou tomber à votre perte – littéralement! La machine à sous maudite devant vous exige un tribut - non pas en pièces, mais en votre essence même. Chaque rotation est un pari avec votre santé mentale, chaque perte un pas de plus vers l'obscurité éternelle ci-dessous.",
+            "description3": "Manipulez la machine à sous pour gagner des pièces supplémentaires. Tournez le destin en votre faveur avec divers prix et charmes qui déclenchent de gros gros combos, se transformant en une course chanceuse éblouissante. Pliez les règles, cassez le jeu et remboursez votre ravisseur assez longtemps pour gagner une chance de liberté. Ce n'est pas un simple jeu - c'est une <em>\"symphonie de folie et de désespoir\"</em>, où le tourment psychologique rencontre la cruauté calculée.",
+            "description4": "La machine ne peut être apprivoisée par la chance seule. Elle doit être <em>cassée</em> - brisée par la connaissance interdite et les <a href=\"/cloverpit-wiki\" class=\"text-link\">synergies de charmes</a> corrompues. Plus de 150 artefacts maudits murmurent une connaissance interdite, des systèmes de méta-progression débloquent de nouvelles façons de souffrir, et des parties basées sur des 'seeds' vous permettent de partager votre tourment avec d'autres. Chaque partie révèle de nouvelles profondeurs de dépravation, de nouvelles combinaisons qui tordent la réalité elle-même. La question n'est pas de savoir si vous pouvez gagner, mais si vous conserverez assez de vous-même pour vous en soucier."
+        },
+        "features": {
+            "title": "Caractéristiques de CloverPit",
+            "card1": {
+                "title": "Un Rogue-lite Captivant",
+                "description": "Où chaque tour pourrait être votre dernier! Vivez la tension d'un roguelite qui vous maintient en haleine à chaque rotation. Chaque décision compte, chaque paiement de dette vous rapproche soit de la liberté, soit de la damnation éternelle."
+            },
+            "card2": {
+                "title": "Méta-Progression & Parties Seedées",
+                "description": "Des modificateurs de partie et des bonus déblocables attendent votre découverte! Chaque partie débloque de nouveaux charmes maudits, des modificateurs de cauchemar et des capacités liant l'âme. Partagez votre tourment avec d'autres grâce aux parties seedées et découvrez la vraie nature de votre captivité. Apprenez-en davantage dans notre <a href=\"/cloverpit-guide\" class=\"text-link\">guide de stratégie complet</a>."
+            },
+            "card3": {
+                "title": "Mode Sans Fin",
+                "description": "Poussez votre score vers de nouveaux sommets en Mode Sans Fin! Affrontez d'autres âmes damnées alors que la dette se multiplie de façon exponentielle et que les synergies maudites se transforment en combinaisons qui brisent la réalité. Jusqu'où pouvez-vous aller avant que la machine ne vous brise? Maîtrisez les <a href=\"/cloverpit-endings\" class=\"text-link\">stratégies sans fin</a> pour survivre plus longtemps."
+            },
+            "card4": {
+                "title": "Jeu d'Évasion Infernal",
+                "description": "Une atmosphère de jeu d'évasion infernale qui vous piège dans le tourment psychologique! Enfermé dans une cellule rouillée avec une machine à sous et un distributeur automatique, vous devez rembourser votre dette ou tomber à votre perte – littéralement. L'atmosphère oppressante s'épaissit à chaque tentative."
+            },
+            "card5": {
+                "title": "Plus de 150 Objets & Synergies",
+                "description": "Plus de 150 objets et synergies pour booster votre chance! Découvrez des charmes maudits qui corrompent le comportement de la machine de manière contre-nature. Chaque combinaison offre de nouvelles façons de manipuler les chances, créant des combos dévastateurs qui se transforment en courses chanceuses spectaculaires. Explorez la <a href=\"/cloverpit-wiki\" class=\"text-link\">base de données complète des charmes</a>."
+            },
+            "card6": {
+                "title": "Récit Sinistre",
+                "description": "Un récit sinistre d'addiction et d'évasion! Vivez une narration captivante qui explore la psychologie sombre de la dette, du désespoir et du coût humain de la recherche de la liberté. Ce n'est pas seulement un jeu, c'est un voyage dans les profondeurs de la nature humaine. Découvrez toutes les <a href=\"/cloverpit-endings\" class=\"text-link\">fins possibles</a> dans votre quête de liberté."
+            }
+        },
+        "guide": {
+            "title": "Guide CloverPit",
+            "description1": "La machine à sous maudite a faim d'âmes, mais elle peut être brisée par la connaissance interdite. Contrairement à de simples dispositifs de jeu, cette mécanique abyssale exige le sacrifice de votre santé mentale plutôt que de vos pièces. Grâce à la sélection de charmes corrompus et à la manipulation de symboles qui tordent la réalité, vous pouvez retourner la faim de la machine contre elle-même.",
+            "description2": "<strong>Folie et Méthode S'Entrechoquent</strong> - CloverPit entremêle le tourment psychologique avec une stratégie calculée. Vivez une atmosphère de jeu d'évasion infernale où chaque tour pourrait être votre dernier! L'atmosphère oppressante et la menace omniprésente de la damnation éternelle créent une véritable angoisse existentielle, tandis que les mécanismes complexes récompensent ceux qui sont prêts à sacrifier leur humanité pour le pouvoir. C'est une expérience d'horreur qui exige tout ce que vous avez. Maîtrisez les <a href=\"/cloverpit-guide\" class=\"text-link\">stratégies avancées</a> pour survivre.",
+            "description3": "<strong>Un Récit Sinistre d'Addiction et d'Évasion</strong> - Depuis son éveil, CloverPit a dévoré plus de 500 000 âmes en seulement huit jours, obtenant l'approbation murmurée de plus de 7 300 joueurs tourmentés. Les streamers documentent leur descente dans la folie, les critiques louent sa représentation inébranlable du désespoir, et les joueurs se retrouvent piégés dans le cycle sans fin de \"juste une autre tentative pour s'échapper.\" Lisez les dernières <a href=\"/cloverpit-blog\" class=\"text-link\">idées de la communauté</a> et stratégies.",
+            "cta": {
+                "title": "Prêt à Descendre?",
+                "description": "Débloquez des stratégies interdites et des techniques maudites pour maîtriser la faim de la machine et survivre à votre tourment éternel.",
+                "button": "Entrez dans l'Abîme"
+            }
+        },
+        "information": {
+            "title": "Informations CloverPit",
+            "records": {
+                "awakeningDate": "DATE D'ÉVEIL",
+                "awakeningValue": "Septembre 2025",
+                "creators": "CRÉATEURS DE LA FOLIE",
+                "creatorsValue": "Panik Arcade",
+                "nature": "NATURE DU TOURMENT",
+                "natureValue": "Horreur Psychologique, Stratégie, Désespoir",
+                "souls": "ÂMES CONSOMMÉES",
+                "soulsValue": "Plus de 500 000 en 8 Jours",
+                "gateway": "PASSERELLE VERS L'ENFER",
+                "gatewayValue": "<a href=\"/cloverpit-download\" class=\"text-link\">PC (Windows) - Steam</a>",
+                "harbingers": "PRÉCURSEURS DU MALHEUR",
+                "harbingersValue": "Future Friends Games",
+                "whispers": "MURMURES DES DAMNÉS",
+                "whispersValue": "Très Positif (Plus de 7 300 Âmes)",
+                "cost": "COÛT DE L'ENTRÉE",
+                "costValue": "Votre Santé Mentale - Gratuit sur Steam"
+            }
+        },
+        "faq": {
+            "title": "Questions Fréquemment Posées",
+            "intro": "Tout ce que vous devez savoir sur CloverPit: The Descent",
+            "q1": {
+                "question": "Qu'est-ce que CloverPit: The Descent?",
+                "answer": "CloverPit: The Descent est un jeu d'horreur de machine à sous rogue-lite qui combine le tourment psychologique avec un gameplay stratégique. Vous êtes piégé dans une cellule rouillée avec une machine à sous maudite et devez rembourser votre dette ou faire face à la damnation éternelle."
+            },
+            "q2": {
+                "question": "Qui a développé CloverPit?",
+                "answer": "CloverPit a été développé par <strong>Panik Arcade</strong> et édité par <strong>Future Friends Games</strong>. Il est sorti en septembre 2025 et a déjà consommé plus de 500 000 âmes."
+            },
+            "q3": {
+                "question": "Qu'est-ce qui rend CloverPit unique?",
+                "answer": "CloverPit combine des mécanismes rogue-lite avec de l'horreur psychologique, proposant plus de 150 charmes maudits, des systèmes de méta-progression et une atmosphère de jeu d'évasion infernale qui crée une véritable angoisse existentielle."
+            },
+            "q4": {
+                "question": "Combien de fins y a-t-il?",
+                "answer": "CloverPit présente plusieurs fins basées sur vos choix et stratégies. Découvrez tous les résultats possibles dans notre <a href=\"/cloverpit-endings\" class=\"text-link\">guide des fins</a> complet."
+            },
+            "q5": {
+                "question": "Sur quelles plateformes CloverPit est-il disponible?",
+                "answer": "CloverPit est actuellement disponible sur PC (Windows) via Steam. Consultez notre <a href=\"/cloverpit-download\" class=\"text-link\">page de téléchargement</a> pour la configuration requise et les détails d'installation."
+            },
+            "q6": {
+                "question": "Comment fonctionnent les synergies de charmes?",
+                "answer": "Les synergies de charmes sont la clé pour maîtriser CloverPit. Différentes combinaisons d'artefacts maudits peuvent créer des effets dévastateurs qui tordent le comportement de la machine. Apprenez-en davantage dans notre <a href=\"/cloverpit-wiki\" class=\"text-link\">wiki complet</a>."
+            }
+        },
+        "trailer": {
+            "title": "Bande-Annonce CloverPit",
+            "overlay": {
+                "title": "Bande-Annonce CloverPit",
+                "description": "Commencez votre descente dans la folie"
+            }
+        }
+    },
+    "GuidePage": {
+        "hero": {
+            "title": "Guide de Stratégie CloverPit",
+            "description": "Maîtrisez la machine à sous d'horreur rogue-lite avec ce guide CloverPit complet comprenant des conseils pour débutants, des stratégies avancées et des synergies de charmes. Suivez notre walkthrough détaillé pour dominer chaque aspect du jeu. Pour plus d'informations sur le jeu, visitez notre <a href=\"/\" class=\"text-link\">page d'accueil</a> ou explorez la <a href=\"/cloverpit-wiki\" class=\"text-link\">base de données complète des charmes</a>.",
+            "nav": {
+                "gettingStarted": "Démarrage",
+                "beginnerTips": "Conseils pour Débutants",
+                "advancedStrategies": "Stratégies Avancées",
+                "charmSynergies": "Synergies de Charmes",
+                "commonMistakes": "Erreurs Courantes",
+                "progressionGuide": "Guide de Progression",
+                "endlessMode": "Mode Sans Fin"
+            }
+        },
+        "gettingStarted": {
+            "title": "Démarrer avec CloverPit",
+            "subtitle": "Bienvenue dans CloverPit, le jeu d'horreur de machine à sous rogue-lite où vous devez manipuler une machine à sous sinistre pour survivre. Ce guide CloverPit complet aidera les nouveaux joueurs à comprendre les mécanismes de base et à survivre à leurs premières parties dans CloverPit. Nouveau dans le jeu? Commencez par notre <a href=\"/cloverpit-download\" class=\"text-link\">page de téléchargement</a> pour obtenir le jeu.",
+            "steps": {
+                "step1": {
+                    "title": "Maîtriser le Cycle de Gameplay de Base",
+                    "description": "Au fond, CloverPit suit un schéma simple mais impitoyable: vous obtenez 3 tentatives pour faire tourner la machine maudite, collecter suffisamment de pièces pour régler votre dette, ou faire face à l'abîme ci-dessous. Les nouveaux venus apprendront rapidement cette dure réalité par essais et erreurs.",
+                    "keyPoints": {
+                        "title": "💡 Points Clés",
+                        "point1": "Chaque tour vous accorde précisément 3 rotations",
+                        "point2": "Votre dette s'agrandit à chaque paiement réussi",
+                        "point3": "L'incapacité de payer entraîne un échec immédiat",
+                        "point4": "Concentrez-vous sur la survie des tours initiaux"
+                    }
+                },
+                "step2": {
+                    "title": "Étudier l'Économie des Symboles",
+                    "description": "Chaque symbole dans CloverPit a sa propre valeur monétaire. Apprendre quels symboles offrent les meilleurs rendements guidera vos décisions d'achat de charmes et vous aidera à déterminer quand prendre des risques calculés.",
+                    "keyPoints": {
+                        "title": "💡 Points Clés",
+                        "point1": "Les symboles de grande valeur apparaissent moins fréquemment sur les rouleaux",
+                        "point2": "Faire correspondre 3 symboles identiques donne des récompenses plus élevées",
+                        "point3": "Les variations dorées des symboles offrent des bonus supplémentaires",
+                        "point4": "Familiarisez-vous tôt avec le tableau des gains"
+                    }
+                },
+                "step3": {
+                    "title": "Budgétiser Vos Ressources en Tickets",
+                    "description": "Les tickets sont votre monnaie principale pour acquérir des charmes auprès des différents distributeurs automatiques disséminés dans CloverPit. La façon dont vous gérez ces tickets au début du jeu déterminera si vous pouvez créer des combinaisons puissantes ou si vous vous retrouverez à lutter avec un équipement inférieur.",
+                    "keyPoints": {
+                        "title": "💡 Points Clés",
+                        "point1": "Évitez d'épuiser tous les tickets au premier tour",
+                        "point2": "Réservez des fonds pour les distributeurs automatiques premium",
+                        "point3": "Les charmes peu coûteux peuvent parfois offrir une excellente valeur",
+                        "point4": "Réfléchissez plusieurs tours à l'avance lors des achats"
+                    }
+                },
+                "step4": {
+                    "title": "Explorer les Interactions de Charmes",
+                    "description": "Avec plus de 150 charmes uniques disponibles, CloverPit offre d'innombrables possibilités d'expérimentation. Vos premières parties devraient prioriser la compréhension du fonctionnement des différents charmes et de la manière dont ils peuvent être combinés pour améliorer le comportement de la machine à sous. Consultez notre <a href=\"/cloverpit-wiki\" class=\"text-link\">base de données complète des charmes</a> pour des informations détaillées sur chaque artefact.",
+                    "keyPoints": {
+                        "title": "💡 Points Clés",
+                        "point1": "Portez une attention particulière aux descriptions des charmes",
+                        "point2": "Commencez par des charmes axés sur l'économie pour plus de cohérence",
+                        "point3": "Identifiez quels charmes affectent des symboles spécifiques",
+                        "point4": "Soyez prêt à tester des combinaisons non conventionnelles"
+                    }
+                }
+            }
+        },
+        "beginnerTips": {
+            "title": "Conseils Essentiels pour Débutants CloverPit",
+            "subtitle": "Maîtrisez ces conseils fondamentaux de notre guide CloverPit pour améliorer vos chances de survie dans CloverPit et bâtir une base pour des stratégies avancées. Pour des stratégies plus détaillées, lisez nos <a href=\"/cloverpit-blog\" class=\"text-link\">articles de blog communautaires</a>.",
+            "tips": {
+                "tip1": {
+                    "title": "Calculer Vos Exigences de Dette",
+                    "description": "Avant de tirer le levier, examinez toujours votre obligation de dette actuelle. Ce guide CloverPit recommande de déterminer le montant moyen nécessaire par rotation pour atteindre votre objectif, puis de sélectionner des charmes qui vous aideront à atteindre cet objectif de manière fiable. Évitez de tourner sans une stratégie de paiement claire."
+                },
+                "tip2": {
+                    "title": "Optimiser Votre Stratégie à Trois Rotations",
+                    "description": "Chaque tour dans CloverPit fournit exactement 3 rotations. Résistez à la tentation de compter sur la chance pour vos rotations initiales. Au lieu de cela, utilisez les deux premières rotations pour prendre de l'élan avec vos charmes, réservant la rotation finale comme votre tentative décisive lorsque tous les effets sont pleinement actifs."
+                },
+                "tip3": {
+                    "title": "Se Concentrer d'Abord sur la Stabilité Économique",
+                    "description": "Au cours de vos 2-3 premiers tours, ce guide CloverPit suggère de donner la priorité aux charmes qui stimulent directement la génération de pièces ou multiplient vos gains. Bien que les charmes de combinaison flashy puissent sembler attrayants, les charmes économiques fournissent la base dont vous avez besoin pour survivre assez longtemps pour utiliser des stratégies plus complexes plus tard."
+                },
+                "tip4": {
+                    "title": "Synchroniser Vos Activations de Charme",
+                    "description": "De nombreux charmes dans CloverPit présentent des capacités rechargeables déclenchées par le bouton rouge. Coordonnez ces activations entre les rotations pour maximiser leur efficacité. Plutôt que d'attendre le moment parfait, utilisez ces capacités régulièrement pour maintenir des performances constantes."
+                },
+                "tip5": {
+                    "title": "Surveiller les Taux d'Apparition des Symboles",
+                    "description": "Observez quels symboles apparaissent le plus couramment sur la machine à sous CloverPit. Ce guide CloverPit conseille de sélectionner des charmes qui améliorent les symboles qui apparaissent déjà fréquemment plutôt que de tenter de manipuler des symboles rares pour qu'ils apparaissent plus souvent."
+                },
+                "tip6": {
+                    "title": "Tirer Parti des Opportunités de Mise à Niveau par Téléphone",
+                    "description": "Entre les tours, le sinistre téléphone jouet présente des options de mise à niveau permanentes. Ce guide CloverPit souligne que ces améliorations s'accumulent tout au long de votre partie et peuvent modifier considérablement les chances en votre faveur. Choisissez toujours des mises à niveau qui s'accordent avec votre configuration de charmes actuelle."
+                },
+                "tip7": {
+                    "title": "Considérer les Parties Échouées comme un Apprentissage",
+                    "description": "Chaque mort dans CloverPit débloque du contenu de méta-progression. Ce guide CloverPit vous rappelle de ne pas vous frustrer en tombant dans le gouffre - chaque partie vous enseigne les interactions de charmes et vous rapproche du déverrouillage de nouveaux objets puissants pour de futures tentatives. Découvrez toutes les <a href=\"/cloverpit-endings\" class=\"text-link\">fins et résultats</a> possibles pour comprendre toute la portée du jeu."
+                },
+                "tip8": {
+                    "title": "Acheter auprès de Différents Distributeurs Automatiques",
+                    "description": "CloverPit propose plusieurs distributeurs automatiques avec des inventaires et des prix différents. Ce guide CloverPit note que les machines plus coûteuses contiennent souvent des charmes plus puissants, mais que parfois les machines moins chères offrent une meilleure valeur pour construire des stratégies spécifiques."
+                },
+                "tip9": {
+                    "title": "Accepter l'Aléatoire mais l'Atténuer",
+                    "description": "CloverPit a du hasard, mais les joueurs expérimentés gagnent régulièrement grâce à une sélection de charmes intelligente et à une gestion des risques. Ce guide CloverPit explique que le but n'est pas d'éliminer le hasard, mais de construire un moteur si puissant que les résultats aléatoires n'aient pas d'importance."
+                },
+                "tip10": {
+                    "title": "Débloquer la Capacité de Stockage",
+                    "description": "L'unité de stockage dans CloverPit étend votre capacité de transport de charmes. Ce guide CloverPit recommande de donner la priorité au déverrouillage d'emplacements de stockage supplémentaires via la progression - plus de charmes signifie des combinaisons de synergies plus puissantes dans les tours ultérieurs."
+                },
+                "tip11": {
+                    "title": "Reconnaître Quand Pivoter Votre Construction",
+                    "description": "Parfois, les charmes proposés par les distributeurs automatiques dans CloverPit ne correspondent pas à votre stratégie prévue. Ce guide CloverPit enseigne que les joueurs expérimentés s'adaptent aux options disponibles plutôt que de forcer une construction spécifique. La flexibilité l'emporte souvent sur l'entêtement."
+                },
+                "tip12": {
+                    "title": "Étudier les Parties Réussies",
+                    "description": "Lorsque vous terminez une partie réussie dans CloverPit, notez quelles combinaisons de charmes ont bien fonctionné. Ce guide CloverPit mentionne que la communauté CloverPit partage également des 'seeds' puissantes - essayez-les pour apprendre des stratégies gagnantes auprès de joueurs expérimentés. Partagez vos propres stratégies dans notre <a href=\"/cloverpit-blog\" class=\"text-link\">blog communautaire</a>."
+                }
+            }
+        },
+        "advancedStrategies": {
+            "title": "Stratégies Avancées CloverPit",
+            "subtitle": "Une fois que vous avez maîtrisé les bases de CloverPit, ces stratégies avancées de notre guide CloverPit vous aideront à vous enfoncer plus profondément dans les parties et à atteindre des scores plus élevés. Pour les dernières stratégies et mises à jour, consultez notre <a href=\"/cloverpit-blog\" class=\"text-link\">blog</a> régulièrement.",
+            "strategies": {
+                "symbolControl": {
+                    "title": "Contrôle Avancé des Symboles",
+                    "description": "Le gameplay expert de CloverPit nécessite de contrôler activement les symboles qui apparaissent sur les rouleaux. Ce guide CloverPit montre qu'au lieu d'accepter des résultats aléatoires, utilisez des charmes qui améliorent des fréquences de symboles spécifiques, génèrent des variations dorées ou éliminent des symboles indésirables.",
+                    "implementation": {
+                        "title": "Approche de Mise en Œuvre:",
+                        "point1": "Localisez les symboles de grande valeur qui apparaissent avec une fréquence modérée",
+                        "point2": "Accumulez des charmes qui améliorent spécifiquement ces symboles",
+                        "point3": "Utilisez des charmes de suppression pour éliminer les interférences de symboles de faible valeur",
+                        "point4": "Générez des variantes dorées pour garantir des récompenses bonus"
+                    }
+                },
+                "economicGrowth": {
+                    "title": "Croissance Économique Exponentielle",
+                    "description": "L'approche CloverPit la plus fiable se concentre sur la création d'une expansion économique exponentielle. Ce guide CloverPit démontre comment construire un système qui produit des pièces excédentaires tôt, réinvestit ces bénéfices dans des charmes plus puissants et établit un effet cumulatif qui rend les tours ultérieurs faciles.",
+                    "principles": {
+                        "title": "Principes de Base:",
+                        "point1": "Dépasser les exigences de dette tôt pour accéder à des charmes supérieurs",
+                        "point2": "Allouer des tickets aux multiplicateurs économiques avant les effets décoratifs",
+                        "point3": "Les mises à niveau par téléphone qui améliorent les revenus de tickets s'accumulent avec le temps",
+                        "point4": "Aux tours 5-6, vous devriez posséder une supériorité économique dominante"
+                    }
+                },
+                "reactionChains": {
+                    "title": "Créer des Chaînes de Réaction",
+                    "description": "Certaines des configurations CloverPit les plus redoutables se concentrent sur des combinaisons de charmes qui initient des effets en cascade. Ce guide CloverPit révèle que lorsque le charme A active le charme B, qui déclenche ensuite le charme C, vous créez des tours explosifs qui produisent d'énormes gains à partir de rotations apparemment simples.",
+                    "guidelines": {
+                        "title": "Lignes Directrices pour la Construction de Chaînes:",
+                        "point1": "Recherchez des conditions de déclenchement 'quand X se produit' sur les charmes",
+                        "point2": "Combinez des charmes qui établissent les conditions requises par d'autres charmes",
+                        "point3": "Accumulez plusieurs charmes qui s'activent à partir du même événement",
+                        "point4": "Expérimentez des combinaisons dans des tours initiaux plus sûrs avant de vous y fier"
+                    }
+                },
+                "riskManagement": {
+                    "title": "Gestion Avancée des Risques",
+                    "description": "Les joueurs experts de CloverPit savent quand prendre des risques calculés et quand jouer de manière conservatrice. Ce guide CloverPit explique comment cela implique de lire l'état du jeu et de prendre des décisions intelligentes concernant les achats de charmes, le timing des rotations et le moment d'engager des ressources.",
+                    "assessment": {
+                        "title": "Évaluation des Risques:",
+                        "point1": "Tours initiaux: Soyez conservateur, concentrez-vous sur la valeur garantie",
+                        "point2": "Tours intermédiaires: Prenez des risques calculés pour accélérer votre construction",
+                        "point3": "Derniers tours: Soit vous gagnez facilement, soit vous avez besoin de jeux risqués pour survivre",
+                        "point4": "Connaissez votre \"marge de sécurité\" - combien vous pouvez vous permettre de perdre et de récupérer"
+                    }
+                }
+            }
+        },
+        "charmSynergies": {
+            "title": "Synergies de Charmes Puissantes CloverPit",
+            "subtitle": "Ces combinaisons de charmes présentées dans notre guide CloverPit créent des synergies particulièrement puissantes. Bien que les noms de charmes spécifiques varient, ces archétypes représentent des stratégies efficaces pour casser la machine à sous. Pour des informations détaillées sur les charmes, visitez notre <a href=\"/cloverpit-wiki\" class=\"text-link\">wiki complet</a>.",
+            "synergies": {
+                "goldenEngine": {
+                    "title": "Amplification de Symbole Doré",
+                    "description": "Fusionnez des charmes qui génèrent des symboles dorés avec des charmes qui amplifient les récompenses de symboles dorés. Étant donné que les symboles dorés offrent déjà des gains améliorés dans CloverPit, multiplier leur valeur crée des rendements exponentiels.",
+                    "combinationTitle": "Combinaison:",
+                    "combination": "Générateur de Symbole Doré + Amplificateur de Récompense Dorée + Améliorateur de Fréquence de Symbole",
+                    "outcomeTitle": "Résultat:",
+                    "outcome": "Rotations de grande valeur constantes avec une variance réduite"
+                },
+                "ticketLoop": {
+                    "title": "Cycle de Génération de Tickets",
+                    "description": "Accumulez des charmes producteurs de tickets ainsi que des amplificateurs de tickets dans CloverPit. L'augmentation des tickets mène à plus de charmes, qui génèrent des tickets supplémentaires, établissant un cycle auto-entretenu de puissance croissante.",
+                    "combinationTitle": "Combinaison:",
+                    "combination": "Améliorateur de Récompense de Ticket + Charmes d'Amplificateur de Ticket + Charmes Économiques",
+                    "outcomeTitle": "Résultat:",
+                    "outcome": "Collection de charmes en expansion rapide et progression imparable en milieu de partie"
+                },
+                "cascadeChain": {
+                    "title": "Chaîne de Déclenchement en Cascade",
+                    "description": "Le combo CloverPit ultime: des charmes en chaîne où chaque rotation réussie déclenche des effets supplémentaires, qui déclenchent plus d'effets, créant une avalanche de valeur à partir d'un seul tirage de levier.",
+                    "combinationTitle": "Combinaison:",
+                    "combination": "Charmes de Déclenchement 'Sur Gain' + Charmes à Effets Multiples + Multiplicateurs de Combo",
+                    "outcomeTitle": "Résultat:",
+                    "outcome": "Des rotations uniques qui génèrent plus de valeur que des tours entiers du début de partie"
+                },
+                "safetyNet": {
+                    "title": "Stratégie de Filet de Sécurité",
+                    "description": "Construisez de la résilience dans CloverPit avec des charmes qui offrent des garanties minimales ou des mécanismes de sécurité. Parfait pour les joueurs qui apprennent le jeu ou tentent des 'seeds' difficiles.",
+                    "combinationTitle": "Combinaison:",
+                    "combination": "Garanties de Paiement Minimum + Charmes de Réduction de Dette + Charmes de Valeur Constante",
+                    "outcomeTitle": "Résultat:",
+                    "outcome": "Plafond inférieur mais plancher beaucoup plus élevé - survie constante"
+                },
+                "symbolRecycling": {
+                    "title": "Combo de Recyclage de Symboles",
+                    "description": "Utilisez des charmes qui détruisent les symboles de faible valeur et les remplacent par des symboles de grande valeur dans CloverPit. Cela «nettoie» les rouleaux de la machine à sous, améliorant les chances de chaque rotation future.",
+                    "combinationTitle": "Combinaison:",
+                    "combination": "Destructeur de Symbole Faible + Créateur de Symbole Élevé + Charmes de Persistance de Symbole",
+                    "outcomeTitle": "Résultat:",
+                    "outcome": "Composition des rouleaux de plus en plus favorable à mesure que le tour progresse"
+                },
+                "highRoller": {
+                    "title": "Flambeur Tout ou Rien",
+                    "description": "Pour les joueurs expérimentés de CloverPit: maximisez la variance avec des charmes qui amplifient des types de symboles uniques à des degrés absurdes. Risqué mais peut générer des gains massifs en cas de succès.",
+                    "combinationTitle": "Combinaison:",
+                    "combination": "Concentration sur un Symbole Unique + Multiplicateurs Maximum + Charmes de Garantie de Symbole",
+                    "outcomeTitle": "Résultat:",
+                    "outcome": "Gains extrêmes mais risque d'échec élevé - pas pour les débutants"
+                }
+            }
+        },
+        "commonMistakes": {
+            "title": "Erreurs Courantes CloverPit à Éviter",
+            "subtitle": "Apprenez de ces erreurs fréquentes que commettent les nouveaux joueurs de CloverPit, telles que documentées dans notre guide CloverPit. Éviter ces erreurs CloverPit améliorera considérablement votre taux de survie. Pour une analyse plus détaillée, consultez nos <a href=\"/cloverpit-blog\" class=\"text-link\">articles de blog sur la stratégie</a>.",
+            "mistakes": {
+                "ticketExpenditure": {
+                    "title": "Dépense Immédiate des Tickets",
+                    "description": "Les joueurs novices de CloverPit épuisent fréquemment tous leurs tickets dès qu'ils les acquièrent. Cette approche ne laisse aucune marge financière pour des charmes supérieurs dans les distributeurs ultérieurs ou des acquisitions d'urgence lorsque les constructions nécessitent une modification.",
+                    "solution": "Maintenez une réserve de tickets équivalente à 2-3 tours de gains pour une flexibilité opérationnelle."
+                },
+                "charmInteractions": {
+                    "title": "Négliger les Interactions de Charmes",
+                    "description": "Acquérir des charmes aléatoires qui semblent attrayants sans considérer leur potentiel de collaboration est un chemin direct vers l'échec dans CloverPit. Cinq charmes déconnectés sont significativement plus faibles que 3 qui fonctionnent en harmonie.",
+                    "solutionTitle": "Solution:",
+                    "solution": "Sélectionnez un thème stratégique et acquérez des charmes qui renforcent cette approche."
+                },
+                "savingCharms": {
+                    "title": "Économiser les Charmes Rechargeables",
+                    "description": "De nombreux joueurs de CloverPit thésaurisent les utilisations de charmes rechargeables 'pour le moment parfait'. Mais ces charmes se rechargent entre les rotations - utilisez-les libéralement pour maximiser la valeur totale sur l'ensemble du tour.",
+                    "solution": "Utilisez les capacités rechargeables dès que le 'cooldown' est terminé, sauf si vous avez une raison spécifique d'attendre."
+                },
+                "phoneUpgrades": {
+                    "title": "Négliger les Mises à Niveau par Téléphone",
+                    "description": "Le téléphone offre des mises à niveau permanentes entre les tours dans CloverPit, mais les joueurs choisissent souvent au hasard sans considérer leur construction. De mauvais choix de mise à niveau se transforment en inconvénients significatifs.",
+                    "solution": "Choisissez toujours des mises à niveau par téléphone qui s'accordent avec votre stratégie de charmes actuelle."
+                },
+                "rareSymbols": {
+                    "title": "Courir Après les Symboles Rares",
+                    "description": "Les symboles rares dans CloverPit paient plus mais apparaissent rarement. Construire entièrement autour de symboles rares signifie que de nombreuses rotations ne génèrent rien. Les symboles courants avec des multiplicateurs sont souvent plus fiables.",
+                    "solution": "Concentrez-vous sur des symboles modérément courants et multipliez leur valeur."
+                },
+                "badRNG": {
+                    "title": "Abandonner Après un Mauvais Hasard",
+                    "description": "Parfois, la machine à sous CloverPit donne de très mauvaises rotations. Les joueurs frustrés prennent des décisions désespérées ou abandonnent mentalement. Mais avec une construction de charmes appropriée, vous pouvez vous remettre de la malchance.",
+                    "solution": "Restez calme, faites confiance à votre construction, et rappelez-vous que la variance s'équilibre sur 3 rotations."
+                }
+            }
+        },
+        "progressionGuide": {
+            "title": "Guide de Progression CloverPit",
+            "subtitle": "Comprendre la méta-progression dans CloverPit, telle que décrite dans ce guide CloverPit, vous aide à tirer le meilleur parti de chaque partie et à débloquer efficacement de nouveaux contenus puissants. Découvrez toutes les <a href=\"/cloverpit-endings\" class=\"text-link\">fins et résultats</a> possibles pour maximiser votre progression.",
+            "sections": {
+                "metaProgression": {
+                    "title": "Maîtriser la Méta-Progression",
+                    "description": "Chaque partie dans CloverPit, qu'elle soit réussie ou échouée, fait progresser votre progression permanente. Ce guide CloverPit explique comment l'accomplissement de défis, l'atteinte de jalons et la découverte de combinaisons de charmes révèlent de nouveaux contenus pour les parties suivantes.",
+                    "unlockableContent": {
+                        "title": "Contenu Déblocable",
+                        "item1": "Charmes additionnels intégrés dans les inventaires des distributeurs automatiques",
+                        "item2": "Modificateurs de partie pour augmenter la variété",
+                        "item3": "Capacité de stockage étendue",
+                        "item4": "Sélections de mise à niveau par téléphone améliorées"
+                    },
+                    "unlockMethods": {
+                        "title": "Méthodes de Déblocage",
+                        "item1": "Endurer un nombre spécifique de tours",
+                        "item2": "Accumuler des montants totaux de pièces désignés",
+                        "item3": "Rassembler des combinaisons de charmes particulières",
+                        "item4": "Réaliser des défis cachés"
+                    }
+                },
+                "priorityGuide": {
+                    "title": "Guide de Priorité de Progression",
+                    "description": "Ce guide CloverPit recommande de concentrer vos premières parties CloverPit sur le déblocage de ces éléments de progression clés dans cet ordre:",
+                    "priorities": {
+                        "priority1": {
+                            "title": "Capacité de Stockage",
+                            "description": "Plus d'emplacements de charmes = des synergies plus puissantes. Donnez la priorité au déblocage du stockage avant tout."
+                        },
+                        "priority2": {
+                            "title": "Charmes Économiques",
+                            "description": "Débloquez tôt des charmes qui augmentent les revenus de tickets et la génération de pièces pour des parties futures plus faciles."
+                        },
+                        "priority3": {
+                            "title": "Charmes Rares Puissants",
+                            "description": "Concentrez-vous sur le déblocage de charmes de rareté légendaire et épique qui changent la donne."
+                        },
+                        "priority4": {
+                            "title": "Modificateurs de Partie",
+                            "description": "Après avoir maîtrisé le mode standard, débloquez des modificateurs pour la variété et le défi."
+                        }
+                    }
+                },
+                "seededRuns": {
+                    "title": "Utiliser les Parties Seedées pour la Progression",
+                    "description": "CloverPit prend en charge les parties 'seedées' qui génèrent des offres de charmes et de mises à niveau identiques. Ce guide CloverPit suggère d'utiliser des 'seeds' puissantes partagées par la communauté pour accomplir des défis de progression ou pratiquer des stratégies spécifiques. Trouvez les dernières 'seeds' dans notre <a href=\"/cloverpit-blog\" class=\"text-link\">blog communautaire</a>.",
+                    "tips": {
+                        "title": "Conseils de Stratégie de Seed:",
+                        "tip1": "Utilisez des 'seeds' puissantes connues pour débloquer du contenu difficile",
+                        "tip2": "Partagez vos propres 'seeds' cassées avec la communauté CloverPit",
+                        "tip3": "Expérimentez avec des 'seeds' pour apprendre les synergies de charmes en toute sécurité",
+                        "tip4": "Affrontez des amis en utilisant des 'seeds' identiques pour vous vanter"
+                    }
+                }
+            }
+        },
+        "endlessMode": {
+            "title": "Guide du Mode Sans Fin CloverPit",
+            "subtitle": "Le mode sans fin dans CloverPit supprime la ligne d'arrivée et teste combien de temps vous pouvez survivre contre une dette qui augmente de façon exponentielle. Ce guide CloverPit couvre ce mode pour les joueurs expérimentés à la recherche de défis ultimes. Découvrez toutes les <a href=\"/cloverpit-endings\" class=\"text-link\">fins et résultats</a> possibles pour comprendre toute la portée du jeu.",
+            "sections": {
+                "mechanics": {
+                    "title": "Mécanismes du Mode Sans Fin",
+                    "description": "Le mode sans fin dans CloverPit fonctionne distinctement du mode standard, avec une mise à l'échelle accélérée et des mécanismes modifiés:",
+                    "coreModifications": {
+                        "title": "Modifications de Base",
+                        "item1": "La dette augmente de façon exponentielle plutôt que linéaire",
+                        "item2": "Pas de condition de victoire - endurez aussi longtemps que possible",
+                        "item3": "Score déterminé par les tours survécus et les pièces accumulées",
+                        "item4": "Les configurations de charmes doivent évoluer indéfiniment"
+                    },
+                    "strategicConsequences": {
+                        "title": "Conséquences Stratégiques",
+                        "item1": "La mise à l'échelle multiplicative surpasse les bonus additifs",
+                        "item2": "La survie en début de partie devient moins critique que le potentiel de mise à l'échelle",
+                        "item3": "Les parties se terminent lorsque votre système ne peut plus suivre le rythme",
+                        "item4": "Les scores élevés exigent des synergies presque parfaites"
+                    }
+                },
+                "strategies": {
+                    "title": "Stratégies du Mode Sans Fin",
+                    "description": "Ce guide CloverPit montre que réussir dans le mode sans fin CloverPit nécessite des approches fondamentalement différentes du mode standard:",
+                    "strategy1": {
+                        "title": "Prioriser les Multiplicateurs en Pourcentage",
+                        "description": "Dans CloverPit sans fin, les bonus fixes deviennent sans valeur à mesure que la dette augmente. Concentrez-vous exclusivement sur les multiplicateurs basés sur un pourcentage et les effets de mise à l'échelle qui croissent avec votre économie."
+                    },
+                    "strategy2": {
+                        "title": "Construire des Moteurs Exponentiels",
+                        "description": "Les meilleures constructions CloverPit en mode sans fin impliquent une mise à l'échelle exponentielle - des charmes qui multiplient d'autres multiplicateurs, créant une croissance composée qui peut théoriquement évoluer à l'infini."
+                    },
+                    "strategy3": {
+                        "title": "Optimiser Chaque Décision",
+                        "description": "Dans les parties sans fin CloverPit, chaque ticket dépensé, chaque choix de mise à niveau par téléphone et chaque achat de charme doit être optimal. Les petites inefficacités se transforment en inconvénients qui mettent fin à la partie."
+                    }
+                },
+                "highScoreTips": {
+                    "title": "Conseils pour les Scores Élevés en Mode Sans Fin",
+                    "description": "Ce guide CloverPit explique que concourir pour des scores élevés dans le mode sans fin CloverPit nécessite la maîtrise de techniques avancées:",
+                    "tip1": {
+                        "title": "Étudier les Meilleurs Joueurs",
+                        "description": "Regardez les parties en mode sans fin CloverPit des joueurs du classement pour apprendre les constructions optimales"
+                    },
+                    "tip2": {
+                        "title": "Réinitialiser pour des Démarrages Optimaux",
+                        "description": "Les premiers tours déterminent le potentiel sans fin - réinitialisez si les offres sont médiocres"
+                    },
+                    "tip3": {
+                        "title": "Accepter le Plafond",
+                        "description": "Chaque partie sans fin CloverPit finit par échouer - la question est de savoir quand, pas si"
+                    },
+                    "tip4": {
+                        "title": "Partager Vos Constructions",
+                        "description": "La communauté CloverPit prospère grâce au partage de puissantes stratégies en mode sans fin. Partagez vos stratégies dans notre <a href=\"/cloverpit-blog\" class=\"text-link\">blog communautaire</a>."
+                    }
+                }
+            }
+        }
+    },
+    "WikiPage": {
+        "hero": {
+            "title": "Wiki CloverPit",
+            "description": "Base de données Wiki CloverPit complète sur les mécanismes de jeu, les symboles, les motifs et les stratégies de CloverPit. Ce Wiki CloverPit exhaustif fournit des informations détaillées sur le gameplay de CloverPit, les stratégies de CloverPit et les mécanismes de CloverPit pour tous les joueurs de CloverPit. Pour plus d'informations sur le jeu, visitez notre <a href=\"/\" class=\"text-link\">page d'accueil</a> ou consultez notre <a href=\"/cloverpit-guide\" class=\"text-link\">guide de stratégie</a>.",
+            "nav": {
+                "gameInfo": "Infos du Jeu CloverPit",
+                "symbols": "Symboles CloverPit",
+                "patterns": "Motifs CloverPit",
+                "rarity": "Rareté CloverPit",
+                "phoneCalls": "Appels Téléphoniques CloverPit",
+                "memoryCards": "Cartes Mémoire CloverPit"
+            }
+        },
+        "gameInfo": {
+            "title": "Informations sur le Jeu CloverPit",
+            "subtitle": "Détails essentiels du Wiki CloverPit sur CloverPit: The Descent",
+            "overview": {
+                "title": "Aperçu du Jeu Wiki CloverPit",
+                "description1": "<strong>\"LET'S GO GAMBLING - Now, let's roll\"</strong> - CloverPit est un roguelike passionnant de machine à sous développé par Panik Arcade, un studio indépendant italien. Ce Wiki CloverPit couvre tous les aspects du gameplay de CloverPit. Les joueurs doivent survivre dans une cellule avec une machine à sous et un distributeur automatique de billets (DAB), gagnant des pièces grâce au jeu pour atteindre des quotas de plus en plus difficiles. Le Wiki CloverPit documente plus de 150 charmes uniques, les systèmes d'appels téléphoniques et diverses <a href=\"/cloverpit-endings\" class=\"text-link\">fins basées sur les choix du joueur</a>.",
+                "description2": "CloverPit présente un mélange unique d'horreur, de mécanismes de jeu de hasard et de gameplay stratégique qui met les joueurs au défi de maîtriser à la fois la chance et l'habileté. Ce Wiki CloverPit complet explore la conception atmosphérique du jeu qui crée une expérience immersive où chaque rotation de la machine à sous pourrait signifier la différence entre la survie et la mort. Avec ses systèmes de progression profonds et ses fins multiples, CloverPit offre des heures de rejouabilité pour ceux qui sont assez courageux pour affronter la machine maudite, et ce Wiki CloverPit fournit des conseils essentiels pour réussir.",
+                "releaseInfo": {
+                    "title": "Informations de Sortie du Wiki CloverPit",
+                    "description": "La version DÉMO de CloverPit a été publiée gratuitement sur Steam le 10 avril 2025, avec la date de sortie officielle de CloverPit le 27 septembre 2025. Ce Wiki CloverPit suit le calendrier de développement complet. Initialement prévue pour le 3 septembre 2025, la sortie Steam de CloverPit a été reportée en raison du lancement de HOLLOW KNIGHT: Silksong le même jour. La version Steam de CloverPit a reçu un accueil positif des joueurs qui apprécient son approche unique du genre roguelike et ses mécanismes innovants de machine à sous. Steam Clover Pit offre l'expérience de jeu complète avec un accès total à toutes les fonctionnalités et fins de CloverPit, et ce Wiki CloverPit fournit une couverture complète de tout le contenu de CloverPit. <a href=\"/cloverpit-download\" class=\"text-link\">Téléchargez le jeu</a> pour en faire l'expérience par vous-même."
+                },
+                "gameplayMechanics": {
+                    "title": "Gameplay de Base du Wiki CloverPit",
+                    "items": {
+                        "item1": "Survivre en atteignant les quotas de pièces dans les délais impartis",
+                        "item2": "Utiliser des charmes et des mises à niveau par téléphone pour améliorer les performances de la machine à sous",
+                        "item3": "Gérer les tickets comme monnaie pour l'achat de charmes",
+                        "item4": "Faire face à une difficulté croissante de manière exponentielle à mesure que les quotas augmentent",
+                        "item5": "Découvrir plusieurs fins basées sur des choix stratégiques"
+                    },
+                    "description": "La boucle de jeu de base de CloverPit tourne autour de la tension entre risque et récompense. Ce Wiki CloverPit explique comment les joueurs doivent équilibrer les besoins de survie immédiate avec la planification stratégique à long terme, rendant chaque décision cruciale pour leur succès. La machine à sous est à la fois votre salut et votre perte potentielle, nécessitant une gestion prudente des ressources et du timing. Ce Wiki CloverPit fournit des stratégies détaillées pour maîtriser ces mécanismes CloverPit. Pour des stratégies avancées, consultez notre <a href=\"/cloverpit-guide\" class=\"text-link\">guide complet</a>."
+                }
+            },
+            "infoCards": {
+                "development": "Développement",
+                "publisher": "Éditeur",
+                "platform": "Plateforme",
+                "distribution": "Distribution",
+                "genre": "Genre",
+                "releaseDate": "Date de Sortie CloverPit",
+                "engine": "Moteur",
+                "languageSupport": "Support Linguistique",
+                "developmentValue": "Panik Arcade",
+                "publisherValue": "Future Friends Games",
+                "platformValue": "Microsoft Windows",
+                "distributionValue": "CloverPit Steam",
+                "genreValue": "Roguelike, Stratégie, Jeu de Hasard",
+                "releaseDateValue": "Accès Anticipé : 10 avril 2025<br>Sortie Complète de CloverPit : 27 septembre 2025",
+                "engineValue": "Unity",
+                "languageSupportValue": "Sous-titres coréens pris en charge"
+            },
+            "characteristics": {
+                "title": "Caractéristiques du Jeu",
+                "description1": "L'objectif est de gagner de l'argent en jouant dans une cellule avec une machine à sous et de déposer le quota dans un DAB. Cependant, à mesure que le jeu progresse, le quota requis augmente de manière exponentielle par rapport au multiplicateur d'allocation de base, ce qui rend impossible de le battre en jouant simplement indéfiniment à une machine à sous.",
+                "description2": "La philosophie de conception unique de CloverPit combine des éléments d'horreur psychologique avec un gameplay stratégique. Le jeu crée une atmosphère d'isolement et de désespoir, où les joueurs doivent compter sur leur intelligence et leur chance pour survivre. La machine à sous elle-même devient un personnage de l'histoire, représentant à la fois l'opportunité et le danger. La courbe de difficulté du jeu est soigneusement conçue pour créer de la tension tout en permettant une maîtrise stratégique.",
+                "deadlineMechanics": {
+                    "title": "Système de Délai Limite",
+                    "description": "Si vous ne déposez pas un certain montant de pièces avant de dépasser le délai limite en effectuant les 3 tours de base par délai, le sol sous vos pieds s'ouvrira et vous tomberez vers la mort, mettant fin à la partie. Les joueurs doivent atteindre le montant en combinant divers objets et en augmentant les multiples de symboles et d'arrangements.",
+                    "items": {
+                        "item1": "<strong>Version Démo:</strong> Délai limite fixé au 5ème tour (12 500 pièces)",
+                        "item2": "<strong>Sortie Officielle:</strong> Le montant augmente progressivement par étapes",
+                        "item3": "<strong>Accès Anticipé:</strong> La partie se termine après avoir franchi le 5ème délai limite",
+                        "item4": "<strong>Sortie Complète:</strong> Obtenir la Clé Crâne Sanglante et s'échapper (déblocage minimum au 9ème délai limite)"
+                    }
+                },
+                "slotMachineMechanics": {
+                    "title": "Mécanismes de la Machine à Sous",
+                    "description1": "La machine à sous nécessite une petite quantité de pièces pour fonctionner. Lorsque vous avez assez d'argent, elle est fixée à au moins 3 fois ou jusqu'à 7 fois. Si vous n'avez pas assez de fonds, le nombre de rotations est réduit en fonction de votre montant disponible, et si vous avez moins que le minimum requis, vous obtenez une opportunité de rotation gratuite.",
+                    "description2": "Lorsque vous atteignez le nombre maximal de rotations actuel, il se réinitialise à une rotation minimale et vous recevez deux tickets trèfle."
+                },
+                "atmSystem": {
+                    "title": "Système de DAB (ATM)",
+                    "description": "Le DAB affiche le montant de pièces nécessaire à gagner avant le délai limite et montre combien a été déposé jusqu'à présent. Il fournit des intérêts en fonction des pièces déposées, créant une incitation supplémentaire pour les dépôts précoces."
+                }
+            }
+        },
+        "symbols": {
+            "title": "Symboles de la Machine à Sous Wiki CloverPit",
+            "subtitle": "Cette section du Wiki CloverPit couvre la compréhension des valeurs, des probabilités et de l'importance stratégique des symboles CloverPit",
+            "specialSymbols": {
+                "title": "Symboles Spéciaux du Wiki CloverPit",
+                "description": "Cette section du Wiki CloverPit détaille les symboles spéciaux les plus importants dans CloverPit, y compris les mécanismes CloverPit 666 et CloverPit 999.",
+                "number6": {
+                    "title": "Numéro 6 (CloverPit 666)",
+                    "probability": "1.5% (Démo: jusqu'à 7%)",
+                    "effect": "Perdre toutes les pièces du tour",
+                    "defense": "Charmes Bible ou Rosaire",
+                    "description": "Le symbole le plus dangereux avec une probabilité de 1,5% (augmentée à 7% dans la démo en fonction de la progression). Lorsque trois 6 s'alignent, vous perdez toutes les pièces gagnées dans le tour actuel. Peut être défendu avec les charmes Bible ou Rosaire. Lorsque CloverPit 666 est activé, les appels entrants deviennent des appels téléphoniques rouges. Dans la sortie officielle, l'activation de CloverPit 666 ajoute des charmes de cadavre au tiroir et crée des options stratégiques de deck CloverPit 666. Essentiel pour atteindre la véritable fin CloverPit - vous devez répondre aux appels téléphoniques rouges 3 fois.",
+                    "warning": {
+                        "title": "Avertissement",
+                        "description": "CloverPit 666 qui tombe dans le dernier emplacement du dernier tour présente un risque élevé de 'game over' en raison de l'incapacité à régler le score. Même en utilisant des decks CloverPit 666 de manière stratégique, il reste un symbole piège qui ne devrait jamais apparaître dans les decks CloverPit normaux."
+                    }
+                },
+                "number9": {
+                    "title": "Numéro 9 (CloverPit 999)",
+                    "unlockConditions": "Terminer la fin normale + Ignorer 3 appels rouges",
+                    "effect": "Gagner toutes les pièces du tour",
+                    "special": "Transforme le téléphone en options jaunes",
+                    "description": "Symbole caché avec des effets sans précédent. Le déblocage nécessite : 1) Terminer la fin normale au moins une fois, 2) Ignorer les appels téléphoniques rouges à partir du délai limite #3 (visibles comme des disquettes CloverPit 666 au-dessus de la machine à sous), 3) Ignorer les appels téléphoniques rouges 3 fois au total. Une fois débloqué, 6 symboles sont automatiquement remplacés par des 9 lorsque les rotations s'arrêtent. CloverPit 999 accorde toutes les pièces des autres symboles du tour et active tous les charmes CloverPit 666. Transforme les futurs appels téléphoniques en options jaunes bénéfiques. Change la clé crâne rouge sang en clé crâne blanche pour la fin complète de CloverPit."
+                }
+            },
+            "stats": {
+                "value": "Valeur :",
+                "probability": "Probabilité :",
+                "weight": "Poids :",
+                "effect": "Effet :",
+                "defense": "Défense :",
+                "unlockConditions": "Conditions de Déblocage :",
+                "special": "Spécial :"
+            },
+            "symbolsData": {
+                "cherry": {
+                    "name": "Cerise",
+                    "description": "Le symbole CloverPit le plus courant avec une probabilité de 19,4% selon ce Wiki CloverPit. Si vous obtenez une variante dorée tôt, le prix augmente rapidement, ce qui le rend très efficace dans CloverPit. Ce Wiki CloverPit note que l'efficacité de la variante dorée est plus faible dans la seconde moitié. Utilisé dans les decks de stock et les decks de tarot utilisant des occurrences répétées et des batteries plutôt que d'augmenter la valeur du symbole lui-même en utilisant une probabilité élevée au début. Ce Wiki CloverPit le recommande comme un symbole CloverPit stable pour les débutants."
+                },
+                "lemon": {
+                    "name": "Citron",
+                    "description": "Un autre symbole CloverPit le plus courant avec une probabilité de 19,4% comme documenté dans ce Wiki CloverPit. Fonctionne excellemment avec les stratégies basées sur la cerise et fournit un revenu de jeu CloverPit précoce constant. Ce Wiki CloverPit explique que le citron est similaire à la cerise en ce sens que les variantes dorées sont très efficaces au début, mais perdent de leur efficacité dans les tours CloverPit ultérieurs."
+                },
+                "clover": {
+                    "name": "Trèfle",
+                    "description": "Symbole CloverPit avec environ 14,9% de probabilité selon ce Wiki CloverPit. La probabilité est quelque peu ambiguë, ce qui le rend étrangement populaire, mais ce Wiki CloverPit note que ce n'est en fait pas mal si des variantes dorées sont bien récupérées tôt. Dans l'édition officielle de CloverPit, de nombreux effets liés aux tickets trèfle autour du Symbole CloverPit ont été ajoutés, ainsi que des decks supplémentaires et des decks 'Ticketer' comme documenté dans ce Wiki CloverPit."
+                },
+                "bell": {
+                    "name": "Cloche",
+                    "description": "Similaire au trèfle en valeur et en probabilité dans CloverPit. Souvent associé à d'autres symboles dans les stratégies CloverPit multi-symboles. Le symbole de la cloche représente la bonne fortune et est couramment utilisé en combinaison avec d'autres symboles CloverPit de valeur modérée."
+                },
+                "diamond": {
+                    "name": "Diamant",
+                    "description": "Symbole CloverPit de valeur supérieure avec 11,9% de probabilité, similaire à Sept mais avec une valeur et une probabilité différentes. Les choix téléphoniques peuvent affecter tous les symboles CloverPit, y compris Sept. Dans la version de sortie officielle de CloverPit, ce symbole maintient sa valeur élevée et son importance stratégique."
+                },
+                "treasure": {
+                    "name": "Trésor",
+                    "description": "Anciennement appelé \"Pièce\", maintenant \"Trésor\" dans la version officielle de CloverPit. Sa valeur élevée rend les stratégies CloverPit basées sur lui intéressantes. Similaire au Diamant en valeur et en probabilité, ce symbole CloverPit représente la richesse accumulée et est excellent pour les stratégies CloverPit de fin de partie."
+                },
+                "seven": {
+                    "name": "Sept",
+                    "description": "Symbole CloverPit avec la plus faible probabilité à 7,5%. Auparavant entremêlé de diamants et de pièces, mais dans la version officielle de CloverPit, plusieurs options qui aident Sept par téléphone ou talismans sont traitées séparément. C'est le meilleur symbole CloverPit pour viser la valeur maximale, mais si vous vous faites enterrer trop tôt, il est difficile de passer les étapes CloverPit précoces."
+                }
+            }
+        },
+        "patterns": {
+            "title": "Système de Motifs Wiki CloverPit",
+            "subtitle": "Ce Wiki CloverPit explique les motifs de la machine à sous CloverPit et leurs multiplicateurs. Pour des stratégies détaillées sur l'utilisation de ces motifs, consultez notre <a href=\"/cloverpit-guide\" class=\"text-link\">guide de stratégie</a>.",
+            "jackpotSystem": {
+                "title": "Système de Jackpot Wiki CloverPit",
+                "description": "Ce Wiki CloverPit documente que lorsque plusieurs jackpots sont déclenchés par des effets de charme, ils reçoivent des noms spéciaux:",
+                "levels": {
+                    "level2": "2ème Jackpot: <span class=\"highlight\">SUPER JACKPOT</span>",
+                    "level3": "3ème Jackpot: <span class=\"highlight\">MEGA JACKPOT</span>",
+                    "level4": "4ème Jackpot: <span class=\"highlight\">ULTRA JACKPOT</span>",
+                    "level5": "5ème Jackpot: <span class=\"highlight\">ULTIMATE JACKPOT</span>"
+                },
+                "note": "Seul le libellé est différent, mais les récompenses sont toutes les mêmes que le jackpot de base."
+            },
+            "calculationRules": {
+                "title": "Règles de Calcul des Motifs Wiki CloverPit",
+                "description": "Cette section du Wiki CloverPit explique les règles complexes de calcul des motifs qui régissent les mécanismes de jeu de CloverPit.",
+                "patternHierarchy": {
+                    "title": "Hiérarchie des Motifs",
+                    "description": "Le motif inférieur impliqué dans un motif de notation supérieure n'est pas calculé:",
+                    "rules": {
+                        "rule1": "<strong>Horizontal-L:</strong> Le motif Horizontal n'est pas calculé",
+                        "rule2": "<strong>Horizontal-XL:</strong> Les motifs Horizontal-L et Horizontal ne sont pas calculés",
+                        "rule3": "<strong>Zig, Zag:</strong> Le motif Diagonal n'est pas calculé",
+                        "rule4": "<strong>Sol (Ground), Ciel (Heaven):</strong> Sol n'active pas Zig et Horizontal-XL (3 rangées). Ciel n'active pas Zag et Horizontal-XL (1 rangée)",
+                        "rule5": "<strong>Œil (Eye):</strong> Les motifs verticaux des lignes 2 et 4 ne sont pas calculés",
+                        "rule6": "<strong>Jackpot:</strong> Séparé de tous les autres motifs"
+                    }
+                },
+                "luckSystem": {
+                    "title": "Système de Chance",
+                    "description": "L'apparition des motifs est déterminée par la valeur de chance:",
+                    "rules": {
+                        "rule1": "<strong>Chance 0:</strong> Les motifs apparaissent aléatoirement avec une probabilité par poids de symbole",
+                        "rule2": "<strong>Chance > 0:</strong> Probabilité déterminée par la valeur de chance",
+                        "rule3": "<strong>Chance ≥ 15:</strong> Jackpot garanti (à l'exclusion du symbole 6)"
+                    },
+                    "calculationOrder": "Ordre de calcul: Probabilité de chance → Établissement du motif → Détermination du symbole (proportionnelle au poids)"
+                }
+            },
+            "patternsData": {
+                "width": {
+                    "name": "Largeur (Width)",
+                    "description": "Motif de ligne horizontale de base"
+                },
+                "length": {
+                    "name": "Longueur (Length)",
+                    "description": "Motif de ligne verticale de base"
+                },
+                "diagonal": {
+                    "name": "Diagonale (Diagonal)",
+                    "description": "Motif de ligne diagonale de base"
+                },
+                "horizontalL": {
+                    "name": "Horizontal-L",
+                    "description": "Motif horizontal étendu"
+                },
+                "horizontalXL": {
+                    "name": "Horizontal-XL",
+                    "description": "Motif de ligne horizontale complète"
+                },
+                "zig": {
+                    "name": "Zig",
+                    "description": "Motif diagonal en zigzag"
+                },
+                "zag": {
+                    "name": "Zag",
+                    "description": "Motif en zigzag inversé"
+                },
+                "ground": {
+                    "name": "Sol (Ground)",
+                    "description": "Motif pyramide lourde en bas"
+                },
+                "heaven": {
+                    "name": "Ciel (Heaven)",
+                    "description": "Motif pyramide lourde en haut"
+                },
+                "eye": {
+                    "name": "Œil (Eye)",
+                    "description": "Motif en forme d'œil"
+                },
+                "jackpot": {
+                    "name": "Jackpot",
+                    "description": "Motif ultime - toutes les cases remplies"
+                }
+            }
+        },
+        "rarity": {
+            "title": "Système de Rareté Wiki CloverPit",
+            "subtitle": "Ce Wiki CloverPit couvre les niveaux de rareté des charmes et des appels téléphoniques CloverPit",
+            "stats": {
+                "frequency": "Fréquence :"
+            },
+            "examples": "Exemples :",
+            "rarityLevelsData": {
+                "common": {
+                    "name": "COMMUN",
+                    "description": "Rareté de base qui apparaît le plus fréquemment dans CloverPit selon ce Wiki CloverPit.",
+                    "examples": "La plupart des charmes et options d'appels téléphoniques CloverPit de base documentés dans ce Wiki CloverPit"
+                },
+                "uncommon": {
+                    "name": "PEU COMMUN",
+                    "description": "10% moins fréquent que les objets de rareté Commun dans CloverPit, comme noté dans ce Wiki CloverPit.",
+                    "examples": "Pied-de-biche CloverPit, Hamsa, Calendrier, Super Condensateur, Certificat de Propriété - tous documentés dans ce Wiki CloverPit"
+                },
+                "mildlyRare": {
+                    "name": "MODÉRÉMENT RARE",
+                    "description": "20% moins fréquent que les objets de rareté Commun dans CloverPit.",
+                    "examples": "Divers charmes CloverPit spécialisés avec une puissance modérée"
+                },
+                "rare": {
+                    "name": "RARE",
+                    "description": "35% moins fréquent que les objets de rareté Commun dans CloverPit.",
+                    "examples": "Charmes CloverPit de grande valeur avec des effets significatifs"
+                },
+                "veryRare": {
+                    "name": "TRÈS RARE",
+                    "description": "50% moins fréquent que les objets de rareté Commun dans CloverPit.",
+                    "examples": "Paréidolie CloverPit, Numéro Un, Ceinture de Chasteté, Piles Aa, Vorago, Barathrum"
+                },
+                "legendary": {
+                    "name": "LÉGENDAIRE",
+                    "description": "65% moins fréquent que les objets de rareté Commun dans CloverPit.",
+                    "examples": "Charmes CloverPit extrêmement puissants avec des effets qui changent la donne"
+                },
+                "ultraLegendary": {
+                    "name": "ULTRA LÉGENDAIRE",
+                    "description": "80% moins fréquent que les objets de rareté Commun dans CloverPit.",
+                    "examples": "Compteur d'Électricité CloverPit, Cassette de Musique, Lotus Noir, Chat Musclé, Mégaphone"
+                }
+            }
+        },
+        "phoneCalls": {
+            "title": "Système d'Appels Téléphoniques Wiki CloverPit",
+            "subtitle": "Ce Wiki CloverPit explore les mystérieux appels téléphoniques CloverPit qui fournissent des améliorations (buffs) et des options stratégiques. Apprenez à utiliser ces appels efficacement dans notre <a href=\"/cloverpit-guide\" class=\"text-link\">guide de stratégie</a>.",
+            "regularCalls": {
+                "title": "Appels Téléphoniques Réguliers Wiki CloverPit",
+                "description": "Cette section du Wiki CloverPit couvre les appels téléphoniques standards qui fournissent divers effets bénéfiques. Caractérisés par un dialogue sarcastique ou rebelle abordant la dépendance au jeu."
+            },
+            "redCalls": {
+                "title": "Appels Téléphoniques Rouges",
+                "description": "Appels téléphoniques à haut risque et haute récompense qui apparaissent aux délais limites 3 et 7, ou après l'activation du 666. Fournit des réponses qui encouragent la poursuite du jeu. Découvrez les <a href=\"/cloverpit-endings\" class=\"text-link\">fins liées aux appels téléphoniques rouges</a>."
+            },
+            "yellowCalls": {
+                "title": "Appels Téléphoniques Jaunes",
+                "description": "Appels téléphoniques positifs exclusifs débloqués en ignorant 3 appels téléphoniques rouges. Toutes les options fournissent des effets bénéfiques et débloquent du contenu spécial."
+            },
+            "phoneExamples": {
+                "regularCalls": {
+                    "example1": {
+                        "question": "Comment ça va ?",
+                        "answer": "Ne jette pas mes affaires !",
+                        "effect": "Augmente de façon permanente l'espace de charme de 1",
+                        "rarity": "PEU COMMUN (Max : 1)"
+                    },
+                    "example2": {
+                        "question": "Tu peux me prêter de l'argent ?",
+                        "answer": "Pourquoi ferais-je ça ?",
+                        "effect": "+5 Tickets",
+                        "rarity": "COMMUN (∞)"
+                    },
+                    "example3": {
+                        "question": "Je ne peux pas arrêter tout de suite !",
+                        "answer": "Ce n'est pas vraiment surprenant !",
+                        "effect": "La valeur du jackpot double",
+                        "rarity": "COMMUN (∞)"
+                    },
+                    "example4": {
+                        "question": "Est-ce que je peux en manger ?",
+                        "answer": "Tu n'as même pas d'argent pour acheter de la nourriture !",
+                        "effect": "Les charmes du magasin sont réduits de 2 tickets jusqu'au prochain réapprovisionnement",
+                        "rarity": "COMMUN (∞)"
+                    },
+                    "example5": {
+                        "question": "J'ai besoin de suppléments nutritionnels",
+                        "answer": "Pas étonnant ! Tu ne peux pas vivre juste en buvant des boissons...",
+                        "effect": "Les valeurs du citron et de la cerise doublent en permanence",
+                        "rarity": "COMMUN (∞)"
+                    },
+                    "example6": {
+                        "question": "Je crois que j'ai de la chance !",
+                        "answer": "Tu es vraiment dans l'illusion. N'est-ce pas ?",
+                        "effect": "Les valeurs du trèfle et de la cloche doublent en permanence",
+                        "rarity": "COMMUN (∞)"
+                    },
+                    "example7": {
+                        "question": "Cette fois, vert/jaune/orange",
+                        "answer": "Tu paries sur la couleur maintenant ? Je me fiche que ce soit jaune, orange, vert.",
+                        "effect": "Ajouter les caractéristiques infirmières/aspirations/ambition à un charme aléatoire",
+                        "rarity": "RARE/ULTRA RARE/LÉGENDAIRE (∞)"
+                    },
+                    "example8": {
+                        "question": "Si tu continues, le motif sera trouvé !",
+                        "answer": "Ne traduis pas les pensées dans ta tête en réalité !",
+                        "effect": "Ajouter les caractéristiques obsessionnelles compulsives à un charme aléatoire",
+                        "rarity": "LÉGENDAIRE (∞)"
+                    },
+                    "example9": {
+                        "question": "C'est un peu amusant !",
+                        "answer": "C'est toujours amusant... ?",
+                        "effect": "Ajouter les caractéristiques de jeu à un charme aléatoire",
+                        "rarity": "RARE (∞)"
+                    },
+                    "example10": {
+                        "question": "Évidemment, la valeur va augmenter",
+                        "answer": "C'est un pari avec ton avenir !",
+                        "effect": "Ajouter les caractéristiques de spéculation à un charme aléatoire",
+                        "rarity": "ULTRA RARE (∞)"
+                    },
+                    "example11": {
+                        "question": "Peux-tu me donner des boissons énergisantes ?",
+                        "answer": "Pour toi, la dépendance à la caféine est probablement le moindre de tes problèmes...",
+                        "effect": "Restaurer toute la charge de tous les charmes avec un bouton rouge",
+                        "rarity": "COMMUN (∞)"
+                    },
+                    "example12": {
+                        "question": "Je pense à des stratégies !",
+                        "answer": "Euh... fais de ton mieux !",
+                        "effect": "Augmenter la valeur des motifs avec 3 symboles ou moins par la valeur par défaut",
+                        "rarity": "PEU COMMUN (∞)"
+                    },
+                    "example13": {
+                        "question": "J'ai trouvé la stratégie de victoire !",
+                        "answer": "Si ça marche bien...",
+                        "effect": "Augmenter la valeur des motifs avec quatre symboles ou plus",
+                        "rarity": "PEU COMMUN (∞)"
+                    }
+                },
+                "redCalls": {
+                    "example1": {
+                        "question": "Je veux m'amuser ?",
+                        "answer": "J'ai mal à la tête !",
+                        "effect": "Obtenir les deux options, puis appliquer la caractéristique de tromperie à un charme aléatoire",
+                        "rarity": "ULTRA RARE (∞)"
+                    },
+                    "example2": {
+                        "question": "Le prix n'a pas d'importance !",
+                        "answer": "Porter gratuitement deux charmes aléatoires dans le magasin. Mettre le ticket à 0.",
+                        "effect": "Obtenir deux charmes aléatoires gratuitement, tickets mis à 0",
+                        "rarity": "COMMUN (∞)"
+                    },
+                    "example3": {
+                        "question": "Donnez-moi mon argent !",
+                        "answer": "Mettre la pièce deux fois, initialiser le ticket trèfle à 0.",
+                        "effect": "Doubler les pièces, mettre les tickets à 0",
+                        "rarity": "COMMUN (∞)"
+                    },
+                    "example4": {
+                        "question": "La cryptomonnaie, c'est bien !",
+                        "answer": "Ces tickets vont prendre de la valeur ! Ça prend juste un peu de temps !",
+                        "effect": "Tickets trèfle doublés, pièces mises à 0",
+                        "rarity": "COMMUN (∞)"
+                    },
+                    "example5": {
+                        "question": "Il n'y a rien à manger à part de la moisissure",
+                        "answer": "Et alors ? C'est comestible, non ?",
+                        "effect": "Probabilité du citron et de la cerise réduite de façon permanente, puis ajouter la tromperie à un charme",
+                        "rarity": "ULTRA RARE (∞)"
+                    },
+                    "example6": {
+                        "question": "Attends une minute, quel jour on est aujourd'hui ?!",
+                        "answer": "Trèfle, la probabilité de service est réduite de moitié en permanence.",
+                        "effect": "Probabilité du trèfle réduite de moitié",
+                        "rarity": "RARE (∞)"
+                    },
+                    "example7": {
+                        "question": "J'ai déjà tout parcouru !",
+                        "answer": "La probabilité des diamants, des pièces et du sept diminue de moitié.",
+                        "effect": "Probabilité du diamant, du trésor et du sept réduite de moitié",
+                        "rarity": "PEU COMMUN (∞)"
+                    }
+                },
+                "yellowCalls": {
+                    "example1": {
+                        "question": "J'essaie de retrouver mon esprit !",
+                        "answer": "C'est un bon début !",
+                        "effect": "Multiplicateur de symboles +3",
+                        "rarity": "COMMUN (∞)"
+                    },
+                    "example2": {
+                        "question": "Je vois aussi un schéma dans mon comportement.",
+                        "answer": "Faire le premier pas est le plus difficile !",
+                        "effect": "Multiplicateur de motif +1",
+                        "rarity": "COMMUN (∞)"
+                    },
+                    "example3": {
+                        "question": "J'ai plus d'énergie ces jours-ci.",
+                        "answer": "C'est une bonne nouvelle !",
+                        "effect": "Restaurer tous les charmes à bouton rouge, réduire la consommation de charge de façon permanente (min 1)",
+                        "rarity": "COMMUN (∞)"
+                    },
+                    "example4": {
+                        "question": "J'essaie d'être plus prudent.",
+                        "answer": "C'est une bonne attitude !",
+                        "effect": "Toutes les probabilités de symboles augmentées de 10%",
+                        "rarity": "COMMUN (∞)"
+                    },
+                    "example5": {
+                        "question": "Je veux mieux comprendre le jeu.",
+                        "answer": "La connaissance est le pouvoir !",
+                        "effect": "Tous les multiplicateurs de motif augmentés de 0.5",
+                        "rarity": "COMMUN (∞)"
+                    },
+                    "example6": {
+                        "question": "J'apprends à contrôler mes impulsions.",
+                        "answer": "La maîtrise de soi est la clé du succès !",
+                        "effect": "Tous les effets de charme durent 2 tours de plus",
+                        "rarity": "COMMUN (∞)"
+                    },
+                    "example7": {
+                        "question": "Je veux prendre de meilleures décisions.",
+                        "answer": "La sagesse vient de l'expérience !",
+                        "effect": "Toutes les valeurs de jackpot augmentées de 50%",
+                        "rarity": "COMMUN (∞)"
+                    },
+                    "example8": {
+                        "question": "J'essaie d'être plus stratégique.",
+                        "answer": "La stratégie est tout dans ce jeu !",
+                        "effect": "Tous les prix des charmes réduits de 1 ticket",
+                        "rarity": "COMMUN (∞)"
+                    },
+                    "example9": {
+                        "question": "J'ai plus d'énergie ces jours-ci.",
+                        "answer": "C'est une bonne nouvelle !",
+                        "effect": "Restaurer tous les charmes à bouton rouge, réduire la consommation de charge de façon permanente (min 1)",
+                        "rarity": "RARE (Max : 2)"
+                    },
+                    "example10": {
+                        "question": "Aide !",
+                        "answer": "J'écoute !",
+                        "effect": "Créer le charme Esprit Saint sur la table, réduire les pièces de moitié",
+                        "rarity": "LÉGENDAIRE (∞)"
+                    },
+                    "example11": {
+                        "question": "Je dois d'abord me soigner.",
+                        "answer": "Il est juste de penser comme ça !",
+                        "effect": "Modifier tous les charmes en magasin et en rendre un gratuit",
+                        "rarity": "PEU COMMUN (∞)"
+                    },
+                    "example12": {
+                        "question": "Je travaille avec une attitude cohérente en ce moment !",
+                        "answer": "Tu comprendras naturellement avec le temps !",
+                        "effect": "Permettre au motif d'être activé une fois de plus",
+                        "rarity": "LÉGENDAIRE (Max : 1)"
+                    },
+                    "example13": {
+                        "question": "J'aimerais régler certains problèmes.",
+                        "answer": "Vas-y pas à pas !",
+                        "effect": "La valeur des motifs avec moins de 3 symboles est doublée",
+                        "rarity": "PEU COMMUN (∞)"
+                    },
+                    "example14": {
+                        "question": "Je vais reprendre le contrôle de ma vie.",
+                        "answer": "Essaie ! Bien, non ?",
+                        "effect": "La valeur des motifs avec quatre symboles ou plus est doublée",
+                        "rarity": "PEU COMMUN (∞)"
+                    }
+                }
+            }
+        },
+        "memoryCards": {
+            "title": "Cartes Mémoire",
+            "subtitle": "Nouvelle fonctionnalité dans la version officielle. Apprenez à utiliser efficacement les cartes mémoire dans notre <a href=\"/cloverpit-guide\" class=\"text-link\">guide de stratégie</a>.",
+            "howItWorks": {
+                "title": "Comment Fonctionnent les Cartes Mémoire",
+                "items": {
+                    "item1": "Les paquets de cartes mémoire flottent au plafond du magasin après la libération du tiroir",
+                    "item2": "Disponibles lors de la transition entre les délais limites",
+                    "item3": "Chaque paquet contient 3 cartes mémoire",
+                    "item4": "Les récompenses du paquet augmentent à chaque condition de jeu remplie",
+                    "item5": "Peuvent être utilisées pour appliquer des règles spéciales aux nouvelles parties"
+                }
+            },
+            "strategicTips": {
+                "title": "Conseils Stratégiques",
+                "items": {
+                    "item1": "Maintenez les chances du téléphone et les ennemis chanceux avant de collecter les paquets",
+                    "item2": "Les cartes mémoire peuvent modifier considérablement la difficulté et les mécanismes du jeu",
+                    "item3": "Choisissez avec soin les cartes à utiliser pour une jouabilité optimale"
+                }
+            },
+            "difficultySystem": {
+                "title": "Système de Difficulté",
+                "description": "Naturellement, le jeu est assez difficile, avec des délais limites divisés en fonction de la chance et des mécanismes qui ne garantissent pas de combos minimums selon le paquet, même si les jackpots éclatent.",
+                "advancedStrategies": {
+                    "title": "Stratégies Avancées",
+                    "description": "Une fois que vous vous êtes habitué au jeu, vous pouvez augmenter les chances et les multiplicateurs de symboles spécifiques en combinant des objets et des messages téléphoniques :",
+                    "cherryLemonStrategy": {
+                        "title": "Stratégie Cerise & Citron",
+                        "description": "Les objets typiques liés aux cerises et aux citrons, qui sont les plus courants et souvent ignorés par les débutants en raison de leurs faibles récompenses, peuvent être combinés avec des objets comme les pentacles, les champignons et les taches. Lorsqu'ils sont bien combinés, l'argent reçu augmente de façon exponentielle à chaque tour, atteignant facilement des milliards en réserve à la fin."
+                    },
+                    "cloverTicketStrategy": {
+                        "title": "Stratégie Ticket Trèfle",
+                        "description": "Si vous combinez bien les objets liés aux tickets trèfle, il ne s'agit pas d'achats d'objets, mais plus vous en collectez, plus vous pouvez tourner. Vous pouvez voir qu'il continue d'augmenter et que les multiplicateurs augmentent proportionnellement au montant détenu."
+                    }
+                }
+            },
+            "endingsSystem": {
+                "title": "Système de Fins de Jeu Wiki CloverPit",
+                "description": "Ce Wiki CloverPit documente que CloverPit propose plusieurs fins de CloverPit basées sur les choix du joueur et les décisions stratégiques tout au long du jeu CloverPit. Le Wiki CloverPit fournit une couverture complète de tous les chemins de fin. Pour des guides détaillés, visitez notre <a href=\"/cloverpit-endings\" class=\"text-link\">page des fins</a>.",
+                "normalEnding": {
+                    "title": "Fin Normale",
+                    "requirements": "Exigences :",
+                    "items": {
+                        "item1": "Terminer le jeu en respectant tous les délais limites",
+                        "item2": "Obtenir la Clé Crâne Ensanglantée",
+                        "item3": "S'échapper de la cellule (déverrouillage minimum au 9ème délai limite)"
+                    },
+                    "description": "La fin standard où vous vous échappez avec succès de la cellule maudite de la machine à sous. Cette fin débloque la possibilité d'accéder au chemin de la vraie fin."
+                },
+                "trueEnding": {
+                    "title": "Vraie Fin",
+                    "requirements": "Exigences :",
+                    "items": {
+                        "item1": "Terminer la fin normale au moins une fois",
+                        "item2": "Ignorer les appels téléphoniques rouges 3 fois au total",
+                        "item3": "Débloquer le système de symboles CloverPit 999",
+                        "item4": "Obtenir la Clé Crâne Blanche au lieu de la Clé Crâne Ensanglantée"
+                    },
+                    "description": "La fin complète de CloverPit où vous transcendez entièrement le système maudit. Débloque le symbole CloverPit 999 et transforme tous les appels téléphoniques en options jaunes bénéfiques. Change la clé finale de crâne rouge sang à blanche."
+                },
+                "gameOver": {
+                    "title": "Partie Terminée (Game Over)",
+                    "conditions": "Conditions :",
+                    "items": {
+                        "item1": "Ne pas atteindre le quota de pièces avant le délai limite",
+                        "item2": "Le sol s'ouvre et vous tombez à votre mort",
+                        "item3": "Message : \"Vous êtes mort\""
+                    },
+                    "description": "L'état d'échec standard. Cependant, chaque mort débloque du contenu de méta-progression et vous rapproche de la compréhension des mécanismes plus profonds du jeu."
+                },
+                "demoEnding": {
+                    "title": "Fin de la Démo",
+                    "demoVersion": "Version Démo :",
+                    "items": {
+                        "item1": "Terminer le jeu avant le 5ème délai limite (12 500 pièces)",
+                        "item2": "Recevoir la récompense et la partie se termine",
+                        "item3": "Message : \"Vous avez gagné\""
+                    },
+                    "description": "La fin simplifiée disponible dans la version démo. Délai limite fixe au 5ème tour avec une condition de victoire simple."
+                }
+            },
+            "charmSystem": {
+                "title": "Système de Charme Wiki CloverPit",
+                "description": "Ce Wiki CloverPit explique que le système de charmes CloverPit est le cœur du gameplay stratégique de CloverPit, proposant plus de 150 charmes CloverPit uniques avec divers effets et synergies. Le Wiki CloverPit fournit des informations détaillées sur les mécanismes et les stratégies des charmes.",
+                "basicMechanics": {
+                    "title": "Mécanismes de Base des Charmes",
+                    "items": {
+                        "item1": "<strong>Capacité de Charme :</strong> Les joueurs peuvent posséder jusqu'à 7 charmes par défaut",
+                        "item2": "<strong>Monnaie d'Achat :</strong> Les Tickets Trèfle sont utilisés pour acheter des charmes auprès des distributeurs automatiques",
+                        "item3": "<strong>Boutique de Charmes :</strong> 4 charmes aléatoires disponibles avec un bouton de réapprovisionnement",
+                        "item4": "<strong>Modificateurs de Capacité :</strong> Certains charmes ou appels téléphoniques peuvent augmenter/diminuer la capacité",
+                        "item5": "<strong>Caractéristiques :</strong> Les charmes peuvent acquérir des caractéristiques spéciales via les appels téléphoniques"
+                    }
+                },
+                "charmSynergies": {
+                    "title": "Synergies de Charmes",
+                    "description": "Les charmes fonctionnent mieux lorsqu'ils sont combinés stratégiquement :",
+                    "items": {
+                        "item1": "<strong>Charmes d'Économie :</strong> Augmentent la génération de pièces et les revenus de tickets",
+                        "item2": "<strong>Amélioration de Symboles :</strong> Augmentent les valeurs ou les probabilités de symboles spécifiques",
+                        "item3": "<strong>Amplification de Motifs :</strong> Améliorent les multiplicateurs de motifs et les valeurs de jackpot",
+                        "item4": "<strong>Effets Utilitaires :</strong> Fournissent des options défensives comme la Bible/le Rosaire pour la protection 666",
+                        "item5": "<strong>Méta-Effets :</strong> Influencent la chance, le nombre de tours et les mécanismes de jeu"
+                    }
+                },
+                "charmAdvice": {
+                    "title": "Conseils de Sélection de Charmes",
+                    "items": {
+                        "item1": "Commencez avec des charmes axés sur l'économie pour la stabilité en début de partie",
+                        "item2": "Construisez des synergies autour de 2 à 3 symboles principaux plutôt que de vous disperser",
+                        "item3": "Tenez compte des caractéristiques des appels téléphoniques lors de la planification des combinaisons de charmes",
+                        "item4": "Économisez les tickets pour les distributeurs automatiques premium avec une meilleure sélection de charmes",
+                        "item5": "Adaptez votre stratégie en fonction des charmes disponibles plutôt que de forcer des constructions spécifiques"
+                    }
+                }
+            }
+        }
+    },
+    "EndingsPage": {
+        "hero": {
+            "title": "Guide des Fins de CloverPit",
+            "description": "Maîtrisez l'art de vous échapper de CloverPit avec ce guide complet des Fins de CloverPit couvrant tous les types de fins de CloverPit, y compris la vraie fin de CloverPit et les bibelots sacrés. Ce guide des Fins de CloverPit couvre tous les chemins de fin et stratégies de fin de CloverPit disponibles dans le jeu. Pour plus d'informations sur le jeu, visitez notre <a href=\"/\" class=\"text-link\">page d'accueil</a> ou consultez notre <a href=\"/cloverpit-guide\" class=\"text-link\">guide de stratégie</a>.",
+            "nav": {
+                "preparation": "Préparation à la Fin de CloverPit",
+                "badEnding": "Mauvaise Fin de CloverPit",
+                "goodEnding": "Bonne Fin de CloverPit",
+                "tips": "Conseils pour la Fin de CloverPit"
+            }
+        },
+        "preparation": {
+            "title": "Préparation à la Fin de CloverPit",
+            "subtitle": "Étapes de préparation essentielles avant de tenter toute fin de CloverPit. Ce guide de fin de CloverPit couvre toute la préparation nécessaire pour un succès de fin de CloverPit. Pour les mécanismes de jeu détaillés, consultez notre <a href=\"/cloverpit-wiki\" class=\"text-link\">wiki complet</a>.",
+            "drawerSlots": {
+                "title": "Collecte des Emplacements de Tiroir pour la Fin de CloverPit",
+                "description1": "Avant de tenter toute fin de CloverPit, vous devez vous assurer d'avoir obtenu tous vos emplacements de tiroir, car ils seront nécessaires pour stocker les morceaux de cadavre pour votre partie. Cette préparation nécessite des emplacements de tiroir gagnés en atteignant certains délais limites pendant vos parties de CloverPit. Le détail important est qu'une fois que vous avez obtenu une clé pour une partie donnée, vous ne pouvez pas en obtenir une autre dans cette même partie, ce qui signifie que cette préparation nécessitera au moins 3 parties de CloverPit séparées pour être complétée.",
+                "description2": "Le système de tiroir est crucial pour la préparation à la fin de CloverPit. Chaque emplacement de tiroir représente un lieu de stockage potentiel pour les morceaux de cadavre, et avoir tous les emplacements disponibles vous donne le maximum de flexibilité lors de la planification de votre partie. Les emplacements sont gagnés progressivement à mesure que vous atteignez des délais limites plus élevés, ce qui en fait une récompense naturelle pour progresser à travers la courbe de difficulté de CloverPit et préparer votre tentative de fin."
+            },
+            "corpsePieces": {
+                "title": "Configuration des Morceaux de Cadavre pour la Fin de CloverPit",
+                "description1": "La clé pour commencer votre partie de fin de CloverPit avec des morceaux de cadavre réside dans la façon dont vous terminez votre partie précédente. Si vous voulez garantir de commencer avec tous les morceaux de cadavre (à l'exception du crâne, qui se trouve aléatoirement dans la boutique), vous devez vous assurer que lorsque vous terminez une partie de CloverPit, tous vos tiroirs sont remplis d'objets. Ces objets se transformeront alors en morceaux de cadavre lors de votre prochaine partie, vous donnant un avantage significatif dès le départ.",
+                "description2": "Par exemple, si votre dernière partie de CloverPit avait deux bibelots dans les deux tiroirs du bas (comme montré dans l'image de référence), vous pourrez commencer votre prochaine partie avec 2 morceaux de cadavre sur 4 déjà en place. Cette méthode de préparation est beaucoup plus fiable que d'essayer d'obtenir des morceaux de cadavre pendant la partie actuelle, car les critères pour les obtenir en cours de partie ne sont pas clairs et peuvent ajouter une complexité inutile à une entreprise déjà difficile.",
+                "description3": "Si vos tiroirs sont vides et que vous souhaitez les remplir rapidement avant de commencer une partie de cadavre, vous pouvez utiliser la carte mémoire « Affection Froide ». Cette carte vous permet d'acheter 4 objets, puis de recommencer, vous offrant ainsi un moyen rapide de remplir vos tiroirs sans vous engager dans une partie complète. Apprenez-en davantage sur les <a href=\"/cloverpit-wiki\" class=\"text-link\">cartes mémoire et les mécanismes de jeu</a> dans notre wiki."
+            },
+            "skullAcquisition": {
+                "title": "Acquisition du Crâne pour la Fin de CloverPit",
+                "description1": "Le crâne est le composant le plus facile à obtenir pour votre préparation à la fin de CloverPit, car il apparaît comme un objet de rareté commune dans la boutique. Cela le rend relativement simple à trouver pendant votre partie, et c'est encore mieux si vous pouvez en trouver un avec un modificateur attaché. Le statut commun du crâne signifie que vous n'avez pas trop à vous soucier de le trouver, contrairement à la préparation plus complexe requise pour les autres morceaux de cadavre.",
+                "description2": "Une fois que tous vos emplacements de tiroir sont débloqués, vos morceaux de cadavre préparés et une compréhension claire de l'endroit où trouver le crâne, vous aurez tout ce dont vous avez besoin pour tenter l'une des deux fins principales de CloverPit. Cette phase de préparation est essentielle pour le succès, car commencer sans ces avantages rend les parties beaucoup plus difficiles."
+            }
+        },
+        "badEnding": {
+            "title": "Obtenir la Mauvaise Fin de CloverPit",
+            "subtitle": "Le chemin le plus simple pour s'échapper de CloverPit, mais pas la vraie victoire de fin de CloverPit. Ce guide de fin de CloverPit couvre le chemin de la mauvaise fin. Pour les stratégies avancées, consultez notre <a href=\"/cloverpit-guide\" class=\"text-link\">guide complet</a>.",
+            "simplePath": {
+                "title": "Chemin Simple de la Mauvaise Fin de CloverPit",
+                "description1": "Obtenir la mauvaise fin de CloverPit est relativement simple comparé à la bonne fin, plus complexe. Ce processus implique de jouer à CloverPit normalement et d'atteindre un quota de pièces spécifique. Pour la mauvaise fin standard, vous devez accumuler 250 000 pièces. Cependant, si vous utilisez la carte mémoire « Délusions de grandeur », cette exigence double à 500 000 pièces.",
+                "description2": "Une fois que vous avez atteint le quota de pièces requis, CloverPit débloquera la clé sombre, qui vous servira de ticket pour la liberté. Avec cette clé en main, vous pouvez vous diriger vers la sortie située derrière vous dans votre cellule et laisser la maudite machine à sous CloverPit derrière vous pour toujours. Ce processus est intentionnellement simple, représentant le chemin de la moindre résistance - une évasion rapide plutôt qu'une véritable compréhension ou maîtrise des mécanismes plus profonds de CloverPit requis pour la vraie fin."
+            },
+            "rewards": {
+                "title": "Récompenses et Conséquences de la Mauvaise Fin de CloverPit",
+                "description1": "Terminer avec succès la mauvaise fin de CloverPit vous accordera les crédits du jeu, marquant la fin de votre voyage à travers CloverPit. De plus, la carte mémoire que vous avez utilisée pendant la partie recevra un effet de bordure arc-en-ciel, bien qu'il soit important de noter que cet effet n'est pas entièrement holographique et représente un accomplissement moindre par rapport à ce qui est possible avec d'autres stratégies.",
+                "description2": "Bien que la mauvaise fin de CloverPit procure un sentiment d'achèvement et vous permette de vous échapper de la machine maudite, il est important de comprendre que c'est considéré comme la « mauvaise » fin pour une raison. Elle représente le fait de choisir la facilité sans vraiment s'engager dans les systèmes plus complexes et les mystères plus profonds de CloverPit. CloverPit communique clairement qu'il existe des conclusions beaucoup plus enrichissantes disponibles pour les joueurs qui sont prêts à faire l'effort supplémentaire et à emprunter le chemin plus difficile vers la vraie fin. Renseignez-vous sur les <a href=\"/cloverpit-wiki\" class=\"text-link\">mécanismes plus profonds du jeu</a> pour comprendre pourquoi la vraie fin est plus gratifiante.",
+                "description3": "La mauvaise fin de CloverPit sert à la fois d'accomplissement et de tremplin. Elle prouve que vous pouvez survivre et vous échapper de CloverPit, mais elle fait également allusion aux récompenses plus grandes et à la satisfaction plus profonde qui découlent de la poursuite du chemin plus difficile de la bonne fin. Ce guide recommande la mauvaise fin comme point de départ avant de tenter la vraie fin."
+            }
+        },
+        "goodEnding": {
+            "title": "Obtenir la Bonne Fin de CloverPit (+ Bibelots Sacrés)",
+            "subtitle": "Le vrai chemin vers la victoire de CloverPit et les bibelots sacrés. Ce guide de fin de CloverPit couvre la stratégie complète de la bonne fin. Pour les stratégies détaillées, consultez notre <a href=\"/cloverpit-guide\" class=\"text-link\">guide complet</a>.",
+            "memoryCard": {
+                "title": "Recommandation de Carte Mémoire pour la Bonne Fin de CloverPit",
+                "description1": "Pour atteindre la bonne fin de CloverPit, je recommande fortement d'utiliser la carte mémoire « Chagrin d'Amour ». Ce choix est stratégique car il garantit que vous obtiendrez au moins un motif CloverPit 666 pendant votre partie, ce qui est absolument essentiel pour le processus de transformation. Le motif CloverPit 666 sert de déclencheur crucial qui force votre prochain appel téléphonique à être rouge, et sans ce motif, vous vous retrouverez incapable de compléter les étapes nécessaires pour la bonne fin.",
+                "description2": "La capacité de la carte mémoire Chagrin d'Amour à assurer un motif CloverPit 666 est inestimable car elle supprime l'un des éléments les plus imprévisibles de votre stratégie. Sans cette garantie, vous compteriez sur le hasard pour obtenir le motif CloverPit 666, ce qui pourrait nécessiter plusieurs tentatives et prolonger considérablement votre temps de préparation. En utilisant Chagrin d'Amour, vous pouvez planifier votre partie avec confiance, sachant que vous aurez accès aux appels téléphoniques rouges nécessaires pour la séquence de transformation."
+            },
+            "phoneCalls": {
+                "title": "Règles et Restrictions des Appels Téléphoniques pour la Bonne Fin de CloverPit",
+                "description1": "La règle la plus critique pour atteindre la bonne fin de CloverPit est que vous ne devez jamais prendre d'appels téléphoniques contenant du texte rouge et présentant une voix plus grave. Ces appels représentent les communications corrompues ou dangereuses qui empêcheront la transformation de se produire. Vous pouvez identifier ces appels interdits par la couleur rouge distinctive de leur texte et le ton de voix notablement plus profond et plus menaçant.",
+                "description2": "Cependant, vous êtes autorisé à prendre des appels d'autres sources ou à les ignorer entièrement si vous préférez. La distinction clé est spécifiquement d'éviter les appels à texte rouge avec la tonalité plus basse. De plus, ouvrir le menu pendant les appels est parfaitement acceptable - vous pouvez simplement appuyer sur « Je reviens tout de suite » et ne pas revenir à l'appel, ce qui compte comme éviter la communication interdite.",
+                "description3": "Cette restriction fait partie de la narration plus profonde de CloverPit sur le choix du bon chemin et l'évitement des tentations qui mènent à la corruption. En rejetant constamment les appels rouges, vous démontrez votre engagement envers le chemin le plus pur qui mène à la vraie fin. Ce guide souligne l'importance de cette discipline des appels téléphoniques. Apprenez-en davantage sur les <a href=\"/cloverpit-wiki\" class=\"text-link\">mécanismes des appels téléphoniques</a> dans notre wiki."
+            },
+            "floppyDisk": {
+                "title": "Système de Disquette 666 pour la Bonne Fin de CloverPit",
+                "description1": "Le processus de transformation de la fin de CloverPit est centré sur la disquette CloverPit 666, qui agit comme un mécanisme de suivi de vos progrès vers la bonne fin de CloverPit. Chaque fois que vous terminez un délai limite qui comportait un appel téléphonique rouge (que vous avez correctement évité), vous recevez une marque sur votre disquette CloverPit 666. Ce système de fin de CloverPit vous oblige à accumuler exactement trois marques avant que la transformation de fin de CloverPit ne puisse se produire.",
+                "description2": "Le processus de fin de CloverPit fonctionne comme suit : D'abord, vous terminez un délai limite qui comportait un appel téléphonique rouge (que vous avez évité), gagnant votre première marque. Vous répétez ensuite ce processus deux fois de plus, évitant à chaque fois les appels rouges et complétant le délai limite. Une fois que vous avez accumulé trois marques sur votre disquette CloverPit 666, vous prenez un appel téléphonique de plus - cette fois, le téléphone se transformera et commencera à offrir des appels sacrés au lieu des communications régulières pour votre fin de CloverPit.",
+                "description3": "Ce système de trois tentatives représente un test de patience et de discipline dans les stratégies de fin de CloverPit. Il vous oblige à faire constamment les bons choix sur plusieurs délais limites, prouvant votre mérite pour la transformation de fin de CloverPit. La disquette CloverPit 666 sert à la fois de suivi de progression et de représentation symbolique de votre voyage vers l'illumination dans l'accomplissement de la fin de CloverPit."
+            },
+            "transformation": {
+                "title": "Transformation de la Bonne Fin de CloverPit et ses Avantages",
+                "description1": "Une fois que vous avez accumulé avec succès trois marques sur votre disquette CloverPit 666, votre prochain appel téléphonique sera de nature sacrée. Cette transformation de fin de CloverPit affecte simultanément plusieurs aspects du jeu. Le téléphone lui-même se transforme, offrant désormais des appels sacrés au lieu d'appels réguliers ou rouges. Ces appels sacrés donnent accès à des charmes sacrés, qui sont des objets puissants pouvant améliorer considérablement votre expérience de jeu de fin de CloverPit.",
+                "description2": "Plus important encore, la transformation de fin de CloverPit affecte également la clé que vous utilisez pour sortir de la pièce. Lorsque vous utilisez cette clé transformée sur la porte, elle débloquera la vraie fin de CloverPit, offrant une conclusion beaucoup plus satisfaisante et complète à votre voyage à travers CloverPit. Cela représente la récompense de votre patience, de votre discipline et de votre engagement envers le bon chemin dans les stratégies de fin de CloverPit.",
+                "description3": "La séquence de transformation de fin de CloverPit est le point culminant de toute votre préparation et de votre prise de décision prudente. C'est la manière dont CloverPit récompense les joueurs qui choisissent de s'engager dans ses mécanismes plus profonds et de poursuivre le chemin plus difficile mais finalement plus gratifiant vers la victoire de fin de CloverPit."
+            }
+        },
+        "tips": {
+            "title": "Astuces et Conseils pour la Fin de CloverPit",
+            "subtitle": "Stratégies de fin de CloverPit avancées et détails importants pour le succès de fin de CloverPit. Ce guide de fin de CloverPit fournit des conseils d'experts. Pour plus de stratégies, consultez notre <a href=\"/cloverpit-blog\" class=\"text-link\">blog communautaire</a>.",
+            "threeStrikes": {
+                "title": "Obtenir vos 3 Marques pour la Fin de CloverPit",
+                "description1": "Pour compléter avec succès le processus de transformation, vous devez obtenir les trois marques sur votre disquette CloverPit 666. Cela nécessite une planification minutieuse et une compréhension des mécanismes de CloverPit. L'idée clé est que vous devez obtenir au moins un motif « CloverPit 666 » pendant votre partie, car ce motif force votre prochain appel téléphonique à être rouge, vous offrant ainsi la troisième opportunité de marque.",
+                "description2": "Sans le motif CloverPit 666, vous ne pourrez obtenir que 2 appels téléphoniques rouges avant le délai limite 8, car les deux autres appels rouges sont garantis d'apparaître au délai limite 3 et au délai limite 7. Cela signifie qu'il vous manquerait la troisième marque requise, rendant la transformation impossible. Le motif CloverPit 666 n'est donc pas seulement utile mais absolument essentiel pour atteindre la bonne fin.",
+                "description3": "C'est pourquoi la carte mémoire Chagrin d'Amour est si précieuse - elle garantit que vous obtiendrez au moins un motif CloverPit 666, vous assurant ainsi l'accès aux trois opportunités de marque. Sans cette garantie, vous compteriez sur le hasard, ce qui pourrait nécessiter plusieurs tentatives et prolonger considérablement votre temps de préparation. Apprenez-en davantage sur les <a href=\"/cloverpit-wiki\" class=\"text-link\">cartes mémoire et les motifs</a> dans notre wiki."
+            },
+            "timing": {
+                "title": "Timing et Stratégie de Délai Limite pour la Fin de CloverPit",
+                "description1": "Comprendre le timing des appels téléphoniques rouges est crucial pour planifier votre stratégie. CloverPit a un schéma prévisible pour le moment où ces appels apparaissent, et connaître cet horaire vous permet de planifier votre approche en conséquence.",
+                "description2": "Les appels téléphoniques rouges sont garantis d'apparaître au délai limite 3 et au délai limite 7 dans CloverPit. Ils représentent vos deux premières opportunités de gagner des marques sur votre disquette CloverPit 666. Cependant, pour obtenir la troisième marque, vous devez déclencher un appel rouge supplémentaire via le motif CloverPit 666. Cela signifie que vous devez obtenir le motif CloverPit 666 avant le délai limite 8 pour vous assurer d'avoir suffisamment de temps pour terminer le processus de transformation.",
+                "description3": "Le timing devient encore plus important lorsque vous considérez que vous devez éviter de prendre les appels rouges tout en complétant les délais limites qui les comportent dans CloverPit. Cela nécessite un équilibre prudent - vous avez besoin que les appels rouges apparaissent pour pouvoir gagner des marques, mais vous devez résister à la tentation d'y répondre. Le motif CloverPit 666 aide en fournissant une troisième opportunité d'appel rouge garantie, rendant le timing plus prévisible et gérable."
+            },
+            "sacredTrinkets": {
+                "title": "Bibelots Sacrés et Appels Sacrés de la Fin de CloverPit",
+                "description1": "Une fois que vous avez terminé avec succès le processus de transformation, le téléphone commencera à offrir des appels sacrés au lieu d'appels réguliers ou rouges. Ces appels sacrés sont exclusifs au chemin de la bonne fin et donnent accès à des charmes sacrés, qui comptent parmi les objets les plus puissants de CloverPit.",
+                "description2": "Les charmes sacrés offrent des avantages de jeu significatifs et représentent la récompense ultime pour avoir réussi à naviguer dans le processus de transformation complexe. Ces objets ne sont pas disponibles par d'autres moyens et servent de bénéfice tangible pour avoir choisi le chemin plus difficile mais finalement plus gratifiant vers la bonne fin.",
+                "description3": "Les appels sacrés eux-mêmes représentent également un changement thématique dans la narration de CloverPit. Là où les appels réguliers pourraient offrir des récompenses banales et les appels rouges représenter la corruption ou le danger, les appels sacrés donnent accès à des objets qui s'alignent sur le chemin plus pur et plus éclairé que vous avez choisi de suivre. Cela crée une expérience cohérente où vos choix tout au long de CloverPit ont un impact direct sur les récompenses et les opportunités qui vous sont offertes."
+            }
+        }
+    },
+    "BlogPage": {
+        "hero": {
+            "title": "Blog CloverPit",
+            "description": "Dernières nouvelles, mises à jour et contenu communautaire pour CloverPit : The Descent. Guides d'experts, astuces, stratégies et aperçus du jeu."
+        },
+        "blogList": {
+            "title": "Derniers Articles de Blog",
+            "subtitle": "Découvrez les dernières stratégies, guides et aperçus de la communauté CloverPit",
+            "readMore": "Lire la suite"
+        }
+    },
+    "DownloadPage": {
+        "hero": {
+            "title": "Télécharger CloverPit",
+            "description": "Un cauchemar de machine à sous rogue-lite. Jouez votre vie dans un simulateur de dette sans fin ! Préparez-vous pour l'expérience de téléchargement CloverPit ultime. Pour plus d'informations sur le jeu, visitez notre <a href=\"/\" class=\"text-link\">page d'accueil</a> ou consultez notre <a href=\"/cloverpit-guide\" class=\"text-link\">guide de stratégie</a>.",
+            "nav": {
+                "gameInfo": "Infos sur le Jeu",
+                "features": "Fonctionnalités",
+                "gameDetails": "Détails du Jeu",
+                "languages": "Langues",
+                "platformSupport": "Support des Plateformes",
+                "systemRequirements": "Configuration Système Requise"
+            }
+        },
+        "gameInfo": {
+            "title": "CloverPit",
+            "subtitle": "Le fruit démoniaque de l'amour entre Balatro et Buckshot Roulette",
+            "stats": {
+                "reviews": "Avis",
+                "releaseDate": "Date de Sortie",
+                "developer": "Développeur",
+                "publisher": "Éditeur"
+            },
+            "description": {
+                "paragraph1": "CloverPit est le fruit démoniaque de l'amour entre Balatro et Buckshot Roulette, un rogue-lite qui piège les joueurs dans un enfer de leur propre création. Enfermé dans une cellule rouillée avec une machine à sous et un guichet automatique, vous devez rembourser votre dette à la fin de chaque tour, ou tomber dans la ruine – littéralement ! Apprenez-en davantage sur toutes les <a href=\"/cloverpit-endings\" class=\"text-link\">fins et issues</a> possibles dans votre quête de liberté.",
+                "paragraph2": "Manipulez la machine à sous pour gagner des pièces supplémentaires. Tournez les chances en votre faveur avec divers prix et charmes qui déclenchent de gros gros combos, se transformant en une course chanceuse éblouissante. Pliez les règles, cassez le jeu et remboursez votre geôlier assez longtemps pour avoir une chance de vous libérer. Maîtrisez les <a href=\"/cloverpit-guide\" class=\"text-link\">stratégies avancées</a> pour survivre plus longtemps.",
+                "paragraph3": "Le jeu offre des possibilités infinies de personnalisation et de rejouabilité, avec une communauté de moddeurs florissante créant de nouveaux contenus et expériences. Explorez la <a href=\"/cloverpit-wiki\" class=\"text-link\">base de données complète des charmes</a> pour comprendre tous les mécanismes du jeu."
+            }
+        },
+        "features": {
+            "title": "Fonctionnalités",
+            "items": {
+                "roguelite": {
+                    "title": "Un rogue-lite captivant",
+                    "description": "Chaque tour pourrait être votre dernier !"
+                },
+                "progression": {
+                    "title": "Méta-progression",
+                    "description": "Parties avec graines, modificateurs de partie et bonus déblocables ! Un support de modding étendu permet à la communauté de créer du contenu et des expériences personnalisés."
+                },
+                "endless": {
+                    "title": "Mode Sans Fin",
+                    "description": "Poussez votre score vers de nouveaux sommets !"
+                },
+                "atmosphere": {
+                    "title": "Atmosphère infernale",
+                    "description": "Un cauchemar de jeu d'évasion !"
+                },
+                "items": {
+                    "title": "Plus de 150 objets",
+                    "description": "Objets et synergies pour booster votre chance !"
+                },
+                "story": {
+                    "title": "Récit sinistre",
+                    "description": "Une histoire d'addiction et d'évasion !"
+                }
+            }
+        },
+        "gameDetails": {
+            "genre": {
+                "title": "Genre",
+                "value": "Action, Aventure, Indépendant, Simulation, Sports, Stratégie"
+            },
+            "platform": {
+                "title": "Plateforme",
+                "value": "Solo"
+            },
+            "steamFeatures": {
+                "title": "Fonctionnalités Steam",
+                "value": "Succès Steam, Cloud Steam, Partage Familial"
+            },
+            "controllerSupport": {
+                "title": "Prise en charge de la manette",
+                "value": "Prise en charge complète de la manette, manettes Xbox, manettes DualShock (USB uniquement)"
+            }
+        },
+        "languages": {
+            "title": "Langues",
+            "table": {
+                "headers": {
+                    "language": "Langue",
+                    "interface": "Interface",
+                    "fullAudio": "Audio Complet",
+                    "subtitles": "Sous-titres"
+                },
+                "rows": {
+                    "english": "Anglais",
+                    "french": "Français",
+                    "italian": "Italien",
+                    "german": "Allemand",
+                    "spanish": "Espagnol - Espagne"
+                }
+            }
+        },
+        "platformSupport": {
+            "title": "Support des Plateformes et Futures Sorties",
+            "currentAvailability": {
+                "title": "Disponibilité Actuelle",
+                "windows": {
+                    "title": "Windows",
+                    "description": "Téléchargement complet de CloverPit disponible dès maintenant sur Steam pour Windows 10 et supérieur. Vivez le cauchemar complet de la machine à sous d'horreur avec toutes les fonctionnalités débloquées. Renseignez-vous sur toutes les <a href=\"/cloverpit-endings\" class=\"text-link\">fins possibles</a> avant de commencer à jouer.",
+                    "status": "Disponible Maintenant"
+                }
+            },
+            "comingSoon": {
+                "title": "Bientôt Disponible",
+                "mac": {
+                    "title": "Support Mac",
+                    "description": "La version Mac de CloverPit est actuellement en développement. Les utilisateurs Mac pourront bientôt expérimenter le même gameplay tordu sur leur plateforme préférée.",
+                    "status": "Bientôt Disponible"
+                },
+                "mobile": {
+                    "title": "Jeu Mobile",
+                    "description": "L'adaptation mobile de CloverPit est en cours de développement pour apporter l'expérience d'horreur de la machine à sous sur vos smartphones et tablettes.",
+                    "status": "En Développement"
+                }
+            },
+            "communityFeatures": {
+                "title": "Fonctionnalités Communautaires",
+                "modding": {
+                    "title": "Support Modding",
+                    "description": "Explorez la communauté grandissante des mods CloverPit ! Personnalisez votre expérience avec du contenu créé par les utilisateurs, de nouveaux charmes et des modes de jeu alternatifs. Partagez vos stratégies sur notre <a href=\"/cloverpit-blog\" class=\"text-link\">blog communautaire</a>.",
+                    "status": "Communauté Active"
+                }
+            },
+            "multiLanguage": {
+                "title": "Support Multi-Langues",
+                "description": "CloverPit descargar est disponible pour les joueurs hispanophones, avec une interface complète et un support des sous-titres. Le jeu prend en charge plusieurs langues pour garantir que les joueurs du monde entier puissent profiter de l'expérience d'horreur dans leur langue maternelle. Pour les mécanismes de jeu détaillés, consultez notre <a href=\"/cloverpit-wiki\" class=\"text-link\">wiki complet</a>."
+            }
+        },
+        "systemRequirements": {
+            "title": "Configuration Système Requise",
+            "minimum": {
+                "title": "Configuration Minimale",
+                "os": "SE :",
+                "processor": "Processeur :",
+                "memory": "Mémoire :",
+                "graphics": "Carte Graphique :",
+                "storage": "Stockage :",
+                "additionalNotes": "Notes Additionnelles :"
+            },
+            "recommended": {
+                "title": "Configuration Recommandée"
+            }
+        },
+        "disclaimer": {
+            "title": "P.S. EST-CE UN JEU D'ARGENT ?",
+            "description": "<strong>Absolument pas !</strong> CloverPit est un jeu d'horreur rogue-lite, et non un simulateur de machine à sous. Notre machine à sous est conçue pour être cassée et finalement surmontée, et ne vous demandera jamais d'argent réel !"
+        },
+        "downloadCta": {
+            "title": "Prêt à Affronter Votre Cauchemar ?",
+            "description": "Téléchargez CloverPit maintenant et découvrez le jeu d'horreur de machine à sous le plus tordu jamais créé ! Maîtrisez les <a href=\"/cloverpit-guide\" class=\"text-link\">stratégies</a> pour survivre plus longtemps.",
+            "buttonText": "Télécharger sur Steam",
+            "buttonSubtext": "Disponible Maintenant"
+        }
+    },
+    "ContactPage": {
+        "hero": {
+            "title": "Nous Contacter",
+            "description": "Contactez l'équipe de 321gogame.com pour du support, des commentaires ou une collaboration"
+        },
+        "content": {
+            "getInTouch": {
+                "title": "Entrez en Contact",
+                "description": "Nous serions ravis de vous entendre ! Que vous ayez des questions sur nos guides CloverPit, des suggestions d'amélioration ou que vous souhaitiez partager vos propres stratégies, nous sommes là pour vous aider."
+            },
+            "contactMethods": {
+                "emailSupport": {
+                    "title": "Support par E-mail",
+                    "description": "Pour les demandes générales, les commentaires ou les demandes de support :",
+                    "email": "E-mail :",
+                    "responseTime": "Temps de Réponse :",
+                    "bestFor": "Idéal pour :",
+                    "responseTimeValue": "24-48 heures",
+                    "bestForValue": "Questions générales, commentaires, support"
+                },
+                "communityFeedback": {
+                    "title": "Commentaires de la Communauté",
+                    "description": "Partagez vos stratégies et découvertes CloverPit :",
+                    "email": "E-mail :",
+                    "subject": "Objet :",
+                    "bestFor": "Idéal pour :",
+                    "subjectValue": "Soumission de Stratégie",
+                    "bestForValue": "Partage d'astuces, signalement de bugs, collaboration"
+                },
+                "collaboration": {
+                    "title": "Collaboration",
+                    "description": "Intéressé à travailler avec nous ou à contribuer du contenu :",
+                    "email": "E-mail :",
+                    "subject": "Objet :",
+                    "bestFor": "Idéal pour :",
+                    "subjectValue": "Demande de Collaboration",
+                    "bestForValue": "Partenariats, création de contenu, articles invités"
+                }
+            },
+            "helpCategories": {
+                "title": "Domaines d'Aide",
+                "guideQuestions": {
+                    "title": "Questions sur les Guides",
+                    "items": {
+                        "clarification": "Clarification sur les stratégies",
+                        "charmCombination": "Aide sur les combinaisons de charmes",
+                        "endingWalkthrough": "Assistance sur les guides de fin",
+                        "gameMechanics": "Explications sur les mécanismes de jeu"
+                    }
+                },
+                "technicalSupport": {
+                    "title": "Support Technique",
+                    "items": {
+                        "navigation": "Problèmes de navigation sur le site",
+                        "accessibility": "Problèmes d'accessibilité du contenu",
+                        "mobileCompatibility": "Préoccupations de compatibilité mobile",
+                        "performance": "Optimisation des performances"
+                    }
+                },
+                "contentFeedback": {
+                    "title": "Commentaires sur le Contenu",
+                    "items": {
+                        "accuracy": "Améliorations de la précision du guide",
+                        "missingInfo": "Demandes d'informations manquantes",
+                        "newStrategies": "Suggestions de nouvelles stratégies",
+                        "communityFeatures": "Idées de fonctionnalités communautaires"
+                    }
+                }
+            },
+            "responseGuidelines": {
+                "title": "Directives de Réponse",
+                "generalInquiries": {
+                    "title": "Demandes Générales",
+                    "description": "Nous répondons généralement dans les 24 à 48 heures pour les questions générales et les commentaires."
+                },
+                "technicalIssues": {
+                    "title": "Problèmes Techniques",
+                    "description": "Les demandes de support technique sont priorisées et reçoivent généralement des réponses plus rapides."
+                },
+                "collaboration": {
+                    "title": "Collaboration",
+                    "description": "Les demandes de partenariat et de collaboration peuvent prendre 3 à 5 jours ouvrables pour des réponses détaillées."
+                }
+            },
+            "beforeContact": {
+                "title": "Avant de Nous Contacter",
+                "description": "Pour nous aider à vous fournir la meilleure assistance, veuillez considérer :",
+                "items": {
+                    "checkGuides": "Consulter nos guides existants pour les réponses aux questions courantes",
+                    "beSpecific": "Être précis sur votre question ou problème",
+                    "includeDetails": "Inclure des détails pertinents (version du jeu, plateforme, etc.)",
+                    "useClearSubject": "Utiliser une ligne d'objet claire et descriptive",
+                    "bePatient": "Être patient - nous sommes une petite équipe mais nous lisons chaque message"
+                }
+            },
+            "contactInfo": {
+                "title": "Informations de Contact Directes",
+                "primaryEmail": "E-mail Principal :",
+                "website": "Site Web :",
+                "lastUpdated": "Dernière Mise à Jour :",
+                "businessHours": "Heures d'Ouverture :",
+                "lastUpdatedValue": "17 octobre 2025",
+                "businessHoursValue": "Nous vérifions les e-mails quotidiennement, du lundi au vendredi"
+            },
+            "thankYou": {
+                "title": "Merci",
+                "description": "Merci de votre intérêt pour 321gogame.com et nos guides CloverPit. Vos commentaires nous aident à créer un meilleur contenu et à améliorer l'expérience de jeu pour l'ensemble de la communauté. Nous avons hâte de vous lire !"
+            }
+        }
+    },
+    "CopyrightPage": {
+        "hero": {
+            "title": "Avis de Droit d'Auteur",
+            "description": "Propriété intellectuelle et informations sur les droits d'auteur pour 321gogame.com",
+            "lastUpdated": "Dernière Mise à Jour : 17 octobre 2025"
+        },
+        "content": {
+            "copyrightOwnership": {
+                "title": "Propriété des Droits d'Auteur",
+                "description": "Tout le contenu de 321gogame.com, y compris mais sans s'y limiter le texte, les graphiques, les logos, les images, les clips audio, la vidéo, les téléchargements numériques, les compilations de données et les logiciels, est la propriété de 321gogame.com ou de ses fournisseurs de contenu et est protégé par les lois internationales sur le droit d'auteur."
+            },
+            "websiteContent": {
+                "title": "Contenu du Site Web",
+                "description": "La compilation de tout le contenu de ce site est la propriété exclusive de 321gogame.com et est protégée par les lois sur le droit d'auteur. Tous droits réservés."
+            },
+            "cloverPitGameContent": {
+                "title": "Contenu du Jeu CloverPit",
+                "description": "321gogame.com n'est pas affilié, approuvé ou lié au jeu original CloverPit: The Descent ou à ses éditeurs. Il s'agit d'un site de fans indépendant créé à des fins d'information uniquement."
+            },
+            "importantNotice": {
+                "title": "Avis Important",
+                "description": "Toutes les marques de commerce, droits d'auteur et propriété intellectuelle liés à CloverPit: The Descent appartiennent à leurs propriétaires respectifs :",
+                "developer": "Développeur :",
+                "publisher": "Éditeur :",
+                "gameTitle": "Titre du Jeu :",
+                "developerValue": "Panik Arcade",
+                "publisherValue": "Future Friends Games",
+                "gameTitleValue": "CloverPit: The Descent"
+            },
+            "fairUsePolicy": {
+                "title": "Politique d'Utilisation Équitable",
+                "description": "Notre utilisation du contenu lié au jeu relève de l'utilisation équitable à des fins éducatives et informatives. Nous fournissons :",
+                "items": {
+                    "guides": "Guides de jeu et soluces à des fins éducatives",
+                    "analysis": "Analyse et commentaires sur les mécanismes de jeu",
+                    "community": "Discussion communautaire et partage de stratégies",
+                    "fanContent": "Contenu et guides de fans non commerciaux"
+                }
+            },
+            "userGeneratedContent": {
+                "title": "Contenu Généré par les Utilisateurs",
+                "description": "Si vous soumettez du contenu à 321gogame.com, vous nous accordez une licence non exclusive, libre de redevances, perpétuelle et mondiale pour utiliser, modifier et distribuer ce contenu dans le cadre de nos services."
+            },
+            "dmcaCompliance": {
+                "title": "Conformité DMCA",
+                "description1": "321gogame.com respecte les droits de propriété intellectuelle d'autrui. Si vous pensez que votre œuvre protégée par le droit d'auteur a été utilisée d'une manière qui constitue une violation du droit d'auteur, veuillez nous contacter à",
+                "description2": "avec les informations suivantes :",
+                "items": {
+                    "description": "Une description de l'œuvre protégée par le droit d'auteur dont vous affirmez qu'elle a été violée",
+                    "location": "L'emplacement du matériel prétendument contrefait sur notre site",
+                    "contactInfo": "Vos coordonnées",
+                    "goodFaith": "Une déclaration selon laquelle vous croyez de bonne foi que l'utilisation n'est pas autorisée",
+                    "authorization": "Une déclaration selon laquelle les informations sont exactes et que vous êtes autorisé à agir au nom du titulaire du droit d'auteur"
+                }
+            },
+            "thirdPartyContent": {
+                "title": "Contenu Tiers",
+                "description": "Certains contenus de notre site peuvent provenir de tiers. Nous faisons tout notre possible pour attribuer correctement ce contenu et respecter les droits des créateurs de contenu."
+            },
+            "licenseToUse": {
+                "title": "Licence d'Utilisation",
+                "description": "Vous pouvez visualiser, télécharger et imprimer du contenu de 321gogame.com pour votre usage personnel et non commercial uniquement. Vous ne pouvez pas :",
+                "items": {
+                    "reproduce": "Reproduire, distribuer ou afficher du contenu à des fins commerciales",
+                    "modify": "Modifier ou créer des œuvres dérivées de notre contenu",
+                    "remove": "Supprimer les avis de droit d'auteur ou autres marques de propriété",
+                    "harm": "Utiliser notre contenu d'une manière qui pourrait nuire à notre réputation"
+                }
+            },
+            "contactInformation": {
+                "title": "Informations de Contact",
+                "description": "Pour les demandes relatives aux droits d'auteur, veuillez nous contacter :",
+                "email": "E-mail :",
+                "website": "Site Web :",
+                "subjectLine": "Ligne d'Objet :",
+                "lastUpdated": "Dernière Mise à Jour :",
+                "subjectLineValue": "Demande de Droit d'Auteur",
+                "lastUpdatedValue": "17 octobre 2025"
+            }
+        }
+    },
+    "AboutPage": {
+        "hero": {
+            "title": "À Propos de Nous",
+            "description": "Rencontrez l'équipe derrière le guide complet CloverPit sur 321gogame.com"
+        },
+        "content": {
+            "ourMission": {
+                "title": "Notre Mission",
+                "description": "Chez 321gogame.com, nous sommes des joueurs passionnés dédiés à la création des guides les plus complets et les plus précis pour **CloverPit: The Descent**. Notre mission est d'aider les joueurs à maîtriser ce jeu d'horreur de machine à sous rogue-lite difficile grâce à des stratégies détaillées, des combinaisons de charmes et des aperçus d'experts."
+            },
+            "whoWeAre": {
+                "title": "Qui Nous Sommes",
+                "description": "Nous sommes une équipe de joueurs expérimentés et de passionnés de stratégie qui ont passé d'innombrables heures à explorer chaque aspect de CloverPit. Notre expertise provient d'un gameplay intensif, de l'interaction communautaire et d'une analyse approfondie des mécanismes de jeu."
+            },
+            "whatWeDo": {
+                "title": "Ce Que Nous Faisons",
+                "description": "Notre guide complet CloverPit comprend :",
+                "items": {
+                    "strategies": "Stratégies et astuces de gameplay détaillées",
+                    "charmCombinations": "Combinaisons complètes de synergie de charmes",
+                    "endingsWalkthrough": "Soluce de toutes les fins et secrets",
+                    "gameMechanics": "Explications des mécanismes de jeu et des symboles",
+                    "communityInsights": "Aperçus et découvertes issus de la communauté",
+                    "regularUpdates": "Mises à jour régulières avec de nouvelles stratégies"
+                }
+            },
+            "ourExpertise": {
+                "title": "Notre Expertise",
+                "description": "Notre équipe rassemble diverses expériences de jeu :",
+                "items": {
+                    "rogueliteSpecialists": "Spécialistes des jeux rogue-lite et de construction de deck",
+                    "strategyWriters": "Rédacteurs de guides de stratégie avec des années d'expérience",
+                    "communityModerators": "Modérateurs de communauté et créateurs de contenu",
+                    "gameAnalysis": "Experts en analyse et test de jeux"
+                }
+            },
+            "communityFocus": {
+                "title": "Orientation Communautaire",
+                "description": "Nous croyons au pouvoir de la connaissance communautaire. Nos guides sont constamment mis à jour en fonction des commentaires des joueurs, des nouvelles découvertes et des aperçus de la communauté. Nous encourageons les joueurs à partager leurs stratégies et à nous aider à améliorer notre contenu."
+            },
+            "qualityCommitment": {
+                "title": "Engagement Qualité",
+                "description": "Chaque guide sur 321gogame.com est minutieusement testé et vérifié. Nous nous assurons que nos stratégies fonctionnent dans le jeu réel et offrent une réelle valeur aux joueurs. Notre contenu est régulièrement examiné et mis à jour pour maintenir l'exactitude et la pertinence."
+            },
+            "independence": {
+                "title": "Indépendance",
+                "description": "321gogame.com est un site de fans indépendant. Nous ne sommes pas affiliés, approuvés ou liés au jeu original **CloverPit: The Descent** ou à ses éditeurs. Cette indépendance nous permet de fournir des guides et des stratégies honnêtes et impartiaux."
+            },
+            "contactOurTeam": {
+                "title": "Contacter Notre Équipe",
+                "description": "Nous accueillons avec plaisir les commentaires, suggestions et questions de la communauté CloverPit. Si vous avez des stratégies à partager, des questions sur nos guides ou des suggestions d'amélioration, n'hésitez pas à nous contacter."
+            },
+            "contactInfo": {
+                "title": "Contactez-Nous",
+                "email": "E-mail :",
+                "website": "Site Web :",
+                "responseTime": "Temps de Réponse :",
+                "lastUpdated": "Dernière Mise à Jour :",
+                "responseTimeValue": "Nous répondons généralement dans les 24 à 48 heures",
+                "lastUpdatedValue": "17 octobre 2025"
+            },
+            "thankYou": {
+                "title": "Merci",
+                "description": "Merci d'avoir choisi 321gogame.com comme ressource de guide CloverPit. Nous nous engageons à vous aider à survivre à la maudite machine à sous et à découvrir tous les secrets que cet incroyable jeu a à offrir."
+            }
+        }
+    },
+    "PrivacyPage": {
+        "hero": {
+            "title": "Politique de Confidentialité",
+            "description": "Comment nous protégeons vos informations personnelles et vos données sur 321gogame.com",
+            "lastUpdated": "Dernière Mise à Jour : 17 octobre 2025"
+        },
+        "content": {
+            "informationWeCollect": {
+                "title": "Informations que Nous Collectons",
+                "description": "321gogame.com s'engage à protéger votre vie privée. Nous collectons le minimum d'informations nécessaires pour fournir nos services de guide CloverPit :",
+                "personalInformation": {
+                    "title": "Informations Personnelles",
+                    "items": {
+                        "emailDescription1": "Adresse e-mail (lorsque vous nous contactez à",
+                        "emailDescription2": ")",
+                        "name": "Nom (s'il est fourni dans les communications)",
+                        "voluntaryInfo": "Toute information que vous partagez volontairement dans les commentaires ou les demandes de support"
+                    }
+                },
+                "automaticallyCollected": {
+                    "title": "Informations Collectées Automatiquement",
+                    "items": {
+                        "ipAddress": "Adresse IP et informations sur le navigateur",
+                        "pagesVisited": "Pages visitées et temps passé sur notre site",
+                        "referringWebsite": "Informations sur le site web de référence",
+                        "deviceInfo": "Informations sur l'appareil et le système d'exploitation"
+                    }
+                }
+            },
+            "howWeUse": {
+                "title": "Comment Nous Utilisons Vos Informations",
+                "description": "Nous utilisons les informations que nous collectons pour :",
+                "items": {
+                    "provideContent": "Fournir et améliorer notre contenu de guide CloverPit",
+                    "respondInquiries": "Répondre à vos demandes et requêtes de support",
+                    "analyzeUsage": "Analyser l'utilisation du site web pour améliorer l'expérience utilisateur",
+                    "ensureSecurity": "Assurer la sécurité du site web et prévenir les abus"
+                }
+            },
+            "informationSharing": {
+                "title": "Partage d'Informations",
+                "description": "Nous ne vendons, n'échangeons ni ne transférons d'aucune autre manière vos informations personnelles à des tiers sans votre consentement, sauf :",
+                "items": {
+                    "requiredByLaw": "Lorsque la loi ou une procédure légale l'exige",
+                    "protectRights": "Pour protéger nos droits et prévenir la fraude",
+                    "serviceProviders": "Avec des fournisseurs de services de confiance qui nous aident dans les opérations du site web (en vertu d'accords de confidentialité stricts)"
+                }
+            },
+            "dataSecurity": {
+                "title": "Sécurité des Données",
+                "description": "Nous mettons en œuvre des mesures de sécurité appropriées pour protéger vos informations personnelles contre l'accès, l'altération, la divulgation ou la destruction non autorisés."
+            },
+            "cookiesAndTracking": {
+                "title": "Cookies et Suivi",
+                "description": "Notre site web peut utiliser des cookies et des technologies similaires pour améliorer votre expérience de navigation et analyser l'utilisation du site. Vous pouvez contrôler les paramètres des cookies via les préférences de votre navigateur."
+            },
+            "thirdPartyLinks": {
+                "title": "Liens Tiers",
+                "description": "Notre guide CloverPit peut contenir des liens vers des sites web externes. Nous ne sommes pas responsables des pratiques de confidentialité de ces sites tiers."
+            },
+            "childrensPrivacy": {
+                "title": "Vie Privée des Enfants",
+                "description": "Nos services ne sont pas destinés aux enfants de moins de 13 ans. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants de moins de 13 ans."
+            },
+            "changesToPolicy": {
+                "title": "Modifications de Cette Politique",
+                "description": "Nous pouvons mettre à jour cette Politique de Confidentialité de temps à autre. Les modifications seront publiées sur cette page avec une date de révision mise à jour."
+            },
+            "contactUs": {
+                "title": "Nous Contacter",
+                "description": "Si vous avez des questions concernant cette Politique de Confidentialité, veuillez nous contacter à :",
+                "email": "E-mail :",
+                "website": "Site Web :",
+                "lastUpdated": "Dernière Mise à Jour :",
+                "lastUpdatedValue": "17 octobre 2025"
+            }
+        }
+    },
+    "TermsPage": {
+        "hero": {
+            "title": "Conditions d'Utilisation",
+            "description": "Termes et conditions d'utilisation des services de guide CloverPit de 321gogame.com",
+            "lastUpdated": "Dernière Mise à Jour : 17 octobre 2025"
+        },
+        "content": {
+            "acceptanceOfTerms": {
+                "title": "Acceptation des Conditions",
+                "description": "En accédant et en utilisant 321gogame.com, vous acceptez et consentez à être lié par les termes et dispositions du présent accord. Si vous n'acceptez pas de vous conformer à ce qui précède, veuillez ne pas utiliser ce service."
+            },
+            "useLicense": {
+                "title": "Licence d'Utilisation",
+                "description": "La permission est accordée de télécharger temporairement une copie des documents sur 321gogame.com pour une visualisation transitoire personnelle et non commerciale uniquement. Ceci est l'octroi d'une licence, et non un transfert de titre, et en vertu de cette licence, vous ne pouvez pas :",
+                "items": {
+                    "modifyCopy": "Modifier ou copier les documents",
+                    "commercialUse": "Utiliser les documents à des fins commerciales ou pour toute présentation publique",
+                    "reverseEngineer": "Tenter de décompiler ou d'appliquer l'ingénierie inverse à tout logiciel contenu sur le site web",
+                    "removeCopyright": "Supprimer tout droit d'auteur ou autre mention de propriété des documents"
+                }
+            },
+            "disclaimer": {
+                "title": "Exclusion de Garantie",
+                "description": "Les documents sur 321gogame.com sont fournis « tels quels ». 321gogame.com n'offre aucune garantie, expresse ou implicite, et décline et annule par la présente toutes les autres garanties, y compris, sans limitation, les garanties ou conditions implicites de qualité marchande, d'adéquation à un usage particulier, ou de non-contrefaçon de la propriété intellectuelle ou autre violation des droits."
+            },
+            "limitations": {
+                "title": "Limitations",
+                "description": "En aucun cas 321gogame.com ou ses fournisseurs ne seront responsables des dommages (y compris, sans limitation, les dommages pour perte de données ou de profit, ou en raison d'une interruption d'activité) découlant de l'utilisation ou de l'incapacité d'utiliser les documents sur 321gogame.com, même si 321gogame.com ou un représentant autorisé a été informé oralement ou par écrit de la possibilité de tels dommages."
+            },
+            "accuracyOfMaterials": {
+                "title": "Exactitude des Documents",
+                "description": "Les documents apparaissant sur 321gogame.com pourraient inclure des erreurs techniques, typographiques ou photographiques. 321gogame.com ne garantit pas que les documents de son site web sont exacts, complets ou à jour. 321gogame.com peut apporter des modifications aux documents contenus sur son site web à tout moment sans préavis."
+            },
+            "links": {
+                "title": "Liens",
+                "description": "321gogame.com n'a pas examiné tous les sites liés à notre site web et n'est pas responsable du contenu de tout site lié. L'inclusion d'un lien n'implique pas l'approbation du site par 321gogame.com. L'utilisation de tout site web lié se fait aux risques et périls de l'utilisateur."
+            },
+            "modifications": {
+                "title": "Modifications",
+                "description": "321gogame.com peut réviser ces conditions d'utilisation pour son site web à tout moment sans préavis. En utilisant ce site web, vous acceptez d'être lié par la version alors en vigueur de ces conditions d'utilisation."
+            },
+            "governingLaw": {
+                "title": "Loi Applicable",
+                "description": "Ces termes et conditions sont régis et interprétés conformément aux lois et vous vous soumettez irrévocablement à la juridiction exclusive des tribunaux de cet état ou lieu."
+            },
+            "userConduct": {
+                "title": "Conduite de l'Utilisateur",
+                "description": "Les utilisateurs acceptent d'utiliser 321gogame.com de manière responsable et de ne pas :",
+                "items": {
+                    "violateLaws": "Violer toute loi ou réglementation applicable",
+                    "transmitHarmfulCode": "Transmettre tout code nuisible ou malveillant",
+                    "unauthorizedAccess": "Tenter d'obtenir un accès non autorisé à nos systèmes",
+                    "interfereFunctioning": "Interférer avec le bon fonctionnement du site web",
+                    "unlawfulPurpose": "Utiliser le site à des fins illégales ou interdites"
+                }
+            },
+            "intellectualProperty": {
+                "title": "Propriété Intellectuelle",
+                "description": "Tout le contenu de 321gogame.com, y compris mais sans s'y limiter le texte, les graphiques, les logos, les images et les logiciels, est la propriété de 321gogame.com ou de ses fournisseurs de contenu et est protégé par le droit d'auteur et d'autres lois sur la propriété intellectuelle."
+            },
+            "contactInformation": {
+                "title": "Informations de Contact",
+                "description": "Si vous avez des questions concernant ces Conditions d'Utilisation, veuillez nous contacter :",
+                "email": "E-mail :",
+                "website": "Site Web :",
+                "lastUpdated": "Dernière Mise à Jour :",
+                "lastUpdatedValue": "17 octobre 2025"
+            }
+        }
+    }
+}

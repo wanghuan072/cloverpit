@@ -6,10 +6,10 @@
       <section class="section hero">
         <div class="container">
           <div class="hero-wrapper">
-            <h1 class="hero-title">Terms of Service</h1>
-            <p class="hero-description">Terms and conditions for using 321gogame.com CloverPit guide services</p>
+            <h1 class="hero-title">{{ $t('TermsPage.hero.title') }}</h1>
+            <p class="hero-description">{{ $t('TermsPage.hero.description') }}</p>
             <div class="last-updated">
-              <span>Last Updated: October 17, 2025</span>
+              <span>{{ $t('TermsPage.hero.lastUpdated') }}</span>
             </div>
           </div>
         </div>
@@ -19,55 +19,55 @@
         <div class="container">
           <div class="content-wrapper">
             <div class="legal-content">
-              <h2>Acceptance of Terms</h2>
-              <p>By accessing and using 321gogame.com, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.</p>
+              <h2>{{ $t('TermsPage.content.acceptanceOfTerms.title') }}</h2>
+              <p>{{ $t('TermsPage.content.acceptanceOfTerms.description') }}</p>
 
-              <h2>Use License</h2>
-              <p>Permission is granted to temporarily download one copy of the materials on 321gogame.com for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</p>
+              <h2>{{ $t('TermsPage.content.useLicense.title') }}</h2>
+              <p>{{ $t('TermsPage.content.useLicense.description') }}</p>
               <ul>
-                <li>Modify or copy the materials</li>
-                <li>Use the materials for any commercial purpose or for any public display</li>
-                <li>Attempt to reverse engineer any software contained on the website</li>
-                <li>Remove any copyright or other proprietary notations from the materials</li>
+                <li>{{ $t('TermsPage.content.useLicense.items.modifyCopy') }}</li>
+                <li>{{ $t('TermsPage.content.useLicense.items.commercialUse') }}</li>
+                <li>{{ $t('TermsPage.content.useLicense.items.reverseEngineer') }}</li>
+                <li>{{ $t('TermsPage.content.useLicense.items.removeCopyright') }}</li>
               </ul>
 
-              <h2>Disclaimer</h2>
-              <p>The materials on 321gogame.com are provided on an 'as is' basis. 321gogame.com makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.</p>
+              <h2>{{ $t('TermsPage.content.disclaimer.title') }}</h2>
+              <p>{{ $t('TermsPage.content.disclaimer.description') }}</p>
 
-              <h2>Limitations</h2>
-              <p>In no event shall 321gogame.com or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on 321gogame.com, even if 321gogame.com or an authorized representative has been notified orally or in writing of the possibility of such damage.</p>
+              <h2>{{ $t('TermsPage.content.limitations.title') }}</h2>
+              <p>{{ $t('TermsPage.content.limitations.description') }}</p>
 
-              <h2>Accuracy of Materials</h2>
-              <p>The materials appearing on 321gogame.com could include technical, typographical, or photographic errors. 321gogame.com does not warrant that any of the materials on its website are accurate, complete, or current. 321gogame.com may make changes to the materials contained on its website at any time without notice.</p>
+              <h2>{{ $t('TermsPage.content.accuracyOfMaterials.title') }}</h2>
+              <p>{{ $t('TermsPage.content.accuracyOfMaterials.description') }}</p>
 
-              <h2>Links</h2>
-              <p>321gogame.com has not reviewed all of the sites linked to our website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by 321gogame.com of the site. Use of any such linked website is at the user's own risk.</p>
+              <h2>{{ $t('TermsPage.content.links.title') }}</h2>
+              <p>{{ $t('TermsPage.content.links.description') }}</p>
 
-              <h2>Modifications</h2>
-              <p>321gogame.com may revise these terms of service for its website at any time without notice. By using this website, you are agreeing to be bound by the then current version of these terms of service.</p>
+              <h2>{{ $t('TermsPage.content.modifications.title') }}</h2>
+              <p>{{ $t('TermsPage.content.modifications.description') }}</p>
 
-              <h2>Governing Law</h2>
-              <p>These terms and conditions are governed by and construed in accordance with the laws and you irrevocably submit to the exclusive jurisdiction of the courts in that state or location.</p>
+              <h2>{{ $t('TermsPage.content.governingLaw.title') }}</h2>
+              <p>{{ $t('TermsPage.content.governingLaw.description') }}</p>
 
-              <h2>User Conduct</h2>
-              <p>Users agree to use 321gogame.com responsibly and not to:</p>
+              <h2>{{ $t('TermsPage.content.userConduct.title') }}</h2>
+              <p>{{ $t('TermsPage.content.userConduct.description') }}</p>
               <ul>
-                <li>Violate any applicable laws or regulations</li>
-                <li>Transmit any harmful or malicious code</li>
-                <li>Attempt to gain unauthorized access to our systems</li>
-                <li>Interfere with the proper functioning of the website</li>
-                <li>Use the site for any unlawful or prohibited purpose</li>
+                <li>{{ $t('TermsPage.content.userConduct.items.violateLaws') }}</li>
+                <li>{{ $t('TermsPage.content.userConduct.items.transmitHarmfulCode') }}</li>
+                <li>{{ $t('TermsPage.content.userConduct.items.unauthorizedAccess') }}</li>
+                <li>{{ $t('TermsPage.content.userConduct.items.interfereFunctioning') }}</li>
+                <li>{{ $t('TermsPage.content.userConduct.items.unlawfulPurpose') }}</li>
               </ul>
 
-              <h2>Intellectual Property</h2>
-              <p>All content on 321gogame.com, including but not limited to text, graphics, logos, images, and software, is the property of 321gogame.com or its content suppliers and is protected by copyright and other intellectual property laws.</p>
+              <h2>{{ $t('TermsPage.content.intellectualProperty.title') }}</h2>
+              <p>{{ $t('TermsPage.content.intellectualProperty.description') }}</p>
 
-              <h2>Contact Information</h2>
-              <p>If you have any questions about these Terms of Service, please contact us:</p>
+              <h2>{{ $t('TermsPage.content.contactInformation.title') }}</h2>
+              <p>{{ $t('TermsPage.content.contactInformation.description') }}</p>
               <div class="contact-info">
-                <p><strong>Email:</strong> wyong@321gogame.com</p>
-                <p><strong>Website:</strong> 321gogame.com</p>
-                <p><strong>Last Updated:</strong> October 17, 2025</p>
+                <p><strong>{{ $t('TermsPage.content.contactInformation.email') }}</strong> wyong@321gogame.com</p>
+                <p><strong>{{ $t('TermsPage.content.contactInformation.website') }}</strong> 321gogame.com</p>
+                <p><strong>{{ $t('TermsPage.content.contactInformation.lastUpdated') }}</strong> {{ $t('TermsPage.content.contactInformation.lastUpdatedValue') }}</p>
               </div>
             </div>
           </div>

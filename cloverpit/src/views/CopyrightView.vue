@@ -6,10 +6,10 @@
       <section class="section hero">
         <div class="container">
           <div class="hero-wrapper">
-            <h1 class="hero-title">Copyright Notice</h1>
-            <p class="hero-description">Intellectual property and copyright information for 321gogame.com</p>
+            <h1 class="hero-title">{{ $t('CopyrightPage.hero.title') }}</h1>
+            <p class="hero-description">{{ $t('CopyrightPage.hero.description') }}</p>
             <div class="last-updated">
-              <span>Last Updated: October 17, 2025</span>
+              <span>{{ $t('CopyrightPage.hero.lastUpdated') }}</span>
             </div>
           </div>
         </div>
@@ -19,66 +19,66 @@
         <div class="container">
           <div class="content-wrapper">
             <div class="legal-content">
-              <h2>Copyright Ownership</h2>
-              <p>All content on 321gogame.com, including but not limited to text, graphics, logos, images, audio clips, video, digital downloads, data compilations, and software, is the property of 321gogame.com or its content suppliers and is protected by international copyright laws.</p>
+              <h2>{{ $t('CopyrightPage.content.copyrightOwnership.title') }}</h2>
+              <p>{{ $t('CopyrightPage.content.copyrightOwnership.description') }}</p>
 
-              <h2>Website Content</h2>
-              <p>The compilation of all content on this site is the exclusive property of 321gogame.com and is protected by copyright laws. All rights reserved.</p>
+              <h2>{{ $t('CopyrightPage.content.websiteContent.title') }}</h2>
+              <p>{{ $t('CopyrightPage.content.websiteContent.description') }}</p>
 
-              <h2>CloverPit Game Content</h2>
-              <p>321gogame.com is not affiliated with, endorsed by, or connected to the original CloverPit: The Descent game or its publishers. This is an independent fan site created for informational purposes only.</p>
+              <h2>{{ $t('CopyrightPage.content.cloverPitGameContent.title') }}</h2>
+              <p>{{ $t('CopyrightPage.content.cloverPitGameContent.description') }}</p>
               
               <div class="notice-box">
-                <h3>Important Notice</h3>
-                <p>All trademarks, copyrights, and intellectual property related to CloverPit: The Descent belong to their respective owners:</p>
+                <h3>{{ $t('CopyrightPage.content.importantNotice.title') }}</h3>
+                <p>{{ $t('CopyrightPage.content.importantNotice.description') }}</p>
                 <ul>
-                  <li><strong>Developer:</strong> Panik Arcade</li>
-                  <li><strong>Publisher:</strong> Future Friends Games</li>
-                  <li><strong>Game Title:</strong> CloverPit: The Descent</li>
+                  <li><strong>{{ $t('CopyrightPage.content.importantNotice.developer') }}</strong> {{ $t('CopyrightPage.content.importantNotice.developerValue') }}</li>
+                  <li><strong>{{ $t('CopyrightPage.content.importantNotice.publisher') }}</strong> {{ $t('CopyrightPage.content.importantNotice.publisherValue') }}</li>
+                  <li><strong>{{ $t('CopyrightPage.content.importantNotice.gameTitle') }}</strong> {{ $t('CopyrightPage.content.importantNotice.gameTitleValue') }}</li>
                 </ul>
               </div>
 
-              <h2>Fair Use Policy</h2>
-              <p>Our use of game-related content falls under fair use for educational and informational purposes. We provide:</p>
+              <h2>{{ $t('CopyrightPage.content.fairUsePolicy.title') }}</h2>
+              <p>{{ $t('CopyrightPage.content.fairUsePolicy.description') }}</p>
               <ul>
-                <li>Game guides and walkthroughs for educational purposes</li>
-                <li>Analysis and commentary on game mechanics</li>
-                <li>Community discussion and strategy sharing</li>
-                <li>Non-commercial fan content and guides</li>
+                <li>{{ $t('CopyrightPage.content.fairUsePolicy.items.guides') }}</li>
+                <li>{{ $t('CopyrightPage.content.fairUsePolicy.items.analysis') }}</li>
+                <li>{{ $t('CopyrightPage.content.fairUsePolicy.items.community') }}</li>
+                <li>{{ $t('CopyrightPage.content.fairUsePolicy.items.fanContent') }}</li>
               </ul>
 
-              <h2>User-Generated Content</h2>
-              <p>If you submit content to 321gogame.com, you grant us a non-exclusive, royalty-free, perpetual, and worldwide license to use, modify, and distribute such content in connection with our services.</p>
+              <h2>{{ $t('CopyrightPage.content.userGeneratedContent.title') }}</h2>
+              <p>{{ $t('CopyrightPage.content.userGeneratedContent.description') }}</p>
 
-              <h2>DMCA Compliance</h2>
-              <p>321gogame.com respects the intellectual property rights of others. If you believe that your copyrighted work has been used in a way that constitutes copyright infringement, please contact us at wyong@321gogame.com with the following information:</p>
+              <h2>{{ $t('CopyrightPage.content.dmcaCompliance.title') }}</h2>
+              <p>{{ $t('CopyrightPage.content.dmcaCompliance.description1') }} wyong@321gogame.com {{ $t('CopyrightPage.content.dmcaCompliance.description2') }}</p>
               <ul>
-                <li>A description of the copyrighted work that you claim has been infringed</li>
-                <li>The location of the allegedly infringing material on our site</li>
-                <li>Your contact information</li>
-                <li>A statement that you have a good faith belief that the use is not authorized</li>
-                <li>A statement that the information is accurate and that you are authorized to act on behalf of the copyright owner</li>
+                <li>{{ $t('CopyrightPage.content.dmcaCompliance.items.description') }}</li>
+                <li>{{ $t('CopyrightPage.content.dmcaCompliance.items.location') }}</li>
+                <li>{{ $t('CopyrightPage.content.dmcaCompliance.items.contactInfo') }}</li>
+                <li>{{ $t('CopyrightPage.content.dmcaCompliance.items.goodFaith') }}</li>
+                <li>{{ $t('CopyrightPage.content.dmcaCompliance.items.authorization') }}</li>
               </ul>
 
-              <h2>Third-Party Content</h2>
-              <p>Some content on our site may be sourced from third parties. We make every effort to properly attribute such content and respect the rights of content creators.</p>
+              <h2>{{ $t('CopyrightPage.content.thirdPartyContent.title') }}</h2>
+              <p>{{ $t('CopyrightPage.content.thirdPartyContent.description') }}</p>
 
-              <h2>License to Use</h2>
-              <p>You may view, download, and print content from 321gogame.com for your personal, non-commercial use only. You may not:</p>
+              <h2>{{ $t('CopyrightPage.content.licenseToUse.title') }}</h2>
+              <p>{{ $t('CopyrightPage.content.licenseToUse.description') }}</p>
               <ul>
-                <li>Reproduce, distribute, or display content for commercial purposes</li>
-                <li>Modify or create derivative works from our content</li>
-                <li>Remove copyright notices or other proprietary markings</li>
-                <li>Use our content in a way that could harm our reputation</li>
+                <li>{{ $t('CopyrightPage.content.licenseToUse.items.reproduce') }}</li>
+                <li>{{ $t('CopyrightPage.content.licenseToUse.items.modify') }}</li>
+                <li>{{ $t('CopyrightPage.content.licenseToUse.items.remove') }}</li>
+                <li>{{ $t('CopyrightPage.content.licenseToUse.items.harm') }}</li>
               </ul>
 
-              <h2>Contact Information</h2>
-              <p>For copyright-related inquiries, please contact us:</p>
+              <h2>{{ $t('CopyrightPage.content.contactInformation.title') }}</h2>
+              <p>{{ $t('CopyrightPage.content.contactInformation.description') }}</p>
               <div class="contact-info">
-                <p><strong>Email:</strong> wyong@321gogame.com</p>
-                <p><strong>Website:</strong> 321gogame.com</p>
-                <p><strong>Subject Line:</strong> Copyright Inquiry</p>
-                <p><strong>Last Updated:</strong> October 17, 2025</p>
+                <p><strong>{{ $t('CopyrightPage.content.contactInformation.email') }}</strong> wyong@321gogame.com</p>
+                <p><strong>{{ $t('CopyrightPage.content.contactInformation.website') }}</strong> 321gogame.com</p>
+                <p><strong>{{ $t('CopyrightPage.content.contactInformation.subjectLine') }}</strong> {{ $t('CopyrightPage.content.contactInformation.subjectLineValue') }}</p>
+                <p><strong>{{ $t('CopyrightPage.content.contactInformation.lastUpdated') }}</strong> {{ $t('CopyrightPage.content.contactInformation.lastUpdatedValue') }}</p>
               </div>
             </div>
           </div>

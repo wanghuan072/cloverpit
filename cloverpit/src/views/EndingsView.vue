@@ -7,22 +7,22 @@
       <section class="section hero">
         <div class="container">
           <div class="hero-wrapper">
-                <h1 class="hero-title">CloverPit Endings Guide</h1>
+                <h1 class="hero-title">{{ $t('EndingsPage.hero.title') }}</h1>
                 <div class="hero-description">
-                  <p>Master the art of escaping CloverPit with this comprehensive CloverPit Endings guide to all CloverPit ending types, including the true CloverPit ending and sacred trinkets. This CloverPit Endings guide covers every CloverPit ending path and CloverPit ending strategy available in the game.</p>
+                  <p v-html="$t('EndingsPage.hero.description')"></p>
                 </div>
             <div class="endings-nav">
               <div class="nav-card" @click="scrollToSection('preparation')">
-                <span>CloverPit Ending Preparation</span>
+                <span>{{ $t('EndingsPage.hero.nav.preparation') }}</span>
               </div>
               <div class="nav-card" @click="scrollToSection('bad-ending')">
-                <span>CloverPit Bad Ending</span>
+                <span>{{ $t('EndingsPage.hero.nav.badEnding') }}</span>
               </div>
               <div class="nav-card" @click="scrollToSection('good-ending')">
-                <span>CloverPit Good Ending</span>
+                <span>{{ $t('EndingsPage.hero.nav.goodEnding') }}</span>
               </div>
               <div class="nav-card" @click="scrollToSection('tips')">
-                <span>CloverPit Ending Tips</span>
+                <span>{{ $t('EndingsPage.hero.nav.tips') }}</span>
               </div>
             </div>
           </div>
@@ -34,35 +34,35 @@
         <div class="container">
           <div class="preparation-wrapper">
             <div class="section-header">
-              <h2 class="section-title">CloverPit Ending Preparation</h2>
-              <p class="section-subtitle">Essential preparation steps before attempting any CloverPit ending. This CloverPit ending guide covers all necessary preparation for successful CloverPit ending achievement.</p>
+              <h2 class="section-title">{{ $t('EndingsPage.preparation.title') }}</h2>
+              <p class="section-subtitle" v-html="$t('EndingsPage.preparation.subtitle')"></p>
             </div>
 
             <div class="preparation-content">
               <div class="preparation-section">
-                <h3>CloverPit Ending Drawer Slots Collection</h3>
-                <p>Before attempting any CloverPit ending, you must ensure that you have obtained all your drawer slots, as these will be needed to store the corpse pieces for your run. This preparation requires drawer slots earned by reaching certain deadlines during your CloverPit runs. The important detail is that once you have obtained a key for a particular run, you cannot get another one in that same run, which means this preparation will require at least 3 separate CloverPit runs to complete.</p>
+                <h3>{{ $t('EndingsPage.preparation.drawerSlots.title') }}</h3>
+                <p>{{ $t('EndingsPage.preparation.drawerSlots.description1') }}</p>
                 
-                <p>The drawer system is crucial for CloverPit ending preparation. Each drawer slot represents a potential storage location for corpse pieces, and having all slots available gives you the maximum flexibility when planning your run. The slots are earned progressively as you reach higher deadlines, making them a natural reward for advancing through CloverPit's difficulty curve and preparing for your ending attempt.</p>
+                <p>{{ $t('EndingsPage.preparation.drawerSlots.description2') }}</p>
                 
                 <img src="../../public/images/endings-01.webp" alt="CloverPit Ending Drawer Slots Collection" />
               
               </div>
 
               <div class="preparation-section">
-                <h3>CloverPit Ending Corpse Pieces Setup</h3>
-                <p>The key to starting your CloverPit ending run with corpse pieces lies in how you end your previous run. If you want to guarantee that you start with all the corpse pieces (excluding the skull, which is found randomly in the shop), you must ensure that when you end a CloverPit run, all your drawers are filled with items. These items will then transform into corpse pieces in your next run, giving you a significant advantage from the start.</p>
+                <h3>{{ $t('EndingsPage.preparation.corpsePieces.title') }}</h3>
+                <p>{{ $t('EndingsPage.preparation.corpsePieces.description1') }}</p>
                 
-                <p>For example, if your last CloverPit run had two trinkets in the bottom two drawers (as shown in the reference image), you will be able to start your next run with 2 out of 4 corpse pieces already in place. This preparation method is much more reliable than trying to obtain corpse pieces during the actual run, as the criteria for gaining them mid-run is unclear and can add unnecessary complexity to an already challenging endeavor.</p>
+                <p>{{ $t('EndingsPage.preparation.corpsePieces.description2') }}</p>
                 
-                <p>If your drawers are empty and you want to quickly fill them before starting a corpse run, you can use the "Cold Affection" memory card. This card allows you to buy 4 items and then restart, effectively giving you a quick way to populate your drawers without committing to a full run.</p>
+                <p v-html="$t('EndingsPage.preparation.corpsePieces.description3')"></p>
               </div>
 
               <div class="preparation-section">
-                <h3>CloverPit Ending Skull Acquisition</h3>
-                <p>The skull is the easiest component to obtain for your CloverPit ending preparation, as it appears as a common rarity item in the shop. This makes it relatively straightforward to find during your run, and it's even better if you can find one with a modifier attached. The skull's common status means you don't need to worry too much about finding it, unlike the more complex preparation required for the other corpse pieces.</p>
+                <h3>{{ $t('EndingsPage.preparation.skullAcquisition.title') }}</h3>
+                <p>{{ $t('EndingsPage.preparation.skullAcquisition.description1') }}</p>
                 
-                <p>Once you have all your drawer slots unlocked, your corpse pieces prepared, and a clear understanding of where to find the skull, you'll have everything you need to attempt either of the two main CloverPit endings. This preparation phase is essential for success, as starting without these advantages makes the runs significantly more difficult.</p>
+                <p>{{ $t('EndingsPage.preparation.skullAcquisition.description2') }}</p>
               </div>
             </div>
           </div>
@@ -74,25 +74,25 @@
         <div class="container">
           <div class="bad-ending-wrapper">
             <div class="section-header">
-              <h2 class="section-title">Obtaining the CloverPit Bad Ending</h2>
-              <p class="section-subtitle">The straightforward path to escape CloverPit, but not the true CloverPit ending victory. This CloverPit ending guide covers the bad ending path.</p>
+              <h2 class="section-title">{{ $t('EndingsPage.badEnding.title') }}</h2>
+              <p class="section-subtitle" v-html="$t('EndingsPage.badEnding.subtitle')"></p>
             </div>
 
             <div class="ending-content">
               <div class="ending-section">
-                <h3>CloverPit Bad Ending Simple Path</h3>
-                <p>Obtaining the CloverPit bad ending is relatively straightforward compared to the more complex good ending. This process involves playing through CloverPit normally and reaching a specific coin quota. For the standard bad ending, you need to accumulate 250,000 coins. However, if you're using the "Delusions of grandeur" memory card, this requirement doubles to 500,000 coins.</p>
+                <h3>{{ $t('EndingsPage.badEnding.simplePath.title') }}</h3>
+                <p>{{ $t('EndingsPage.badEnding.simplePath.description1') }}</p>
                 
-                <p>Once you reach the required coin quota, CloverPit will unlock the dark key, which serves as your ticket to freedom. With this key in hand, you can proceed to the exit located behind you in your cell and leave the cursed CloverPit slot machine behind forever. This process is intentionally simple, representing the path of least resistance - a quick escape rather than a true understanding or mastery of CloverPit's deeper mechanics required for the true ending.</p>
+                <p>{{ $t('EndingsPage.badEnding.simplePath.description2') }}</p>
               </div>
 
               <div class="ending-section">
-                <h3>CloverPit Bad Ending Rewards and Consequences</h3>
-                <p>Successfully completing the CloverPit bad ending will grant you the game credits, marking the end of your journey through CloverPit. Additionally, the memory card you used during the run will receive a rainbow border effect, though it's worth noting that this effect is not fully holographic and represents a lesser achievement compared to what's possible with other strategies.</p>
+                <h3>{{ $t('EndingsPage.badEnding.rewards.title') }}</h3>
+                <p>{{ $t('EndingsPage.badEnding.rewards.description1') }}</p>
                 
-                <p>While the CloverPit bad ending does provide a sense of completion and allows you to escape the cursed machine, it's important to understand that this is considered the "bad" ending for a reason. It represents taking the easy way out without truly engaging with CloverPit's more complex systems and deeper mysteries. CloverPit clearly communicates that there are much more rewarding conclusions available for players who are willing to put in the additional effort and take on the more challenging path to the true ending.</p>
+                <p v-html="$t('EndingsPage.badEnding.rewards.description2')"></p>
                 
-                <p>The CloverPit bad ending serves as both an achievement and a stepping stone. It proves you can survive and escape CloverPit, but it also hints at the greater rewards and deeper satisfaction that come from pursuing the more challenging good ending path. This guide recommends the bad ending as a starting point before attempting the true ending.</p>
+                <p>{{ $t('EndingsPage.badEnding.rewards.description3') }}</p>
               </div>
             </div>
           </div>
@@ -104,47 +104,47 @@
         <div class="container">
           <div class="good-ending-wrapper">
             <div class="section-header">
-              <h2 class="section-title">Obtaining the CloverPit Good Ending (+ Sacred Trinkets)</h2>
-              <p class="section-subtitle">The true path to CloverPit victory and sacred trinkets. This CloverPit ending guide covers the complete good ending strategy.</p>       
+              <h2 class="section-title">{{ $t('EndingsPage.goodEnding.title') }}</h2>
+              <p class="section-subtitle" v-html="$t('EndingsPage.goodEnding.subtitle')"></p>       
             </div>
 
             <div class="ending-content">
               <div class="ending-section">
-                <h3>CloverPit Good Ending Memory Card Recommendation</h3>
-                <p>For achieving the CloverPit good ending, I strongly recommend using the 'Heartbreak' memory card. This choice is strategic because it guarantees that you will get at least one CloverPit 666 pattern during your run, which is absolutely essential for the transformation process. The CloverPit 666 pattern serves as a crucial trigger that forces your next phone call to be red, and without this pattern, you'll find yourself unable to complete the necessary steps for the good ending.</p>
+                <h3>{{ $t('EndingsPage.goodEnding.memoryCard.title') }}</h3>
+                <p>{{ $t('EndingsPage.goodEnding.memoryCard.description1') }}</p>
                 
-                <p>The Heartbreak memory card's ability to ensure a CloverPit 666 pattern is invaluable because it removes one of the most unpredictable elements from your strategy. Without this guarantee, you would be relying on random chance to roll the CloverPit 666 pattern, which could require multiple attempts and significantly extend your preparation time. By using Heartbreak, you can plan your run with confidence, knowing that you'll have access to the red phone calls needed for the transformation sequence.</p>
+                <p>{{ $t('EndingsPage.goodEnding.memoryCard.description2') }}</p>
               
                 <img src="../../public/images/endings-02.webp" alt="CloverPit Ending Memory Card Recommendation" />
               </div>
 
               <div class="ending-section">
-                <h3>CloverPit Good Ending Phone Call Rules and Restrictions</h3>
-                <p>The most critical rule for achieving the CloverPit good ending is that you must never take any phone calls that contain red text and feature a lower-pitched voice. These calls represent the corrupted or dangerous communications that will prevent the transformation from occurring. You can identify these forbidden calls by their distinctive red text color and the noticeably deeper, more menacing voice tone.</p>
+                <h3>{{ $t('EndingsPage.goodEnding.phoneCalls.title') }}</h3>
+                <p>{{ $t('EndingsPage.goodEnding.phoneCalls.description1') }}</p>
                 
-                <p>However, you are allowed to take calls from other sources or ignore them entirely if you prefer. The key distinction is specifically avoiding the red-text calls with the lower pitch. Additionally, opening the menu during calls is perfectly fine - you can simply hit "Be right back" and not return to the call, which counts as avoiding the forbidden communication.</p>
+                <p>{{ $t('EndingsPage.goodEnding.phoneCalls.description2') }}</p>
                 
-                <p>This restriction is part of CloverPit's deeper narrative about choosing the right path and avoiding the temptations that lead to corruption. By consistently rejecting the red calls, you demonstrate your commitment to the purer path that leads to the true ending. This guide emphasizes the importance of this phone call discipline.</p>
+                <p v-html="$t('EndingsPage.goodEnding.phoneCalls.description3')"></p>
               </div>
 
               <div class="ending-section">
-                <h3>CloverPit Good Ending 666 Floppy Disk System</h3>
-                <p>The CloverPit ending transformation process centers around the CloverPit 666 floppy disk, which acts as a tracking mechanism for your progress toward the CloverPit good ending. Each time you finish a deadline that had a red phone call (which you correctly avoided), you will receive one mark on your CloverPit 666 floppy disk. This CloverPit ending system requires you to accumulate exactly three marks before the CloverPit ending transformation can occur.</p>
+                <h3>{{ $t('EndingsPage.goodEnding.floppyDisk.title') }}</h3>
+                <p>{{ $t('EndingsPage.goodEnding.floppyDisk.description1') }}</p>
                 
-                <p>The CloverPit ending process works as follows: First, you finish a deadline that featured a red phone call (which you avoided), earning your first mark. You then repeat this process two more times, each time avoiding the red calls and completing the deadline. Once you have accumulated three marks on your CloverPit 666 floppy disk, you take one more phone call - this time, the phone will transform and begin offering holy calls instead of the regular communications for your CloverPit ending.</p>
+                <p>{{ $t('EndingsPage.goodEnding.floppyDisk.description2') }}</p>
                 
-                <p>This three-strike system represents a test of patience and discipline in CloverPit ending strategies. It requires you to consistently make the right choices over multiple deadlines, proving your worthiness for the CloverPit ending transformation. The CloverPit 666 floppy disk serves as both a progress tracker and a symbolic representation of your journey toward enlightenment in CloverPit ending achievement.</p>
+                <p>{{ $t('EndingsPage.goodEnding.floppyDisk.description3') }}</p>
               
                 <img src="../../public/images/endings-03.webp" alt="CloverPit Ending 666 Floppy Disk System" />
               </div>
 
               <div class="ending-section">
-                <h3>CloverPit Good Ending Transformation and Its Benefits</h3>
-                <p>Once you have successfully accumulated three marks on your CloverPit 666 floppy disk, your next phone call will be holy in nature. This CloverPit ending transformation affects multiple aspects of the game simultaneously. The phone itself transforms, now offering holy calls instead of regular or red calls. These holy calls provide access to sacred charms, which are powerful items that can significantly enhance your CloverPit ending gameplay experience.</p>
+                <h3>{{ $t('EndingsPage.goodEnding.transformation.title') }}</h3>
+                <p>{{ $t('EndingsPage.goodEnding.transformation.description1') }}</p>
                 
-                <p>More importantly, the CloverPit ending transformation also affects the key that you use to exit the room. When you use this transformed key on the door, it will unlock the true CloverPit ending, providing a much more satisfying and complete conclusion to your journey through CloverPit. This represents the reward for your patience, discipline, and commitment to the proper path in CloverPit ending strategies.</p>
+                <p>{{ $t('EndingsPage.goodEnding.transformation.description2') }}</p>
                 
-                <p>The CloverPit ending transformation sequence is the culmination of all your preparation and careful decision-making. It represents CloverPit's way of rewarding players who choose to engage with its deeper mechanics and pursue the more challenging but ultimately more rewarding path to CloverPit ending victory.</p>
+                <p>{{ $t('EndingsPage.goodEnding.transformation.description3') }}</p>
               </div>
             </div>
           </div>
@@ -156,36 +156,36 @@
       <div class="container">
           <div class="tips-wrapper">
             <div class="section-header">
-              <h2 class="section-title">CloverPit Ending Tips & Tricks</h2>
-              <p class="section-subtitle">Advanced CloverPit ending strategies and important details for CloverPit ending success. This CloverPit ending guide provides expert tips.</p>
+              <h2 class="section-title">{{ $t('EndingsPage.tips.title') }}</h2>
+              <p class="section-subtitle" v-html="$t('EndingsPage.tips.subtitle')"></p>
             </div>
 
             <div class="tips-content">
               <div class="tip-section">
-                <h3>CloverPit Ending Getting Your 3 Strikes</h3>
-                <p>To successfully complete the transformation process, you need to obtain all three strikes on your CloverPit 666 floppy disk. This requires careful planning and understanding of CloverPit's mechanics. The key insight is that you must obtain at least one 'CloverPit 666' pattern during your run, as this pattern forces your next phone call to be red, providing you with the third strike opportunity.</p>
+                <h3>{{ $t('EndingsPage.tips.threeStrikes.title') }}</h3>
+                <p>{{ $t('EndingsPage.tips.threeStrikes.description1') }}</p>
                 
-                <p>Without the CloverPit 666 pattern, you will only be able to get 2 red phone calls by deadline 8, as the other two red calls are guaranteed to appear on deadline 3 and deadline 7. This means you would fall short of the required three strikes, making the transformation impossible. The CloverPit 666 pattern is therefore not just helpful but absolutely essential for achieving the good ending.</p>
+                <p>{{ $t('EndingsPage.tips.threeStrikes.description2') }}</p>
                 
-                <p>This is why the Heartbreak memory card is so valuable - it guarantees that you will roll at least one CloverPit 666 pattern, ensuring that you have access to all three strike opportunities. Without this guarantee, you would be relying on random chance, which could require multiple attempts and significantly extend your preparation time.</p>
+                <p v-html="$t('EndingsPage.tips.threeStrikes.description3')"></p>
               </div>
 
               <div class="tip-section">
-                <h3>CloverPit Ending Timing and Deadline Strategy</h3>
-                <p>Understanding the timing of red phone calls is crucial for planning your strategy. CloverPit has a predictable pattern for when these calls appear, and knowing this schedule allows you to plan your approach accordingly.</p>
+                <h3>{{ $t('EndingsPage.tips.timing.title') }}</h3>
+                <p>{{ $t('EndingsPage.tips.timing.description1') }}</p>
                 
-                <p>Red phone calls are guaranteed to appear on deadline 3 and deadline 7 in CloverPit. These represent your first two opportunities to earn strikes on your CloverPit 666 floppy disk. However, to get the third strike, you need to trigger an additional red call through the CloverPit 666 pattern. This means you need to roll the CloverPit 666 pattern before deadline 8 to ensure you have enough time to complete the transformation process.</p>
+                <p>{{ $t('EndingsPage.tips.timing.description2') }}</p>
                 
-                <p>The timing becomes even more important when you consider that you need to avoid taking the red calls while still completing the deadlines that feature them in CloverPit. This requires careful balance - you need the red calls to appear so you can earn strikes, but you must resist the temptation to answer them. The CloverPit 666 pattern helps by providing a guaranteed third red call opportunity, making the timing more predictable and manageable.</p>
+                <p>{{ $t('EndingsPage.tips.timing.description3') }}</p>
               </div>
 
               <div class="tip-section">
-                <h3>CloverPit Ending Sacred Trinkets and Holy Calls</h3>
-                <p>Once you have successfully completed the transformation process, the phone will begin offering holy calls instead of regular or red calls. These holy calls are exclusive to the good ending path and provide access to sacred charms, which are among the most powerful items in CloverPit.</p>
+                <h3>{{ $t('EndingsPage.tips.sacredTrinkets.title') }}</h3>
+                <p>{{ $t('EndingsPage.tips.sacredTrinkets.description1') }}</p>
                 
-                <p>Sacred charms offer significant gameplay advantages and represent the ultimate reward for successfully navigating the complex transformation process. These items are not available through any other means and serve as a tangible benefit for choosing the more challenging but ultimately more rewarding path to the good ending.</p>
+                <p>{{ $t('EndingsPage.tips.sacredTrinkets.description2') }}</p>
                 
-                <p>The holy calls themselves also represent a thematic shift in CloverPit's narrative. Where regular calls might offer mundane rewards and red calls represent corruption or danger, holy calls provide access to items that align with the purer, more enlightened path you've chosen to pursue. This creates a cohesive experience where your choices throughout CloverPit directly impact the rewards and opportunities available to you.</p>
+                <p>{{ $t('EndingsPage.tips.sacredTrinkets.description3') }}</p>
               </div>
             </div>
           </div>
@@ -719,5 +719,13 @@ const scrollToSection = (sectionId) => {
   .section-subtitle {
     font-size: 0.9rem;
   }
+}
+
+/* 内链样式 */
+.text-link {
+  color: #ff6b35;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px solid #ff6b35;
 }
 </style>

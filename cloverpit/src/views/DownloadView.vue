@@ -7,28 +7,28 @@
       <section class="section hero">
         <div class="container">
           <div class="hero-wrapper">
-            <h1 class="hero-title">Download CloverPit</h1>
-            <p class="hero-description">A rogue-lite slot machine nightmare. Gamble for your life in a never-ending debt simulator! Get ready for the ultimate CloverPit download experience.</p>
+            <h1 class="hero-title">{{ $t('DownloadPage.hero.title') }}</h1>
+            <p class="hero-description" v-html="$t('DownloadPage.hero.description')"></p>
             
             <!-- Quick Navigation -->
             <div class="download-nav">
               <div class="nav-card" @click="scrollToSection('game-info')">
-                <span>Game Info</span>
+                <span>{{ $t('DownloadPage.hero.nav.gameInfo') }}</span>
               </div>
               <div class="nav-card" @click="scrollToSection('features')">
-                <span>Features</span>
+                <span>{{ $t('DownloadPage.hero.nav.features') }}</span>
               </div>
               <div class="nav-card" @click="scrollToSection('game-details')">
-                <span>Game Details</span>
+                <span>{{ $t('DownloadPage.hero.nav.gameDetails') }}</span>
               </div>
               <div class="nav-card" @click="scrollToSection('languages')">
-                <span>Languages</span>
+                <span>{{ $t('DownloadPage.hero.nav.languages') }}</span>
               </div>
               <div class="nav-card" @click="scrollToSection('platform-support')">
-                <span>Platform Support</span>
+                <span>{{ $t('DownloadPage.hero.nav.platformSupport') }}</span>
               </div>
               <div class="nav-card" @click="scrollToSection('system-requirements')">
-                <span>System Requirements</span>
+                <span>{{ $t('DownloadPage.hero.nav.systemRequirements') }}</span>
               </div>
             </div>
           </div>
@@ -41,36 +41,36 @@
           <div class="game-info-wrapper">
             <div class="game-header">
               <div class="game-title">
-                <h2>CloverPit</h2>
-                <p class="game-subtitle">The demonic lovechild of Balatro and Buckshot Roulette</p>
+                <h2>{{ $t('DownloadPage.gameInfo.title') }}</h2>
+                <p class="game-subtitle">{{ $t('DownloadPage.gameInfo.subtitle') }}</p>
               </div>
               
               <div class="game-stats">
                 <div class="stat-item">
-                  <span class="stat-label">Reviews</span>
+                  <span class="stat-label">{{ $t('DownloadPage.gameInfo.stats.reviews') }}</span>
                   <span class="stat-value positive">Very Positive (5,393)</span>
                 </div>
                 <div class="stat-item">
-                  <span class="stat-label">Release Date</span>
+                  <span class="stat-label">{{ $t('DownloadPage.gameInfo.stats.releaseDate') }}</span>
                   <span class="stat-value">27 Sep, 2025</span>
                 </div>
                 <div class="stat-item">
-                  <span class="stat-label">Developer</span>
+                  <span class="stat-label">{{ $t('DownloadPage.gameInfo.stats.developer') }}</span>
                   <span class="stat-value">Panik Arcade</span>
                 </div>
                 <div class="stat-item">
-                  <span class="stat-label">Publisher</span>
+                  <span class="stat-label">{{ $t('DownloadPage.gameInfo.stats.publisher') }}</span>
                   <span class="stat-value">Future Friends Games</span>
                 </div>
               </div>
             </div>
 
             <div class="game-description">
-              <p>CloverPit is the demonic lovechild of Balatro and Buckshot Roulette, a rogue-lite that traps players in a hell of their own creation. Locked in a rusty cell with a slot machine and an ATM, you must pay off your debt at the end of each round, or fall to ruin – literally!</p>
+              <p v-html="$t('DownloadPage.gameInfo.description.paragraph1')"></p>
               
-              <p>Manipulate the slot machine to earn extra coins. Turn the odds in your favor with various prizes and charms that trigger big big combos, snowballing into a dazzling lucky run. Bend the rules, break the game, and pay off your captor long enough to earn a shot at freedom.</p>
+              <p v-html="$t('DownloadPage.gameInfo.description.paragraph2')"></p>
               
-              <p>The game offers endless possibilities for customization and replayability, with a thriving modding community creating new content and experiences.</p>
+              <p v-html="$t('DownloadPage.gameInfo.description.paragraph3')"></p>
               
             </div>
           </div>
@@ -81,37 +81,37 @@
       <section id="features" class="section features">
         <div class="container">
           <div class="features-wrapper">
-            <h2 class="section-title">Features</h2>
+            <h2 class="section-title">{{ $t('DownloadPage.features.title') }}</h2>
             <div class="features-grid">
               <div class="feature-item">
                 <div class="feature-icon">💀</div>
-                <h3>A gripping rogue-lite</h3>
-                <p>Every round could be your last!</p>
+                <h3>{{ $t('DownloadPage.features.items.roguelite.title') }}</h3>
+                <p>{{ $t('DownloadPage.features.items.roguelite.description') }}</p>
               </div>
               <div class="feature-item">
                 <div class="feature-icon">🔄</div>
-                <h3>Meta-progression</h3>
-                <p>Seeded runs, unlockable run modifiers and power-ups! Extensive modding support allows the community to create custom content and experiences.</p>
+                <h3>{{ $t('DownloadPage.features.items.progression.title') }}</h3>
+                <p>{{ $t('DownloadPage.features.items.progression.description') }}</p>
               </div>
               <div class="feature-item">
                 <div class="feature-icon">🏆</div>
-                <h3>Endless Mode</h3>
-                <p>Push your score to new heights!</p>
+                <h3>{{ $t('DownloadPage.features.items.endless.title') }}</h3>
+                <p>{{ $t('DownloadPage.features.items.endless.description') }}</p>
               </div>
               <div class="feature-item">
                 <div class="feature-icon">🔒</div>
-                <h3>Hellish atmosphere</h3>
-                <p>An escape room nightmare!</p>
+                <h3>{{ $t('DownloadPage.features.items.atmosphere.title') }}</h3>
+                <p>{{ $t('DownloadPage.features.items.atmosphere.description') }}</p>
               </div>
               <div class="feature-item">
                 <div class="feature-icon">🎲</div>
-                <h3>150+ items</h3>
-                <p>Items and synergies to boost your luck!</p>
+                <h3>{{ $t('DownloadPage.features.items.items.title') }}</h3>
+                <p>{{ $t('DownloadPage.features.items.items.description') }}</p>
               </div>
               <div class="feature-item">
                 <div class="feature-icon">📖</div>
-                <h3>Sinister tale</h3>
-                <p>A story of addiction and escape!</p>
+                <h3>{{ $t('DownloadPage.features.items.story.title') }}</h3>
+                <p>{{ $t('DownloadPage.features.items.story.description') }}</p>
               </div>
             </div>
           </div>
@@ -125,20 +125,20 @@
           <div class="details-wrapper">
             <div class="details-grid">
               <div class="detail-card">
-                <h3>Genre</h3>
-                <p>Action, Adventure, Indie, Simulation, Sports, Strategy</p>
+                <h3>{{ $t('DownloadPage.gameDetails.genre.title') }}</h3>
+                <p>{{ $t('DownloadPage.gameDetails.genre.value') }}</p>
               </div>
               <div class="detail-card">
-                <h3>Platform</h3>
-                <p>Single-player</p>
+                <h3>{{ $t('DownloadPage.gameDetails.platform.title') }}</h3>
+                <p>{{ $t('DownloadPage.gameDetails.platform.value') }}</p>
               </div>
               <div class="detail-card">
-                <h3>Steam Features</h3>
-                <p>Steam Achievements, Steam Cloud, Family Sharing</p>
+                <h3>{{ $t('DownloadPage.gameDetails.steamFeatures.title') }}</h3>
+                <p>{{ $t('DownloadPage.gameDetails.steamFeatures.value') }}</p>
               </div>
               <div class="detail-card">
-                <h3>Controller Support</h3>
-                <p>Full Controller Support, Xbox Controllers, DualShock Controllers (USB Only)</p>
+                <h3>{{ $t('DownloadPage.gameDetails.controllerSupport.title') }}</h3>
+                <p>{{ $t('DownloadPage.gameDetails.controllerSupport.value') }}</p>
               </div>
             </div>
           </div>
@@ -149,40 +149,40 @@
       <section id="languages" class="section languages">
         <div class="container">
           <div class="languages-wrapper">
-            <h2 class="section-title">Languages</h2>
+            <h2 class="section-title">{{ $t('DownloadPage.languages.title') }}</h2>
             <div class="languages-table">
               <div class="table-header">
-                <div class="header-cell">Language</div>
-                <div class="header-cell">Interface</div>
-                <div class="header-cell">Full Audio</div>
-                <div class="header-cell">Subtitles</div>
+                <div class="header-cell">{{ $t('DownloadPage.languages.table.headers.language') }}</div>
+                <div class="header-cell">{{ $t('DownloadPage.languages.table.headers.interface') }}</div>
+                <div class="header-cell">{{ $t('DownloadPage.languages.table.headers.fullAudio') }}</div>
+                <div class="header-cell">{{ $t('DownloadPage.languages.table.headers.subtitles') }}</div>
               </div>
               <div class="table-row">
-                <div class="table-cell">English</div>
+                <div class="table-cell">{{ $t('DownloadPage.languages.table.rows.english') }}</div>
                 <div class="table-cell">✓</div>
                 <div class="table-cell">✓</div>
                 <div class="table-cell">✓</div>
               </div>
               <div class="table-row">
-                <div class="table-cell">French</div>
+                <div class="table-cell">{{ $t('DownloadPage.languages.table.rows.french') }}</div>
                 <div class="table-cell">✓</div>
                 <div class="table-cell">-</div>
                 <div class="table-cell">✓</div>
               </div>
               <div class="table-row">
-                <div class="table-cell">Italian</div>
+                <div class="table-cell">{{ $t('DownloadPage.languages.table.rows.italian') }}</div>
                 <div class="table-cell">✓</div>
                 <div class="table-cell">-</div>
                 <div class="table-cell">✓</div>
               </div>
               <div class="table-row">
-                <div class="table-cell">German</div>
+                <div class="table-cell">{{ $t('DownloadPage.languages.table.rows.german') }}</div>
                 <div class="table-cell">✓</div>
                 <div class="table-cell">-</div>
                 <div class="table-cell">✓</div>
               </div>
               <div class="table-row">
-                <div class="table-cell">Spanish - Spain</div>
+                <div class="table-cell">{{ $t('DownloadPage.languages.table.rows.spanish') }}</div>
                 <div class="table-cell">✓</div>
                 <div class="table-cell">-</div>
                 <div class="table-cell">✓</div>
@@ -196,53 +196,53 @@
       <section id="platform-support" class="section platform-support">
         <div class="container">
           <div class="platform-wrapper">
-            <h2 class="section-title">Platform Support & Future Releases</h2>
+            <h2 class="section-title">{{ $t('DownloadPage.platformSupport.title') }}</h2>
             <div class="platform-content">
               <div class="platform-section">
-                <h3>Current Availability</h3>
+                <h3>{{ $t('DownloadPage.platformSupport.currentAvailability.title') }}</h3>
                 <div class="platform-item">
                   <div class="platform-info">
-                    <h4>Windows</h4>
-                    <p>Full CloverPit download available now on Steam for Windows 10 and above. Experience the complete horror slot machine nightmare with all features unlocked.</p>
+                    <h4>{{ $t('DownloadPage.platformSupport.currentAvailability.windows.title') }}</h4>
+                    <p v-html="$t('DownloadPage.platformSupport.currentAvailability.windows.description')"></p>
                   </div>
-                  <div class="platform-status available">Available Now</div>
+                  <div class="platform-status available">{{ $t('DownloadPage.platformSupport.currentAvailability.windows.status') }}</div>
                 </div>
               </div>
 
               <div class="platform-section">
-                <h3>Coming Soon</h3>
+                <h3>{{ $t('DownloadPage.platformSupport.comingSoon.title') }}</h3>
                 <div class="platform-item">
                   <div class="platform-info">
-                    <h4>Mac Support</h4>
-                    <p>CloverPit Mac version is currently in development. Mac users will soon be able to experience the same twisted gameplay on their preferred platform.</p>
+                    <h4>{{ $t('DownloadPage.platformSupport.comingSoon.mac.title') }}</h4>
+                    <p>{{ $t('DownloadPage.platformSupport.comingSoon.mac.description') }}</p>
                   </div>
-                  <div class="platform-status upcoming">Coming Soon</div>
+                  <div class="platform-status upcoming">{{ $t('DownloadPage.platformSupport.comingSoon.mac.status') }}</div>
                 </div>
                 
                 <div class="platform-item">
                   <div class="platform-info">
-                    <h4>Mobile Gaming</h4>
-                    <p>CloverPit mobile adaptation is being developed to bring the slot machine horror experience to your smartphone and tablet devices.</p>
+                    <h4>{{ $t('DownloadPage.platformSupport.comingSoon.mobile.title') }}</h4>
+                    <p>{{ $t('DownloadPage.platformSupport.comingSoon.mobile.description') }}</p>
                   </div>
-                  <div class="platform-status upcoming">In Development</div>
+                  <div class="platform-status upcoming">{{ $t('DownloadPage.platformSupport.comingSoon.mobile.status') }}</div>
                 </div>
               </div>
 
               <div class="platform-section">
-                <h3>Community Features</h3>
+                <h3>{{ $t('DownloadPage.platformSupport.communityFeatures.title') }}</h3>
                 <div class="platform-item">
                   <div class="platform-info">
-                    <h4>Modding Support</h4>
-                    <p>Explore the growing CloverPit mods community! Customize your experience with user-created content, new charms, and alternative game modes.</p>
+                    <h4>{{ $t('DownloadPage.platformSupport.communityFeatures.modding.title') }}</h4>
+                    <p v-html="$t('DownloadPage.platformSupport.communityFeatures.modding.description')"></p>
                   </div>
-                  <div class="platform-status community">Active Community</div>
+                  <div class="platform-status community">{{ $t('DownloadPage.platformSupport.communityFeatures.modding.status') }}</div>
                 </div>
               </div>
             </div>
             
             <div class="language-support">
-              <h3>Multi-Language Support</h3>
-              <p>CloverPit descargar is available for Spanish-speaking players, with full interface and subtitle support. The game supports multiple languages to ensure players worldwide can enjoy the horror experience in their native tongue.</p>
+              <h3>{{ $t('DownloadPage.platformSupport.multiLanguage.title') }}</h3>
+              <p v-html="$t('DownloadPage.platformSupport.multiLanguage.description')"></p>
             </div>
           </div>
         </div>
@@ -252,23 +252,23 @@
       <section id="system-requirements" class="section system-requirements">
         <div class="container">
           <div class="requirements-wrapper">
-            <h2 class="section-title">System Requirements</h2>
+            <h2 class="section-title">{{ $t('DownloadPage.systemRequirements.title') }}</h2>
             <div class="requirements-grid">
               <div class="requirement-card">
-                <h3>Minimum Requirements</h3>
+                <h3>{{ $t('DownloadPage.systemRequirements.minimum.title') }}</h3>
                 <ul class="requirement-list">
-                  <li><strong>OS:</strong> Windows 10 or more</li>
-                  <li><strong>Processor:</strong> Intel i3 4th generation or equivalent</li>
-                  <li><strong>Memory:</strong> 1 GB RAM</li>
-                  <li><strong>Graphics:</strong> Most dedicated GPUs should work</li>
-                  <li><strong>Storage:</strong> 512 MB available space</li>
-                  <li><strong>Additional Notes:</strong> Requires a 64-bit processor and operating system</li>
+                  <li><strong>{{ $t('DownloadPage.systemRequirements.minimum.os') }}</strong> Windows 10 or more</li>
+                  <li><strong>{{ $t('DownloadPage.systemRequirements.minimum.processor') }}</strong> Intel i3 4th generation or equivalent</li>
+                  <li><strong>{{ $t('DownloadPage.systemRequirements.minimum.memory') }}</strong> 1 GB RAM</li>
+                  <li><strong>{{ $t('DownloadPage.systemRequirements.minimum.graphics') }}</strong> Most dedicated GPUs should work</li>
+                  <li><strong>{{ $t('DownloadPage.systemRequirements.minimum.storage') }}</strong> 512 MB available space</li>
+                  <li><strong>{{ $t('DownloadPage.systemRequirements.minimum.additionalNotes') }}</strong> Requires a 64-bit processor and operating system</li>
                 </ul>
               </div>
               <div class="requirement-card">
-                <h3>Recommended Requirements</h3>
+                <h3>{{ $t('DownloadPage.systemRequirements.recommended.title') }}</h3>
                 <ul class="requirement-list">
-                  <li><strong>Additional Notes:</strong> Requires a 64-bit processor and operating system</li>
+                  <li><strong>{{ $t('DownloadPage.systemRequirements.minimum.additionalNotes') }}</strong> Requires a 64-bit processor and operating system</li>
                   <li><strong>Cross-Platform:</strong> Save files sync across devices via Steam Cloud</li>
                 </ul>
               </div>
@@ -281,9 +281,9 @@
       <section class="section disclaimer">
         <div class="container">
           <div class="disclaimer-wrapper">
-            <h2 class="section-title">P.S. IS THIS GAMBLING?</h2>
+            <h2 class="section-title">{{ $t('DownloadPage.disclaimer.title') }}</h2>
             <div class="disclaimer-content">
-              <p><strong>Hell no!</strong> CloverPit is a rogue-lite horror game, and not a slot machine simulator. Our slot machine is designed to be broken and ultimately overcome, and will never ask you for real money!</p>
+              <p v-html="$t('DownloadPage.disclaimer.description')"></p>
             </div>
           </div>
         </div>
@@ -293,12 +293,12 @@
       <section class="section download-cta">
       <div class="container">
           <div class="cta-wrapper">
-            <h2 class="cta-title">Ready to Face Your Nightmare?</h2>
-            <p class="cta-description">Download CloverPit now and experience the most twisted slot machine horror game ever created!</p>
+            <h2 class="cta-title">{{ $t('DownloadPage.downloadCta.title') }}</h2>
+            <p class="cta-description" v-html="$t('DownloadPage.downloadCta.description')"></p>
             <div class="cta-actions">
               <a href="https://store.steampowered.com/app/3314790/CloverPit/" target="_blank" class="btn btn-primary btn-large">
                 <span class="btn-icon">🎰</span>
-                Download on Steam
+                {{ $t('DownloadPage.downloadCta.buttonText') }}
               </a>
             </div>
           </div>
@@ -405,38 +405,33 @@ const scrollToSection = (sectionId) => {
 /* Download Navigation */
 .download-nav {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 15px;
-  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .nav-card {
-  background: rgba(255, 107, 53, 0.1);
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 107, 53, 0.3);
   border-radius: 8px;
   padding: 15px 10px;
-  text-align: center;
   cursor: pointer;
   transition: all 0.3s ease;
-  min-height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
 
 .nav-card:hover {
-  background: rgba(255, 107, 53, 0.2);
-  border-color: rgba(255, 107, 53, 0.5);
+  background: rgba(255, 107, 53, 0.1);
+  border-color: #ff6b35;
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.2);
+  box-shadow: 0 5px 15px rgba(255, 107, 53, 0.3);
 }
 
 .nav-card span {
-  color: #ff6b35;
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 0.9rem;
 }
 
 .hero-actions {
@@ -1218,5 +1213,13 @@ const scrollToSection = (sectionId) => {
   .disclaimer-content {
     padding: 10px;
   }
+}
+
+/* 内链样式 */
+.text-link {
+  color: #ff6b35;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px solid #ff6b35;
 }
 </style>

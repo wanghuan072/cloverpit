@@ -6,8 +6,8 @@
       <section class="section hero">
         <div class="container">
           <div class="hero-wrapper">
-            <h1 class="hero-title">Contact Us</h1>
-            <p class="hero-description">Get in touch with the 321gogame.com team for support, feedback, or collaboration</p>
+            <h1 class="hero-title">{{ $t('ContactPage.hero.title') }}</h1>
+            <p class="hero-description">{{ $t('ContactPage.hero.description') }}</p>
           </div>
         </div>
       </section>
@@ -16,113 +16,113 @@
         <div class="container">
           <div class="content-wrapper">
             <div class="contact-content">
-              <h2>Get in Touch</h2>
-              <p>We'd love to hear from you! Whether you have questions about our CloverPit guides, suggestions for improvement, or want to share your own strategies, we're here to help.</p>
+              <h2>{{ $t('ContactPage.content.getInTouch.title') }}</h2>
+              <p>{{ $t('ContactPage.content.getInTouch.description') }}</p>
 
               <div class="contact-methods">
                 <div class="contact-method">
                   <div class="contact-icon">📧</div>
-                  <h3>Email Support</h3>
-                  <p>For general inquiries, feedback, or support requests:</p>
+                  <h3>{{ $t('ContactPage.content.contactMethods.emailSupport.title') }}</h3>
+                  <p>{{ $t('ContactPage.content.contactMethods.emailSupport.description') }}</p>
                   <div class="contact-details">
-                    <p><strong>Email:</strong> wyong@321gogame.com</p>
-                    <p><strong>Response Time:</strong> 24-48 hours</p>
-                    <p><strong>Best For:</strong> General questions, feedback, support</p>
+                    <p><strong>{{ $t('ContactPage.content.contactMethods.emailSupport.email') }}</strong> wyong@321gogame.com</p>
+                    <p><strong>{{ $t('ContactPage.content.contactMethods.emailSupport.responseTime') }}</strong> {{ $t('ContactPage.content.contactMethods.emailSupport.responseTimeValue') }}</p>
+                    <p><strong>{{ $t('ContactPage.content.contactMethods.emailSupport.bestFor') }}</strong> {{ $t('ContactPage.content.contactMethods.emailSupport.bestForValue') }}</p>
                   </div>
                 </div>
 
                 <div class="contact-method">
                   <div class="contact-icon">💬</div>
-                  <h3>Community Feedback</h3>
-                  <p>Share your CloverPit strategies and discoveries:</p>
+                  <h3>{{ $t('ContactPage.content.contactMethods.communityFeedback.title') }}</h3>
+                  <p>{{ $t('ContactPage.content.contactMethods.communityFeedback.description') }}</p>
                   <div class="contact-details">
-                    <p><strong>Email:</strong> wyong@321gogame.com</p>
-                    <p><strong>Subject:</strong> Strategy Submission</p>
-                    <p><strong>Best For:</strong> Sharing tips, reporting bugs, collaboration</p>
+                    <p><strong>{{ $t('ContactPage.content.contactMethods.communityFeedback.email') }}</strong> wyong@321gogame.com</p>
+                    <p><strong>{{ $t('ContactPage.content.contactMethods.communityFeedback.subject') }}</strong> {{ $t('ContactPage.content.contactMethods.communityFeedback.subjectValue') }}</p>
+                    <p><strong>{{ $t('ContactPage.content.contactMethods.communityFeedback.bestFor') }}</strong> {{ $t('ContactPage.content.contactMethods.communityFeedback.bestForValue') }}</p>
                   </div>
                 </div>
 
                 <div class="contact-method">
                   <div class="contact-icon">🤝</div>
-                  <h3>Collaboration</h3>
-                  <p>Interested in working with us or contributing content:</p>
+                  <h3>{{ $t('ContactPage.content.contactMethods.collaboration.title') }}</h3>
+                  <p>{{ $t('ContactPage.content.contactMethods.collaboration.description') }}</p>
                   <div class="contact-details">
-                    <p><strong>Email:</strong> wyong@321gogame.com</p>
-                    <p><strong>Subject:</strong> Collaboration Inquiry</p>
-                    <p><strong>Best For:</strong> Partnerships, content creation, guest posts</p>
+                    <p><strong>{{ $t('ContactPage.content.contactMethods.collaboration.email') }}</strong> wyong@321gogame.com</p>
+                    <p><strong>{{ $t('ContactPage.content.contactMethods.collaboration.subject') }}</strong> {{ $t('ContactPage.content.contactMethods.collaboration.subjectValue') }}</p>
+                    <p><strong>{{ $t('ContactPage.content.contactMethods.collaboration.bestFor') }}</strong> {{ $t('ContactPage.content.contactMethods.collaboration.bestForValue') }}</p>
                   </div>
                 </div>
               </div>
 
-              <h2>What We Can Help With</h2>
+              <h2>{{ $t('ContactPage.content.helpCategories.title') }}</h2>
               <div class="help-categories">
                 <div class="help-category">
-                  <h3>Guide Questions</h3>
+                  <h3>{{ $t('ContactPage.content.helpCategories.guideQuestions.title') }}</h3>
                   <ul>
-                    <li>Clarification on strategies</li>
-                    <li>Charm combination help</li>
-                    <li>Ending walkthrough assistance</li>
-                    <li>Game mechanics explanations</li>
+                    <li>{{ $t('ContactPage.content.helpCategories.guideQuestions.items.clarification') }}</li>
+                    <li>{{ $t('ContactPage.content.helpCategories.guideQuestions.items.charmCombination') }}</li>
+                    <li>{{ $t('ContactPage.content.helpCategories.guideQuestions.items.endingWalkthrough') }}</li>
+                    <li>{{ $t('ContactPage.content.helpCategories.guideQuestions.items.gameMechanics') }}</li>
                   </ul>
                 </div>
 
                 <div class="help-category">
-                  <h3>Technical Support</h3>
+                  <h3>{{ $t('ContactPage.content.helpCategories.technicalSupport.title') }}</h3>
                   <ul>
-                    <li>Website navigation issues</li>
-                    <li>Content accessibility problems</li>
-                    <li>Mobile compatibility concerns</li>
-                    <li>Performance optimization</li>
+                    <li>{{ $t('ContactPage.content.helpCategories.technicalSupport.items.navigation') }}</li>
+                    <li>{{ $t('ContactPage.content.helpCategories.technicalSupport.items.accessibility') }}</li>
+                    <li>{{ $t('ContactPage.content.helpCategories.technicalSupport.items.mobileCompatibility') }}</li>
+                    <li>{{ $t('ContactPage.content.helpCategories.technicalSupport.items.performance') }}</li>
                   </ul>
                 </div>
 
                 <div class="help-category">
-                  <h3>Content Feedback</h3>
+                  <h3>{{ $t('ContactPage.content.helpCategories.contentFeedback.title') }}</h3>
                   <ul>
-                    <li>Guide accuracy improvements</li>
-                    <li>Missing information requests</li>
-                    <li>New strategy suggestions</li>
-                    <li>Community feature ideas</li>
+                    <li>{{ $t('ContactPage.content.helpCategories.contentFeedback.items.accuracy') }}</li>
+                    <li>{{ $t('ContactPage.content.helpCategories.contentFeedback.items.missingInfo') }}</li>
+                    <li>{{ $t('ContactPage.content.helpCategories.contentFeedback.items.newStrategies') }}</li>
+                    <li>{{ $t('ContactPage.content.helpCategories.contentFeedback.items.communityFeatures') }}</li>
                   </ul>
                 </div>
               </div>
 
-              <h2>Response Guidelines</h2>
+              <h2>{{ $t('ContactPage.content.responseGuidelines.title') }}</h2>
               <div class="response-info">
                 <div class="response-item">
-                  <h4>General Inquiries</h4>
-                  <p>We typically respond within 24-48 hours for general questions and feedback.</p>
+                  <h4>{{ $t('ContactPage.content.responseGuidelines.generalInquiries.title') }}</h4>
+                  <p>{{ $t('ContactPage.content.responseGuidelines.generalInquiries.description') }}</p>
                 </div>
                 <div class="response-item">
-                  <h4>Technical Issues</h4>
-                  <p>Technical support requests are prioritized and usually receive faster responses.</p>
+                  <h4>{{ $t('ContactPage.content.responseGuidelines.technicalIssues.title') }}</h4>
+                  <p>{{ $t('ContactPage.content.responseGuidelines.technicalIssues.description') }}</p>
                 </div>
                 <div class="response-item">
-                  <h4>Collaboration</h4>
-                  <p>Partnership and collaboration inquiries may take 3-5 business days for detailed responses.</p>
+                  <h4>{{ $t('ContactPage.content.responseGuidelines.collaboration.title') }}</h4>
+                  <p>{{ $t('ContactPage.content.responseGuidelines.collaboration.description') }}</p>
                 </div>
               </div>
 
-              <h2>Before You Contact Us</h2>
-              <p>To help us provide the best assistance, please consider:</p>
+              <h2>{{ $t('ContactPage.content.beforeContact.title') }}</h2>
+              <p>{{ $t('ContactPage.content.beforeContact.description') }}</p>
               <ul>
-                <li>Check our existing guides for answers to common questions</li>
-                <li>Be specific about your question or issue</li>
-                <li>Include relevant details (game version, platform, etc.)</li>
-                <li>Use a clear, descriptive subject line</li>
-                <li>Be patient - we're a small team but we read every message</li>
+                <li>{{ $t('ContactPage.content.beforeContact.items.checkGuides') }}</li>
+                <li>{{ $t('ContactPage.content.beforeContact.items.beSpecific') }}</li>
+                <li>{{ $t('ContactPage.content.beforeContact.items.includeDetails') }}</li>
+                <li>{{ $t('ContactPage.content.beforeContact.items.useClearSubject') }}</li>
+                <li>{{ $t('ContactPage.content.beforeContact.items.bePatient') }}</li>
               </ul>
 
               <div class="contact-info">
-                <h3>Direct Contact Information</h3>
-                <p><strong>Primary Email:</strong> wyong@321gogame.com</p>
-                <p><strong>Website:</strong> 321gogame.com</p>
-                <p><strong>Last Updated:</strong> October 17, 2025</p>
-                <p><strong>Business Hours:</strong> We check emails daily, Monday through Friday</p>
+                <h3>{{ $t('ContactPage.content.contactInfo.title') }}</h3>
+                <p><strong>{{ $t('ContactPage.content.contactInfo.primaryEmail') }}</strong> wyong@321gogame.com</p>
+                <p><strong>{{ $t('ContactPage.content.contactInfo.website') }}</strong> 321gogame.com</p>
+                <p><strong>{{ $t('ContactPage.content.contactInfo.lastUpdated') }}</strong> {{ $t('ContactPage.content.contactInfo.lastUpdatedValue') }}</p>
+                <p><strong>{{ $t('ContactPage.content.contactInfo.businessHours') }}</strong> {{ $t('ContactPage.content.contactInfo.businessHoursValue') }}</p>
               </div>
 
-              <h2>Thank You</h2>
-              <p>Thank you for your interest in 321gogame.com and our CloverPit guides. Your feedback helps us create better content and improve the gaming experience for the entire community. We look forward to hearing from you!</p>
+              <h2>{{ $t('ContactPage.content.thankYou.title') }}</h2>
+              <p>{{ $t('ContactPage.content.thankYou.description') }}</p>
             </div>
           </div>
         </div>

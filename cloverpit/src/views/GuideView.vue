@@ -8,36 +8,35 @@
         <div class="container">
           <div class="hero-wrapper">
             <!-- Main Title -->
-            <h1 class="hero-title">CloverPit Strategy Guide</h1>
+            <h1 class="hero-title">{{ $t('GuidePage.hero.title') }}</h1>
 
             <!-- Description -->
             <div class="hero-description">
-              <p>Master the rogue-lite slot machine horror with this comprehensive CloverPit guide featuring beginner
-                tips, advanced strategies, and charm synergies. Follow our detailed walkthrough to dominate every aspect of the game.</p>
+              <p v-html="$t('GuidePage.hero.description')"></p>
             </div>
 
             <!-- Navigation Cards -->
             <div class="guide-nav">
               <div class="nav-card" @click="scrollToSection('getting-started')">
-                <span>Getting Started</span>
+                <span>{{ $t('GuidePage.hero.nav.gettingStarted') }}</span>
               </div>
               <div class="nav-card" @click="scrollToSection('beginner-tips')">
-                <span>Beginner Tips</span>
+                <span>{{ $t('GuidePage.hero.nav.beginnerTips') }}</span>
               </div>
               <div class="nav-card" @click="scrollToSection('advanced-strategies')">
-                <span>Advanced Strategies</span>
+                <span>{{ $t('GuidePage.hero.nav.advancedStrategies') }}</span>
               </div>
               <div class="nav-card" @click="scrollToSection('charm-synergies')">
-                <span>Charm Synergies</span>
+                <span>{{ $t('GuidePage.hero.nav.charmSynergies') }}</span>
               </div>
               <div class="nav-card" @click="scrollToSection('common-mistakes')">
-                <span>Common Mistakes</span>
+                <span>{{ $t('GuidePage.hero.nav.commonMistakes') }}</span>
               </div>
               <div class="nav-card" @click="scrollToSection('progression-guide')">
-                <span>Progression Guide</span>
+                <span>{{ $t('GuidePage.hero.nav.progressionGuide') }}</span>
               </div>
               <div class="nav-card" @click="scrollToSection('endless-mode')">
-                <span>Endless Mode</span>
+                <span>{{ $t('GuidePage.hero.nav.endlessMode') }}</span>
               </div>
             </div>
           </div>
@@ -49,10 +48,8 @@
         <div class="container">
           <div class="getting-started-wrapper">
             <div class="section-header">
-              <h2 class="home-title">Getting Started with CloverPit</h2>
-              <p class="section-subtitle">Welcome to CloverPit, the rogue-lite slot machine horror game where you must
-                manipulate a sinister slot machine to survive. This comprehensive CloverPit guide will help new players
-                understand the core mechanics and survive their first runs in CloverPit.</p>
+              <h2 class="home-title">{{ $t('GuidePage.gettingStarted.title') }}</h2>
+              <p class="section-subtitle" v-html="$t('GuidePage.gettingStarted.subtitle')"></p>
             </div>
 
             <div class="survival-steps">
@@ -60,17 +57,15 @@
                 <div class="step-icon">
                   <div class="step-number">1</div>
                 </div>
-                <h3>Master the Basic Gameplay Cycle</h3>
-                <p>At its heart, CloverPit follows a straightforward yet unforgiving pattern: you get 3 attempts to spin
-                  the cursed machine, collect sufficient coins to settle your debt, or face the abyss below. Newcomers
-                  will quickly learn this harsh reality through trial and error.</p>
+                <h3>{{ $t('GuidePage.gettingStarted.steps.step1.title') }}</h3>
+                <p>{{ $t('GuidePage.gettingStarted.steps.step1.description') }}</p>
                 <div class="tips-box">
-                  <h4>💡 Key Points</h4>
+                  <h4>{{ $t('GuidePage.gettingStarted.steps.step1.keyPoints.title') }}</h4>
                   <ul>
-                    <li>Each round grants you precisely 3 spins</li>
-                    <li>Your debt grows larger with each successful payment</li>
-                    <li>Inability to pay results in immediate failure</li>
-                    <li>Concentrate on surviving the initial rounds</li>
+                    <li>{{ $t('GuidePage.gettingStarted.steps.step1.keyPoints.point1') }}</li>
+                    <li>{{ $t('GuidePage.gettingStarted.steps.step1.keyPoints.point2') }}</li>
+                    <li>{{ $t('GuidePage.gettingStarted.steps.step1.keyPoints.point3') }}</li>
+                    <li>{{ $t('GuidePage.gettingStarted.steps.step1.keyPoints.point4') }}</li>
                   </ul>
                 </div>
               </div>
@@ -79,17 +74,15 @@
                 <div class="step-icon">
                   <div class="step-number">2</div>
                 </div>
-                <h3>Study Symbol Economics</h3>
-                <p>Each symbol in CloverPit carries its own monetary value. Learning which symbols offer the best
-                  returns
-                  will guide your charm purchasing decisions and help you determine when to take calculated risks.</p>
+                <h3>{{ $t('GuidePage.gettingStarted.steps.step2.title') }}</h3>
+                <p>{{ $t('GuidePage.gettingStarted.steps.step2.description') }}</p>
                 <div class="tips-box">
-                  <h4>💡 Key Points</h4>
+                  <h4>{{ $t('GuidePage.gettingStarted.steps.step2.keyPoints.title') }}</h4>
                   <ul>
-                    <li>Valuable symbols appear less frequently on the reels</li>
-                    <li>Matching 3 identical symbols yields higher rewards</li>
-                    <li>Golden variations of symbols offer additional bonuses</li>
-                    <li>Familiarize yourself with the payout table early on</li>
+                    <li>{{ $t('GuidePage.gettingStarted.steps.step2.keyPoints.point1') }}</li>
+                    <li>{{ $t('GuidePage.gettingStarted.steps.step2.keyPoints.point2') }}</li>
+                    <li>{{ $t('GuidePage.gettingStarted.steps.step2.keyPoints.point3') }}</li>
+                    <li>{{ $t('GuidePage.gettingStarted.steps.step2.keyPoints.point4') }}</li>
                   </ul>
                 </div>
               </div>
@@ -98,18 +91,15 @@
                 <div class="step-icon">
                   <div class="step-number">3</div>
                 </div>
-                <h3>Budget Your Ticket Resources</h3>
-                <p>Tickets serve as your primary currency for acquiring charms from the various vending machines
-                  scattered
-                  throughout CloverPit. How you manage these tickets in the early game will determine whether you can
-                  create powerful combinations or find yourself struggling with inferior equipment.</p>
+                <h3>{{ $t('GuidePage.gettingStarted.steps.step3.title') }}</h3>
+                <p>{{ $t('GuidePage.gettingStarted.steps.step3.description') }}</p>
                 <div class="tips-box">
-                  <h4>💡 Key Points</h4>
+                  <h4>{{ $t('GuidePage.gettingStarted.steps.step3.keyPoints.title') }}</h4>
                   <ul>
-                    <li>Avoid exhausting all tickets in the first round</li>
-                    <li>Reserve funds for premium vending machines</li>
-                    <li>Inexpensive charms can sometimes provide excellent value</li>
-                    <li>Think several rounds ahead when making purchases</li>
+                    <li>{{ $t('GuidePage.gettingStarted.steps.step3.keyPoints.point1') }}</li>
+                    <li>{{ $t('GuidePage.gettingStarted.steps.step3.keyPoints.point2') }}</li>
+                    <li>{{ $t('GuidePage.gettingStarted.steps.step3.keyPoints.point3') }}</li>
+                    <li>{{ $t('GuidePage.gettingStarted.steps.step3.keyPoints.point4') }}</li>
                   </ul>
                 </div>
               </div>
@@ -118,18 +108,15 @@
                 <div class="step-icon">
                   <div class="step-number">4</div>
                 </div>
-                <h3>Explore Charm Interactions</h3>
-                <p>With more than 150 unique charms available, CloverPit offers countless possibilities for
-                  experimentation. Your initial playthroughs should prioritize understanding how different charms
-                  function
-                  and how they can be combined to enhance the slot machine's behavior.</p>
+                <h3>{{ $t('GuidePage.gettingStarted.steps.step4.title') }}</h3>
+                <p v-html="$t('GuidePage.gettingStarted.steps.step4.description')"></p>
                 <div class="tips-box">
-                  <h4>💡 Key Points</h4>
+                  <h4>{{ $t('GuidePage.gettingStarted.steps.step4.keyPoints.title') }}</h4>
                   <ul>
-                    <li>Pay close attention to charm descriptions</li>
-                    <li>Start with economy-focused charms for consistency</li>
-                    <li>Identify which charms affect specific symbols</li>
-                    <li>Be willing to test unconventional combinations</li>
+                    <li>{{ $t('GuidePage.gettingStarted.steps.step4.keyPoints.point1') }}</li>
+                    <li>{{ $t('GuidePage.gettingStarted.steps.step4.keyPoints.point2') }}</li>
+                    <li>{{ $t('GuidePage.gettingStarted.steps.step4.keyPoints.point3') }}</li>
+                    <li>{{ $t('GuidePage.gettingStarted.steps.step4.keyPoints.point4') }}</li>
                   </ul>
                 </div>
               </div>
@@ -143,120 +130,81 @@
         <div class="container">
           <div class="beginner-tips-wrapper">
             <div class="section-header">
-              <h2 class="home-title">Essential CloverPit Beginner Tips</h2>
-              <p class="section-subtitle">Master these fundamental tips from our CloverPit guide to improve your chances
-                of survival in CloverPit and build a foundation for advanced strategies.</p>
+              <h2 class="home-title">{{ $t('GuidePage.beginnerTips.title') }}</h2>
+              <p class="section-subtitle" v-html="$t('GuidePage.beginnerTips.subtitle')"></p>
             </div>
 
             <div class="tips-grid">
               <div class="tip-card">
                 <div class="tip-number">1</div>
-                <h3>Calculate Your Debt Requirements</h3>
-                <p>Before pulling the lever, always review your current debt obligation. This CloverPit guide recommends
-                  determining the average amount needed per spin to meet your target, then select charms that will help
-                  you achieve this goal reliably. Avoid spinning without a clear payment strategy.</p>
+                <h3>{{ $t('GuidePage.beginnerTips.tips.tip1.title') }}</h3>
+                <p>{{ $t('GuidePage.beginnerTips.tips.tip1.description') }}</p>
               </div>
 
               <div class="tip-card">
                 <div class="tip-number">2</div>
-                <h3>Optimize Your Three-Spin Strategy</h3>
-                <p>Each round in CloverPit provides exactly 3 spins. Resist the temptation to rely on luck for your
-                  initial spins. Instead, use the first two spins to build momentum with your charms, reserving the
-                  final
-                  spin as your decisive attempt when all effects are fully active.</p>
+                <h3>{{ $t('GuidePage.beginnerTips.tips.tip2.title') }}</h3>
+                <p>{{ $t('GuidePage.beginnerTips.tips.tip2.description') }}</p>
               </div>
 
               <div class="tip-card">
                 <div class="tip-number">3</div>
-                <h3>Focus on Economic Stability First</h3>
-                <p>During your initial 2-3 rounds, this CloverPit guide suggests prioritizing charms that directly boost
-                  coin generation or multiply your earnings. While flashy combination charms may seem appealing,
-                  economic
-                  charms provide the foundation you need to survive long enough to utilize more complex strategies
-                  later.
-                </p>
+                <h3>{{ $t('GuidePage.beginnerTips.tips.tip3.title') }}</h3>
+                <p>{{ $t('GuidePage.beginnerTips.tips.tip3.description') }}</p>
               </div>
 
               <div class="tip-card">
                 <div class="tip-number">4</div>
-                <h3>Time Your Charm Activations</h3>
-                <p>Numerous charms in CloverPit feature rechargeable abilities triggered by the red button. Coordinate
-                  these activations between spins to maximize their effectiveness. Rather than waiting for the perfect
-                  moment, use these abilities regularly to maintain consistent performance.</p>
+                <h3>{{ $t('GuidePage.beginnerTips.tips.tip4.title') }}</h3>
+                <p>{{ $t('GuidePage.beginnerTips.tips.tip4.description') }}</p>
               </div>
 
               <div class="tip-card">
                 <div class="tip-number">5</div>
-                <h3>Monitor Symbol Appearance Rates</h3>
-                <p>Observe which symbols appear most commonly on the CloverPit slot machine. This CloverPit guide
-                  advises
-                  selecting charms that enhance symbols that already appear frequently rather than attempting to
-                  manipulate
-                  rare symbols into appearing more often.</p>
+                <h3>{{ $t('GuidePage.beginnerTips.tips.tip5.title') }}</h3>
+                <p>{{ $t('GuidePage.beginnerTips.tips.tip5.description') }}</p>
               </div>
-
 
               <div class="tip-card">
                 <div class="tip-number">6</div>
-                <h3>Leverage Phone Upgrade Opportunities</h3>
-                <p>Between rounds, the ominous toy phone presents permanent upgrade options. This CloverPit guide
-                  emphasizes
-                  that these enhancements accumulate throughout your run and can significantly alter the odds in your
-                  favor.
-                  Always select upgrades that synergize with your current charm configuration.</p>
+                <h3>{{ $t('GuidePage.beginnerTips.tips.tip6.title') }}</h3>
+                <p>{{ $t('GuidePage.beginnerTips.tips.tip6.description') }}</p>
               </div>
 
               <div class="tip-card">
                 <div class="tip-number">7</div>
-                <h3>Embrace Failed Runs as Learning</h3>
-                <p>Every death in CloverPit unlocks meta-progression content. This CloverPit guide reminds you not to
-                  get
-                  frustrated by falling into the pit - each run teaches you charm interactions and brings you closer to
-                  unlocking powerful new items for future attempts.</p>
+                <h3>{{ $t('GuidePage.beginnerTips.tips.tip7.title') }}</h3>
+                <p v-html="$t('GuidePage.beginnerTips.tips.tip7.description')"></p>
               </div>
 
               <div class="tip-card">
                 <div class="tip-number">8</div>
-                <h3>Shop From Different Vending Machines</h3>
-                <p>CloverPit features multiple vending machines with different inventories and price points. This
-                  CloverPit
-                  guide notes that higher-cost machines often contain more powerful charms, but sometimes cheaper
-                  machines
-                  offer better value for building specific strategies.</p>
+                <h3>{{ $t('GuidePage.beginnerTips.tips.tip8.title') }}</h3>
+                <p>{{ $t('GuidePage.beginnerTips.tips.tip8.description') }}</p>
               </div>
 
               <div class="tip-card">
                 <div class="tip-number">9</div>
-                <h3>Accept RNG But Mitigate It</h3>
-                <p>CloverPit has randomness, but skilled players consistently win through smart charm selection and risk
-                  management. This CloverPit guide explains that the goal isn't eliminating randomness - it's building
-                  such
-                  a strong engine that random outcomes don't matter.</p>
+                <h3>{{ $t('GuidePage.beginnerTips.tips.tip9.title') }}</h3>
+                <p>{{ $t('GuidePage.beginnerTips.tips.tip9.description') }}</p>
               </div>
 
               <div class="tip-card">
                 <div class="tip-number">10</div>
-                <h3>Unlock Storage Capacity</h3>
-                <p>The storage unit in CloverPit expands your charm carrying capacity. This CloverPit guide recommends
-                  prioritizing unlocking additional storage slots through progression - more charms means more powerful
-                  synergy combinations in later rounds.</p>
+                <h3>{{ $t('GuidePage.beginnerTips.tips.tip10.title') }}</h3>
+                <p>{{ $t('GuidePage.beginnerTips.tips.tip10.description') }}</p>
               </div>
 
               <div class="tip-card">
                 <div class="tip-number">11</div>
-                <h3>Recognize When to Pivot Your Build</h3>
-                <p>Sometimes the charms offered by vending machines in CloverPit don't match your planned strategy. This
-                  CloverPit guide teaches that skilled players adapt to available options rather than forcing a specific
-                  build. Flexibility often beats stubbornness.</p>
+                <h3>{{ $t('GuidePage.beginnerTips.tips.tip11.title') }}</h3>
+                <p>{{ $t('GuidePage.beginnerTips.tips.tip11.description') }}</p>
               </div>
 
               <div class="tip-card">
                 <div class="tip-number">12</div>
-                <h3>Study Successful Runs</h3>
-                <p>When you complete a successful run in CloverPit, take note of which charm combinations worked well.
-                  This
-                  CloverPit guide mentions that the CloverPit community also shares powerful seeds - try these to learn
-                  winning strategies from experienced players.</p>
+                <h3>{{ $t('GuidePage.beginnerTips.tips.tip12.title') }}</h3>
+                <p v-html="$t('GuidePage.beginnerTips.tips.tip12.description')"></p>
               </div>
             </div>
           </div>
@@ -268,81 +216,67 @@
         <div class="container">
           <div class="advanced-strategies-wrapper">
             <div class="section-header">
-              <h2 class="home-title">Advanced CloverPit Strategies</h2>
-              <p class="section-subtitle">Once you've mastered the basics of CloverPit, these advanced strategies from
-                our
-                CloverPit guide will help you push deeper into runs and achieve higher scores.</p>
+              <h2 class="home-title">{{ $t('GuidePage.advancedStrategies.title') }}</h2>
+              <p class="section-subtitle" v-html="$t('GuidePage.advancedStrategies.subtitle')"></p>
             </div>
 
             <div class="strategies-grid">
               <div class="strategy-card">
                 <div class="strategy-icon">🎯</div>
-                <h3>Advanced Symbol Control</h3>
-                <p>Expert CloverPit gameplay requires actively controlling which symbols appear on the reels. This
-                  CloverPit
-                  guide shows that rather than accepting random outcomes, utilize charms that enhance specific symbol
-                  frequencies, generate golden variations, or eliminate undesirable symbols.</p>
+                <h3>{{ $t('GuidePage.advancedStrategies.strategies.symbolControl.title') }}</h3>
+                <p>{{ $t('GuidePage.advancedStrategies.strategies.symbolControl.description') }}</p>
                 <div class="strategy-example">
-                  <h4>Implementation Approach:</h4>
+                  <h4>{{ $t('GuidePage.advancedStrategies.strategies.symbolControl.implementation.title') }}</h4>
                   <ul>
-                    <li>Locate high-value symbols that appear with moderate frequency</li>
-                    <li>Accumulate charms that specifically enhance these symbols</li>
-                    <li>Employ removal charms to clear low-value symbol interference</li>
-                    <li>Generate golden variants to secure bonus rewards</li>
+                    <li>{{ $t('GuidePage.advancedStrategies.strategies.symbolControl.implementation.point1') }}</li>
+                    <li>{{ $t('GuidePage.advancedStrategies.strategies.symbolControl.implementation.point2') }}</li>
+                    <li>{{ $t('GuidePage.advancedStrategies.strategies.symbolControl.implementation.point3') }}</li>
+                    <li>{{ $t('GuidePage.advancedStrategies.strategies.symbolControl.implementation.point4') }}</li>
                   </ul>
                 </div>
               </div>
 
               <div class="strategy-card">
                 <div class="strategy-icon">💰</div>
-                <h3>Exponential Economic Growth</h3>
-                <p>The most dependable CloverPit approach centers on creating exponential economic expansion. This
-                  CloverPit
-                  guide demonstrates how to construct a system that produces surplus coins early, reinvest those profits
-                  into more potent charms, and establish a compounding effect that renders later rounds effortless.</p>
+                <h3>{{ $t('GuidePage.advancedStrategies.strategies.economicGrowth.title') }}</h3>
+                <p>{{ $t('GuidePage.advancedStrategies.strategies.economicGrowth.description') }}</p>
                 <div class="strategy-example">
-                  <h4>Core Principles:</h4>
+                  <h4>{{ $t('GuidePage.advancedStrategies.strategies.economicGrowth.principles.title') }}</h4>
                   <ul>
-                    <li>Exceed debt requirements early to access superior charms</li>
-                    <li>Allocate tickets to economic multipliers before decorative effects</li>
-                    <li>Phone upgrades that enhance ticket income accumulate over time</li>
-                    <li>By rounds 5-6, you should possess dominant economic superiority</li>
+                    <li>{{ $t('GuidePage.advancedStrategies.strategies.economicGrowth.principles.point1') }}</li>
+                    <li>{{ $t('GuidePage.advancedStrategies.strategies.economicGrowth.principles.point2') }}</li>
+                    <li>{{ $t('GuidePage.advancedStrategies.strategies.economicGrowth.principles.point3') }}</li>
+                    <li>{{ $t('GuidePage.advancedStrategies.strategies.economicGrowth.principles.point4') }}</li>
                   </ul>
                 </div>
               </div>
 
               <div class="strategy-card">
                 <div class="strategy-icon">⚡</div>
-                <h3>Creating Reaction Chains</h3>
-                <p>Some of the most formidable CloverPit configurations center on charm combinations that initiate
-                  cascading
-                  effects. This CloverPit guide reveals that when charm A activates charm B, which then triggers charm
-                  C,
-                  you create explosive turns that produce enormous payouts from apparently simple spins.</p>
+                <h3>{{ $t('GuidePage.advancedStrategies.strategies.reactionChains.title') }}</h3>
+                <p>{{ $t('GuidePage.advancedStrategies.strategies.reactionChains.description') }}</p>
                 <div class="strategy-example">
-                  <h4>Chain Construction Guidelines:</h4>
+                  <h4>{{ $t('GuidePage.advancedStrategies.strategies.reactionChains.guidelines.title') }}</h4>
                   <ul>
-                    <li>Seek "when X occurs" trigger conditions on charms</li>
-                    <li>Combine charms that establish the conditions other charms require</li>
-                    <li>Accumulate multiple charms that activate from the same event</li>
-                    <li>Experiment with combinations in safer early rounds before depending on them</li>
+                    <li>{{ $t('GuidePage.advancedStrategies.strategies.reactionChains.guidelines.point1') }}</li>
+                    <li>{{ $t('GuidePage.advancedStrategies.strategies.reactionChains.guidelines.point2') }}</li>
+                    <li>{{ $t('GuidePage.advancedStrategies.strategies.reactionChains.guidelines.point3') }}</li>
+                    <li>{{ $t('GuidePage.advancedStrategies.strategies.reactionChains.guidelines.point4') }}</li>
                   </ul>
                 </div>
               </div>
 
               <div class="strategy-card">
                 <div class="strategy-icon">⚖️</div>
-                <h3>Advanced Risk Management</h3>
-                <p>Expert CloverPit players know when to take calculated risks versus when to play conservatively. This
-                  CloverPit guide covers how this involves reading the game state and making smart decisions about charm
-                  purchases, spin timing, and when to commit resources.</p>
+                <h3>{{ $t('GuidePage.advancedStrategies.strategies.riskManagement.title') }}</h3>
+                <p>{{ $t('GuidePage.advancedStrategies.strategies.riskManagement.description') }}</p>
                 <div class="strategy-example">
-                  <h4>Risk Assessment:</h4>
+                  <h4>{{ $t('GuidePage.advancedStrategies.strategies.riskManagement.assessment.title') }}</h4>
                   <ul>
-                    <li>Early rounds: Be conservative, focus on guaranteed value</li>
-                    <li>Mid rounds: Take calculated risks to accelerate your build</li>
-                    <li>Late rounds: Either you're winning handily or need risky plays to survive</li>
-                    <li>Know your "safety margin" - how much you can afford to lose and recover</li>
+                    <li>{{ $t('GuidePage.advancedStrategies.strategies.riskManagement.assessment.point1') }}</li>
+                    <li>{{ $t('GuidePage.advancedStrategies.strategies.riskManagement.assessment.point2') }}</li>
+                    <li>{{ $t('GuidePage.advancedStrategies.strategies.riskManagement.assessment.point3') }}</li>
+                    <li>{{ $t('GuidePage.advancedStrategies.strategies.riskManagement.assessment.point4') }}</li>
                   </ul>
                 </div>
               </div>
@@ -356,106 +290,92 @@
         <div class="container">
           <div class="charm-synergies-wrapper">
             <div class="section-header">
-              <h2 class="home-title">Powerful CloverPit Charm Synergies</h2>
-              <p class="section-subtitle">These charm combinations featured in our CloverPit guide create especially
-                powerful synergies. While specific charm names vary, these archetypes represent effective strategies for
-                breaking the slot machine.</p>
+              <h2 class="home-title">{{ $t('GuidePage.charmSynergies.title') }}</h2>
+              <p class="section-subtitle" v-html="$t('GuidePage.charmSynergies.subtitle')"></p>
             </div>
 
             <div class="synergies-grid">
               <div class="synergy-card golden-engine">
                 <div class="synergy-header">
                   <div class="synergy-icon">✨</div>
-                  <h3>Golden Symbol Amplification</h3>
+                  <h3>{{ $t('GuidePage.charmSynergies.synergies.goldenEngine.title') }}</h3>
                 </div>
-                <p>Merge charms that generate golden symbols with charms that amplify golden symbol rewards. Since
-                  golden
-                  symbols already provide enhanced payouts in CloverPit, multiplying their value creates exponential
-                  returns.</p>
+                <p>{{ $t('GuidePage.charmSynergies.synergies.goldenEngine.description') }}</p>
                 <div class="synergy-combo">
-                  <h4>Combination:</h4>
-                  <p>Golden Symbol Generator + Golden Reward Amplifier + Symbol Frequency Enhancer</p>
-                  <h4>Outcome:</h4>
-                  <p>Consistently high-value spins with reduced variance</p>
+                  <h4>{{ $t('GuidePage.charmSynergies.synergies.goldenEngine.combinationTitle') }}</h4>
+                  <p>{{ $t('GuidePage.charmSynergies.synergies.goldenEngine.combination') }}</p>
+                  <h4>{{ $t('GuidePage.charmSynergies.synergies.goldenEngine.outcomeTitle') }}</h4>
+                  <p>{{ $t('GuidePage.charmSynergies.synergies.goldenEngine.outcome') }}</p>
                 </div>
               </div>
 
               <div class="synergy-card ticket-loop">
                 <div class="synergy-header">
                   <div class="synergy-icon">🔄</div>
-                  <h3>Ticket Generation Cycle</h3>
+                  <h3>{{ $t('GuidePage.charmSynergies.synergies.ticketLoop.title') }}</h3>
                 </div>
-                <p>Accumulate ticket-producing charms alongside ticket amplifiers in CloverPit. Increased tickets lead
-                  to
-                  more charms, which generate additional tickets, establishing a self-perpetuating cycle of escalating
-                  power.</p>
+                <p>{{ $t('GuidePage.charmSynergies.synergies.ticketLoop.description') }}</p>
                 <div class="synergy-combo">
-                  <h4>Combination:</h4>
-                  <p>Ticket Reward Enhancer + Ticket Amplifier Charms + Economic Charms</p>
-                  <h4>Outcome:</h4>
-                  <p>Rapidly expanding charm collection and unstoppable mid-game progression</p>
+                  <h4>{{ $t('GuidePage.charmSynergies.synergies.ticketLoop.combinationTitle') }}</h4>
+                  <p>{{ $t('GuidePage.charmSynergies.synergies.ticketLoop.combination') }}</p>
+                  <h4>{{ $t('GuidePage.charmSynergies.synergies.ticketLoop.outcomeTitle') }}</h4>
+                  <p>{{ $t('GuidePage.charmSynergies.synergies.ticketLoop.outcome') }}</p>
                 </div>
               </div>
 
               <div class="synergy-card cascade-chain">
                 <div class="synergy-header">
                   <div class="synergy-icon">🌊</div>
-                  <h3>Cascade Trigger Chain</h3>
+                  <h3>{{ $t('GuidePage.charmSynergies.synergies.cascadeChain.title') }}</h3>
                 </div>
-                <p>The ultimate CloverPit combo: chain charms where each successful spin triggers additional effects,
-                  which
-                  trigger more effects, creating an avalanche of value from a single lever pull.</p>
+                <p>{{ $t('GuidePage.charmSynergies.synergies.cascadeChain.description') }}</p>
                 <div class="synergy-combo">
-                  <h4>Combo:</h4>
-                  <p>On-Win Trigger Charms + Multi-Effect Charms + Combo Multipliers</p>
-                  <h4>Result:</h4>
-                  <p>Single spins that generate more value than entire early rounds</p>
+                  <h4>{{ $t('GuidePage.charmSynergies.synergies.cascadeChain.combinationTitle') }}</h4>
+                  <p>{{ $t('GuidePage.charmSynergies.synergies.cascadeChain.combination') }}</p>
+                  <h4>{{ $t('GuidePage.charmSynergies.synergies.cascadeChain.outcomeTitle') }}</h4>
+                  <p>{{ $t('GuidePage.charmSynergies.synergies.cascadeChain.outcome') }}</p>
                 </div>
               </div>
 
               <div class="synergy-card safety-net">
                 <div class="synergy-header">
                   <div class="synergy-icon">🛡️</div>
-                  <h3>Safety Net Strategy</h3>
+                  <h3>{{ $t('GuidePage.charmSynergies.synergies.safetyNet.title') }}</h3>
                 </div>
-                <p>Build resilience in CloverPit with charms that provide minimum guarantees or safety mechanics.
-                  Perfect
-                  for players learning the game or attempting challenging seeds.</p>
+                <p>{{ $t('GuidePage.charmSynergies.synergies.safetyNet.description') }}</p>
                 <div class="synergy-combo">
-                  <h4>Combo:</h4>
-                  <p>Minimum Payout Guarantees + Debt Reduction Charms + Consistent Value Charms</p>
-                  <h4>Result:</h4>
-                  <p>Lower ceiling but much higher floor - consistent survival</p>
+                  <h4>{{ $t('GuidePage.charmSynergies.synergies.safetyNet.combinationTitle') }}</h4>
+                  <p>{{ $t('GuidePage.charmSynergies.synergies.safetyNet.combination') }}</p>
+                  <h4>{{ $t('GuidePage.charmSynergies.synergies.safetyNet.outcomeTitle') }}</h4>
+                  <p>{{ $t('GuidePage.charmSynergies.synergies.safetyNet.outcome') }}</p>
                 </div>
               </div>
 
               <div class="synergy-card symbol-recycling">
                 <div class="synergy-header">
                   <div class="synergy-icon">♻️</div>
-                  <h3>Symbol Recycling Combo</h3>
+                  <h3>{{ $t('GuidePage.charmSynergies.synergies.symbolRecycling.title') }}</h3>
                 </div>
-                <p>Use charms that destroy low-value symbols and replace them with high-value ones in CloverPit. This
-                  "cleanses" the slot machine reels, improving every future spin's odds.</p>
+                <p>{{ $t('GuidePage.charmSynergies.synergies.symbolRecycling.description') }}</p>
                 <div class="synergy-combo">
-                  <h4>Combo:</h4>
-                  <p>Low Symbol Destroyer + High Symbol Creator + Symbol Persistence Charms</p>
-                  <h4>Result:</h4>
-                  <p>Increasingly favorable reel composition as the round progresses</p>
+                  <h4>{{ $t('GuidePage.charmSynergies.synergies.symbolRecycling.combinationTitle') }}</h4>
+                  <p>{{ $t('GuidePage.charmSynergies.synergies.symbolRecycling.combination') }}</p>
+                  <h4>{{ $t('GuidePage.charmSynergies.synergies.symbolRecycling.outcomeTitle') }}</h4>
+                  <p>{{ $t('GuidePage.charmSynergies.synergies.symbolRecycling.outcome') }}</p>
                 </div>
               </div>
 
               <div class="synergy-card high-roller">
                 <div class="synergy-header">
                   <div class="synergy-icon">🎰</div>
-                  <h3>All-Or-Nothing High Roller</h3>
+                  <h3>{{ $t('GuidePage.charmSynergies.synergies.highRoller.title') }}</h3>
                 </div>
-                <p>For experienced CloverPit players: maximize variance with charms that amplify single symbol types to
-                  absurd degrees. Risky but can generate massive payouts when successful.</p>
+                <p>{{ $t('GuidePage.charmSynergies.synergies.highRoller.description') }}</p>
                 <div class="synergy-combo">
-                  <h4>Combo:</h4>
-                  <p>Single Symbol Focus + Maximum Multipliers + Symbol Guarantee Charms</p>
-                  <h4>Result:</h4>
-                  <p>Extreme payouts but high failure risk - not for beginners</p>
+                  <h4>{{ $t('GuidePage.charmSynergies.synergies.highRoller.combinationTitle') }}</h4>
+                  <p>{{ $t('GuidePage.charmSynergies.synergies.highRoller.combination') }}</p>
+                  <h4>{{ $t('GuidePage.charmSynergies.synergies.highRoller.outcomeTitle') }}</h4>
+                  <p>{{ $t('GuidePage.charmSynergies.synergies.highRoller.outcome') }}</p>
                 </div>
               </div>
             </div>
@@ -468,95 +388,80 @@
         <div class="container">
           <div class="common-mistakes-wrapper">
             <div class="section-header">
-              <h2 class="home-title">Common CloverPit Mistakes to Avoid</h2>
-              <p class="section-subtitle">Learn from these common errors that new CloverPit players make, as documented
-                in
-                our CloverPit guide. Avoiding these CloverPit mistakes will dramatically improve your survival rate.</p>
+              <h2 class="home-title">{{ $t('GuidePage.commonMistakes.title') }}</h2>
+              <p class="section-subtitle" v-html="$t('GuidePage.commonMistakes.subtitle')"></p>
             </div>
 
             <div class="mistakes-grid">
               <div class="mistake-card">
                 <div class="mistake-header">
                   <div class="mistake-icon">❌</div>
-                  <h3>Immediate Ticket Expenditure</h3>
+                  <h3>{{ $t('GuidePage.commonMistakes.mistakes.ticketExpenditure.title') }}</h3>
                 </div>
-                <p>Novice CloverPit players frequently exhaust every ticket as soon as they acquire them. This approach
-                  leaves no financial buffer for superior charms in later vending machines or emergency acquisitions
-                  when
-                  builds require modification.</p>
+                <p>{{ $t('GuidePage.commonMistakes.mistakes.ticketExpenditure.description') }}</p>
                 <div class="mistake-fix">
                   <h4>Solution:</h4>
-                  <p>Maintain a ticket reserve equivalent to 2-3 rounds of earnings for operational flexibility.</p>
+                  <p>{{ $t('GuidePage.commonMistakes.mistakes.ticketExpenditure.solution') }}</p>
                 </div>
               </div>
 
               <div class="mistake-card">
                 <div class="mistake-header">
                   <div class="mistake-icon">❌</div>
-                  <h3>Overlooking Charm Interactions</h3>
+                  <h3>{{ $t('GuidePage.commonMistakes.mistakes.charmInteractions.title') }}</h3>
                 </div>
-                <p>Acquiring random charms that appear appealing without considering their collaborative potential is a
-                  direct route to failure in CloverPit. Five disconnected charms are significantly weaker than 3 that
-                  work
-                  in harmony.</p>
+                <p>{{ $t('GuidePage.commonMistakes.mistakes.charmInteractions.description') }}</p>
                 <div class="mistake-fix">
-                  <h4>Solution:</h4>
-                  <p>Select a strategic theme and acquire charms that reinforce that approach.</p>
+                  <h4>{{ $t('GuidePage.commonMistakes.mistakes.charmInteractions.solutionTitle') }}</h4>
+                  <p>{{ $t('GuidePage.commonMistakes.mistakes.charmInteractions.solution') }}</p>
                 </div>
               </div>
 
               <div class="mistake-card">
                 <div class="mistake-header">
                   <div class="mistake-icon">❌</div>
-                  <h3>Saving Rechargeable Charms</h3>
+                  <h3>{{ $t('GuidePage.commonMistakes.mistakes.savingCharms.title') }}</h3>
                 </div>
-                <p>Many CloverPit players hoard rechargeable charm uses "for the perfect moment." But these charms
-                  recharge
-                  between spins - use them liberally to maximize total value across the round.</p>
+                <p>{{ $t('GuidePage.commonMistakes.mistakes.savingCharms.description') }}</p>
                 <div class="mistake-fix">
                   <h4>Fix:</h4>
-                  <p>Use rechargeable abilities on cooldown unless you have a specific reason to wait.</p>
+                  <p>{{ $t('GuidePage.commonMistakes.mistakes.savingCharms.solution') }}</p>
                 </div>
               </div>
 
               <div class="mistake-card">
                 <div class="mistake-header">
                   <div class="mistake-icon">❌</div>
-                  <h3>Neglecting Phone Upgrades</h3>
+                  <h3>{{ $t('GuidePage.commonMistakes.mistakes.phoneUpgrades.title') }}</h3>
                 </div>
-                <p>The phone offers permanent upgrades between rounds in CloverPit, but players often choose randomly
-                  without considering their build. Poor upgrade choices compound into significant disadvantages.</p>
+                <p>{{ $t('GuidePage.commonMistakes.mistakes.phoneUpgrades.description') }}</p>
                 <div class="mistake-fix">
                   <h4>Fix:</h4>
-                  <p>Always choose phone upgrades that synergize with your current charm strategy.</p>
+                  <p>{{ $t('GuidePage.commonMistakes.mistakes.phoneUpgrades.solution') }}</p>
                 </div>
               </div>
 
               <div class="mistake-card">
                 <div class="mistake-header">
                   <div class="mistake-icon">❌</div>
-                  <h3>Chasing Rare Symbols</h3>
+                  <h3>{{ $t('GuidePage.commonMistakes.mistakes.rareSymbols.title') }}</h3>
                 </div>
-                <p>Rare symbols in CloverPit pay more but appear infrequently. Building entirely around rare symbols
-                  means
-                  many spins generate nothing. Common symbols with multipliers are often more reliable.</p>
+                <p>{{ $t('GuidePage.commonMistakes.mistakes.rareSymbols.description') }}</p>
                 <div class="mistake-fix">
                   <h4>Fix:</h4>
-                  <p>Focus on moderately common symbols and multiply their value.</p>
+                  <p>{{ $t('GuidePage.commonMistakes.mistakes.rareSymbols.solution') }}</p>
                 </div>
               </div>
 
               <div class="mistake-card">
                 <div class="mistake-header">
                   <div class="mistake-icon">❌</div>
-                  <h3>Giving Up After Bad RNG</h3>
+                  <h3>{{ $t('GuidePage.commonMistakes.mistakes.badRNG.title') }}</h3>
                 </div>
-                <p>Sometimes the CloverPit slot machine delivers terrible spins. Frustrated players make desperate
-                  decisions
-                  or give up mentally. But with proper charm building, you can recover from bad luck.</p>
+                <p>{{ $t('GuidePage.commonMistakes.mistakes.badRNG.description') }}</p>
                 <div class="mistake-fix">
                   <h4>Fix:</h4>
-                  <p>Stay calm, trust your build, and remember variance averages out over 3 spins.</p>
+                  <p>{{ $t('GuidePage.commonMistakes.mistakes.badRNG.solution') }}</p>
                 </div>
               </div>
             </div>
@@ -569,96 +474,88 @@
         <div class="container">
           <div class="progression-guide-wrapper">
             <div class="section-header">
-              <h2 class="home-title">CloverPit Progression Guide</h2>
-              <p class="section-subtitle">Understanding meta-progression in CloverPit, as outlined in this CloverPit
-                guide,
-                helps you make the most of each run and unlock powerful new content efficiently.</p>
+              <h2 class="home-title">{{ $t('GuidePage.progressionGuide.title') }}</h2>
+              <p class="section-subtitle" v-html="$t('GuidePage.progressionGuide.subtitle')"></p>
             </div>
 
             <div class="progression-content">
               <div class="progression-section">
-                <h3>Mastering Meta-Progression</h3>
-                <p>Each run in CloverPit, regardless of success or failure, advances your permanent progression. This
-                  CloverPit guide explains how accomplishing challenges, achieving milestones, and uncovering charm
-                  combinations reveals new content for subsequent runs.</p>
+                <h3>{{ $t('GuidePage.progressionGuide.sections.metaProgression.title') }}</h3>
+                <p>{{ $t('GuidePage.progressionGuide.sections.metaProgression.description') }}</p>
 
                 <div class="progression-grid">
                   <div class="progression-card">
-                    <h4>Unlockable Content</h4>
+                    <h4>{{ $t('GuidePage.progressionGuide.sections.metaProgression.unlockableContent.title') }}</h4>
                     <ul>
-                      <li>Additional charms integrated into vending machine inventories</li>
-                      <li>Run modifiers to increase variety</li>
-                      <li>Expanded storage capacity</li>
-                      <li>Enhanced phone upgrade selections</li>
+                      <li>{{ $t('GuidePage.progressionGuide.sections.metaProgression.unlockableContent.item1') }}</li>
+                      <li>{{ $t('GuidePage.progressionGuide.sections.metaProgression.unlockableContent.item2') }}</li>
+                      <li>{{ $t('GuidePage.progressionGuide.sections.metaProgression.unlockableContent.item3') }}</li>
+                      <li>{{ $t('GuidePage.progressionGuide.sections.metaProgression.unlockableContent.item4') }}</li>
                     </ul>
                   </div>
 
                   <div class="progression-card">
-                    <h4>Unlock Methods</h4>
+                    <h4>{{ $t('GuidePage.progressionGuide.sections.metaProgression.unlockMethods.title') }}</h4>
                     <ul>
-                      <li>Endure a specific number of rounds</li>
-                      <li>Accumulate designated total coin amounts</li>
-                      <li>Gather particular charm combinations</li>
-                      <li>Achieve hidden challenges</li>
+                      <li>{{ $t('GuidePage.progressionGuide.sections.metaProgression.unlockMethods.item1') }}</li>
+                      <li>{{ $t('GuidePage.progressionGuide.sections.metaProgression.unlockMethods.item2') }}</li>
+                      <li>{{ $t('GuidePage.progressionGuide.sections.metaProgression.unlockMethods.item3') }}</li>
+                      <li>{{ $t('GuidePage.progressionGuide.sections.metaProgression.unlockMethods.item4') }}</li>
                     </ul>
                   </div>
                 </div>
               </div>
 
               <div class="progression-section">
-                <h3>Progression Priority Guide</h3>
-                <p>This CloverPit guide recommends focusing your early CloverPit runs on unlocking these key progression
-                  elements in order:</p>
+                <h3>{{ $t('GuidePage.progressionGuide.sections.priorityGuide.title') }}</h3>
+                <p>{{ $t('GuidePage.progressionGuide.sections.priorityGuide.description') }}</p>
 
                 <div class="priority-list">
                   <div class="priority-item">
                     <div class="priority-number">1</div>
                     <div class="priority-content">
-                      <h4>Storage Capacity</h4>
-                      <p>More charm slots = more powerful synergies. Prioritize storage unlocks above all else.</p>
+                      <h4>{{ $t('GuidePage.progressionGuide.sections.priorityGuide.priorities.priority1.title') }}</h4>
+                      <p>{{ $t('GuidePage.progressionGuide.sections.priorityGuide.priorities.priority1.description') }}</p>
                     </div>
                   </div>
 
                   <div class="priority-item">
                     <div class="priority-number">2</div>
                     <div class="priority-content">
-                      <h4>Economy Charms</h4>
-                      <p>Unlock charms that boost ticket income and coin generation early for easier future runs.</p>
+                      <h4>{{ $t('GuidePage.progressionGuide.sections.priorityGuide.priorities.priority2.title') }}</h4>
+                      <p>{{ $t('GuidePage.progressionGuide.sections.priorityGuide.priorities.priority2.description') }}</p>
                     </div>
                   </div>
 
                   <div class="priority-item">
                     <div class="priority-number">3</div>
                     <div class="priority-content">
-                      <h4>Powerful Rare Charms</h4>
-                      <p>Focus on unlocking game-changing legendary and epic rarity charms.</p>
+                      <h4>{{ $t('GuidePage.progressionGuide.sections.priorityGuide.priorities.priority3.title') }}</h4>
+                      <p>{{ $t('GuidePage.progressionGuide.sections.priorityGuide.priorities.priority3.description') }}</p>
                     </div>
                   </div>
 
                   <div class="priority-item">
                     <div class="priority-number">4</div>
                     <div class="priority-content">
-                      <h4>Run Modifiers</h4>
-                      <p>After mastering standard mode, unlock modifiers for variety and challenge.</p>
+                      <h4>{{ $t('GuidePage.progressionGuide.sections.priorityGuide.priorities.priority4.title') }}</h4>
+                      <p>{{ $t('GuidePage.progressionGuide.sections.priorityGuide.priorities.priority4.description') }}</p>
                     </div>
                   </div>
                 </div>
               </div>
 
               <div class="progression-section">
-                <h3>Using Seeded Runs for Progression</h3>
-                <p>CloverPit supports seeded runs that generate identical charm and upgrade offerings. This CloverPit
-                  guide
-                  suggests using community-shared powerful seeds to complete progression challenges or practice specific
-                  strategies.</p>
+                <h3>{{ $t('GuidePage.progressionGuide.sections.seededRuns.title') }}</h3>
+                <p v-html="$t('GuidePage.progressionGuide.sections.seededRuns.description')"></p>
 
                 <div class="seed-tips">
-                  <h4>Seed Strategy Tips:</h4>
+                  <h4>{{ $t('GuidePage.progressionGuide.sections.seededRuns.tips.title') }}</h4>
                   <ul>
-                    <li>Use known powerful seeds to unlock difficult content</li>
-                    <li>Share your own broken seeds with the CloverPit community</li>
-                    <li>Experiment with seeds to learn charm synergies safely</li>
-                    <li>Compete with friends using identical seeds for bragging rights</li>
+                    <li>{{ $t('GuidePage.progressionGuide.sections.seededRuns.tips.tip1') }}</li>
+                    <li>{{ $t('GuidePage.progressionGuide.sections.seededRuns.tips.tip2') }}</li>
+                    <li>{{ $t('GuidePage.progressionGuide.sections.seededRuns.tips.tip3') }}</li>
+                    <li>{{ $t('GuidePage.progressionGuide.sections.seededRuns.tips.tip4') }}</li>
                   </ul>
                 </div>
               </div>
@@ -672,97 +569,86 @@
         <div class="container">
           <div class="endless-mode-wrapper">
             <div class="section-header">
-              <h2 class="home-title">CloverPit Endless Mode Guide</h2>
-              <p class="section-subtitle">Endless mode in CloverPit removes the finish line and tests how long you can
-                survive against exponentially increasing debt. This CloverPit guide covers this mode for experienced
-                players
-                seeking ultimate challenges.</p>
+              <h2 class="home-title">{{ $t('GuidePage.endlessMode.title') }}</h2>
+              <p class="section-subtitle" v-html="$t('GuidePage.endlessMode.subtitle')"></p>
             </div>
 
             <div class="endless-content">
               <div class="endless-section">
-                <h3>Endless Mode Mechanics</h3>
-                <p>Endless mode in CloverPit functions distinctly from standard mode, featuring accelerated scaling and
-                  altered mechanics:</p>
+                <h3>{{ $t('GuidePage.endlessMode.sections.mechanics.title') }}</h3>
+                <p>{{ $t('GuidePage.endlessMode.sections.mechanics.description') }}</p>
 
                 <div class="endless-grid">
                   <div class="endless-card">
-                    <h4>Core Modifications</h4>
+                    <h4>{{ $t('GuidePage.endlessMode.sections.mechanics.coreModifications.title') }}</h4>
                     <ul>
-                      <li>Debt escalates exponentially rather than linearly</li>
-                      <li>No victory condition - endure as long as possible</li>
-                      <li>Scoring determined by rounds survived and coins accumulated</li>
-                      <li>Charm configurations must scale indefinitely</li>
+                      <li>{{ $t('GuidePage.endlessMode.sections.mechanics.coreModifications.item1') }}</li>
+                      <li>{{ $t('GuidePage.endlessMode.sections.mechanics.coreModifications.item2') }}</li>
+                      <li>{{ $t('GuidePage.endlessMode.sections.mechanics.coreModifications.item3') }}</li>
+                      <li>{{ $t('GuidePage.endlessMode.sections.mechanics.coreModifications.item4') }}</li>
                     </ul>
                   </div>
 
                   <div class="endless-card">
-                    <h4>Strategic Consequences</h4>
+                    <h4>{{ $t('GuidePage.endlessMode.sections.mechanics.strategicConsequences.title') }}</h4>
                     <ul>
-                      <li>Multiplicative scaling outperforms additive bonuses</li>
-                      <li>Early game survival becomes less critical than scaling potential</li>
-                      <li>Runs conclude when your system cannot maintain pace</li>
-                      <li>High scores demand nearly perfect synergies</li>
+                      <li>{{ $t('GuidePage.endlessMode.sections.mechanics.strategicConsequences.item1') }}</li>
+                      <li>{{ $t('GuidePage.endlessMode.sections.mechanics.strategicConsequences.item2') }}</li>
+                      <li>{{ $t('GuidePage.endlessMode.sections.mechanics.strategicConsequences.item3') }}</li>
+                      <li>{{ $t('GuidePage.endlessMode.sections.mechanics.strategicConsequences.item4') }}</li>
                     </ul>
                   </div>
                 </div>
               </div>
 
               <div class="endless-section">
-                <h3>Endless Mode Strategies</h3>
-                <p>This CloverPit guide shows that succeeding in CloverPit endless mode requires fundamentally different
-                  approaches than standard mode:</p>
+                <h3>{{ $t('GuidePage.endlessMode.sections.strategies.title') }}</h3>
+                <p>{{ $t('GuidePage.endlessMode.sections.strategies.description') }}</p>
 
                 <div class="endless-strategies">
                   <div class="endless-strategy">
                     <div class="strategy-icon">📈</div>
-                    <h4>Prioritize Percentage Multipliers</h4>
-                    <p>In endless CloverPit, flat bonuses become worthless as debt scales. Focus exclusively on
-                      percentage-based multipliers and scaling effects that grow with your economy.</p>
+                    <h4>{{ $t('GuidePage.endlessMode.sections.strategies.strategy1.title') }}</h4>
+                    <p>{{ $t('GuidePage.endlessMode.sections.strategies.strategy1.description') }}</p>
                   </div>
 
                   <div class="endless-strategy">
                     <div class="strategy-icon">🚀</div>
-                    <h4>Build Exponential Engines</h4>
-                    <p>The best endless mode CloverPit builds involve exponential scaling - charms that multiply other
-                      multipliers, creating compound growth that can theoretically scale infinitely.</p>
+                    <h4>{{ $t('GuidePage.endlessMode.sections.strategies.strategy2.title') }}</h4>
+                    <p>{{ $t('GuidePage.endlessMode.sections.strategies.strategy2.description') }}</p>
                   </div>
 
                   <div class="endless-strategy">
                     <div class="strategy-icon">⚡</div>
-                    <h4>Optimize Every Decision</h4>
-                    <p>In endless CloverPit runs, every ticket spent, every phone upgrade choice, and every charm
-                      purchase
-                      must be optimal. Small inefficiencies compound into run-ending disadvantages.</p>
+                    <h4>{{ $t('GuidePage.endlessMode.sections.strategies.strategy3.title') }}</h4>
+                    <p>{{ $t('GuidePage.endlessMode.sections.strategies.strategy3.description') }}</p>
                   </div>
                 </div>
               </div>
 
               <div class="endless-section">
-                <h3>Endless Mode High Score Tips</h3>
-                <p>This CloverPit guide explains that competing for high scores in CloverPit endless mode requires
-                  mastery
-                  of advanced techniques:</p>
+                <h3>{{ $t('GuidePage.endlessMode.sections.highScoreTips.title') }}</h3>
+                <p>{{ $t('GuidePage.endlessMode.sections.highScoreTips.description') }}</p>
 
                 <div class="high-score-tips">
                   <div class="tip-item">
-                    <h4>Study Top Players</h4>
-                    <p>Watch CloverPit endless mode runs from leaderboard players to learn optimal builds</p>
+                    <h4>{{ $t('GuidePage.endlessMode.sections.highScoreTips.tip1.title') }}</h4>
+                    <p>{{ $t('GuidePage.endlessMode.sections.highScoreTips.tip1.description') }}</p>
                   </div>
 
                   <div class="tip-item">
-                    <h4>Reset for Optimal Starts</h4>
-                    <p>The first few rounds determine endless potential - reset if offerings are poor</p>
+                    <h4>{{ $t('GuidePage.endlessMode.sections.highScoreTips.tip2.title') }}</h4>
+                    <p>{{ $t('GuidePage.endlessMode.sections.highScoreTips.tip2.description') }}</p>
                   </div>
 
                   <div class="tip-item">
-                    <h4>Accept the Ceiling</h4>
-                    <p>Every CloverPit endless run eventually fails - the question is when, not if</p>
+                    <h4>{{ $t('GuidePage.endlessMode.sections.highScoreTips.tip3.title') }}</h4>
+                    <p>{{ $t('GuidePage.endlessMode.sections.highScoreTips.tip3.description') }}</p>
                   </div>
 
                   <div class="tip-item">
-                    <h4>Share Your Builds</h4>
-                    <p>The CloverPit community thrives on sharing powerful endless mode strategies</p>
+                    <h4>{{ $t('GuidePage.endlessMode.sections.highScoreTips.tip4.title') }}</h4>
+                    <p v-html="$t('GuidePage.endlessMode.sections.highScoreTips.tip4.description')"></p>
                   </div>
                 </div>
               </div>
@@ -2030,5 +1916,13 @@ const scrollToSection = (sectionId) => {
   .tip-item p {
     font-size: 12px;
   }
+}
+
+/* 内链样式 */
+.text-link {
+  color: #ff6b35;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px solid #ff6b35;
 }
 </style>

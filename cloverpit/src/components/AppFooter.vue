@@ -8,7 +8,7 @@
               <img src="../../public/images/logo.webp" alt="CloverPit Logo" />
               <span>CloverPit</span>
             </div>
-            <p>Your gateway to mastering the cursed slot machine and surviving the eternal torment.</p>
+            <p>{{ $t('footer.description') }}</p>
             <div class="social-links">
               <a href="#" class="social-link">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -29,25 +29,25 @@
           </div>
           
           <div class="footer-section">
-            <h4>Navigation</h4>
+            <h4>{{ $t('footer.navigation') }}</h4>
             <ul class="footer-links">
-              <li><router-link to="/">Home</router-link></li>
-              <li><router-link to="/cloverpit-guide">Guide</router-link></li>
-              <li><router-link to="/cloverpit-wiki">Wiki</router-link></li>
-              <li><router-link to="/cloverpit-endings">Endings</router-link></li>
-              <li><router-link to="/cloverpit-blog">Blog</router-link></li>
-              <li><router-link to="/cloverpit-download">Download</router-link></li>
+              <li><a href="/">{{ $t('nav.home') }}</a></li>
+              <li><a href="/cloverpit-guide">{{ $t('nav.guide') }}</a></li>
+              <li><a href="/cloverpit-wiki">{{ $t('nav.wiki') }}</a></li>
+              <li><a href="/cloverpit-endings">{{ $t('nav.endings') }}</a></li>
+              <li><a href="/cloverpit-blog">{{ $t('nav.blog') }}</a></li>
+              <li><a href="/cloverpit-download">{{ $t('nav.download') }}</a></li>
             </ul>
           </div>
           
           <div class="footer-section">
-            <h4>Legal</h4>
+            <h4>{{ $t('footer.legal') }}</h4>
             <ul class="footer-links">
-              <li><router-link to="/privacy-policy">Privacy Policy</router-link></li>
-              <li><router-link to="/terms-of-service">Terms of Service</router-link></li>
-              <li><router-link to="/copyright">Copyright</router-link></li>
-              <li><router-link to="/about-us">About Us</router-link></li>
-              <li><router-link to="/contact-us">Contact Us</router-link></li>
+              <li><a href="/privacy-policy">{{ $t('footer.links.privacyPolicy') }}</a></li>
+              <li><a href="/terms-of-service">{{ $t('footer.links.termsOfService') }}</a></li>
+              <li><a href="/copyright">{{ $t('footer.links.copyright') }}</a></li>
+              <li><a href="/about-us">{{ $t('footer.links.aboutUs') }}</a></li>
+              <li><a href="/contact-us">{{ $t('footer.links.contactUs') }}</a></li>
             </ul>
           </div>
         </div>
@@ -55,8 +55,8 @@
         <div class="footer-bottom">
           <div class="footer-bottom-content">
             <div class="copyright">
-              <p>© 2025 321gogame.com. All rights reserved.</p>
-              <p>321gogame.com is not affiliated with, endorsed by, or connected to the original or its publishers. This is an independent fan site created for informational purposes only. All trademarks and copyrights belong to their respective owners.</p>
+              <p>{{ $t('footer.copyright') }}</p>
+              <p>{{ $t('footer.disclaimer') }}</p>
             </div>
           </div>
         </div>

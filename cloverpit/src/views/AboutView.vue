@@ -6,8 +6,8 @@
       <section class="section hero">
         <div class="container">
           <div class="hero-wrapper">
-            <h1 class="hero-title">About Us</h1>
-            <p class="hero-description">Meet the team behind the comprehensive CloverPit guide on 321gogame.com</p>
+            <h1 class="hero-title">{{ $t('AboutPage.hero.title') }}</h1>
+            <p class="hero-description">{{ $t('AboutPage.hero.description') }}</p>
           </div>
         </div>
       </section>
@@ -16,54 +16,54 @@
         <div class="container">
           <div class="content-wrapper">
             <div class="about-content">
-              <h2>Our Mission</h2>
-              <p>At 321gogame.com, we are passionate gamers dedicated to creating the most comprehensive and accurate guides for CloverPit: The Descent. Our mission is to help players master this challenging rogue-lite slot machine horror game through detailed strategies, charm combinations, and expert insights.</p>
+              <h2>{{ $t('AboutPage.content.ourMission.title') }}</h2>
+              <p>{{ $t('AboutPage.content.ourMission.description') }}</p>
 
-              <h2>Who We Are</h2>
-              <p>We are a team of experienced gamers and strategy enthusiasts who have spent countless hours exploring every aspect of CloverPit. Our expertise comes from extensive gameplay, community interaction, and deep analysis of game mechanics.</p>
+              <h2>{{ $t('AboutPage.content.whoWeAre.title') }}</h2>
+              <p>{{ $t('AboutPage.content.whoWeAre.description') }}</p>
 
-              <h2>What We Do</h2>
-              <p>Our comprehensive CloverPit guide includes:</p>
+              <h2>{{ $t('AboutPage.content.whatWeDo.title') }}</h2>
+              <p>{{ $t('AboutPage.content.whatWeDo.description') }}</p>
               <ul>
-                <li>Detailed gameplay strategies and tips</li>
-                <li>Complete charm synergy combinations</li>
-                <li>All endings walkthrough and secrets</li>
-                <li>Game mechanics and symbol explanations</li>
-                <li>Community-driven insights and discoveries</li>
-                <li>Regular updates with new strategies</li>
+                <li>{{ $t('AboutPage.content.whatWeDo.items.strategies') }}</li>
+                <li>{{ $t('AboutPage.content.whatWeDo.items.charmCombinations') }}</li>
+                <li>{{ $t('AboutPage.content.whatWeDo.items.endingsWalkthrough') }}</li>
+                <li>{{ $t('AboutPage.content.whatWeDo.items.gameMechanics') }}</li>
+                <li>{{ $t('AboutPage.content.whatWeDo.items.communityInsights') }}</li>
+                <li>{{ $t('AboutPage.content.whatWeDo.items.regularUpdates') }}</li>
               </ul>
 
-              <h2>Our Expertise</h2>
-              <p>Our team brings together diverse gaming backgrounds:</p>
+              <h2>{{ $t('AboutPage.content.ourExpertise.title') }}</h2>
+              <p>{{ $t('AboutPage.content.ourExpertise.description') }}</p>
               <ul>
-                <li>Rogue-lite and deck-building game specialists</li>
-                <li>Strategy guide writers with years of experience</li>
-                <li>Community moderators and content creators</li>
-                <li>Game analysis and testing experts</li>
+                <li>{{ $t('AboutPage.content.ourExpertise.items.rogueliteSpecialists') }}</li>
+                <li>{{ $t('AboutPage.content.ourExpertise.items.strategyWriters') }}</li>
+                <li>{{ $t('AboutPage.content.ourExpertise.items.communityModerators') }}</li>
+                <li>{{ $t('AboutPage.content.ourExpertise.items.gameAnalysis') }}</li>
               </ul>
 
-              <h2>Community Focus</h2>
-              <p>We believe in the power of community knowledge. Our guides are constantly updated based on player feedback, new discoveries, and community insights. We encourage players to share their strategies and help us improve our content.</p>
+              <h2>{{ $t('AboutPage.content.communityFocus.title') }}</h2>
+              <p>{{ $t('AboutPage.content.communityFocus.description') }}</p>
 
-              <h2>Quality Commitment</h2>
-              <p>Every guide on 321gogame.com is thoroughly tested and verified. We ensure that our strategies work in actual gameplay and provide real value to players. Our content is regularly reviewed and updated to maintain accuracy and relevance.</p>
+              <h2>{{ $t('AboutPage.content.qualityCommitment.title') }}</h2>
+              <p>{{ $t('AboutPage.content.qualityCommitment.description') }}</p>
 
-              <h2>Independence</h2>
-              <p>321gogame.com is an independent fan site. We are not affiliated with, endorsed by, or connected to the original CloverPit: The Descent game or its publishers. This independence allows us to provide honest, unbiased guides and strategies.</p>
+              <h2>{{ $t('AboutPage.content.independence.title') }}</h2>
+              <p>{{ $t('AboutPage.content.independence.description') }}</p>
 
-              <h2>Contact Our Team</h2>
-              <p>We welcome feedback, suggestions, and questions from the CloverPit community. If you have strategies to share, questions about our guides, or suggestions for improvement, please don't hesitate to reach out.</p>
+              <h2>{{ $t('AboutPage.content.contactOurTeam.title') }}</h2>
+              <p>{{ $t('AboutPage.content.contactOurTeam.description') }}</p>
 
               <div class="contact-info">
-                <h3>Get in Touch</h3>
-                <p><strong>Email:</strong> wyong@321gogame.com</p>
-                <p><strong>Website:</strong> 321gogame.com</p>
-                <p><strong>Response Time:</strong> We typically respond within 24-48 hours</p>
-                <p><strong>Last Updated:</strong> October 17, 2025</p>
+                <h3>{{ $t('AboutPage.content.contactInfo.title') }}</h3>
+                <p><strong>{{ $t('AboutPage.content.contactInfo.email') }}</strong> wyong@321gogame.com</p>
+                <p><strong>{{ $t('AboutPage.content.contactInfo.website') }}</strong> 321gogame.com</p>
+                <p><strong>{{ $t('AboutPage.content.contactInfo.responseTime') }}</strong> {{ $t('AboutPage.content.contactInfo.responseTimeValue') }}</p>
+                <p><strong>{{ $t('AboutPage.content.contactInfo.lastUpdated') }}</strong> {{ $t('AboutPage.content.contactInfo.lastUpdatedValue') }}</p>
               </div>
 
-              <h2>Thank You</h2>
-              <p>Thank you for choosing 321gogame.com as your CloverPit guide resource. We're committed to helping you survive the cursed slot machine and discover all the secrets this incredible game has to offer.</p>
+              <h2>{{ $t('AboutPage.content.thankYou.title') }}</h2>
+              <p>{{ $t('AboutPage.content.thankYou.description') }}</p>
             </div>
           </div>
         </div>

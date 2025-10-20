@@ -6,10 +6,10 @@
       <section class="section hero">
         <div class="container">
           <div class="hero-wrapper">
-            <h1 class="hero-title">Privacy Policy</h1>
-            <p class="hero-description">How we protect your personal information and data on 321gogame.com</p>
+            <h1 class="hero-title">{{ $t('PrivacyPage.hero.title') }}</h1>
+            <p class="hero-description">{{ $t('PrivacyPage.hero.description') }}</p>
             <div class="last-updated">
-              <span>Last Updated: October 17, 2025</span>
+              <span>{{ $t('PrivacyPage.hero.lastUpdated') }}</span>
             </div>
           </div>
         </div>
@@ -19,62 +19,62 @@
         <div class="container">
           <div class="content-wrapper">
             <div class="legal-content">
-              <h2>Information We Collect</h2>
-              <p>321gogame.com is committed to protecting your privacy. We collect minimal information necessary to provide our CloverPit guide services:</p>
+              <h2>{{ $t('PrivacyPage.content.informationWeCollect.title') }}</h2>
+              <p>{{ $t('PrivacyPage.content.informationWeCollect.description') }}</p>
               
-              <h3>Personal Information</h3>
+              <h3>{{ $t('PrivacyPage.content.informationWeCollect.personalInformation.title') }}</h3>
               <ul>
-                <li>Email address (when you contact us at wyong@321gogame.com)</li>
-                <li>Name (if provided in communications)</li>
-                <li>Any information you voluntarily share in feedback or support requests</li>
+                <li>{{ $t('PrivacyPage.content.informationWeCollect.personalInformation.items.emailDescription1') }} wyong@321gogame.com{{ $t('PrivacyPage.content.informationWeCollect.personalInformation.items.emailDescription2') }}</li>
+                <li>{{ $t('PrivacyPage.content.informationWeCollect.personalInformation.items.name') }}</li>
+                <li>{{ $t('PrivacyPage.content.informationWeCollect.personalInformation.items.voluntaryInfo') }}</li>
               </ul>
 
-              <h3>Automatically Collected Information</h3>
+              <h3>{{ $t('PrivacyPage.content.informationWeCollect.automaticallyCollected.title') }}</h3>
               <ul>
-                <li>IP address and browser information</li>
-                <li>Pages visited and time spent on our site</li>
-                <li>Referring website information</li>
-                <li>Device and operating system information</li>
+                <li>{{ $t('PrivacyPage.content.informationWeCollect.automaticallyCollected.items.ipAddress') }}</li>
+                <li>{{ $t('PrivacyPage.content.informationWeCollect.automaticallyCollected.items.pagesVisited') }}</li>
+                <li>{{ $t('PrivacyPage.content.informationWeCollect.automaticallyCollected.items.referringWebsite') }}</li>
+                <li>{{ $t('PrivacyPage.content.informationWeCollect.automaticallyCollected.items.deviceInfo') }}</li>
               </ul>
 
-              <h2>How We Use Your Information</h2>
-              <p>We use the information we collect to:</p>
+              <h2>{{ $t('PrivacyPage.content.howWeUse.title') }}</h2>
+              <p>{{ $t('PrivacyPage.content.howWeUse.description') }}</p>
               <ul>
-                <li>Provide and improve our CloverPit guide content</li>
-                <li>Respond to your inquiries and support requests</li>
-                <li>Analyze website usage to enhance user experience</li>
-                <li>Ensure website security and prevent abuse</li>
+                <li>{{ $t('PrivacyPage.content.howWeUse.items.provideContent') }}</li>
+                <li>{{ $t('PrivacyPage.content.howWeUse.items.respondInquiries') }}</li>
+                <li>{{ $t('PrivacyPage.content.howWeUse.items.analyzeUsage') }}</li>
+                <li>{{ $t('PrivacyPage.content.howWeUse.items.ensureSecurity') }}</li>
               </ul>
 
-              <h2>Information Sharing</h2>
-              <p>We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except:</p>
+              <h2>{{ $t('PrivacyPage.content.informationSharing.title') }}</h2>
+              <p>{{ $t('PrivacyPage.content.informationSharing.description') }}</p>
               <ul>
-                <li>When required by law or legal process</li>
-                <li>To protect our rights and prevent fraud</li>
-                <li>With trusted service providers who assist in website operations (under strict confidentiality agreements)</li>
+                <li>{{ $t('PrivacyPage.content.informationSharing.items.requiredByLaw') }}</li>
+                <li>{{ $t('PrivacyPage.content.informationSharing.items.protectRights') }}</li>
+                <li>{{ $t('PrivacyPage.content.informationSharing.items.serviceProviders') }}</li>
               </ul>
 
-              <h2>Data Security</h2>
-              <p>We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.</p>
+              <h2>{{ $t('PrivacyPage.content.dataSecurity.title') }}</h2>
+              <p>{{ $t('PrivacyPage.content.dataSecurity.description') }}</p>
 
-              <h2>Cookies and Tracking</h2>
-              <p>Our website may use cookies and similar technologies to enhance your browsing experience and analyze site usage. You can control cookie settings through your browser preferences.</p>
+              <h2>{{ $t('PrivacyPage.content.cookiesAndTracking.title') }}</h2>
+              <p>{{ $t('PrivacyPage.content.cookiesAndTracking.description') }}</p>
 
-              <h2>Third-Party Links</h2>
-              <p>Our CloverPit guide may contain links to external websites. We are not responsible for the privacy practices of these third-party sites.</p>
+              <h2>{{ $t('PrivacyPage.content.thirdPartyLinks.title') }}</h2>
+              <p>{{ $t('PrivacyPage.content.thirdPartyLinks.description') }}</p>
 
-              <h2>Children's Privacy</h2>
-              <p>Our services are not directed to children under 13. We do not knowingly collect personal information from children under 13.</p>
+              <h2>{{ $t('PrivacyPage.content.childrensPrivacy.title') }}</h2>
+              <p>{{ $t('PrivacyPage.content.childrensPrivacy.description') }}</p>
 
-              <h2>Changes to This Policy</h2>
-              <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated revision date.</p>
+              <h2>{{ $t('PrivacyPage.content.changesToPolicy.title') }}</h2>
+              <p>{{ $t('PrivacyPage.content.changesToPolicy.description') }}</p>
 
-              <h2>Contact Us</h2>
-              <p>If you have questions about this Privacy Policy, please contact us at:</p>
+              <h2>{{ $t('PrivacyPage.content.contactUs.title') }}</h2>
+              <p>{{ $t('PrivacyPage.content.contactUs.description') }}</p>
               <div class="contact-info">
-                <p><strong>Email:</strong> wyong@321gogame.com</p>
-                <p><strong>Website:</strong> 321gogame.com</p>
-                <p><strong>Last Updated:</strong> October 17, 2025</p>
+                <p><strong>{{ $t('PrivacyPage.content.contactUs.email') }}</strong> wyong@321gogame.com</p>
+                <p><strong>{{ $t('PrivacyPage.content.contactUs.website') }}</strong> 321gogame.com</p>
+                <p><strong>{{ $t('PrivacyPage.content.contactUs.lastUpdated') }}</strong> {{ $t('PrivacyPage.content.contactUs.lastUpdatedValue') }}</p>
               </div>
             </div>
           </div>

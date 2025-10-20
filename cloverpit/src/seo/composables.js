@@ -151,7 +151,7 @@ const updateStructuredData = (seo, canonicalUrl, language, pageName) => {
 }
 
 // 手动设置SEO（供router使用，不依赖Vue composables）
-export function setSEO(seoData, currentPath, pageName = 'home') {
+export function setSEO(seoData, currentPath, pageName = 'home', languageOverride) {
     if (typeof document === 'undefined') return
 
     const seo = {
@@ -160,7 +160,30 @@ export function setSEO(seoData, currentPath, pageName = 'home') {
     }
 
     const canonicalUrl = `${seoConfig.fullDomain}${currentPath}`
-    const language = seoConfig.defaultLanguage
+    // 语言优先级：参数 > URL 前缀 > localStorage > 默认
+    let language = languageOverride
+    if (!language) {
+        const path = typeof window !== 'undefined' ? window.location.pathname : currentPath || '/'
+        const supported = ['en','zh','ja','ru','ko','de','fr','es','pt']
+        language = 'en'
+        for (const l of supported) {
+            if (l !== 'en' && (path === `/${l}` || path.startsWith(`/${l}/`))) {
+                language = l
+                break
+            }
+        }
+        if (!language && typeof localStorage !== 'undefined') {
+            const saved = localStorage.getItem('language')
+            if (saved && supported.includes(saved)) language = saved
+        }
+        if (!language) language = seoConfig.defaultLanguage || 'en'
+    }
+
+    const ogLocaleMap = {
+        en: 'en_US', zh: 'zh_CN', ja: 'ja_JP', ru: 'ru_RU', ko: 'ko_KR',
+        de: 'de_DE', fr: 'fr_FR', es: 'es_ES', pt: 'pt_PT'
+    }
+    const ogLocale = ogLocaleMap[language] || 'en_US'
 
     // 更新title
     document.title = seo.title || seoConfig.defaults.title
@@ -177,7 +200,7 @@ export function setSEO(seoData, currentPath, pageName = 'home') {
     updateMetaTag('og:url', canonicalUrl, 'property')
     updateMetaTag('og:type', seo.type || seoConfig.defaults.type, 'property')
     updateMetaTag('og:site_name', 'CloverPit Guide', 'property')
-    updateMetaTag('og:locale', 'en_US', 'property')
+    updateMetaTag('og:locale', ogLocale, 'property')
 
     // Twitter Card标签
     updateMetaTag('twitter:card', 'summary_large_image', 'name')
@@ -202,7 +225,16 @@ export function useSEO(seoDataCallback) {
 
     // 获取当前语言
     const currentLanguage = computed(() => {
-        return seoConfig.defaultLanguage
+        const path = route.path || '/'
+        const supported = ['en','zh','ja','ru','ko','de','fr','es','pt']
+        for (const l of supported) {
+            if (l !== 'en' && (path === `/${l}` || path.startsWith(`/${l}/`))) return l
+        }
+        if (typeof localStorage !== 'undefined') {
+            const saved = localStorage.getItem('language')
+            if (saved && supported.includes(saved)) return saved
+        }
+        return 'en'
     })
 
     // 获取当前页面路径
@@ -227,7 +259,7 @@ export function useSEO(seoDataCallback) {
             const pageName = route.name?.toLowerCase() || 'home'
             
             // 更新所有meta标签
-            setSEO(currentSEO.value, currentPath.value, pageName)
+            setSEO(currentSEO.value, currentPath.value, pageName, currentLanguage.value)
         }
     })
 
