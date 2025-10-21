@@ -6,9 +6,11 @@
     <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- 字体预加载 -->
+    <!-- 字体预加载 - 优化策略 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;700&family=Creepster&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;700&family=Creepster&display=swap"></noscript>
     
     <!-- 关键图片预加载 - 优化LCP性能 -->
     <link rel="preload" href="/images/2.webp" as="image" fetchpriority="high">
@@ -54,14 +56,20 @@
   <link rel="alternate" hreflang="en" href="https://321gogame.com/">
   <link rel="alternate" hreflang="x-default" href="https://321gogame.com/">
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7QKB6PQ10L"></script>
+  <!-- Google Analytics - 延迟加载优化性能 -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-7QKB6PQ10L');
+    // 延迟加载Google Analytics
+    window.addEventListener('load', function() {
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-7QKB6PQ10L';
+      document.head.appendChild(script);
+      
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-7QKB6PQ10L');
+    });
   </script>
 
 </head>
