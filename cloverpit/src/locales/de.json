@@ -1201,7 +1201,7 @@
     "EndingsPage": {
         "hero": {
             "title": "CloverPit Enden-Leitfaden",
-            "description": "Meistern Sie die Kunst der Flucht aus CloverPit mit diesem umfassenden CloverPit Enden-Leitfaden zu allen CloverPit-Endtypen, einschließlich des **wahren CloverPit-Endes** und der heiligen Amulette. Dieser CloverPit Enden-Leitfaden deckt jeden CloverPit-Endpfad und jede verfügbare CloverPit-Endstrategie im Spiel ab. Für weitere Spielinformationen besuchen Sie unsere <a href=\"/\" class=\"text-link\">Startseite</a> oder sehen Sie sich unseren <a href=\"/cloverpit-guide\" class=\"text-link\">Strategie-Leitfaden</a> an.",
+            "description": "Meistern Sie die Kunst der Flucht aus CloverPit mit diesem umfassenden Leitfaden zu allen CloverPit-Endtypen, einschließlich des wahren CloverPit-Endes und der heiligen Schmuckstücke. Dieser CloverPit Enden-Leitfaden deckt jeden verfügbaren CloverPit-Endpfad und jede CloverPit-Endstrategie im Spiel ab. Für weitere Spielinformationen besuchen Sie unsere <a href=\"/\" class=\"text-link\">Homepage</a> oder sehen Sie sich unseren <a href=\"/cloverpit-guide\" class=\"text-link\">Strategie-Leitfaden</a> an.",
             "nav": {
                 "preparation": "CloverPit Enden-Vorbereitung",
                 "badEnding": "CloverPit Schlechtes Ende",
@@ -1210,87 +1210,87 @@
             }
         },
         "preparation": {
-            "title": "CloverPit Enden-Vorbereitung",
-            "subtitle": "Wesentliche Vorbereitungsschritte vor dem Versuch eines CloverPit-Endes. Dieser CloverPit Enden-Leitfaden deckt alle notwendigen Vorbereitungen für das erfolgreiche Erreichen eines CloverPit-Endes ab. Für detaillierte Spielmechaniken, sehen Sie sich unser <a href=\"/cloverpit-wiki\" class=\"text-link\">umfassendes Wiki</a> an.",
+            "title": "Wie man CloverPit besiegt - Vorbereitung",
+            "subtitle": "Wesentliche Vorbereitungsschritte vor dem Versuch eines CloverPit-Endes. Dieser Leitfaden behandelt das Entsperren von Schubladen, das Erlangen von Leichenteilen und den Erwerb des Schädels. Für detaillierte Spielmechaniken, besuchen Sie unser <a href=\"/cloverpit-wiki\" class=\"text-link\">umfassendes Wiki</a>.",
             "drawerSlots": {
-                "title": "CloverPit Enden-Schubfach-Slots-Sammlung",
-                "description1": "Bevor Sie ein CloverPit-Ende versuchen, müssen Sie sicherstellen, dass Sie **alle Schubfach-Slots** erhalten haben, da diese benötigt werden, um die **Leichenteile** für Ihren Lauf aufzubewahren. Diese Vorbereitung erfordert Schubfach-Slots, die durch das Erreichen bestimmter Fristen während Ihrer CloverPit-Läufe verdient werden. Das wichtige Detail ist, dass, sobald Sie einen Schlüssel für einen bestimmten Lauf erhalten haben, Sie in demselben Lauf keinen weiteren erhalten können, was bedeutet, dass diese Vorbereitung **mindestens 3 separate CloverPit-Läufe** erfordert, um abgeschlossen zu werden.",
-                "description2": "Das Schubfachsystem ist entscheidend für die CloverPit Enden-Vorbereitung. Jeder Schubfach-Slot stellt einen potenziellen Lagerort für Leichenteile dar, und das Vorhandensein aller Slots bietet Ihnen maximale Flexibilität bei der Planung Ihres Laufs. Die Slots werden **progressiv** verdient, wenn Sie höhere Fristen erreichen, was sie zu einer natürlichen Belohnung für das Durchkommen durch CloverPits Schwierigkeitskurve und die Vorbereitung auf Ihren Endversuch macht."
+                "title": "Schalten Sie die 4 Schubladen frei",
+                "description1": "Der erste Schritt, um CloverPit zu besiegen, ist das Entsperren der vier Schubladen unter dem Geschäft. Diese Schubladen werden mit Goldschlüsseln entriegelt, die in der Box rechts vom Geldautomaten erscheinen, und Spieler können einen Schlüssel pro Lauf verdienen. Insbesondere steigt die Frist, die Spieler erfüllen müssen, um einen Goldschlüssel zu beanspruchen, jedes Mal, wenn eine Schublade entriegelt wird, und sie müssen eine Punktzahl von 200.000 erreichen, um den letzten zu erhalten.",
+                "description2": "Jede Schublade stellt einen Aufbewahrungsort für Leichenteile dar, und das Entsperren aller vier Schubladen gibt Ihnen maximale Flexibilität bei der Planung Ihres Endlaufes. Das progressive Entsperrsystem stellt sicher, dass Sie die Schwierigkeitskurve des Spiels gemeistert haben, bevor Sie die komplexen Endanforderungen versuchen."
             },
             "corpsePieces": {
-                "title": "CloverPit Enden-Leichenteile-Setup",
-                "description1": "Der Schlüssel zum Start Ihres CloverPit-Endlaufs mit Leichenteilen liegt darin, wie Sie Ihren vorherigen Lauf beenden. Wenn Sie garantieren möchten, dass Sie mit allen Leichenteilen (außer dem Schädel, der zufällig im Laden gefunden wird) beginnen, müssen Sie sicherstellen, dass beim Beenden eines CloverPit-Laufs **alle Ihre Schubfächer mit Gegenständen gefüllt** sind. Diese Gegenstände werden sich dann in Ihrem nächsten Lauf in **Leichenteile** verwandeln, was Ihnen von Anfang an einen signifikanten Vorteil verschafft.",
-                "description2": "Wenn Ihr letzter CloverPit-Lauf beispielsweise zwei Amulette in den unteren beiden Schubfächern hatte (wie im Referenzbild gezeigt), können Sie Ihren nächsten Lauf mit 2 von 4 Leichenteilen beginnen, die bereits vorhanden sind. Diese Vorbereitungsmethode ist viel zuverlässiger, als zu versuchen, Leichenteile während des eigentlichen Laufs zu erhalten, da die Kriterien für deren Erhalt mitten im Lauf unklar sind und ein bereits herausforderndes Unterfangen unnötig verkomplizieren können.",
-                "description3": "Wenn Ihre Schubfächer leer sind und Sie sie schnell füllen möchten, bevor Sie einen Leichen-Lauf beginnen, können Sie die **'Kalte Zuneigung' (Cold Affection) Speicherkarte** verwenden. Diese Karte ermöglicht es Ihnen, 4 Gegenstände zu kaufen und dann neu zu starten, was Ihnen effektiv eine schnelle Möglichkeit gibt, Ihre Schubfächer zu füllen, ohne einen vollständigen Lauf durchführen zu müssen. Erfahren Sie mehr über <a href=\"/cloverpit-wiki\" class=\"text-link\">Speicherkarten und Spielmechaniken</a> in unserem Wiki."
+                "title": "Rüsten Sie 4 Leichenteile & Schädel aus",
+                "description1": "Sobald alle vier Schubladen entsperrt sind, sollten Spieler diese Schritte unternehmen: Kaufen Sie während eines Laufs vier Glücksbringer und legen Sie sie in die vier Schubladen. Um einen Glücksbringer in eine Schublade zu legen, wählen Sie ihn vom Schreibtisch aus und wählen Sie die Option „In Schublade legen“. Scheitern Sie den Lauf, wenn die vier Schubladen gefüllt sind.",
+                "description2": "Starten Sie einen neuen Lauf. Die Glücksbringer in den Schubladen haben sich in Leichenteile (Corpse items) verwandelt. Rüsten Sie alle vier Leichenteile aus und beginnen Sie mit der Arbeit an der ersten Frist. Kaufen Sie einen Schädel im Laden. Dieser Kauf muss nicht während der ersten Frist erfolgen, da der Schädel möglicherweise nicht im ersten Laden erhältlich ist, obwohl es gut ist, den Gegenstand frühzeitig im Lauf zu bekommen.",
+                "description3": "Wenn der Schädel ausgerüstet ist, erscheinen zu Beginn jeder Frist zufällige kostenlose Glücksbringer in leeren Schubladen. Dieser Effekt hilft Spielern, die zusätzliche Verschuldung zu überwinden, die durch das Ausrüsten von Leichenteilen und des Schädels entsteht, und ist der Grund, warum Spieler versuchen sollten, den Schädel möglichst während der ersten paar Fristen zu bekommen."
             },
             "skullAcquisition": {
-                "title": "CloverPit Enden-Schädelbeschaffung",
-                "description1": "Der **Schädel** ist die am einfachsten zu beschaffende Komponente für Ihre CloverPit Enden-Vorbereitung, da er als Gegenstand der Seltenheit **'Gewöhnlich' (Common)** im Laden erscheint. Dies macht es relativ einfach, ihn während Ihres Laufs zu finden, und es ist sogar noch besser, wenn Sie einen mit einem Modifikator finden können. Der gewöhnliche Status des Schädels bedeutet, dass Sie sich nicht allzu viele Sorgen um das Finden machen müssen, im Gegensatz zur komplexeren Vorbereitung, die für die anderen Leichenteile erforderlich ist.",
-                "description2": "Sobald Sie alle Ihre Schubfach-Slots freigeschaltet, Ihre Leichenteile vorbereitet und ein klares Verständnis dafür haben, wo Sie den Schädel finden können, haben Sie alles, was Sie brauchen, um eines der beiden Haupt-CloverPit-Enden zu versuchen. Diese Vorbereitungsphase ist entscheidend für den Erfolg, da ein Start ohne diese Vorteile die Läufe erheblich schwieriger macht."
+                "title": "Vorteile und Strategie des Schädels",
+                "description1": "Der Schädel bietet einen entscheidenden Vorteil während Ihres Endlaufes. Wenn er ausgerüstet ist, lässt er zu Beginn jeder Frist zufällige kostenlose Glücksbringer in leeren Schubladen erscheinen. Dieser Effekt hilft, die zusätzliche Verschuldung auszugleichen, die durch das Ausrüsten von Leichenteilen und des Schädels selbst entsteht.",
+                "description2": "Es wird empfohlen, den Schädel so früh wie möglich in Ihrem Lauf zu erwerben, idealerweise während der ersten paar Fristen. Dies stellt sicher, dass Sie den maximalen Nutzen aus den kostenlosen Glücksbringern während Ihres gesamten Endversuchs ziehen können, was die anspruchsvollen Anforderungen überschaubarer macht."
             }
         },
         "badEnding": {
-            "title": "Das CloverPit Schlechte Ende Erreichen",
-            "subtitle": "Der unkomplizierte Pfad zur Flucht aus CloverPit, aber nicht der wahre CloverPit-End-Sieg. Dieser CloverPit Enden-Leitfaden deckt den schlechten Endpfad ab. Für fortgeschrittene Strategien, sehen Sie sich unseren <a href=\"/cloverpit-guide\" class=\"text-link\">umfassenden Leitfaden</a> an.",
+            "title": "Wie man CloverPits schlechtes Ende bekommt",
+            "subtitle": "Der unkomplizierte Weg zur Flucht aus CloverPit mit den vier ausgerüsteten Leichenteilen. Dieser Leitfaden behandelt die Anforderungen und den Prozess des schlechten Endes. Für fortgeschrittene Strategien, besuchen Sie unseren <a href=\"/cloverpit-guide\" class=\"text-link\">umfassenden Leitfaden</a>.",
             "simplePath": {
-                "title": "CloverPit Schlechtes Ende Einfacher Pfad",
-                "description1": "Das Erreichen des CloverPit **schlechten Endes** ist relativ unkompliziert im Vergleich zum komplexeren guten Ende. Dieser Prozess beinhaltet das normale Durchspielen von CloverPit und das Erreichen einer bestimmten **Münzquote**. Für das standardmäßige schlechte Ende müssen Sie **250.000 Münzen** ansammeln. Wenn Sie jedoch die Speicherkarte 'Größenwahn' (Delusions of grandeur) verwenden, verdoppelt sich diese Anforderung auf **500.000 Münzen**.",
-                "description2": "Sobald Sie die erforderliche Münzquote erreicht haben, schaltet CloverPit den **dunklen Schlüssel** frei, der als Ihr Ticket zur Freiheit dient. Mit diesem Schlüssel in der Hand können Sie zum Ausgang gehen, der sich hinter Ihnen in Ihrer Zelle befindet, und den verfluchten CloverPit-Spielautomaten für immer hinter sich lassen. Dieser Prozess ist absichtlich einfach und repräsentiert den Pfad des geringsten Widerstands – eine schnelle Flucht statt eines wahren Verständnisses oder der Beherrschung von CloverPits tieferen Mechaniken, die für das wahre Ende erforderlich sind."
+                "title": "Anforderungen für das schlechte Ende",
+                "description1": "Mit den vier ausgerüsteten Leichenteilen und dem Plan, den Schädel im Laden zu kaufen, wenn er erscheint, müssen Spieler einfach die Fristen wie gewohnt durcharbeiten. Dieses Mal müssen Spieler **Frist #8** abschließen und dabei mehr als **250.000 Punkte** erzielen, um Zugang zum schwarzen Schädel-Schlüssel in der Box rechts vom Geldautomaten zu erhalten.",
+                "description2": "Dieser Schlüssel kann verwendet werden, um die Tür gegenüber dem Geldautomaten zu öffnen, und die Interaktion mit dem Spielautomaten am Ende des Korridors löst die Credits aus. Das schlechte Ende stellt eine unkomplizierte Flucht dar, ohne sich mit den tieferen Spielmechaniken zu befassen, die für das wahre Ende erforderlich sind."
             },
             "rewards": {
-                "title": "CloverPit Schlechtes Ende Belohnungen und Konsequenzen",
-                "description1": "Der erfolgreiche Abschluss des CloverPit schlechten Endes gewährt Ihnen die **Spiel-Credits**, was das Ende Ihrer Reise durch CloverPit markiert. Zusätzlich erhält die Speicherkarte, die Sie während des Laufs verwendet haben, einen **Regenbogen-Randeffekt**, wobei zu beachten ist, dass dieser Effekt nicht vollständig holographisch ist und eine geringere Leistung im Vergleich zu dem darstellt, was mit anderen Strategien möglich ist.",
-                "description2": "Obwohl das CloverPit schlechte Ende ein Gefühl der Vollendung vermittelt und Ihnen die Flucht aus der verfluchten Maschine ermöglicht, ist es wichtig zu verstehen, dass dies aus einem bestimmten Grund als das 'schlechte' Ende gilt. Es steht dafür, den einfachen Ausweg zu wählen, **ohne sich wirklich mit CloverPits komplexeren Systemen und tieferen Geheimnissen auseinanderzusetzen**. CloverPit kommuniziert klar, dass viel lohnendere Abschlüsse für Spieler verfügbar sind, die bereit sind, den zusätzlichen Aufwand zu betreiben und den herausfordernderen Pfad zum wahren Ende einzuschlagen. Erfahren Sie mehr über die <a href=\"/cloverpit-wiki\" class=\"text-link\">tieferen Mechaniken des Spiels</a>, um zu verstehen, warum das wahre Ende lohnender ist.",
-                "description3": "Das CloverPit schlechte Ende dient sowohl als Leistung als auch als Sprungbrett. Es beweist, dass Sie CloverPit überleben und entkommen können, aber es deutet auch auf die **größeren Belohnungen und die tiefere Befriedigung** hin, die sich aus der Verfolgung des herausfordernderen Pfades zum guten Ende ergeben. Dieser Leitfaden empfiehlt das schlechte Ende als Ausgangspunkt, bevor Sie das wahre Ende versuchen."
+                "title": "Belohnungen und Konsequenzen des schlechten Endes",
+                "description1": "Der erfolgreiche Abschluss des schlechten Endes gewährt Ihnen die Spiel-Credits und markiert das Ende Ihrer Reise durch CloverPit. Dieses Ende vermittelt ein Gefühl des Abschlusses und ermöglicht es Ihnen, der verfluchten Maschine zu entkommen, aber es stellt den einfachen Ausweg dar, ohne sich wirklich mit CloverPits komplexeren Systemen auseinanderzusetzen.",
+                "description2": "Obwohl das schlechte Ende ein Gefühl der Vollendung vermittelt, ist es wichtig zu verstehen, dass dies aus einem Grund als das „schlechte“ Ende gilt. Es stellt eine schnelle Flucht und keine wahre Einsicht oder Beherrschung der tieferen Mechaniken von CloverPit dar, die für das wahre Ende erforderlich sind.",
+                "description3": "Das schlechte Ende dient sowohl als Leistung als auch als Sprungbrett. Es beweist, dass Sie CloverPit überleben und entkommen können, deutet aber auch auf die größeren Belohnungen und die tiefere Befriedigung hin, die sich aus der Verfolgung des anspruchsvolleren Pfades zum guten Ende ergeben."
             }
         },
         "goodEnding": {
-            "title": "Das CloverPit Gute Ende Erreichen (+ Heilige Amulette)",
-            "subtitle": "Der wahre Pfad zum CloverPit-Sieg und zu heiligen Amuletten. Dieser CloverPit Enden-Leitfaden deckt die vollständige Strategie für das gute Ende ab. Für detaillierte Strategien, sehen Sie sich unseren <a href=\"/cloverpit-guide\" class=\"text-link\">umfassenden Leitfaden</a> an.",
+            "title": "Wie man CloverPits 999 Wahres Ende bekommt",
+            "subtitle": "Der wahre Weg zum CloverPit-Sieg, der spezifisches Telefonanruf-Management und 666er-Muster erfordert. Dieser Leitfaden behandelt die komplette Strategie für das gute Ende. Für detaillierte Strategien, besuchen Sie unseren <a href=\"/cloverpit-guide\" class=\"text-link\">umfassenden Leitfaden</a>.",
             "memoryCard": {
-                "title": "CloverPit Gutes Ende Speicherkarte-Empfehlung",
-                "description1": "Für das Erreichen des CloverPit **guten Endes** empfehle ich dringend die Verwendung der Speicherkarte **'Kummer' (Heartbreak)**. Diese Wahl ist strategisch, da sie garantiert, dass Sie während Ihres Laufs **mindestens ein CloverPit 666-Muster** erhalten, was für den Transformationsprozess absolut unerlässlich ist. Das CloverPit 666-Muster dient als entscheidender Auslöser, der Ihren nächsten Telefonanruf zu einem **roten Anruf** zwingt, und ohne dieses Muster werden Sie nicht in der Lage sein, die notwendigen Schritte für das gute Ende abzuschließen.",
-                "description2": "Die Fähigkeit der Kummer-Speicherkarte, ein CloverPit 666-Muster zu gewährleisten, ist von unschätzbarem Wert, da sie eines der unvorhersehbarsten Elemente aus Ihrer Strategie entfernt. Ohne diese Garantie würden Sie sich auf den Zufall verlassen, um das CloverPit 666-Muster zu würfeln, was mehrere Versuche erfordern und Ihre Vorbereitungszeit erheblich verlängern könnte. Durch die Verwendung von Kummer können Sie Ihren Lauf mit Zuversicht planen, da Sie wissen, dass Sie Zugang zu den roten Anrufen haben werden, die für die Transformationssequenz benötigt werden."
+                "title": "Speicherkarte-Strategie für 666er-Muster",
+                "description1": "Um CloverPits wahres Ende zu bekommen, müssen Spieler **Frist #8** mit den vier Leichenteilen und dem Schädel ausgerüstet abschließen, genau wie beim schlechten Ende. Der entscheidende Unterschied ist jedoch, dass Spieler **drei Telefonanrufe mit rotem Text ignorieren** müssen, bevor sie Frist #8 abschließen. Zwei solcher Anrufe sind garantiert zu Beginn von Frist #3 und #7; Spieler sollten „Bin gleich zurück“ wählen und nicht zum Telefon zurückkehren.",
+                "description2": "Eine Markierung verdeckt eine „6“ auf der Diskette, die auf dem Spielautomaten liegt, wenn eine Frist nach dem Ignorieren eines Telefonanrufs mit rotem Text abgeschlossen wird. Das Ziel ist es, alle drei 6en vor dem Beginn von Frist #8 zu markieren. Dies erfordert sorgfältige Planung und ein Verständnis dafür, wann rote Anrufe erscheinen werden."
             },
             "phoneCalls": {
-                "title": "CloverPit Gutes Ende Telefonanruf-Regeln und Einschränkungen",
-                "description1": "Die kritischste Regel für das Erreichen des CloverPit guten Endes ist, dass Sie **niemals Telefonanrufe annehmen dürfen, die roten Text enthalten und eine tiefere Stimme aufweisen**. Diese Anrufe repräsentieren die korrumpierten oder gefährlichen Kommunikationen, die die Transformation verhindern werden. Sie können diese verbotenen Anrufe an ihrer charakteristischen **roten Textfarbe** und dem merklich **tieferen, bedrohlicheren Stimmton** erkennen.",
-                "description2": "Sie dürfen jedoch Anrufe von anderen Quellen annehmen oder sie, wenn Sie möchten, ganz ignorieren. Die wichtigste Unterscheidung ist die spezifische Vermeidung der Anrufe mit rotem Text und tiefer Stimme. Zusätzlich ist das Öffnen des Menüs während der Anrufe völlig in Ordnung – Sie können einfach auf **'Bin gleich zurück'** klicken und nicht zum Anruf zurückkehren, was als Vermeidung der verbotenen Kommunikation zählt.",
-                "description3": "Diese Einschränkung ist Teil von CloverPits tieferer Erzählung über die Wahl des richtigen Pfades und die Vermeidung der Versuchungen, die zur Korruption führen. Durch die konsequente Ablehnung der roten Anrufe demonstrieren Sie Ihr Engagement für den reineren Pfad, der zum wahren Ende führt. Dieser Leitfaden betont die Wichtigkeit dieser **Telefonanruf-Disziplin**. Erfahren Sie mehr über die <a href=\"/cloverpit-wiki\" class=\"text-link\">Telefonanruf-Mechaniken</a> in unserem Wiki."
+                "title": "Management der Roten Telefonanrufe",
+                "description1": "Dies lässt nur einen Telefonanruf mit rotem Text übrig, den Spieler ignorieren müssen, und sie können erzwingen, dass einer zu Beginn von Frist #6 auftritt, indem sie während Frist #5 eine **666** drehen. Um eine 666 während Frist #6 zu garantieren oder die Wahrscheinlichkeit für das Auftreten zu erhöhen, können Spieler diese Schritte unternehmen:",
+                "description2": "Wählen Sie die **Heartbreak-Speicherkarte** zu Beginn des Laufs, da sie eine 666 in der letzten Runde jeder Frist garantiert. Wählen Sie die Speicherkarten **Important Choice** oder **Recovery Attempt** zu Beginn des Laufs, um die Chancen auf eine 666 zu verdoppeln. Konzentrieren Sie sich darauf, in jeder Runde so viel wie möglich zu drehen, um die Chancen auf eine 666 zu maximieren.",
+                "description3": "Das bedeutet, immer die Option mit sieben Drehungen zu wählen, und die Glücksbringer **Fake Coin** und **Cat Food**, die Drehungen erhöhen können, können ebenfalls nützlich sein. Spieler sollten sich nicht scheuen, während der Fristen #3 und #4 eine 666 zu drehen, da eine solche Drehung dazu führen kann, dass ein Telefonanruf mit rotem Text zu Beginn der Fristen #4 oder #5 auftritt."
             },
             "floppyDisk": {
-                "title": "CloverPit Gutes Ende 666 Diskette-System",
-                "description1": "Der CloverPit Enden-Transformationsprozess dreht sich um die **CloverPit 666 Diskette**, die als Verfolgungsmechanismus für Ihren Fortschritt zum CloverPit guten Ende fungiert. Jedes Mal, wenn Sie eine Frist abschließen, die einen roten Telefonanruf enthielt (den Sie korrekterweise vermieden haben), erhalten Sie eine **Markierung auf Ihrer CloverPit 666 Diskette**. Dieses CloverPit Enden-System erfordert, dass Sie **genau drei Markierungen** ansammeln, bevor die CloverPit Enden-Transformation stattfinden kann.",
-                "description2": "Der CloverPit Enden-Prozess funktioniert wie folgt: Zuerst beenden Sie eine Frist, die einen roten Telefonanruf enthielt (den Sie vermieden haben), und erhalten Ihre erste Markierung. Sie wiederholen diesen Prozess dann noch zweimal, indem Sie jedes Mal die roten Anrufe vermeiden und die Frist abschließen. Sobald Sie **drei Markierungen** auf Ihrer CloverPit 666 Diskette angesammelt haben, nehmen Sie noch einen Anruf entgegen – dieses Mal wird sich das Telefon **verwandeln** und anstelle der regulären Kommunikationen **heilige Anrufe** für Ihr CloverPit-Ende anbieten.",
-                "description3": "Dieses **Drei-Schläge-System** (three-strike system) stellt einen Test der Geduld und Disziplin in CloverPit Enden-Strategien dar. Es erfordert, dass Sie über mehrere Fristen hinweg konsequent die richtigen Entscheidungen treffen und Ihre Würdigkeit für die CloverPit Enden-Transformation beweisen. Die CloverPit 666 Diskette dient sowohl als Fortschrittsanzeige als auch als symbolische Darstellung Ihrer Reise zur Erleuchtung beim Erreichen des CloverPit-Endes."
+                "title": "666er-Muster und Disk-Markierungssystem",
+                "description1": "Das Disk-Markierungssystem ist entscheidend, um Ihren Fortschritt in Richtung des wahren Endes zu verfolgen. Jedes Mal, wenn Sie einen roten Telefonanruf ignorieren und die Frist abschließen, wird eines der drei „6“-Symbole auf der Diskette markiert. Sie müssen alle drei 6en vor Frist #8 markieren, um den Pfad zum wahren Ende freizuschalten.",
+                "description2": "Die garantierten roten Anrufe bei Fristen #3 und #7 liefern zwei der drei erforderlichen Markierungen. Die dritte Markierung muss durch das Auslösen eines roten Anrufs durch ein **666er-Muster** erfolgen, weshalb die Heartbreak-Speicherkarte so wertvoll ist – sie garantiert, dass Sie das 666er-Muster erhalten, das zum Auslösen des dritten roten Anrufs benötigt wird.",
+                "description3": "Dieses Drei-Schläge-System stellt eine Probe der Geduld und Disziplin dar. Es erfordert, dass Sie über mehrere Fristen hinweg konsequent die richtigen Entscheidungen treffen und Ihre Würdigkeit für die Transformation zum wahren Ende beweisen."
             },
             "transformation": {
-                "title": "CloverPit Gutes Ende Transformation und ihre Vorteile",
-                "description1": "Sobald Sie erfolgreich drei Markierungen auf Ihrer CloverPit 666 Diskette angesammelt haben, wird Ihr nächster Telefonanruf **heiliger Natur** sein. Diese CloverPit Enden-Transformation wirkt sich gleichzeitig auf mehrere Aspekte des Spiels aus. Das Telefon selbst verwandelt sich und bietet nun **heilige Anrufe** anstelle von regulären oder roten Anrufen an. Diese heiligen Anrufe bieten Zugang zu **heiligen Amuletten** (sacred charms), welche mächtige Gegenstände sind, die Ihr CloverPit Enden-Gameplay-Erlebnis erheblich verbessern können.",
-                "description2": "Noch wichtiger ist, dass die CloverPit Enden-Transformation auch den **Schlüssel** betrifft, den Sie zum Verlassen des Raumes verwenden. Wenn Sie diesen transformierten Schlüssel an der Tür verwenden, schaltet er das **wahre CloverPit-Ende** frei, was einen viel befriedigenderen und vollständigeren Abschluss Ihrer Reise durch CloverPit bietet. Dies repräsentiert die Belohnung für Ihre Geduld, Disziplin und Ihr Engagement für den richtigen Pfad in CloverPit Enden-Strategien.",
-                "description3": "Die CloverPit Enden-Transformationssequenz ist der Höhepunkt all Ihrer Vorbereitung und sorgfältigen Entscheidungsfindung. Sie repräsentiert CloverPits Art, Spieler zu belohnen, die sich dafür entscheiden, sich mit seinen tieferen Mechaniken auseinanderzusetzen und den herausfordernderen, aber letztendlich lohnenderen Pfad zum CloverPit Enden-Sieg zu verfolgen."
+                "title": "Transformation zum wahren Ende und der Weiße Schlüssel",
+                "description1": "Nachdem Sie den dritten Telefonanruf mit rotem Text ignoriert und Frist #7 abgeschlossen haben, sollten Spieler das Telefon zu Beginn von **Frist #8** annehmen. Dieses Annehmen lässt das Telefon, den Schlüssel in der Box neben dem Geldautomaten und die Diskette auf dem Spielautomaten **weiß** werden.",
+                "description2": "Spieler müssen nun einfach Frist #8 abschließen, den **weißen Schädel-Schlüssel** aus der Box nehmen und ihn an der Tür gegenüber dem Geldautomaten verwenden, um das 999er-Ende abzuschließen. Dies stellt den wahren Sieg dar – die Flucht aus CloverPit durch Verständnis und Beherrschung seiner tieferen Mechaniken anstatt nur durch das Anhäufen von Reichtum.",
+                "description3": "Die weiße Transformationssequenz ist die Krönung all Ihrer Vorbereitung und sorgfältigen Entscheidungsfindung. Sie stellt CloverPits Art dar, Spieler zu belohnen, die sich dafür entscheiden, sich auf seine tieferen Mechaniken einzulassen und den anspruchsvolleren, aber letztendlich lohnenderen Weg zum wahren Sieg zu verfolgen."
             }
         },
         "tips": {
             "title": "CloverPit Enden-Tipps & Tricks",
-            "subtitle": "Fortgeschrittene CloverPit Enden-Strategien und wichtige Details für den CloverPit Enden-Erfolg. Dieser CloverPit Enden-Leitfaden bietet Expertentipps. Für weitere Strategien, sehen Sie sich unseren <a href=\"/cloverpit-blog\" class=\"text-link\">Community-Blog</a> an.",
+            "subtitle": "Fortgeschrittene Strategien und wichtige Details für den Erfolg bei CloverPit-Enden. Dieser Leitfaden bietet Expertentipps zur Beherrschung der Endmechaniken des Spiels. Für weitere Strategien, besuchen Sie unseren <a href=\"/cloverpit-blog\" class=\"text-link\">Community-Blog</a>.",
             "threeStrikes": {
-                "title": "CloverPit Ende: Ihre 3 Markierungen Erhalten",
-                "description1": "Um den Transformationsprozess erfolgreich abzuschließen, müssen Sie **alle drei Markierungen** auf Ihrer CloverPit 666 Diskette erhalten. Dies erfordert sorgfältige Planung und das Verständnis der Mechaniken von CloverPit. Die wichtigste Erkenntnis ist, dass Sie **mindestens ein 'CloverPit 666'-Muster** während Ihres Laufs erhalten müssen, da dieses Muster Ihren nächsten Telefonanruf zu einem roten Anruf zwingt und Ihnen so die dritte Markierungs-Gelegenheit bietet.",
-                "description2": "Ohne das CloverPit 666-Muster können Sie bis zur Frist 8 nur 2 rote Telefonanrufe erhalten, da die anderen beiden roten Anrufe garantiert bei Frist 3 und Frist 7 erscheinen. Das bedeutet, dass Ihnen die erforderlichen drei Markierungen fehlen würden, was die Transformation unmöglich macht. Das CloverPit 666-Muster ist daher nicht nur hilfreich, sondern **absolut unerlässlich** für das Erreichen des guten Endes.",
-                "description3": "Deshalb ist die **Kummer (Heartbreak) Speicherkarte** so wertvoll – sie garantiert, dass Sie **mindestens ein CloverPit 666-Muster** würfeln, wodurch sichergestellt wird, dass Sie Zugang zu allen drei Markierungs-Gelegenheiten haben. Ohne diese Garantie würden Sie sich auf den Zufall verlassen, was mehrere Versuche erfordern und Ihre Vorbereitungszeit erheblich verlängern könnte. Erfahren Sie mehr über <a href=\"/cloverpit-wiki\" class=\"text-link\">Speicherkarten und Muster</a> in unserem Wiki."
+                "title": "Erhalten Sie Ihre 3 Schläge auf der Diskette",
+                "description1": "Um den Transformationsprozess erfolgreich abzuschließen, müssen Sie alle drei Schläge auf Ihrer 666er-Diskette erhalten. Dies erfordert sorgfältige Planung und ein Verständnis der Mechaniken von CloverPit. Die entscheidende Erkenntnis ist, dass Sie während Ihres Laufs mindestens ein **'666'-Muster** erhalten müssen, da dieses Muster Ihren nächsten Telefonanruf zwingt, rot zu sein, was Ihnen die dritte Schlag-Gelegenheit bietet.",
+                "description2": "Ohne das 666er-Muster können Sie bis Frist 8 nur 2 rote Telefonanrufe erhalten, da die anderen beiden roten Anrufe garantiert bei Frist 3 und Frist 7 erscheinen. Das bedeutet, Sie würden die erforderlichen drei Schläge verfehlen, was die Transformation unmöglich macht. Das 666er-Muster ist daher nicht nur hilfreich, sondern absolut **essenziell** für das Erreichen des guten Endes.",
+                "description3": "Deshalb ist die **Heartbreak-Speicherkarte** so wertvoll – sie garantiert, dass Sie mindestens ein 666er-Muster drehen, wodurch sichergestellt wird, dass Sie Zugang zu allen drei Schlag-Gelegenheiten haben. Ohne diese Garantie würden Sie sich auf reinen Zufall verlassen, was mehrere Versuche erfordern und Ihre Vorbereitungszeit erheblich verlängern könnte."
             },
             "timing": {
-                "title": "CloverPit Ende: Timing und Fristen-Strategie",
-                "description1": "Das Verständnis des **Timings der roten Telefonanrufe** ist entscheidend für die Planung Ihrer Strategie. CloverPit hat ein vorhersehbares Muster, wann diese Anrufe erscheinen, und das Wissen um diesen Zeitplan ermöglicht es Ihnen, Ihren Ansatz entsprechend zu planen.",
-                "description2": "Rote Telefonanrufe erscheinen garantiert bei **Frist 3 und Frist 7** in CloverPit. Diese stellen Ihre ersten beiden Gelegenheiten dar, Markierungen auf Ihrer CloverPit 666 Diskette zu sammeln. Um jedoch die dritte Markierung zu erhalten, müssen Sie einen zusätzlichen roten Anruf durch das CloverPit 666-Muster auslösen. Das bedeutet, dass Sie das CloverPit 666-Muster **vor Frist 8 würfeln** müssen, um sicherzustellen, dass Sie genügend Zeit haben, den Transformationsprozess abzuschließen.",
-                "description3": "Das Timing wird noch wichtiger, wenn Sie bedenken, dass Sie die roten Anrufe vermeiden müssen, während Sie dennoch die Fristen abschließen, die sie in CloverPit enthalten. Dies erfordert ein sorgfältiges Gleichgewicht – Sie brauchen die roten Anrufe, damit sie erscheinen und Sie Markierungen sammeln können, aber Sie müssen der Versuchung widerstehen, sie anzunehmen. Das CloverPit 666-Muster hilft, indem es eine garantierte dritte rote Anruf-Gelegenheit bietet, was das Timing vorhersehbarer und handhabbarer macht."
+                "title": "Zeitpunkt- und Frist-Strategie",
+                "description1": "Das Verständnis des Zeitpunkts der roten Telefonanrufe ist entscheidend für die Planung Ihrer Strategie. CloverPit hat ein vorhersehbares Muster dafür, wann diese Anrufe erscheinen, und das Wissen um diesen Zeitplan ermöglicht es Ihnen, Ihren Ansatz entsprechend zu planen.",
+                "description2": "Rote Telefonanrufe erscheinen in CloverPit garantiert bei **Frist 3** und **Frist 7**. Diese stellen Ihre ersten beiden Gelegenheiten dar, Schläge auf Ihrer 666er-Diskette zu verdienen. Um jedoch den dritten Schlag zu erhalten, müssen Sie einen zusätzlichen roten Anruf durch das **666er-Muster** auslösen. Das bedeutet, Sie müssen das 666er-Muster vor Frist 8 drehen, um sicherzustellen, dass Sie genügend Zeit haben, den Transformationsprozess abzuschließen.",
+                "description3": "Das Timing wird noch wichtiger, wenn man bedenkt, dass Sie vermeiden müssen, die roten Anrufe anzunehmen, während Sie dennoch die Fristen abschließen, in denen sie erscheinen. Dies erfordert ein sorgfältiges Gleichgewicht – Sie benötigen die roten Anrufe, damit Sie Schläge verdienen können, aber Sie müssen der Versuchung widerstehen, sie anzunehmen. Das 666er-Muster hilft, indem es eine garantierte dritte Gelegenheit für einen roten Anruf bietet, wodurch das Timing vorhersehbarer und handhabbarer wird."
             },
             "sacredTrinkets": {
-                "title": "CloverPit Ende: Heilige Amulette und Heilige Anrufe",
-                "description1": "Sobald Sie den Transformationsprozess erfolgreich abgeschlossen haben, beginnt das Telefon, **heilige Anrufe** anstelle von regulären oder roten Anrufen anzubieten. Diese heiligen Anrufe sind exklusiv für den Pfad des guten Endes und bieten Zugang zu **heiligen Amuletten** (sacred charms), die zu den mächtigsten Gegenständen in CloverPit gehören.",
-                "description2": "Heilige Amulette bieten signifikante Gameplay-Vorteile und repräsentieren die ultimative Belohnung für die erfolgreiche Navigation durch den komplexen Transformationsprozess. Diese Gegenstände sind auf keine andere Weise erhältlich und dienen als greifbarer Vorteil für die Wahl des herausfordernderen, aber letztendlich lohnenderen Pfades zum guten Ende.",
-                "description3": "Die heiligen Anrufe selbst repräsentieren auch einen thematischen Wandel in CloverPits Erzählung. Wo reguläre Anrufe profane Belohnungen bieten und rote Anrufe Korruption oder Gefahr darstellen könnten, bieten heilige Anrufe Zugang zu Gegenständen, die mit dem reineren, erleuchteteren Pfad übereinstimmen, den Sie eingeschlagen haben. Dies schafft ein kohärentes Erlebnis, bei dem Ihre Entscheidungen in CloverPit die Ihnen zur Verfügung stehenden Belohnungen und Möglichkeiten direkt beeinflussen."
+                "title": "Heilige Schmuckstücke und Weiße Schlüssel-Transformation",
+                "description1": "Sobald Sie den Transformationsprozess erfolgreich abgeschlossen haben, indem Sie alle drei 6en auf der Diskette markiert haben, wird das Telefon **weiß** und bietet **heilige Anrufe** anstelle von regulären oder roten Anrufen. Diese heiligen Anrufe sind exklusiv für den Pfad zum guten Ende und bieten Zugang zu **heiligen Glücksbringern** (sacred charms), die zu den mächtigsten Gegenständen in CloverPit gehören.",
+                "description2": "Die weiße Transformation betrifft auch den Schlüssel, den Sie zum Verlassen des Raumes verwenden. Wenn Sie diesen transformierten weißen Schlüssel an der Tür verwenden, schaltet er das wahre CloverPit-Ende frei und bietet einen viel befriedigenderen und vollständigeren Abschluss Ihrer Reise durch CloverPit.",
+                "description3": "Die weiße Transformationssequenz stellt die Krönung all Ihrer Vorbereitung und sorgfältigen Entscheidungsfindung dar. Sie stellt CloverPits Art dar, Spieler zu belohnen, die sich dafür entscheiden, sich auf seine tieferen Mechaniken einzulassen und den anspruchsvolleren, aber letztendlich lohnenderen Pfad zum wahren Sieg zu verfolgen."
             }
         }
     },
@@ -1461,409 +1461,409 @@
         }
     },
     "ContactPage": {
-      "hero": {
-        "title": "Kontaktieren Sie Uns (Contact Us)",
-        "description": "Nehmen Sie Kontakt mit dem Team von 321gogame.com für Support, Feedback oder Kooperationen auf"
-      },
-      "content": {
-        "getInTouch": {
-          "title": "Kontakt Aufnehmen (Get in Touch)",
-          "description": "Wir freuen uns, von Ihnen zu hören! Egal, ob Sie Fragen zu unseren CloverPit-Leitfäden, Verbesserungsvorschläge haben oder Ihre eigenen Strategien teilen möchten, wir sind für Sie da."
+        "hero": {
+            "title": "Kontaktieren Sie Uns (Contact Us)",
+            "description": "Nehmen Sie Kontakt mit dem Team von 321gogame.com für Support, Feedback oder Kooperationen auf"
         },
-        "contactMethods": {
-          "emailSupport": {
-            "title": "E-Mail-Support",
-            "description": "Für allgemeine Anfragen, Feedback oder Support-Anfragen:",
-            "email": "E-Mail:",
-            "responseTime": "Antwortzeit:",
-            "bestFor": "Am besten für:",
-            "responseTimeValue": "24–48 Stunden",
-            "bestForValue": "Allgemeine Fragen, Feedback, Support"
-          },
-          "communityFeedback": {
-            "title": "Community-Feedback",
-            "description": "Teilen Sie Ihre CloverPit-Strategien und Entdeckungen:",
-            "email": "E-Mail:",
-            "subject": "Betreff:",
-            "bestFor": "Am besten für:",
-            "subjectValue": "Strategy Submission (Strategie-Einreichung)",
-            "bestForValue": "Tipps teilen, Fehler melden, Zusammenarbeit"
-          },
-          "collaboration": {
-            "title": "Kooperationen (Collaboration)",
-            "description": "Interessiert an einer Zusammenarbeit mit uns oder an der Bereitstellung von Inhalten:",
-            "email": "E-Mail:",
-            "subject": "Betreff:",
-            "bestFor": "Am besten für:",
-            "subjectValue": "Collaboration Inquiry (Kooperationsanfrage)",
-            "bestForValue": "Partnerschaften, Inhaltserstellung, Gastbeiträge"
-          }
-        },
-        "helpCategories": {
-          "title": "Wobei Wir Helfen Können (What We Can Help With)",
-          "guideQuestions": {
-            "title": "Fragen zu Leitfäden",
-            "items": {
-              "clarification": "Klärung von Strategien",
-              "charmCombination": "Hilfe bei Charm-Kombinationen",
-              "endingWalkthrough": "Unterstützung bei Enden-Komplettlösungen",
-              "gameMechanics": "Erklärungen zu Spielmechaniken"
+        "content": {
+            "getInTouch": {
+                "title": "Kontakt Aufnehmen (Get in Touch)",
+                "description": "Wir freuen uns, von Ihnen zu hören! Egal, ob Sie Fragen zu unseren CloverPit-Leitfäden, Verbesserungsvorschläge haben oder Ihre eigenen Strategien teilen möchten, wir sind für Sie da."
+            },
+            "contactMethods": {
+                "emailSupport": {
+                    "title": "E-Mail-Support",
+                    "description": "Für allgemeine Anfragen, Feedback oder Support-Anfragen:",
+                    "email": "E-Mail:",
+                    "responseTime": "Antwortzeit:",
+                    "bestFor": "Am besten für:",
+                    "responseTimeValue": "24–48 Stunden",
+                    "bestForValue": "Allgemeine Fragen, Feedback, Support"
+                },
+                "communityFeedback": {
+                    "title": "Community-Feedback",
+                    "description": "Teilen Sie Ihre CloverPit-Strategien und Entdeckungen:",
+                    "email": "E-Mail:",
+                    "subject": "Betreff:",
+                    "bestFor": "Am besten für:",
+                    "subjectValue": "Strategy Submission (Strategie-Einreichung)",
+                    "bestForValue": "Tipps teilen, Fehler melden, Zusammenarbeit"
+                },
+                "collaboration": {
+                    "title": "Kooperationen (Collaboration)",
+                    "description": "Interessiert an einer Zusammenarbeit mit uns oder an der Bereitstellung von Inhalten:",
+                    "email": "E-Mail:",
+                    "subject": "Betreff:",
+                    "bestFor": "Am besten für:",
+                    "subjectValue": "Collaboration Inquiry (Kooperationsanfrage)",
+                    "bestForValue": "Partnerschaften, Inhaltserstellung, Gastbeiträge"
+                }
+            },
+            "helpCategories": {
+                "title": "Wobei Wir Helfen Können (What We Can Help With)",
+                "guideQuestions": {
+                    "title": "Fragen zu Leitfäden",
+                    "items": {
+                        "clarification": "Klärung von Strategien",
+                        "charmCombination": "Hilfe bei Charm-Kombinationen",
+                        "endingWalkthrough": "Unterstützung bei Enden-Komplettlösungen",
+                        "gameMechanics": "Erklärungen zu Spielmechaniken"
+                    }
+                },
+                "technicalSupport": {
+                    "title": "Technischer Support",
+                    "items": {
+                        "navigation": "Probleme bei der Website-Navigation",
+                        "accessibility": "Probleme mit der Zugänglichkeit von Inhalten",
+                        "mobileCompatibility": "Bedenken hinsichtlich der mobilen Kompatibilität",
+                        "performance": "Leistungsoptimierung"
+                    }
+                },
+                "contentFeedback": {
+                    "title": "Inhalts-Feedback",
+                    "items": {
+                        "accuracy": "Verbesserungen der Leitfaden-Genauigkeit",
+                        "missingInfo": "Anfragen zu fehlenden Informationen",
+                        "newStrategies": "Vorschläge für neue Strategien",
+                        "communityFeatures": "Ideen für Community-Funktionen"
+                    }
+                }
+            },
+            "responseGuidelines": {
+                "title": "Antwort-Richtlinien (Response Guidelines)",
+                "generalInquiries": {
+                    "title": "Allgemeine Anfragen",
+                    "description": "Wir antworten in der Regel innerhalb von **24–48 Stunden** auf allgemeine Fragen und Feedback."
+                },
+                "technicalIssues": {
+                    "title": "Technische Probleme",
+                    "description": "Anfragen zum technischen Support werden priorisiert und erhalten in der Regel **schnellere Antworten**."
+                },
+                "collaboration": {
+                    "title": "Kooperationen",
+                    "description": "Anfragen zu Partnerschaften und Kooperationen können **3–5 Werktage** für detaillierte Antworten in Anspruch nehmen."
+                }
+            },
+            "beforeContact": {
+                "title": "Bevor Sie Uns Kontaktieren (Before You Contact Us)",
+                "description": "Um uns zu helfen, die beste Unterstützung zu bieten, beachten Sie bitte:",
+                "items": {
+                    "checkGuides": "Überprüfen Sie unsere bestehenden Leitfäden auf Antworten auf häufig gestellte Fragen",
+                    "beSpecific": "Seien Sie spezifisch bezüglich Ihrer Frage oder Ihres Problems",
+                    "includeDetails": "Fügen Sie relevante Details bei (Spielversion, Plattform usw.)",
+                    "useClearSubject": "Verwenden Sie eine klare, aussagekräftige Betreffzeile",
+                    "bePatient": "Seien Sie geduldig – wir sind ein kleines Team, aber wir lesen jede Nachricht"
+                }
+            },
+            "contactInfo": {
+                "title": "Direkte Kontaktinformationen (Direct Contact Information)",
+                "primaryEmail": "Primäre E-Mail:",
+                "website": "Website:",
+                "lastUpdated": "Zuletzt aktualisiert:",
+                "businessHours": "Geschäftszeiten:",
+                "lastUpdatedValue": "17. Oktober 2025",
+                "businessHoursValue": "Wir prüfen E-Mails täglich, von Montag bis Freitag"
+            },
+            "thankYou": {
+                "title": "Vielen Dank (Thank You)",
+                "description": "Vielen Dank für Ihr Interesse an 321gogame.com und unseren CloverPit-Leitfäden. Ihr Feedback hilft uns, bessere Inhalte zu erstellen und das Spielerlebnis für die gesamte Community zu verbessern. Wir freuen uns darauf, von Ihnen zu hören!"
             }
-          },
-          "technicalSupport": {
-            "title": "Technischer Support",
-            "items": {
-              "navigation": "Probleme bei der Website-Navigation",
-              "accessibility": "Probleme mit der Zugänglichkeit von Inhalten",
-              "mobileCompatibility": "Bedenken hinsichtlich der mobilen Kompatibilität",
-              "performance": "Leistungsoptimierung"
-            }
-          },
-          "contentFeedback": {
-            "title": "Inhalts-Feedback",
-            "items": {
-              "accuracy": "Verbesserungen der Leitfaden-Genauigkeit",
-              "missingInfo": "Anfragen zu fehlenden Informationen",
-              "newStrategies": "Vorschläge für neue Strategien",
-              "communityFeatures": "Ideen für Community-Funktionen"
-            }
-          }
-        },
-        "responseGuidelines": {
-          "title": "Antwort-Richtlinien (Response Guidelines)",
-          "generalInquiries": {
-            "title": "Allgemeine Anfragen",
-            "description": "Wir antworten in der Regel innerhalb von **24–48 Stunden** auf allgemeine Fragen und Feedback."
-          },
-          "technicalIssues": {
-            "title": "Technische Probleme",
-            "description": "Anfragen zum technischen Support werden priorisiert und erhalten in der Regel **schnellere Antworten**."
-          },
-          "collaboration": {
-            "title": "Kooperationen",
-            "description": "Anfragen zu Partnerschaften und Kooperationen können **3–5 Werktage** für detaillierte Antworten in Anspruch nehmen."
-          }
-        },
-        "beforeContact": {
-          "title": "Bevor Sie Uns Kontaktieren (Before You Contact Us)",
-          "description": "Um uns zu helfen, die beste Unterstützung zu bieten, beachten Sie bitte:",
-          "items": {
-            "checkGuides": "Überprüfen Sie unsere bestehenden Leitfäden auf Antworten auf häufig gestellte Fragen",
-            "beSpecific": "Seien Sie spezifisch bezüglich Ihrer Frage oder Ihres Problems",
-            "includeDetails": "Fügen Sie relevante Details bei (Spielversion, Plattform usw.)",
-            "useClearSubject": "Verwenden Sie eine klare, aussagekräftige Betreffzeile",
-            "bePatient": "Seien Sie geduldig – wir sind ein kleines Team, aber wir lesen jede Nachricht"
-          }
-        },
-        "contactInfo": {
-          "title": "Direkte Kontaktinformationen (Direct Contact Information)",
-          "primaryEmail": "Primäre E-Mail:",
-          "website": "Website:",
-          "lastUpdated": "Zuletzt aktualisiert:",
-          "businessHours": "Geschäftszeiten:",
-          "lastUpdatedValue": "17. Oktober 2025",
-          "businessHoursValue": "Wir prüfen E-Mails täglich, von Montag bis Freitag"
-        },
-        "thankYou": {
-          "title": "Vielen Dank (Thank You)",
-          "description": "Vielen Dank für Ihr Interesse an 321gogame.com und unseren CloverPit-Leitfäden. Ihr Feedback hilft uns, bessere Inhalte zu erstellen und das Spielerlebnis für die gesamte Community zu verbessern. Wir freuen uns darauf, von Ihnen zu hören!"
         }
-      }
     },
     "CopyrightPage": {
-      "hero": {
-        "title": "Urheberrechtshinweis (Copyright Notice)",
-        "description": "Informationen zu geistigem Eigentum und Urheberrecht für 321gogame.com",
-        "lastUpdated": "Zuletzt aktualisiert: 17. Oktober 2025"
-      },
-      "content": {
-        "copyrightOwnership": {
-          "title": "Urheberrechtsinhaberschaft",
-          "description": "Alle Inhalte auf 321gogame.com, einschließlich, aber nicht beschränkt auf Text, Grafiken, Logos, Bilder, Audio-Clips, Video, digitale Downloads, Datensammlungen und Software, sind Eigentum von 321gogame.com oder seinen Inhaltslieferanten und durch internationale Urheberrechtsgesetze geschützt."
+        "hero": {
+            "title": "Urheberrechtshinweis (Copyright Notice)",
+            "description": "Informationen zu geistigem Eigentum und Urheberrecht für 321gogame.com",
+            "lastUpdated": "Zuletzt aktualisiert: 17. Oktober 2025"
         },
-        "websiteContent": {
-          "title": "Website-Inhalt",
-          "description": "Die Zusammenstellung aller Inhalte auf dieser Website ist das ausschließliche Eigentum von 321gogame.com und durch Urheberrechtsgesetze geschützt. Alle Rechte vorbehalten."
-        },
-        "cloverPitGameContent": {
-          "title": "CloverPit Spielinhalte",
-          "description": "321gogame.com ist weder mit dem Originalspiel CloverPit: The Descent oder seinen Herausgebern verbunden, von diesen unterstützt oder mit diesen in Verbindung gebracht. Dies ist eine **unabhängige Fan-Seite**, die nur zu Informationszwecken erstellt wurde."
-        },
-        "importantNotice": {
-          "title": "Wichtiger Hinweis",
-          "description": "Alle Marken, Urheberrechte und geistigen Eigentumsrechte in Bezug auf CloverPit: The Descent gehören ihren jeweiligen Eigentümern:",
-          "developer": "Entwickler:",
-          "publisher": "Herausgeber:",
-          "gameTitle": "Spieltitel:",
-          "developerValue": "Panik Arcade",
-          "publisherValue": "Future Friends Games",
-          "gameTitleValue": "CloverPit: The Descent"
-        },
-        "fairUsePolicy": {
-          "title": "Richtlinie zur fairen Nutzung (Fair Use Policy)",
-          "description": "Unsere Nutzung von spielbezogenen Inhalten fällt unter die faire Nutzung zu Bildungs- und Informationszwecken. Wir bieten:",
-          "items": {
-            "guides": "Spiel-Leitfäden und Komplettlösungen zu Bildungszwecken",
-            "analysis": "Analyse und Kommentare zu Spielmechaniken",
-            "community": "Community-Diskussion und Strategieaustausch",
-            "fanContent": "Nicht-kommerzielle Fan-Inhalte und Leitfäden"
-          }
-        },
-        "userGeneratedContent": {
-          "title": "Von Benutzern erstellte Inhalte (User-Generated Content)",
-          "description": "Wenn Sie Inhalte bei 321gogame.com einreichen, gewähren Sie uns eine nicht-exklusive, gebührenfreie, unbefristete und weltweite Lizenz zur Nutzung, Änderung und Verbreitung dieser Inhalte in Verbindung mit unseren Diensten."
-        },
-        "dmcaCompliance": {
-          "title": "DMCA-Konformität",
-          "description1": "321gogame.com respektiert die geistigen Eigentumsrechte anderer. Wenn Sie der Meinung sind, dass Ihr urheberrechtlich geschütztes Werk in einer Weise verwendet wurde, die eine Urheberrechtsverletzung darstellt, kontaktieren Sie uns bitte unter",
-          "description2": "mit den folgenden Informationen:",
-          "items": {
-            "description": "Eine Beschreibung des urheberrechtlich geschützten Werkes, das Ihrer Meinung nach verletzt wurde",
-            "location": "Der Speicherort des angeblich rechtsverletzenden Materials auf unserer Website",
-            "contactInfo": "Ihre Kontaktinformationen",
-            "goodFaith": "Eine Erklärung, dass Sie in gutem Glauben davon überzeugt sind, dass die Nutzung nicht autorisiert ist",
-            "authorization": "Eine Erklärung, dass die Informationen korrekt sind und dass Sie berechtigt sind, im Namen des Urheberrechtsinhabers zu handeln"
-          }
-        },
-        "thirdPartyContent": {
-          "title": "Inhalte Dritter",
-          "description": "Einige Inhalte auf unserer Website stammen möglicherweise von Dritten. Wir bemühen uns, diese Inhalte ordnungsgemäß zuzuordnen und die Rechte der Inhaltsersteller zu respektieren."
-        },
-        "licenseToUse": {
-          "title": "Lizenz zur Nutzung",
-          "description": "Sie dürfen Inhalte von 321gogame.com nur für Ihren persönlichen, nicht-kommerziellen Gebrauch ansehen, herunterladen und ausdrucken. Sie dürfen nicht:",
-          "items": {
-            "reproduce": "Inhalte zu kommerziellen Zwecken vervielfältigen, verbreiten oder anzeigen",
-            "modify": "Abgeleitete Werke aus unseren Inhalten modifizieren oder erstellen",
-            "remove": "Urheberrechtshinweise oder andere Eigentumskennzeichnungen entfernen",
-            "harm": "Unsere Inhalte in einer Weise verwenden, die unserem Ruf schaden könnte"
-          }
-        },
-        "contactInformation": {
-          "title": "Kontaktinformationen",
-          "description": "Für urheberrechtliche Anfragen kontaktieren Sie uns bitte:",
-          "email": "E-Mail:",
-          "website": "Website:",
-          "subjectLine": "Betreffzeile:",
-          "lastUpdated": "Zuletzt aktualisiert:",
-          "subjectLineValue": "Copyright Inquiry (Urheberrechtsanfrage)",
-          "lastUpdatedValue": "17. Oktober 2025"
+        "content": {
+            "copyrightOwnership": {
+                "title": "Urheberrechtsinhaberschaft",
+                "description": "Alle Inhalte auf 321gogame.com, einschließlich, aber nicht beschränkt auf Text, Grafiken, Logos, Bilder, Audio-Clips, Video, digitale Downloads, Datensammlungen und Software, sind Eigentum von 321gogame.com oder seinen Inhaltslieferanten und durch internationale Urheberrechtsgesetze geschützt."
+            },
+            "websiteContent": {
+                "title": "Website-Inhalt",
+                "description": "Die Zusammenstellung aller Inhalte auf dieser Website ist das ausschließliche Eigentum von 321gogame.com und durch Urheberrechtsgesetze geschützt. Alle Rechte vorbehalten."
+            },
+            "cloverPitGameContent": {
+                "title": "CloverPit Spielinhalte",
+                "description": "321gogame.com ist weder mit dem Originalspiel CloverPit: The Descent oder seinen Herausgebern verbunden, von diesen unterstützt oder mit diesen in Verbindung gebracht. Dies ist eine **unabhängige Fan-Seite**, die nur zu Informationszwecken erstellt wurde."
+            },
+            "importantNotice": {
+                "title": "Wichtiger Hinweis",
+                "description": "Alle Marken, Urheberrechte und geistigen Eigentumsrechte in Bezug auf CloverPit: The Descent gehören ihren jeweiligen Eigentümern:",
+                "developer": "Entwickler:",
+                "publisher": "Herausgeber:",
+                "gameTitle": "Spieltitel:",
+                "developerValue": "Panik Arcade",
+                "publisherValue": "Future Friends Games",
+                "gameTitleValue": "CloverPit: The Descent"
+            },
+            "fairUsePolicy": {
+                "title": "Richtlinie zur fairen Nutzung (Fair Use Policy)",
+                "description": "Unsere Nutzung von spielbezogenen Inhalten fällt unter die faire Nutzung zu Bildungs- und Informationszwecken. Wir bieten:",
+                "items": {
+                    "guides": "Spiel-Leitfäden und Komplettlösungen zu Bildungszwecken",
+                    "analysis": "Analyse und Kommentare zu Spielmechaniken",
+                    "community": "Community-Diskussion und Strategieaustausch",
+                    "fanContent": "Nicht-kommerzielle Fan-Inhalte und Leitfäden"
+                }
+            },
+            "userGeneratedContent": {
+                "title": "Von Benutzern erstellte Inhalte (User-Generated Content)",
+                "description": "Wenn Sie Inhalte bei 321gogame.com einreichen, gewähren Sie uns eine nicht-exklusive, gebührenfreie, unbefristete und weltweite Lizenz zur Nutzung, Änderung und Verbreitung dieser Inhalte in Verbindung mit unseren Diensten."
+            },
+            "dmcaCompliance": {
+                "title": "DMCA-Konformität",
+                "description1": "321gogame.com respektiert die geistigen Eigentumsrechte anderer. Wenn Sie der Meinung sind, dass Ihr urheberrechtlich geschütztes Werk in einer Weise verwendet wurde, die eine Urheberrechtsverletzung darstellt, kontaktieren Sie uns bitte unter",
+                "description2": "mit den folgenden Informationen:",
+                "items": {
+                    "description": "Eine Beschreibung des urheberrechtlich geschützten Werkes, das Ihrer Meinung nach verletzt wurde",
+                    "location": "Der Speicherort des angeblich rechtsverletzenden Materials auf unserer Website",
+                    "contactInfo": "Ihre Kontaktinformationen",
+                    "goodFaith": "Eine Erklärung, dass Sie in gutem Glauben davon überzeugt sind, dass die Nutzung nicht autorisiert ist",
+                    "authorization": "Eine Erklärung, dass die Informationen korrekt sind und dass Sie berechtigt sind, im Namen des Urheberrechtsinhabers zu handeln"
+                }
+            },
+            "thirdPartyContent": {
+                "title": "Inhalte Dritter",
+                "description": "Einige Inhalte auf unserer Website stammen möglicherweise von Dritten. Wir bemühen uns, diese Inhalte ordnungsgemäß zuzuordnen und die Rechte der Inhaltsersteller zu respektieren."
+            },
+            "licenseToUse": {
+                "title": "Lizenz zur Nutzung",
+                "description": "Sie dürfen Inhalte von 321gogame.com nur für Ihren persönlichen, nicht-kommerziellen Gebrauch ansehen, herunterladen und ausdrucken. Sie dürfen nicht:",
+                "items": {
+                    "reproduce": "Inhalte zu kommerziellen Zwecken vervielfältigen, verbreiten oder anzeigen",
+                    "modify": "Abgeleitete Werke aus unseren Inhalten modifizieren oder erstellen",
+                    "remove": "Urheberrechtshinweise oder andere Eigentumskennzeichnungen entfernen",
+                    "harm": "Unsere Inhalte in einer Weise verwenden, die unserem Ruf schaden könnte"
+                }
+            },
+            "contactInformation": {
+                "title": "Kontaktinformationen",
+                "description": "Für urheberrechtliche Anfragen kontaktieren Sie uns bitte:",
+                "email": "E-Mail:",
+                "website": "Website:",
+                "subjectLine": "Betreffzeile:",
+                "lastUpdated": "Zuletzt aktualisiert:",
+                "subjectLineValue": "Copyright Inquiry (Urheberrechtsanfrage)",
+                "lastUpdatedValue": "17. Oktober 2025"
+            }
         }
-      }
     },
     "AboutPage": {
-      "hero": {
-        "title": "Über Uns (About Us)",
-        "description": "Lernen Sie das Team hinter dem umfassenden CloverPit-Leitfaden auf 321gogame.com kennen"
-      },
-      "content": {
-        "ourMission": {
-          "title": "Unsere Mission",
-          "description": "Wir bei 321gogame.com sind leidenschaftliche Gamer, die sich der Erstellung der umfassendsten und genauesten Leitfäden für **CloverPit: The Descent** verschrieben haben. Unsere Mission ist es, Spielern zu helfen, dieses herausfordernde **Rogue-Lite-Spielautomaten-Horrorspiel** durch detaillierte Strategien, Charm-Kombinationen und Expertenwissen zu meistern."
+        "hero": {
+            "title": "Über Uns (About Us)",
+            "description": "Lernen Sie das Team hinter dem umfassenden CloverPit-Leitfaden auf 321gogame.com kennen"
         },
-        "whoWeAre": {
-          "title": "Wer Wir Sind",
-          "description": "Wir sind ein Team von erfahrenen Gamern und Strategie-Enthusiasten, die unzählige Stunden damit verbracht haben, jeden Aspekt von CloverPit zu erkunden. Unsere Expertise stammt aus **umfangreichem Gameplay**, Community-Interaktion und tiefer Analyse der Spielmechaniken."
-        },
-        "whatWeDo": {
-          "title": "Was Wir Tun",
-          "description": "Unser umfassender CloverPit-Leitfaden beinhaltet:",
-          "items": {
-            "strategies": "Detaillierte Gameplay-Strategien und Tipps",
-            "charmCombinations": "Vollständige Charm-Synergie-Kombinationen",
-            "endingsWalkthrough": "Alle Enden-Komplettlösungen und Geheimnisse",
-            "gameMechanics": "Erklärungen zu Spielmechaniken und Symbolen",
-            "communityInsights": "Community-basierte Einblicke und Entdeckungen",
-            "regularUpdates": "Regelmäßige Updates mit neuen Strategien"
-          }
-        },
-        "ourExpertise": {
-          "title": "Unsere Expertise",
-          "description": "Unser Team vereint unterschiedliche Gaming-Hintergründe:",
-          "items": {
-            "rogueliteSpecialists": "Spezialisten für Rogue-Lite- und Deck-Building-Spiele",
-            "strategyWriters": "Autoren von Strategie-Leitfäden mit jahrelanger Erfahrung",
-            "communityModerators": "Community-Moderatoren und Content-Ersteller",
-            "gameAnalysis": "Experten für Spielanalyse und -tests"
-          }
-        },
-        "communityFocus": {
-          "title": "Community-Fokus",
-          "description": "Wir glauben an die Kraft des Community-Wissens. Unsere Leitfäden werden ständig basierend auf **Spieler-Feedback**, neuen Entdeckungen und Community-Einblicken aktualisiert. Wir ermutigen Spieler, ihre Strategien zu teilen und uns bei der Verbesserung unserer Inhalte zu helfen."
-        },
-        "qualityCommitment": {
-          "title": "Qualitätsverpflichtung",
-          "description": "Jeder Leitfaden auf 321gogame.com wird **gründlich getestet und verifiziert**. Wir stellen sicher, dass unsere Strategien im tatsächlichen Gameplay funktionieren und den Spielern einen echten Mehrwert bieten. Unsere Inhalte werden regelmäßig überprüft und aktualisiert, um Genauigkeit und Relevanz zu gewährleisten."
-        },
-        "independence": {
-          "title": "Unabhängigkeit",
-          "description": "321gogame.com ist eine **unabhängige Fan-Seite**. Wir sind weder mit dem Originalspiel CloverPit: The Descent oder seinen Herausgebern verbunden, von diesen unterstützt oder mit diesen in Verbindung gebracht. Diese Unabhängigkeit ermöglicht es uns, ehrliche, unvoreingenommene Leitfäden und Strategien anzubieten."
-        },
-        "contactOurTeam": {
-          "title": "Kontaktieren Sie Unser Team",
-          "description": "Wir freuen uns über Feedback, Vorschläge und Fragen aus der CloverPit-Community. Wenn Sie Strategien teilen möchten, Fragen zu unseren Leitfäden haben oder Verbesserungsvorschläge machen möchten, zögern Sie bitte nicht, uns zu kontaktieren."
-        },
-        "contactInfo": {
-          "title": "Kontakt Aufnehmen (Get in Touch)",
-          "email": "E-Mail:",
-          "website": "Website:",
-          "responseTime": "Antwortzeit:",
-          "lastUpdated": "Zuletzt aktualisiert:",
-          "responseTimeValue": "Wir antworten in der Regel innerhalb von 24–48 Stunden",
-          "lastUpdatedValue": "17. Oktober 2025"
-        },
-        "thankYou": {
-          "title": "Vielen Dank (Thank You)",
-          "description": "Vielen Dank, dass Sie 321gogame.com als Ihre Ressource für CloverPit-Leitfäden gewählt haben. Wir sind bestrebt, Ihnen zu helfen, den verfluchten Spielautomaten zu überleben und alle Geheimnisse zu entdecken, die dieses unglaubliche Spiel zu bieten hat."
+        "content": {
+            "ourMission": {
+                "title": "Unsere Mission",
+                "description": "Wir bei 321gogame.com sind leidenschaftliche Gamer, die sich der Erstellung der umfassendsten und genauesten Leitfäden für **CloverPit: The Descent** verschrieben haben. Unsere Mission ist es, Spielern zu helfen, dieses herausfordernde **Rogue-Lite-Spielautomaten-Horrorspiel** durch detaillierte Strategien, Charm-Kombinationen und Expertenwissen zu meistern."
+            },
+            "whoWeAre": {
+                "title": "Wer Wir Sind",
+                "description": "Wir sind ein Team von erfahrenen Gamern und Strategie-Enthusiasten, die unzählige Stunden damit verbracht haben, jeden Aspekt von CloverPit zu erkunden. Unsere Expertise stammt aus **umfangreichem Gameplay**, Community-Interaktion und tiefer Analyse der Spielmechaniken."
+            },
+            "whatWeDo": {
+                "title": "Was Wir Tun",
+                "description": "Unser umfassender CloverPit-Leitfaden beinhaltet:",
+                "items": {
+                    "strategies": "Detaillierte Gameplay-Strategien und Tipps",
+                    "charmCombinations": "Vollständige Charm-Synergie-Kombinationen",
+                    "endingsWalkthrough": "Alle Enden-Komplettlösungen und Geheimnisse",
+                    "gameMechanics": "Erklärungen zu Spielmechaniken und Symbolen",
+                    "communityInsights": "Community-basierte Einblicke und Entdeckungen",
+                    "regularUpdates": "Regelmäßige Updates mit neuen Strategien"
+                }
+            },
+            "ourExpertise": {
+                "title": "Unsere Expertise",
+                "description": "Unser Team vereint unterschiedliche Gaming-Hintergründe:",
+                "items": {
+                    "rogueliteSpecialists": "Spezialisten für Rogue-Lite- und Deck-Building-Spiele",
+                    "strategyWriters": "Autoren von Strategie-Leitfäden mit jahrelanger Erfahrung",
+                    "communityModerators": "Community-Moderatoren und Content-Ersteller",
+                    "gameAnalysis": "Experten für Spielanalyse und -tests"
+                }
+            },
+            "communityFocus": {
+                "title": "Community-Fokus",
+                "description": "Wir glauben an die Kraft des Community-Wissens. Unsere Leitfäden werden ständig basierend auf **Spieler-Feedback**, neuen Entdeckungen und Community-Einblicken aktualisiert. Wir ermutigen Spieler, ihre Strategien zu teilen und uns bei der Verbesserung unserer Inhalte zu helfen."
+            },
+            "qualityCommitment": {
+                "title": "Qualitätsverpflichtung",
+                "description": "Jeder Leitfaden auf 321gogame.com wird **gründlich getestet und verifiziert**. Wir stellen sicher, dass unsere Strategien im tatsächlichen Gameplay funktionieren und den Spielern einen echten Mehrwert bieten. Unsere Inhalte werden regelmäßig überprüft und aktualisiert, um Genauigkeit und Relevanz zu gewährleisten."
+            },
+            "independence": {
+                "title": "Unabhängigkeit",
+                "description": "321gogame.com ist eine **unabhängige Fan-Seite**. Wir sind weder mit dem Originalspiel CloverPit: The Descent oder seinen Herausgebern verbunden, von diesen unterstützt oder mit diesen in Verbindung gebracht. Diese Unabhängigkeit ermöglicht es uns, ehrliche, unvoreingenommene Leitfäden und Strategien anzubieten."
+            },
+            "contactOurTeam": {
+                "title": "Kontaktieren Sie Unser Team",
+                "description": "Wir freuen uns über Feedback, Vorschläge und Fragen aus der CloverPit-Community. Wenn Sie Strategien teilen möchten, Fragen zu unseren Leitfäden haben oder Verbesserungsvorschläge machen möchten, zögern Sie bitte nicht, uns zu kontaktieren."
+            },
+            "contactInfo": {
+                "title": "Kontakt Aufnehmen (Get in Touch)",
+                "email": "E-Mail:",
+                "website": "Website:",
+                "responseTime": "Antwortzeit:",
+                "lastUpdated": "Zuletzt aktualisiert:",
+                "responseTimeValue": "Wir antworten in der Regel innerhalb von 24–48 Stunden",
+                "lastUpdatedValue": "17. Oktober 2025"
+            },
+            "thankYou": {
+                "title": "Vielen Dank (Thank You)",
+                "description": "Vielen Dank, dass Sie 321gogame.com als Ihre Ressource für CloverPit-Leitfäden gewählt haben. Wir sind bestrebt, Ihnen zu helfen, den verfluchten Spielautomaten zu überleben und alle Geheimnisse zu entdecken, die dieses unglaubliche Spiel zu bieten hat."
+            }
         }
-      }
     },
     "PrivacyPage": {
-      "hero": {
-        "title": "Datenschutzerklärung (Privacy Policy)",
-        "description": "Wie wir Ihre persönlichen Daten und Informationen auf 321gogame.com schützen",
-        "lastUpdated": "Zuletzt aktualisiert: 17. Oktober 2025"
-      },
-      "content": {
-        "informationWeCollect": {
-          "title": "Informationen, Die Wir Sammeln (Information We Collect)",
-          "description": "321gogame.com verpflichtet sich zum Schutz Ihrer Privatsphäre. Wir sammeln nur minimale Informationen, die zur Bereitstellung unserer CloverPit-Leitfaden-Dienste erforderlich sind:",
-          "personalInformation": {
-            "title": "Persönliche Informationen",
-            "items": {
-              "emailDescription1": "E-Mail-Adresse (wenn Sie uns unter",
-              "emailDescription2": "kontaktieren)",
-              "name": "Name (falls in der Kommunikation angegeben)",
-              "voluntaryInfo": "Alle Informationen, die Sie freiwillig in Feedback- oder Support-Anfragen teilen"
+        "hero": {
+            "title": "Datenschutzerklärung (Privacy Policy)",
+            "description": "Wie wir Ihre persönlichen Daten und Informationen auf 321gogame.com schützen",
+            "lastUpdated": "Zuletzt aktualisiert: 17. Oktober 2025"
+        },
+        "content": {
+            "informationWeCollect": {
+                "title": "Informationen, Die Wir Sammeln (Information We Collect)",
+                "description": "321gogame.com verpflichtet sich zum Schutz Ihrer Privatsphäre. Wir sammeln nur minimale Informationen, die zur Bereitstellung unserer CloverPit-Leitfaden-Dienste erforderlich sind:",
+                "personalInformation": {
+                    "title": "Persönliche Informationen",
+                    "items": {
+                        "emailDescription1": "E-Mail-Adresse (wenn Sie uns unter",
+                        "emailDescription2": "kontaktieren)",
+                        "name": "Name (falls in der Kommunikation angegeben)",
+                        "voluntaryInfo": "Alle Informationen, die Sie freiwillig in Feedback- oder Support-Anfragen teilen"
+                    }
+                },
+                "automaticallyCollected": {
+                    "title": "Automatisch Gesammelte Informationen",
+                    "items": {
+                        "ipAddress": "IP-Adresse und Browserinformationen",
+                        "pagesVisited": "Besuchte Seiten und Verweildauer auf unserer Website",
+                        "referringWebsite": "Informationen zur verweisenden Website",
+                        "deviceInfo": "Geräte- und Betriebssysteminformationen"
+                    }
+                }
+            },
+            "howWeUse": {
+                "title": "Wie Wir Ihre Informationen Nutzen (How We Use Your Information)",
+                "description": "Wir nutzen die gesammelten Informationen, um:",
+                "items": {
+                    "provideContent": "Unsere CloverPit-Leitfaden-Inhalte bereitzustellen und zu verbessern",
+                    "respondInquiries": "Auf Ihre Anfragen und Support-Anfragen zu antworten",
+                    "analyzeUsage": "Die Website-Nutzung zur Verbesserung des Nutzererlebnisses zu analysieren",
+                    "ensureSecurity": "Die Website-Sicherheit zu gewährleisten und Missbrauch zu verhindern"
+                }
+            },
+            "informationSharing": {
+                "title": "Informationsweitergabe (Information Sharing)",
+                "description": "Wir verkaufen, tauschen oder übertragen Ihre persönlichen Daten ohne Ihre Zustimmung nicht an Dritte, außer:",
+                "items": {
+                    "requiredByLaw": "Wenn dies gesetzlich oder durch ein Gerichtsverfahren erforderlich ist",
+                    "protectRights": "Um unsere Rechte zu schützen und Betrug zu verhindern",
+                    "serviceProviders": "Mit vertrauenswürdigen Dienstleistern, die bei Website-Operationen helfen (unter strengen Vertraulichkeitsvereinbarungen)"
+                }
+            },
+            "dataSecurity": {
+                "title": "Datensicherheit",
+                "description": "Wir implementieren angemessene Sicherheitsmaßnahmen, um Ihre persönlichen Daten vor unbefugtem Zugriff, Änderung, Offenlegung oder Zerstörung zu schützen."
+            },
+            "cookiesAndTracking": {
+                "title": "Cookies und Tracking",
+                "description": "Unsere Website kann Cookies und ähnliche Technologien verwenden, um Ihr Surferlebnis zu verbessern und die Site-Nutzung zu analysieren. Sie können die Cookie-Einstellungen über Ihre Browser-Präferenzen steuern."
+            },
+            "thirdPartyLinks": {
+                "title": "Links zu Dritten",
+                "description": "Unser CloverPit-Leitfaden kann Links zu externen Websites enthalten. Wir sind nicht verantwortlich für die Datenschutzpraktiken dieser Websites Dritter."
+            },
+            "childrensPrivacy": {
+                "title": "Datenschutz von Kindern",
+                "description": "Unsere Dienste richten sich nicht an Kinder unter 13 Jahren. Wir sammeln wissentlich keine persönlichen Informationen von Kindern unter 13 Jahren."
+            },
+            "changesToPolicy": {
+                "title": "Änderungen Dieser Richtlinie",
+                "description": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Änderungen werden auf dieser Seite mit einem aktualisierten Revisionsdatum veröffentlicht."
+            },
+            "contactUs": {
+                "title": "Kontaktieren Sie Uns",
+                "description": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter:",
+                "email": "E-Mail:",
+                "website": "Website:",
+                "lastUpdated": "Zuletzt aktualisiert:",
+                "lastUpdatedValue": "17. Oktober 2025"
             }
-          },
-          "automaticallyCollected": {
-            "title": "Automatisch Gesammelte Informationen",
-            "items": {
-              "ipAddress": "IP-Adresse und Browserinformationen",
-              "pagesVisited": "Besuchte Seiten und Verweildauer auf unserer Website",
-              "referringWebsite": "Informationen zur verweisenden Website",
-              "deviceInfo": "Geräte- und Betriebssysteminformationen"
-            }
-          }
-        },
-        "howWeUse": {
-          "title": "Wie Wir Ihre Informationen Nutzen (How We Use Your Information)",
-          "description": "Wir nutzen die gesammelten Informationen, um:",
-          "items": {
-            "provideContent": "Unsere CloverPit-Leitfaden-Inhalte bereitzustellen und zu verbessern",
-            "respondInquiries": "Auf Ihre Anfragen und Support-Anfragen zu antworten",
-            "analyzeUsage": "Die Website-Nutzung zur Verbesserung des Nutzererlebnisses zu analysieren",
-            "ensureSecurity": "Die Website-Sicherheit zu gewährleisten und Missbrauch zu verhindern"
-          }
-        },
-        "informationSharing": {
-          "title": "Informationsweitergabe (Information Sharing)",
-          "description": "Wir verkaufen, tauschen oder übertragen Ihre persönlichen Daten ohne Ihre Zustimmung nicht an Dritte, außer:",
-          "items": {
-            "requiredByLaw": "Wenn dies gesetzlich oder durch ein Gerichtsverfahren erforderlich ist",
-            "protectRights": "Um unsere Rechte zu schützen und Betrug zu verhindern",
-            "serviceProviders": "Mit vertrauenswürdigen Dienstleistern, die bei Website-Operationen helfen (unter strengen Vertraulichkeitsvereinbarungen)"
-          }
-        },
-        "dataSecurity": {
-          "title": "Datensicherheit",
-          "description": "Wir implementieren angemessene Sicherheitsmaßnahmen, um Ihre persönlichen Daten vor unbefugtem Zugriff, Änderung, Offenlegung oder Zerstörung zu schützen."
-        },
-        "cookiesAndTracking": {
-          "title": "Cookies und Tracking",
-          "description": "Unsere Website kann Cookies und ähnliche Technologien verwenden, um Ihr Surferlebnis zu verbessern und die Site-Nutzung zu analysieren. Sie können die Cookie-Einstellungen über Ihre Browser-Präferenzen steuern."
-        },
-        "thirdPartyLinks": {
-          "title": "Links zu Dritten",
-          "description": "Unser CloverPit-Leitfaden kann Links zu externen Websites enthalten. Wir sind nicht verantwortlich für die Datenschutzpraktiken dieser Websites Dritter."
-        },
-        "childrensPrivacy": {
-          "title": "Datenschutz von Kindern",
-          "description": "Unsere Dienste richten sich nicht an Kinder unter 13 Jahren. Wir sammeln wissentlich keine persönlichen Informationen von Kindern unter 13 Jahren."
-        },
-        "changesToPolicy": {
-          "title": "Änderungen Dieser Richtlinie",
-          "description": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Änderungen werden auf dieser Seite mit einem aktualisierten Revisionsdatum veröffentlicht."
-        },
-        "contactUs": {
-          "title": "Kontaktieren Sie Uns",
-          "description": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter:",
-          "email": "E-Mail:",
-          "website": "Website:",
-          "lastUpdated": "Zuletzt aktualisiert:",
-          "lastUpdatedValue": "17. Oktober 2025"
         }
-      }
     },
     "TermsPage": {
-      "hero": {
-        "title": "Nutzungsbedingungen (Terms of Service)",
-        "description": "Allgemeine Geschäftsbedingungen für die Nutzung der CloverPit-Leitfaden-Dienste von 321gogame.com",
-        "lastUpdated": "Zuletzt aktualisiert: 17. Oktober 2025"
-      },
-      "content": {
-        "acceptanceOfTerms": {
-          "title": "Annahme der Bedingungen",
-          "description": "Durch den Zugriff auf und die Nutzung von **321gogame.com** akzeptieren und stimmen Sie zu, an die Bedingungen und Bestimmungen dieser Vereinbarung gebunden zu sein. Wenn Sie sich nicht damit einverstanden erklären, sich daran zu halten, nutzen Sie diesen Dienst bitte nicht."
+        "hero": {
+            "title": "Nutzungsbedingungen (Terms of Service)",
+            "description": "Allgemeine Geschäftsbedingungen für die Nutzung der CloverPit-Leitfaden-Dienste von 321gogame.com",
+            "lastUpdated": "Zuletzt aktualisiert: 17. Oktober 2025"
         },
-        "useLicense": {
-          "title": "Nutzungslizenz",
-          "description": "Es wird die Erlaubnis erteilt, eine Kopie der Materialien auf 321gogame.com vorübergehend nur für den **persönlichen, nicht-kommerziellen** vorübergehenden Gebrauch herunterzuladen. Dies ist die Gewährung einer Lizenz, keine Übertragung des Eigentums, und unter dieser Lizenz dürfen Sie nicht:",
-          "items": {
-            "modifyCopy": "Die Materialien modifizieren oder kopieren",
-            "commercialUse": "Die Materialien für kommerzielle Zwecke oder für eine öffentliche Darstellung verwenden",
-            "reverseEngineer": "Versuchen, jegliche auf der Website enthaltene Software zurückzuentwickeln (*Reverse Engineering*)",
-            "removeCopyright": "Urheberrechts- oder andere Eigentumshinweise aus den Materialien entfernen"
-          }
-        },
-        "disclaimer": {
-          "title": "Haftungsausschluss (Disclaimer)",
-          "description": "Die Materialien auf 321gogame.com werden 'wie besehen' zur Verfügung gestellt. 321gogame.com übernimmt keine ausdrücklichen oder stillschweigenden Garantien und lehnt hiermit alle anderen Garantien ab und negiert diese, einschließlich, aber nicht beschränkt auf, stillschweigende Garantien oder Bedingungen der Marktgängigkeit, der Eignung für einen bestimmten Zweck oder der Nichtverletzung geistigen Eigentums oder anderer Rechte."
-        },
-        "limitations": {
-          "title": "Haftungsbeschränkungen (Limitations)",
-          "description": "In keinem Fall haften 321gogame.com oder seine Lieferanten für Schäden (einschließlich, aber nicht beschränkt auf, Schäden durch Daten- oder Gewinnverlust oder aufgrund von Betriebsunterbrechungen), die sich aus der Nutzung oder der Unfähigkeit zur Nutzung der Materialien auf 321gogame.com ergeben, selbst wenn 321gogame.com oder ein autorisierter Vertreter mündlich oder schriftlich über die Möglichkeit eines solchen Schadens informiert wurde."
-        },
-        "accuracyOfMaterials": {
-          "title": "Genauigkeit der Materialien",
-          "description": "Die auf 321gogame.com erscheinenden Materialien könnten technische, typografische oder fotografische Fehler enthalten. 321gogame.com übernimmt keine Gewähr dafür, dass die Materialien auf seiner Website **genau, vollständig oder aktuell** sind. 321gogame.com kann jederzeit und ohne vorherige Ankündigung Änderungen an den auf seiner Website enthaltenen Materialien vornehmen."
-        },
-        "links": {
-          "title": "Links",
-          "description": "321gogame.com hat nicht alle mit seiner Website verknüpften Websites überprüft und ist nicht verantwortlich für den Inhalt einer solchen verknüpften Website. Die Aufnahme eines Links impliziert keine Billigung der Website durch 321gogame.com. Die Nutzung einer solchen verknüpften Website erfolgt auf **eigenes Risiko** des Benutzers."
-        },
-        "modifications": {
-          "title": "Änderungen",
-          "description": "321gogame.com kann diese Nutzungsbedingungen für seine Website jederzeit ohne vorherige Ankündigung überarbeiten. Durch die Nutzung dieser Website erklären Sie sich damit einverstanden, an die dann **aktuelle Version** dieser Nutzungsbedingungen gebunden zu sein."
-        },
-        "governingLaw": {
-          "title": "Geltendes Recht",
-          "description": "Diese Geschäftsbedingungen unterliegen den Gesetzen [des jeweiligen Staates oder Ortes] und werden in Übereinstimmung mit diesen ausgelegt, und Sie unterwerfen sich unwiderruflich der ausschließlichen Gerichtsbarkeit der Gerichte in diesem Staat oder Ort."
-        },
-        "userConduct": {
-          "title": "Benutzerverhalten",
-          "description": "Benutzer erklären sich damit einverstanden, 321gogame.com verantwortungsbewusst zu nutzen und nicht:",
-          "items": {
-            "violateLaws": "Gegen geltende Gesetze oder Vorschriften zu verstoßen",
-            "transmitHarmfulCode": "Schädlichen oder bösartigen Code zu übertragen",
-            "unauthorizedAccess": "Zu versuchen, sich unbefugten Zugang zu unseren Systemen zu verschaffen",
-            "interfereFunctioning": "Die ordnungsgemäße Funktion der Website zu stören",
-            "unlawfulPurpose": "Die Website für ungesetzliche oder verbotene Zwecke zu nutzen"
-          }
-        },
-        "intellectualProperty": {
-          "title": "Geistiges Eigentum",
-          "description": "Alle Inhalte auf 321gogame.com, einschließlich, aber nicht beschränkt auf Text, Grafiken, Logos, Bilder und Software, sind Eigentum von 321gogame.com oder seinen Inhaltslieferanten und durch Urheberrechts- und andere Gesetze zum Schutz des geistigen Eigentums geschützt."
-        },
-        "contactInformation": {
-          "title": "Kontaktinformationen",
-          "description": "Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, kontaktieren Sie uns bitte:",
-          "email": "E-Mail:",
-          "website": "Website:",
-          "lastUpdated": "Zuletzt aktualisiert:",
-          "lastUpdatedValue": "17. Oktober 2025"
+        "content": {
+            "acceptanceOfTerms": {
+                "title": "Annahme der Bedingungen",
+                "description": "Durch den Zugriff auf und die Nutzung von **321gogame.com** akzeptieren und stimmen Sie zu, an die Bedingungen und Bestimmungen dieser Vereinbarung gebunden zu sein. Wenn Sie sich nicht damit einverstanden erklären, sich daran zu halten, nutzen Sie diesen Dienst bitte nicht."
+            },
+            "useLicense": {
+                "title": "Nutzungslizenz",
+                "description": "Es wird die Erlaubnis erteilt, eine Kopie der Materialien auf 321gogame.com vorübergehend nur für den **persönlichen, nicht-kommerziellen** vorübergehenden Gebrauch herunterzuladen. Dies ist die Gewährung einer Lizenz, keine Übertragung des Eigentums, und unter dieser Lizenz dürfen Sie nicht:",
+                "items": {
+                    "modifyCopy": "Die Materialien modifizieren oder kopieren",
+                    "commercialUse": "Die Materialien für kommerzielle Zwecke oder für eine öffentliche Darstellung verwenden",
+                    "reverseEngineer": "Versuchen, jegliche auf der Website enthaltene Software zurückzuentwickeln (*Reverse Engineering*)",
+                    "removeCopyright": "Urheberrechts- oder andere Eigentumshinweise aus den Materialien entfernen"
+                }
+            },
+            "disclaimer": {
+                "title": "Haftungsausschluss (Disclaimer)",
+                "description": "Die Materialien auf 321gogame.com werden 'wie besehen' zur Verfügung gestellt. 321gogame.com übernimmt keine ausdrücklichen oder stillschweigenden Garantien und lehnt hiermit alle anderen Garantien ab und negiert diese, einschließlich, aber nicht beschränkt auf, stillschweigende Garantien oder Bedingungen der Marktgängigkeit, der Eignung für einen bestimmten Zweck oder der Nichtverletzung geistigen Eigentums oder anderer Rechte."
+            },
+            "limitations": {
+                "title": "Haftungsbeschränkungen (Limitations)",
+                "description": "In keinem Fall haften 321gogame.com oder seine Lieferanten für Schäden (einschließlich, aber nicht beschränkt auf, Schäden durch Daten- oder Gewinnverlust oder aufgrund von Betriebsunterbrechungen), die sich aus der Nutzung oder der Unfähigkeit zur Nutzung der Materialien auf 321gogame.com ergeben, selbst wenn 321gogame.com oder ein autorisierter Vertreter mündlich oder schriftlich über die Möglichkeit eines solchen Schadens informiert wurde."
+            },
+            "accuracyOfMaterials": {
+                "title": "Genauigkeit der Materialien",
+                "description": "Die auf 321gogame.com erscheinenden Materialien könnten technische, typografische oder fotografische Fehler enthalten. 321gogame.com übernimmt keine Gewähr dafür, dass die Materialien auf seiner Website **genau, vollständig oder aktuell** sind. 321gogame.com kann jederzeit und ohne vorherige Ankündigung Änderungen an den auf seiner Website enthaltenen Materialien vornehmen."
+            },
+            "links": {
+                "title": "Links",
+                "description": "321gogame.com hat nicht alle mit seiner Website verknüpften Websites überprüft und ist nicht verantwortlich für den Inhalt einer solchen verknüpften Website. Die Aufnahme eines Links impliziert keine Billigung der Website durch 321gogame.com. Die Nutzung einer solchen verknüpften Website erfolgt auf **eigenes Risiko** des Benutzers."
+            },
+            "modifications": {
+                "title": "Änderungen",
+                "description": "321gogame.com kann diese Nutzungsbedingungen für seine Website jederzeit ohne vorherige Ankündigung überarbeiten. Durch die Nutzung dieser Website erklären Sie sich damit einverstanden, an die dann **aktuelle Version** dieser Nutzungsbedingungen gebunden zu sein."
+            },
+            "governingLaw": {
+                "title": "Geltendes Recht",
+                "description": "Diese Geschäftsbedingungen unterliegen den Gesetzen [des jeweiligen Staates oder Ortes] und werden in Übereinstimmung mit diesen ausgelegt, und Sie unterwerfen sich unwiderruflich der ausschließlichen Gerichtsbarkeit der Gerichte in diesem Staat oder Ort."
+            },
+            "userConduct": {
+                "title": "Benutzerverhalten",
+                "description": "Benutzer erklären sich damit einverstanden, 321gogame.com verantwortungsbewusst zu nutzen und nicht:",
+                "items": {
+                    "violateLaws": "Gegen geltende Gesetze oder Vorschriften zu verstoßen",
+                    "transmitHarmfulCode": "Schädlichen oder bösartigen Code zu übertragen",
+                    "unauthorizedAccess": "Zu versuchen, sich unbefugten Zugang zu unseren Systemen zu verschaffen",
+                    "interfereFunctioning": "Die ordnungsgemäße Funktion der Website zu stören",
+                    "unlawfulPurpose": "Die Website für ungesetzliche oder verbotene Zwecke zu nutzen"
+                }
+            },
+            "intellectualProperty": {
+                "title": "Geistiges Eigentum",
+                "description": "Alle Inhalte auf 321gogame.com, einschließlich, aber nicht beschränkt auf Text, Grafiken, Logos, Bilder und Software, sind Eigentum von 321gogame.com oder seinen Inhaltslieferanten und durch Urheberrechts- und andere Gesetze zum Schutz des geistigen Eigentums geschützt."
+            },
+            "contactInformation": {
+                "title": "Kontaktinformationen",
+                "description": "Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, kontaktieren Sie uns bitte:",
+                "email": "E-Mail:",
+                "website": "Website:",
+                "lastUpdated": "Zuletzt aktualisiert:",
+                "lastUpdatedValue": "17. Oktober 2025"
+            }
         }
-      }
     }
 }
