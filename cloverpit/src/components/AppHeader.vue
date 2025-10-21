@@ -4,7 +4,7 @@
       <div class="header-content">
         <div class="logo">
           <a :href="localizedPath('/')" class="nav-link" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
-            <img src="../../public/images/logo.webp" alt="CloverPit Logo" />
+            <img src="../../public/images/logo.webp" alt="CloverPit Logo" loading="eager" decoding="async" />
             <span>CloverPit</span>
           </a>
         </div>

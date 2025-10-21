@@ -5,7 +5,7 @@
         <div class="footer-content">
           <div class="footer-section">
             <div class="footer-section-logo">
-              <img src="../../public/images/logo.webp" alt="CloverPit Logo" />
+              <img src="../../public/images/logo.webp" alt="CloverPit Logo" loading="eager" decoding="async" />
               <span>CloverPit</span>
             </div>
             <p>{{ $t('footer.description') }}</p>

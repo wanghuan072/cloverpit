@@ -60,7 +60,7 @@
                     <p>{{ $t('EndingsPage.preparation.drawerSlots.description2') }}</p>
                   </div>
                   <div class="step-image">
-                    <img src="../../public/images/endings-01.webp" alt="CloverPit Ending Drawer Slots Collection" />
+                    <img src="../../public/images/endings-01.webp" alt="CloverPit Ending Drawer Slots Collection" loading="lazy" decoding="async" />
                   </div>
                 </div>
               </div>
@@ -76,10 +76,10 @@
                     <p v-html="$t('EndingsPage.preparation.corpsePieces.description3')"></p>
                   </div>
                   <div class="step-image">
-                    <img src="../../public/images/endings-02.webp" alt="CloverPit Ending Corpse Pieces Collection-01" />
-                    <img src="../../public/images/endings-03.webp" alt="CloverPit Ending Corpse Pieces Collection-02" />
-                    <img src="../../public/images/endings-04.webp" alt="CloverPit Ending Corpse Pieces Collection-03" />
-                    <img src="../../public/images/endings-05.webp" alt="CloverPit Ending Corpse Pieces Collection-04" />
+                    <img src="../../public/images/endings-02.webp" alt="CloverPit Ending Corpse Pieces Collection-01" loading="lazy" decoding="async" />
+                    <img src="../../public/images/endings-03.webp" alt="CloverPit Ending Corpse Pieces Collection-02" loading="lazy" decoding="async" />
+                    <img src="../../public/images/endings-04.webp" alt="CloverPit Ending Corpse Pieces Collection-03" loading="lazy" decoding="async" />
+                    <img src="../../public/images/endings-05.webp" alt="CloverPit Ending Corpse Pieces Collection-04" loading="lazy" decoding="async" />
                   </div>
                 </div>
               </div>
@@ -137,7 +137,7 @@
             </div>
 
             <div class="ending-image">
-              <img src="../../public/images/endings-06.webp" alt="CloverPit Ending Drawer Slots Collection" />
+              <img src="../../public/images/endings-06.webp" alt="CloverPit Ending Drawer Slots Collection" loading="lazy" decoding="async" />
             </div>
           </div>
         </div>
@@ -171,7 +171,7 @@
                     </div>
                   </div>
                   <div class="step-image">
-                    <img src="../../public/images/endings-07.webp" alt="CloverPit Ending Memory Card Strategy" />
+                    <img src="../../public/images/endings-07.webp" alt="CloverPit Ending Memory Card Strategy" loading="lazy" decoding="async" />
                   </div>
                 </div>
               </div>
@@ -194,7 +194,7 @@
                     </div>
                   </div>
                   <div class="step-image">
-                    <img src="../../public/images/endings-09.webp" alt="CloverPit Ending Phone Call Management" />
+                    <img src="../../public/images/endings-09.webp" alt="CloverPit Ending Phone Call Management" loading="lazy" decoding="async" />
                   </div>
                 </div>
               </div>
@@ -217,7 +217,7 @@
                     </div>
                   </div>
                   <div class="step-image">
-                    <img src="../../public/images/endings-08.webp" alt="CloverPit Ending Memory Card Strategy" />
+                    <img src="../../public/images/endings-08.webp" alt="CloverPit Ending Memory Card Strategy" loading="lazy" decoding="async" />
                   </div>
                 </div>
               </div>
@@ -241,9 +241,9 @@
                 </div>
               </div>
               <div class="step-image">
-                <img src="../../public/images/endings-10.webp" alt="CloverPit Ending White Key Transformation-01" />
-                <img src="../../public/images/endings-11.webp" alt="CloverPit Ending White Key Transformation-02" />
-                <img src="../../public/images/endings-12.webp" alt="CloverPit Ending White Key Transformation-03" />
+                <img src="../../public/images/endings-10.webp" alt="CloverPit Ending White Key Transformation-01" loading="lazy" decoding="async" />
+                <img src="../../public/images/endings-11.webp" alt="CloverPit Ending White Key Transformation-02" loading="lazy" decoding="async" />
+                <img src="../../public/images/endings-12.webp" alt="CloverPit Ending White Key Transformation-03" loading="lazy" decoding="async" />
               </div>
             </div>
           </div>
