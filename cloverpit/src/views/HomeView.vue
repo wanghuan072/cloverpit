@@ -260,37 +260,16 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref } from 'vue'
 import AppHeader from '../components/AppHeader.vue'
 import AppFooter from '../components/AppFooter.vue'
 import '@/assets/css/public.css'
 
-const parallaxElements = ref([])
 const videoPlaying = ref(false)
-
 
 const playVideo = () => {
   videoPlaying.value = true
 }
-
-const handleScroll = () => {
-  const scrolled = window.pageYOffset
-
-  parallaxElements.value.forEach((element, index) => {
-    const speed = 0.5 + (index * 0.1) // 不同section不同速度
-    const yPos = -(scrolled * speed)
-    element.style.transform = `translateY(${yPos}px)`
-  })
-}
-
-onMounted(() => {
-  parallaxElements.value = document.querySelectorAll('.parallax-bg')
-  window.addEventListener('scroll', handleScroll)
-})
-
-onUnmounted(() => {
-  window.removeEventListener('scroll', handleScroll)
-})
 </script>
 
 <style scoped>
@@ -336,31 +315,31 @@ onUnmounted(() => {
 }
 
 .section.hero {
-  background-image: url('../images/2.webp');
+  background-image: url('/images/2.webp');
 }
 
 .section.about {
-  background-image: url('../images/1.webp');
+  background-image: url('/images/1.webp');
 }
 
 .section.features {
-  background-image: url('../images/3.webp');
+  background-image: url('/images/3.webp');
 }
 
 .section.guide {
-  background-image: url('../images/4.webp');
+  background-image: url('/images/4.webp');
 }
 
 .section.information {
-  background-image: url('../images/5.webp');
+  background-image: url('/images/5.webp');
 }
 
 .section.faq {
-  background-image: url('../images/6.webp');
+  background-image: url('/images/6.webp');
 }
 
 .section.trailer {
-  background-image: url('../images/7.webp');
+  background-image: url('/images/7.webp');
 }
 
 
@@ -368,7 +347,6 @@ onUnmounted(() => {
   position: relative;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   padding: 100px 0;
 }
@@ -399,7 +377,6 @@ onUnmounted(() => {
 /* Hero Section */
 .section.hero {
   height: 100vh;
-  background-attachment: fixed;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
