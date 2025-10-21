@@ -33,6 +33,74 @@ a:hover{
   padding: 70px 0 0 0;
 }
 
+/* 关键渲染路径CSS - 优化性能 */
+.section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+
+.section.hero {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  contain: paint;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrapper {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+}
+
+.title-main {
+  font-size: 4rem;
+  color: #ffffff;
+  margin-bottom: 30px;
+  line-height: 1.2;
+  font-weight: 700;
+  font-family: 'Creepster', 'Orbitron', monospace, cursive;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0 0 5px #ff6b35, 0 0 10px #ff6b35, 0 0 15px #ff6b35, 0 0 20px #ff6b35, 0 0 25px #ff6b35, 0 0 30px #ff6b35;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .title-main {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .section.hero {
+    height: auto;
+    padding: 100px 0 20px 0;
+  }
+  .wrapper {
+    padding: 20px;
+  }
+}
+
+
+
 
 
 
