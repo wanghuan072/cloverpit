@@ -3,32 +3,32 @@
     <div class="container">
       <div class="header-content">
         <div class="logo">
-          <router-link :to="localizedPath('/')" class="nav-link" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
+          <a :href="localizedPath('/')" class="nav-link" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
             <img src="../../public/images/logo.webp" alt="CloverPit Logo" />
             <span>CloverPit</span>
-          </router-link>
+          </a>
         </div>
         
         <!-- 桌面端导航 -->
         <nav class="nav desktop-nav">
           <ul class="nav-list">
             <li class="nav-item">
-              <router-link :to="localizedPath('/')" class="nav-link">{{ $t('nav.home') }}</router-link>
+              <a :href="localizedPath('/')" class="nav-link">{{ $t('nav.home') }}</a>
             </li>
             <li class="nav-item">
-              <router-link :to="localizedPath('/cloverpit-guide')" class="nav-link">{{ $t('nav.guide') }}</router-link>
+              <a :href="localizedPath('/cloverpit-guide')" class="nav-link">{{ $t('nav.guide') }}</a>
             </li>
             <li class="nav-item">
-              <router-link :to="localizedPath('/cloverpit-wiki')" class="nav-link">{{ $t('nav.wiki') }}</router-link>
+              <a :href="localizedPath('/cloverpit-wiki')" class="nav-link">{{ $t('nav.wiki') }}</a>
             </li>
             <li class="nav-item">
-              <router-link :to="localizedPath('/cloverpit-endings')" class="nav-link">{{ $t('nav.endings') }}</router-link>
+              <a :href="localizedPath('/cloverpit-endings')" class="nav-link">{{ $t('nav.endings') }}</a>
             </li>
             <li class="nav-item">
-              <router-link :to="localizedPath('/cloverpit-blog')" class="nav-link">{{ $t('nav.blog') }}</router-link>
+              <a :href="localizedPath('/cloverpit-blog')" class="nav-link">{{ $t('nav.blog') }}</a>
             </li>
             <li class="nav-item">
-              <router-link :to="localizedPath('/cloverpit-download')" class="nav-link">{{ $t('nav.download') }}</router-link>
+              <a :href="localizedPath('/cloverpit-download')" class="nav-link">{{ $t('nav.download') }}</a>
             </li>
           </ul>
         </nav>
@@ -55,22 +55,22 @@
         <nav class="nav mobile-nav" :class="{ open: isMobileMenuOpen }">
           <ul class="mobile-nav-list">
             <li class="nav-item">
-              <router-link :to="localizedPath('/')" class="nav-link" @click="closeMobileMenu">{{ $t('nav.home') }}</router-link>
+              <a :href="localizedPath('/')" class="nav-link" @click="closeMobileMenu">{{ $t('nav.home') }}</a>
             </li>
             <li class="nav-item">
-              <router-link :to="localizedPath('/cloverpit-guide')" class="nav-link" @click="closeMobileMenu">{{ $t('nav.guide') }}</router-link>
+              <a :href="localizedPath('/cloverpit-guide')" class="nav-link" @click="closeMobileMenu">{{ $t('nav.guide') }}</a>
             </li>
             <li class="nav-item">
-              <router-link :to="localizedPath('/cloverpit-wiki')" class="nav-link" @click="closeMobileMenu">{{ $t('nav.wiki') }}</router-link>
+              <a :href="localizedPath('/cloverpit-wiki')" class="nav-link" @click="closeMobileMenu">{{ $t('nav.wiki') }}</a>
             </li>
             <li class="nav-item">
-              <router-link :to="localizedPath('/cloverpit-endings')" class="nav-link" @click="closeMobileMenu">{{ $t('nav.endings') }}</router-link>
+              <a :href="localizedPath('/cloverpit-endings')" class="nav-link" @click="closeMobileMenu">{{ $t('nav.endings') }}</a>
             </li>
             <li class="nav-item">
-              <router-link :to="localizedPath('/cloverpit-blog')" class="nav-link" @click="closeMobileMenu">{{ $t('nav.blog') }}</router-link>
+              <a :href="localizedPath('/cloverpit-blog')" class="nav-link" @click="closeMobileMenu">{{ $t('nav.blog') }}</a>
             </li>
             <li class="nav-item">
-              <router-link :to="localizedPath('/cloverpit-download')" class="nav-link" @click="closeMobileMenu">{{ $t('nav.download') }}</router-link>
+              <a :href="localizedPath('/cloverpit-download')" class="nav-link" @click="closeMobileMenu">{{ $t('nav.download') }}</a>
             </li>
             <li class="nav-item" style="padding: 12px 30px;">
               <label class="sr-only" for="lang-select-mobile">Language</label>

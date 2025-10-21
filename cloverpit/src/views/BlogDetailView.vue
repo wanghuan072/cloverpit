@@ -8,9 +8,9 @@
         <div class="container">
           <!-- 面包屑导航 -->
           <nav class="breadcrumb">
-            <router-link to="/" class="breadcrumb-link">Home</router-link>
+            <a :href="getLocalizedPath('/')" class="breadcrumb-link">{{ t('nav.home') }}</a>
             <span class="breadcrumb-separator">/</span>
-            <router-link to="/cloverpit-blog" class="breadcrumb-link">Blog</router-link>
+            <a :href="getLocalizedPath('/cloverpit-blog')" class="breadcrumb-link">{{ t('nav.blog') }}</a>
             <span class="breadcrumb-separator">/</span>
             <span class="breadcrumb-current">{{ blogPost.title }}</span>
           </nav>
@@ -41,21 +41,26 @@
 
 <script setup>
 import { ref, onMounted, computed } from 'vue'
-import { useRoute } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 import AppHeader from '../components/AppHeader.vue'
 import AppFooter from '../components/AppFooter.vue'
 import "../assets/css/public.css"
-import { blog } from '../data/blog.js'
+import { findBlogPost } from '../data/blogLoader.js'
 import { setSEO } from '../seo'
 
 const route = useRoute()
+const router = useRouter()
+const { t, locale } = useI18n()
 const blogPost = ref({})
 
-// 根据路由参数查找对应的博客文章
-const findBlogPost = () => {
-  const addressBar = route.params.slug
-  const post = blog.find(item => item.addressBar === addressBar)
-  return post || null
+// 检测当前语言并生成多语言路径
+const getLocalizedPath = (path) => {
+  const currentLocale = locale.value
+  if (currentLocale === 'en') {
+    return path
+  }
+  return `/${currentLocale}${path}`
 }
 
 // 格式化日期
@@ -85,19 +90,26 @@ const setupBlogDetailSEO = () => {
       for (const l of supported) {
         if (l !== 'en' && (path === `/${l}` || path.startsWith(`/${l}/`))) { lang = l; break }
       }
-      setSEO(seoData, `/blog/${blogPost.value.addressBar}`, 'blog', lang)
+      setSEO(seoData, getLocalizedPath(`/blog/${blogPost.value.addressBar}`), 'blog', lang)
     }
   }
 }
 
-onMounted(() => {
-  const post = findBlogPost()
-  if (post) {
-    blogPost.value = post
-    setupBlogDetailSEO()
-  } else {
-    // 如果找不到文章，重定向到博客列表页
-    route.push('/cloverpit-blog')
+onMounted(async () => {
+  try {
+    const addressBar = route.params.slug
+    const post = await findBlogPost(addressBar)
+    
+    if (post) {
+      blogPost.value = post
+      setupBlogDetailSEO()
+    } else {
+      // 如果找不到文章，重定向到博客列表页
+      router.push(getLocalizedPath('/cloverpit-blog'))
+    }
+  } catch (error) {
+    console.error('Failed to load blog post:', error)
+    router.push(getLocalizedPath('/cloverpit-blog'))
   }
 })
 </script>

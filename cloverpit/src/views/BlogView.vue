@@ -56,14 +56,25 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 import AppHeader from '../components/AppHeader.vue'
 import AppFooter from '../components/AppFooter.vue'
 import "../assets/css/public.css"
 
-import { blog } from '../data/blog.js'
+import { loadBlogData } from '../data/blogLoader.js'
 
 const router = useRouter()
+const { locale } = useI18n()
 const blogPosts = ref([])
+
+// 检测当前语言并生成多语言路径
+const getLocalizedPath = (path) => {
+  const currentLocale = locale.value
+  if (currentLocale === 'en') {
+    return path
+  }
+  return `/${currentLocale}${path}`
+}
 
 // 格式化日期
 const formatDate = (dateString) => {
@@ -77,11 +88,17 @@ const formatDate = (dateString) => {
 
 // 导航到博客详情页
 const navigateToPost = (post) => {
-  router.push(`/blog/${post.addressBar}`)
+  router.push(getLocalizedPath(`/blog/${post.addressBar}`))
 }
 
-onMounted(() => {
-  blogPosts.value = blog
+onMounted(async () => {
+  try {
+    const data = await loadBlogData()
+    blogPosts.value = data
+  } catch (error) {
+    console.error('Failed to load blog data:', error)
+    blogPosts.value = []
+  }
 })
 </script>
 
