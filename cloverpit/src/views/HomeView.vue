@@ -37,7 +37,12 @@
             <h2 class="title-sub">{{ $t('HomePage.about.title') }}</h2>
              <div class="about-content">
                <div class="about-image">
-                 <img src="../../public/images/about-img.webp" alt="CloverPit Game Screenshot" />
+                 <img 
+                   src="../../public/images/about-img.webp" 
+                   alt="CloverPit Game Screenshot"
+                   loading="eager"
+                   decoding="sync"
+                 />
                </div>
                <p v-html="$t('HomePage.about.description1')"></p>
                <p v-html="$t('HomePage.about.description2')"></p>
@@ -296,7 +301,7 @@ onUnmounted(() => {
   margin-bottom: 30px;
   line-height: 1.2;
   font-weight: 700;
-  font-family: 'Creepster', 'Orbitron', monospace, cursive;
+  font-family: 'Courier New', 'Monaco', 'Menlo', monospace;
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -316,7 +321,7 @@ onUnmounted(() => {
   margin-bottom: 30px;
   line-height: 1.2;
   font-weight: 700;
-  font-family: 'Creepster', 'Orbitron', monospace, cursive;
+  font-family: 'Courier New', 'Monaco', 'Menlo', monospace;
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -583,6 +588,8 @@ onUnmounted(() => {
   margin-right: 25px;
   margin-bottom: 15px;
   shape-outside: margin-box;
+  border-radius: 15px;
+  overflow: hidden; /* 防止内容溢出 */
 }
 
 .about-image img {
@@ -591,6 +598,7 @@ onUnmounted(() => {
   border-radius: 15px;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
   border: 2px solid rgba(255, 107, 53, 0.3);
+  display: block; /* 避免基线对齐问题 */
 }
 
 .features-grid {
