@@ -68,10 +68,6 @@
 .app-footer {
   background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
   border-top: 1px solid #ff6b35;
-  /* 修复布局偏移：设置最小高度防止内容加载时的布局变化 */
-  min-height: 300px;
-  /* 防止字体加载导致的布局偏移 */
-  font-display: swap;
 }
 
 .footer-wrapper {
