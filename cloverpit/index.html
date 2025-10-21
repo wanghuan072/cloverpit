@@ -8,6 +8,14 @@
 
   <!-- 关键图片预加载 - 优化LCP性能 -->
   <link rel="preload" href="/images/2.webp" as="image" fetchpriority="high">
+  <link rel="preload" href="/images/about-img.webp" as="image" fetchpriority="high">
+  <link rel="preload" href="/images/1.webp" as="image" fetchpriority="high">
+  
+  <!-- 字体预加载 - 优化字体加载性能 -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Creepster:wght@400&family=Orbitron:wght@400;700;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Creepster:wght@400&family=Orbitron:wght@400;700;900&display=swap">
+  </noscript>
 
   <!-- CSS预加载 - 优化关键渲染路径 -->
   <link rel="preload" href="/assets/public-CNn_JEtD.css" as="style" onload="this.onload=null;this.rel='stylesheet'">

@@ -3,7 +3,17 @@
     <AppHeader />
     
     <!-- 博客详情头部 -->
-    <section class="blog-header" :style="{ backgroundImage: `url(${blogPost.imageUrl})` }">
+    <section class="blog-header">
+      <!-- 优化LCP：使用img标签替代背景图片 -->
+      <img 
+        v-if="blogPost.imageUrl" 
+        :src="blogPost.imageUrl" 
+        :alt="blogPost.title"
+        class="blog-header-image"
+        fetchpriority="high"
+        loading="eager"
+        decoding="async"
+      />
       <div class="header-overlay">
         <div class="container">
           <!-- 面包屑导航 -->
@@ -126,13 +136,22 @@ onMounted(async () => {
 .blog-header {
   position: relative;
   height: 60vh;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+
+/* 优化LCP：博客头部图片样式 */
+.blog-header-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 1;
 }
 
 .header-overlay {
