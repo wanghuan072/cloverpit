@@ -5,7 +5,7 @@ export const blog = [
         "publishDate": "2025-10-11",
         "addressBar": "no-im-not-a-human-how-to-know-if-you-killed-a-visitor",
         "description": "この呪われたスロットマシンホラーゲームで、CloverPitの訪問者との遭遇に関する暗い秘密を発見し、訪問者を排除したかどうかを識別する方法を学びましょう。",
-        "imageUrl": "../../public/images/1.webp",
+        "imageUrl": "../../../public/images/1.webp",
         "imageAlt": "CloverPit 訪問者エンカウンターガイド",
         "seo": {
             "title": "いいえ、私は人間ではありません：訪問者を倒したかどうかを知る方法 - CloverPit ガイド",
@@ -57,7 +57,7 @@ export const blog = [
         "publishDate": "2025-10-12",
         "addressBar": "mastering-cursed-charms-complete-guide-cloverpit-charm-system",
         "description": "チャームの種類、シナジー、最大の生存のための戦略的な組み合わせを網羅したこの包括的なガイドで、CloverPitのチャームシステムの秘密を解き明かしましょう。",
-        "imageUrl": "../../public/images/2.webp",
+        "imageUrl": "../../../public/images/2.webp",
         "imageAlt": "CloverPit チャームシステムガイド",
         "seo": {
             "title": "呪われたチャームをマスターする：CloverPitのチャームシステム完全ガイド - CloverPit Wiki",

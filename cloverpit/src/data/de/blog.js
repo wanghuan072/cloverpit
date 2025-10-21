@@ -6,7 +6,7 @@ export const blog = [
         "publishDate": "2025-10-11",
         "addressBar": "nein-ich-bin-kein-mensch-wie-man-erkennt-ob-man-einen-besucher-getoetet-hat",
         "description": "Entdecken Sie die dunklen Geheimnisse der Besucherbegegnungen in CloverPit und erfahren Sie, wie Sie in diesem verfluchten Slot-Maschinen-Horror erkennen, ob Sie einen Besucher eliminiert haben.",
-        "imageUrl": "../../public/images/1.webp",
+        "imageUrl": "../../../public/images/1.webp",
         "imageAlt": "CloverPit Besucherbegegnungs-Leitfaden",
         "seo": {
             "title": "NEIN, ICH BIN KEIN MENSCH: WIE MAN ERKENNT, OB MAN EINEN BESUCHER GETÖTET HAT - CloverPit Guide",
@@ -58,7 +58,7 @@ export const blog = [
         "publishDate": "2025-10-12",
         "addressBar": "die-verfluchten-amulette-meistern-vollstaendiger-leitfaden-cloverpit-amulett-system",
         "description": "Entschlüsseln Sie die Geheimnisse des Amulett-Systems von CloverPit mit diesem umfassenden Leitfaden, der Amulett-Typen, Synergien und strategische Kombinationen für maximales Überleben behandelt.",
-        "imageUrl": "../../public/images/2.webp",
+        "imageUrl": "../../../public/images/2.webp",
         "imageAlt": "CloverPit Amulett-System-Leitfaden",
         "seo": {
             "title": "DIE VERFLUCHTEN AMULETTE MEISTERN: EIN VOLLSTÄNDIGER LEITFADEN ZUM AMULETT-SYSTEM VON CLOVERPIT - CloverPit Wiki",

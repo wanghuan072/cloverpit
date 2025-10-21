@@ -6,7 +6,7 @@ export const blog = [
         "publishDate": "2025-10-11",
         "addressBar": "no-soy-un-humano-como-saber-si-has-matado-a-un-visitante",
         "description": "Descubre los oscuros secretos de los encuentros con visitantes de CloverPit y aprende a identificar cuándo has eliminado a un visitante en este maldito juego de terror de máquina tragaperras.",
-        "imageUrl": "../../public/images/1.webp",
+        "imageUrl": "../../../public/images/1.webp",
         "imageAlt": "Guía de Encuentros con Visitantes de CloverPit",
         "seo": {
             "title": "NO, NO SOY UN HUMANO: CÓMO SABER SI HAS MATADO A UN VISITANTE - Guía de CloverPit",
@@ -58,7 +58,7 @@ export const blog = [
         "publishDate": "2025-10-12",
         "addressBar": "dominando-los-amuletos-malditos-guia-completa-sistema-amuletos-cloverpit",
         "description": "Desbloquea los secretos del sistema de amuletos de CloverPit con esta guía completa que cubre tipos de amuletos, sinergias y combinaciones estratégicas para una máxima supervivencia.",
-        "imageUrl": "../../public/images/2.webp",
+        "imageUrl": "../../../public/images/2.webp",
         "imageAlt": "Guía del Sistema de Amuletos de CloverPit",
         "seo": {
             "title": "DOMINANDO LOS AMULETOS MALDITOS: UNA GUÍA COMPLETA DEL SISTEMA DE AMULETOS DE CLOVERPIT - Wiki de CloverPit",
