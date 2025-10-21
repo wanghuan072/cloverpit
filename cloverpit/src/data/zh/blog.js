@@ -5,7 +5,7 @@ export const blog = [
     publishDate: '2025-10-11',
     addressBar: 'no-im-not-a-human-how-to-know-if-you-killed-a-visitor',
     description: '发现CloverPit访客遭遇的黑暗秘密，学习如何识别你在这台被诅咒的老虎机恐怖游戏中是否消灭了访客。',
-    imageUrl: '../../../public/images/1.webp',
+    imageUrl: '/images/1.webp',
     imageAlt: 'CloverPit访客遭遇指南',
     seo: {
         title: '我不是人类：如何知道你是否杀死了访客 - CloverPit指南',
@@ -57,7 +57,7 @@ export const blog = [
     publishDate: '2025-10-12',
     addressBar: 'mastering-cursed-charms-complete-guide-cloverpit-charm-system',
     description: '通过这份涵盖符文类型、协同效应和战略组合的综合指南，解锁CloverPit符文系统的秘密，实现最大生存率。',
-    imageUrl: '../../../public/images/2.webp',
+    imageUrl: '/images/2.webp',
     imageAlt: 'CloverPit符文系统指南',
     seo: {
         title: '掌握被诅咒符文：CloverPit符文系统完整指南 - CloverPit维基',

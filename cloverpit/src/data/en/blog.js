@@ -5,7 +5,7 @@ export const blog = [
     publishDate: '2025-10-11',
     addressBar: 'no-im-not-a-human-how-to-know-if-you-killed-a-visitor',
     description: 'Discover the dark secrets of CloverPit\'s visitor encounters and learn how to identify when you\'ve eliminated a visitor in this cursed slot machine horror.',
-    imageUrl: '../../../public/images/1.webp',
+    imageUrl: '/images/1.webp',
     imageAlt: 'CloverPit Visitor Encounter Guide',
     seo: {
         title: 'NO I\'M NOT A HUMAN: HOW TO KNOW IF YOU KILLED A VISITOR - CloverPit Guide',
@@ -57,7 +57,7 @@ export const blog = [
     publishDate: '2025-10-12',
     addressBar: 'mastering-cursed-charms-complete-guide-cloverpit-charm-system',
     description: 'Unlock the secrets of CloverPit\'s charm system with this comprehensive guide covering charm types, synergies, and strategic combinations for maximum survival.',
-    imageUrl: '../../../public/images/2.webp',
+    imageUrl: '/images/2.webp',
     imageAlt: 'CloverPit Charm System Guide',
     seo: {
         title: 'MASTERING THE CURSED CHARMS: A COMPLETE GUIDE TO CLOVERPIT\'S CHARM SYSTEM - CloverPit Wiki',

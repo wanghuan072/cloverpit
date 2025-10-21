@@ -5,7 +5,7 @@ export const blog = [
         "publishDate": "2025-10-11",
         "addressBar": "no-im-not-a-human-how-to-know-if-you-killed-a-visitor",
         "description": "이 저주받은 슬롯 머신 호러 게임에서 CloverPit 방문자 조우의 어두운 비밀을 발견하고, 방문자를 제거했을 때 이를 식별하는 방법을 알아보세요.",
-        "imageUrl": "../../../public/images/1.webp",
+        "imageUrl": "..//images/1.webp",
         "imageAlt": "CloverPit 방문자 조우 가이드",
         "seo": {
             "title": "아니요, 저는 인간이 아닙니다: 방문자를 처치했는지 확인하는 방법 - CloverPit 가이드",
@@ -57,7 +57,7 @@ export const blog = [
         "publishDate": "2025-10-12",
         "addressBar": "mastering-cursed-charms-complete-guide-cloverpit-charm-system",
         "description": "최대 생존을 위한 부적 유형, 시너지, 전략적 조합을 다루는 이 종합 가이드로 CloverPit의 부적 시스템의 비밀을 잠금 해제하세요.",
-        "imageUrl": "../../../public/images/2.webp",
+        "imageUrl": "..//images/2.webp",
         "imageAlt": "CloverPit 부적 시스템 가이드",
         "seo": {
             "title": "저주받은 부적 마스터하기: CloverPit의 부적 시스템 완벽 가이드 - CloverPit Wiki",

@@ -5,7 +5,7 @@ export const blog = [
         "publishDate": "2025-10-11",
         "addressBar": "no-im-not-a-human-how-to-know-if-you-killed-a-visitor",
         "description": "Раскройте мрачные секреты встреч с посетителями в CloverPit и узнайте, как определить, когда вы устранили посетителя в этом проклятом хорроре на игровом автомате.",
-        "imageUrl": "../../../public/images/1.webp",
+        "imageUrl": "..//images/1.webp",
         "imageAlt": "Руководство по встрече с посетителями CloverPit",
         "seo": {
             "title": "НЕТ, Я НЕ ЧЕЛОВЕК: КАК УЗНАТЬ, УБИЛИ ЛИ ВЫ ПОСЕТИТЕЛЯ - Руководство CloverPit",
@@ -57,7 +57,7 @@ export const blog = [
         "publishDate": "2025-10-12",
         "addressBar": "mastering-cursed-charms-complete-guide-cloverpit-charm-system",
         "description": "Раскройте секреты системы амулетов CloverPit с помощью этого исчерпывающего руководства, охватывающего типы амулетов, синергию и стратегические комбинации для максимального выживания.",
-        "imageUrl": "../../../public/images/2.webp",
+        "imageUrl": "..//images/2.webp",
         "imageAlt": "Руководство по системе амулетов CloverPit",
         "seo": {
             "title": "ОСВОЕНИЕ ПРОКЛЯТЫХ АМУЛЕТОВ: ПОЛНОЕ РУКОВОДСТВО ПО СИСТЕМЕ АМУЛЕТОВ CLOVERPIT - CloverPit Wiki",

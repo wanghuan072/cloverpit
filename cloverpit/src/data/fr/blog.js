@@ -5,7 +5,7 @@ export const blog = [
         "publishDate": "2025-10-11",
         "addressBar": "non-je-ne-suis-pas-humain-comment-savoir-si-vous-avez-tue-un-visiteur",
         "description": "Découvrez les sombres secrets des rencontres avec les visiteurs de CloverPit et apprenez à identifier quand vous avez éliminé un visiteur dans ce jeu d'horreur maudit de machine à sous.",
-        "imageUrl": "../../../public/images/1.webp",
+        "imageUrl": "..//images/1.webp",
         "imageAlt": "Guide de Rencontre avec les Visiteurs de CloverPit",
         "seo": {
             "title": "NON, JE NE SUIS PAS HUMAIN : COMMENT SAVOIR SI VOUS AVEZ TUÉ UN VISITEUR - Guide CloverPit",
@@ -57,7 +57,7 @@ export const blog = [
         "publishDate": "2025-10-12",
         "addressBar": "maitriser-les-amulettes-maudites-guide-complet-systeme-amulettes-cloverpit",
         "description": "Débloquez les secrets du système d'amulettes de CloverPit avec ce guide complet couvrant les types d'amulettes, les synergies et les combinaisons stratégiques pour une survie maximale.",
-        "imageUrl": "../../../public/images/2.webp",
+        "imageUrl": "..//images/2.webp",
         "imageAlt": "Guide du Système d'Amulettes de CloverPit",
         "seo": {
             "title": "MAÎTRISER LES AMULETTES MAUDITES : UN GUIDE COMPLET DU SYSTÈME D'AMULETTES DE CLOVERPIT - Wiki CloverPit",
