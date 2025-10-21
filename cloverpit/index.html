@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- 使用本地默认字体，避免网络字体加载影响性能 -->
-    
-    <!-- 关键图片预加载 - 优化LCP性能 -->
-    <link rel="preload" href="/images/2.webp" as="image" fetchpriority="high">
-    
-    <!-- CSS预加载 - 优化关键渲染路径 -->
-    <link rel="preload" href="/assets/public-CNn_JEtD.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/assets/public-CNn_JEtD.css"></noscript>
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 关键图片预加载 - 优化LCP性能 -->
+  <link rel="preload" href="/images/2.webp" as="image" fetchpriority="high">
+
+  <!-- CSS预加载 - 优化关键渲染路径 -->
+  <link rel="preload" href="/assets/public-CNn_JEtD.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="/assets/public-CNn_JEtD.css">
+  </noscript>
 
   <!-- Primary Meta Tags -->
   <title>CloverPit: The Descent - Complete Game Guide & Wiki</title>
@@ -54,12 +54,12 @@
   <!-- Google Analytics - 延迟加载优化性能 -->
   <script>
     // 延迟加载Google Analytics
-    window.addEventListener('load', function() {
+    window.addEventListener('load', function () {
       const script = document.createElement('script');
       script.async = true;
       script.src = 'https://www.googletagmanager.com/gtag/js?id=G-7QKB6PQ10L';
       document.head.appendChild(script);
-      
+
       window.dataLayer = window.dataLayer || [];
       function gtag() { dataLayer.push(arguments); }
       gtag('js', new Date());

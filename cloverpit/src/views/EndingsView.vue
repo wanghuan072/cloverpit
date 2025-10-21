@@ -7,22 +7,32 @@
       <section class="section hero">
         <div class="container">
           <div class="hero-wrapper">
-                <h1 class="hero-title">{{ $t('EndingsPage.hero.title') }}</h1>
-                <div class="hero-description">
-                  <p v-html="$t('EndingsPage.hero.description')"></p>
-                </div>
+            <h1 class="hero-title">{{ $t('EndingsPage.hero.title') }}</h1>
+            <div class="hero-description">
+              <p v-html="$t('EndingsPage.hero.description')"></p>
+            </div>
+
+            <!-- Enhanced Navigation -->
             <div class="endings-nav">
               <div class="nav-card" @click="scrollToSection('preparation')">
-                <span>{{ $t('EndingsPage.hero.nav.preparation') }}</span>
+                <div class="nav-content">
+                  <h3>{{ $t('EndingsPage.hero.nav.preparation') }}</h3>
+                </div>
               </div>
               <div class="nav-card" @click="scrollToSection('bad-ending')">
-                <span>{{ $t('EndingsPage.hero.nav.badEnding') }}</span>
+                <div class="nav-content">
+                  <h3>{{ $t('EndingsPage.hero.nav.badEnding') }}</h3>
+                </div>
               </div>
               <div class="nav-card" @click="scrollToSection('good-ending')">
-                <span>{{ $t('EndingsPage.hero.nav.goodEnding') }}</span>
+                <div class="nav-content">
+                  <h3>{{ $t('EndingsPage.hero.nav.goodEnding') }}</h3>
+                </div>
               </div>
               <div class="nav-card" @click="scrollToSection('tips')">
-                <span>{{ $t('EndingsPage.hero.nav.tips') }}</span>
+                <div class="nav-content">
+                  <h3>{{ $t('EndingsPage.hero.nav.tips') }}</h3>
+                </div>
               </div>
             </div>
           </div>
@@ -38,31 +48,52 @@
               <p class="section-subtitle" v-html="$t('EndingsPage.preparation.subtitle')"></p>
             </div>
 
-            <div class="preparation-content">
-              <div class="preparation-section">
-                <h3>{{ $t('EndingsPage.preparation.drawerSlots.title') }}</h3>
-                <p>{{ $t('EndingsPage.preparation.drawerSlots.description1') }}</p>
-                
-                <p>{{ $t('EndingsPage.preparation.drawerSlots.description2') }}</p>
-                
-                <img src="../../public/images/endings-01.webp" alt="CloverPit Ending Drawer Slots Collection" />
-              
+            <!-- Step-by-step preparation guide -->
+            <div class="preparation-steps">
+              <!-- Step 1: Unlock Drawers -->
+              <div class="step-card">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                  <h3>{{ $t('EndingsPage.preparation.drawerSlots.title') }}</h3>
+                  <div class="step-description">
+                    <p>{{ $t('EndingsPage.preparation.drawerSlots.description1') }}</p>
+                    <p>{{ $t('EndingsPage.preparation.drawerSlots.description2') }}</p>
+                  </div>
+                  <div class="step-image">
+                    <img src="../../public/images/endings-01.webp" alt="CloverPit Ending Drawer Slots Collection" />
+                  </div>
+                </div>
               </div>
 
-              <div class="preparation-section">
-                <h3>{{ $t('EndingsPage.preparation.corpsePieces.title') }}</h3>
-                <p>{{ $t('EndingsPage.preparation.corpsePieces.description1') }}</p>
-                
-                <p>{{ $t('EndingsPage.preparation.corpsePieces.description2') }}</p>
-                
-                <p v-html="$t('EndingsPage.preparation.corpsePieces.description3')"></p>
+              <!-- Step 2: Get Corpse Pieces -->
+              <div class="step-card">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                  <h3>{{ $t('EndingsPage.preparation.corpsePieces.title') }}</h3>
+                  <div class="step-description">
+                    <p>{{ $t('EndingsPage.preparation.corpsePieces.description1') }}</p>
+                    <p>{{ $t('EndingsPage.preparation.corpsePieces.description2') }}</p>
+                    <p v-html="$t('EndingsPage.preparation.corpsePieces.description3')"></p>
+                  </div>
+                  <div class="step-image">
+                    <img src="../../public/images/endings-02.webp" alt="CloverPit Ending Corpse Pieces Collection-01" />
+                    <img src="../../public/images/endings-03.webp" alt="CloverPit Ending Corpse Pieces Collection-02" />
+                    <img src="../../public/images/endings-04.webp" alt="CloverPit Ending Corpse Pieces Collection-03" />
+                    <img src="../../public/images/endings-05.webp" alt="CloverPit Ending Corpse Pieces Collection-04" />
+                  </div>
+                </div>
               </div>
 
-              <div class="preparation-section">
-                <h3>{{ $t('EndingsPage.preparation.skullAcquisition.title') }}</h3>
-                <p>{{ $t('EndingsPage.preparation.skullAcquisition.description1') }}</p>
-                
-                <p>{{ $t('EndingsPage.preparation.skullAcquisition.description2') }}</p>
+              <!-- Step 3: Acquire Skull -->
+              <div class="step-card">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                  <h3>{{ $t('EndingsPage.preparation.skullAcquisition.title') }}</h3>
+                  <div class="step-description">
+                    <p>{{ $t('EndingsPage.preparation.skullAcquisition.description1') }}</p>
+                    <p>{{ $t('EndingsPage.preparation.skullAcquisition.description2') }}</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -79,21 +110,34 @@
             </div>
 
             <div class="ending-content">
-              <div class="ending-section">
-                <h3>{{ $t('EndingsPage.badEnding.simplePath.title') }}</h3>
-                <p>{{ $t('EndingsPage.badEnding.simplePath.description1') }}</p>
-                
-                <p>{{ $t('EndingsPage.badEnding.simplePath.description2') }}</p>
+              <!-- Requirements Card -->
+              <div class="ending-card requirements">
+                <div class="card-header">
+                  <div class="card-icon">⚫</div>
+                  <h3>{{ $t('EndingsPage.badEnding.simplePath.title') }}</h3>
+                </div>
+                <div class="card-content">
+                  <p>{{ $t('EndingsPage.badEnding.simplePath.description1') }}</p>
+                  <p>{{ $t('EndingsPage.badEnding.simplePath.description2') }}</p>
+                </div>
               </div>
 
-              <div class="ending-section">
-                <h3>{{ $t('EndingsPage.badEnding.rewards.title') }}</h3>
-                <p>{{ $t('EndingsPage.badEnding.rewards.description1') }}</p>
-                
-                <p v-html="$t('EndingsPage.badEnding.rewards.description2')"></p>
-                
-                <p>{{ $t('EndingsPage.badEnding.rewards.description3') }}</p>
+              <!-- Rewards Card -->
+              <div class="ending-card rewards">
+                <div class="card-header">
+                  <div class="card-icon">🏆</div>
+                  <h3>{{ $t('EndingsPage.badEnding.rewards.title') }}</h3>
+                </div>
+                <div class="card-content">
+                  <p>{{ $t('EndingsPage.badEnding.rewards.description1') }}</p>
+                  <p v-html="$t('EndingsPage.badEnding.rewards.description2')"></p>
+                  <p>{{ $t('EndingsPage.badEnding.rewards.description3') }}</p>
+                </div>
               </div>
+            </div>
+
+            <div class="ending-image">
+              <img src="../../public/images/endings-06.webp" alt="CloverPit Ending Drawer Slots Collection" />
             </div>
           </div>
         </div>
@@ -105,46 +149,101 @@
           <div class="good-ending-wrapper">
             <div class="section-header">
               <h2 class="section-title">{{ $t('EndingsPage.goodEnding.title') }}</h2>
-              <p class="section-subtitle" v-html="$t('EndingsPage.goodEnding.subtitle')"></p>       
+              <p class="section-subtitle" v-html="$t('EndingsPage.goodEnding.subtitle')"></p>
             </div>
 
-            <div class="ending-content">
-              <div class="ending-section">
-                <h3>{{ $t('EndingsPage.goodEnding.memoryCard.title') }}</h3>
-                <p>{{ $t('EndingsPage.goodEnding.memoryCard.description1') }}</p>
-                
-                <p>{{ $t('EndingsPage.goodEnding.memoryCard.description2') }}</p>
-              
-                <img src="../../public/images/endings-02.webp" alt="CloverPit Ending Memory Card Recommendation" />
+            <!-- Good Ending Process -->
+            <div class="good-ending-process">
+              <!-- Step 1: Memory Card Strategy -->
+              <div class="process-step">
+                <div class="step-indicator">
+                  <div class="step-number">1</div>
+                  <div class="step-line"></div>
+                </div>
+                <div class="step-content">
+                  <div class="step-card">
+                    <div class="card-header">
+                      <h3>{{ $t('EndingsPage.goodEnding.memoryCard.title') }}</h3>
+                    </div>
+                    <div class="card-content">
+                      <p>{{ $t('EndingsPage.goodEnding.memoryCard.description1') }}</p>
+                      <p>{{ $t('EndingsPage.goodEnding.memoryCard.description2') }}</p>
+                    </div>
+                  </div>
+                  <div class="step-image">
+                    <img src="../../public/images/endings-07.webp" alt="CloverPit Ending Memory Card Strategy" />
+                  </div>
+                </div>
               </div>
 
-              <div class="ending-section">
-                <h3>{{ $t('EndingsPage.goodEnding.phoneCalls.title') }}</h3>
-                <p>{{ $t('EndingsPage.goodEnding.phoneCalls.description1') }}</p>
-                
-                <p>{{ $t('EndingsPage.goodEnding.phoneCalls.description2') }}</p>
-                
-                <p v-html="$t('EndingsPage.goodEnding.phoneCalls.description3')"></p>
+              <!-- Step 2: Phone Call Management -->
+              <div class="process-step">
+                <div class="step-indicator">
+                  <div class="step-number">2</div>
+                  <div class="step-line"></div>
+                </div>
+                <div class="step-content">
+                  <div class="step-card">
+                    <div class="card-header">
+                      <h3>{{ $t('EndingsPage.goodEnding.phoneCalls.title') }}</h3>
+                    </div>
+                    <div class="card-content">
+                      <p>{{ $t('EndingsPage.goodEnding.phoneCalls.description1') }}</p>
+                      <p>{{ $t('EndingsPage.goodEnding.phoneCalls.description2') }}</p>
+                      <p v-html="$t('EndingsPage.goodEnding.phoneCalls.description3')"></p>
+                    </div>
+                  </div>
+                  <div class="step-image">
+                    <img src="../../public/images/endings-09.webp" alt="CloverPit Ending Phone Call Management" />
+                  </div>
+                </div>
               </div>
 
-              <div class="ending-section">
-                <h3>{{ $t('EndingsPage.goodEnding.floppyDisk.title') }}</h3>
-                <p>{{ $t('EndingsPage.goodEnding.floppyDisk.description1') }}</p>
-                
-                <p>{{ $t('EndingsPage.goodEnding.floppyDisk.description2') }}</p>
-                
-                <p>{{ $t('EndingsPage.goodEnding.floppyDisk.description3') }}</p>
-              
-                <img src="../../public/images/endings-03.webp" alt="CloverPit Ending 666 Floppy Disk System" />
+              <!-- Step 3: Disk Marking System -->
+              <div class="process-step">
+                <div class="step-indicator">
+                  <div class="step-number">3</div>
+                  <div class="step-line"></div>
+                </div>
+                <div class="step-content">
+                  <div class="step-card">
+                    <div class="card-header">
+                      <h3>{{ $t('EndingsPage.goodEnding.floppyDisk.title') }}</h3>
+                    </div>
+                    <div class="card-content">
+                      <p>{{ $t('EndingsPage.goodEnding.floppyDisk.description1') }}</p>
+                      <p>{{ $t('EndingsPage.goodEnding.floppyDisk.description2') }}</p>
+                      <p>{{ $t('EndingsPage.goodEnding.floppyDisk.description3') }}</p>
+                    </div>
+                  </div>
+                  <div class="step-image">
+                    <img src="../../public/images/endings-08.webp" alt="CloverPit Ending Memory Card Strategy" />
+                  </div>
+                </div>
               </div>
 
-              <div class="ending-section">
-                <h3>{{ $t('EndingsPage.goodEnding.transformation.title') }}</h3>
-                <p>{{ $t('EndingsPage.goodEnding.transformation.description1') }}</p>
-                
-                <p>{{ $t('EndingsPage.goodEnding.transformation.description2') }}</p>
-                
-                <p>{{ $t('EndingsPage.goodEnding.transformation.description3') }}</p>
+              <!-- Step 4: White Key Transformation -->
+              <div class="process-step">
+                <div class="step-indicator">
+                  <div class="step-number">4</div>
+                </div>
+                <div class="step-content">
+                  <div class="step-card">
+                    <div class="card-header">
+                      <h3>{{ $t('EndingsPage.goodEnding.transformation.title') }}</h3>
+                    </div>
+                    <div class="card-content">
+                      <p>{{ $t('EndingsPage.goodEnding.transformation.description1') }}</p>
+                      <p>{{ $t('EndingsPage.goodEnding.transformation.description2') }}</p>
+                      <p>{{ $t('EndingsPage.goodEnding.transformation.description3') }}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="step-image">
+                <img src="../../public/images/endings-10.webp" alt="CloverPit Ending White Key Transformation-01" />
+                <img src="../../public/images/endings-11.webp" alt="CloverPit Ending White Key Transformation-02" />
+                <img src="../../public/images/endings-12.webp" alt="CloverPit Ending White Key Transformation-03" />
               </div>
             </div>
           </div>
@@ -153,45 +252,54 @@
 
       <!-- Tips & Tricks Section -->
       <section id="tips" class="section tips">
-      <div class="container">
+        <div class="container">
           <div class="tips-wrapper">
             <div class="section-header">
               <h2 class="section-title">{{ $t('EndingsPage.tips.title') }}</h2>
               <p class="section-subtitle" v-html="$t('EndingsPage.tips.subtitle')"></p>
             </div>
 
-            <div class="tips-content">
-              <div class="tip-section">
-                <h3>{{ $t('EndingsPage.tips.threeStrikes.title') }}</h3>
-                <p>{{ $t('EndingsPage.tips.threeStrikes.description1') }}</p>
-                
-                <p>{{ $t('EndingsPage.tips.threeStrikes.description2') }}</p>
-                
-                <p v-html="$t('EndingsPage.tips.threeStrikes.description3')"></p>
+            <div class="tips-grid">
+              <div class="tip-card">
+                <div class="tip-header">
+                  <div class="tip-icon">🎯</div>
+                  <h3>{{ $t('EndingsPage.tips.threeStrikes.title') }}</h3>
+                </div>
+                <div class="tip-content">
+                  <p>{{ $t('EndingsPage.tips.threeStrikes.description1') }}</p>
+                  <p>{{ $t('EndingsPage.tips.threeStrikes.description2') }}</p>
+                  <p v-html="$t('EndingsPage.tips.threeStrikes.description3')"></p>
+                </div>
               </div>
 
-              <div class="tip-section">
-                <h3>{{ $t('EndingsPage.tips.timing.title') }}</h3>
-                <p>{{ $t('EndingsPage.tips.timing.description1') }}</p>
-                
-                <p>{{ $t('EndingsPage.tips.timing.description2') }}</p>
-                
-                <p>{{ $t('EndingsPage.tips.timing.description3') }}</p>
+              <div class="tip-card">
+                <div class="tip-header">
+                  <div class="tip-icon">⏰</div>
+                  <h3>{{ $t('EndingsPage.tips.timing.title') }}</h3>
+                </div>
+                <div class="tip-content">
+                  <p>{{ $t('EndingsPage.tips.timing.description1') }}</p>
+                  <p>{{ $t('EndingsPage.tips.timing.description2') }}</p>
+                  <p>{{ $t('EndingsPage.tips.timing.description3') }}</p>
+                </div>
               </div>
 
-              <div class="tip-section">
-                <h3>{{ $t('EndingsPage.tips.sacredTrinkets.title') }}</h3>
-                <p>{{ $t('EndingsPage.tips.sacredTrinkets.description1') }}</p>
-                
-                <p>{{ $t('EndingsPage.tips.sacredTrinkets.description2') }}</p>
-                
-                <p>{{ $t('EndingsPage.tips.sacredTrinkets.description3') }}</p>
+              <div class="tip-card">
+                <div class="tip-header">
+                  <div class="tip-icon">✨</div>
+                  <h3>{{ $t('EndingsPage.tips.sacredTrinkets.title') }}</h3>
+                </div>
+                <div class="tip-content">
+                  <p>{{ $t('EndingsPage.tips.sacredTrinkets.description1') }}</p>
+                  <p>{{ $t('EndingsPage.tips.sacredTrinkets.description2') }}</p>
+                  <p>{{ $t('EndingsPage.tips.sacredTrinkets.description3') }}</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      </div>
+    </div>
 
     <AppFooter />
   </div>
@@ -220,7 +328,7 @@ const scrollToSection = (sectionId) => {
   color: #ffffff;
 }
 
-.endings-page img{
+.endings-page img {
   max-width: 100%;
   height: auto;
 }
@@ -305,39 +413,41 @@ const scrollToSection = (sectionId) => {
   margin-right: auto;
 }
 
+/* Enhanced Navigation */
 .endings-nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 15px;
+  gap: 20px;
+  margin-top: 40px;
 }
 
 .nav-card {
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 107, 53, 0.3);
-  border-radius: 12px;
-  padding: 20px;
-  text-align: center;
+  border-radius: 15px;
+  padding: 25px 20px;
   transition: all 0.3s ease;
   cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: center;
-  min-height: 60px;
+  gap: 15px;
+  min-height: 80px;
 }
 
 .nav-card:hover {
   background: rgba(0, 0, 0, 0.8);
   border-color: #ff6b35;
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(255, 107, 53, 0.2);
+  box-shadow: 0 15px 40px rgba(255, 107, 53, 0.3);
 }
 
-.nav-card span {
+.nav-content h3 {
   color: #ffffff;
   font-size: 16px;
   font-weight: 600;
-  margin: 0;
+  margin: 0 0 5px 0;
+  text-align: center;
 }
 
 /* Responsive Design */
@@ -416,28 +526,65 @@ const scrollToSection = (sectionId) => {
   z-index: 2;
 }
 
-.preparation-content {
-  display: grid;
-  grid-template-columns: 1fr;
+/* Step Cards */
+.preparation-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.preparation-section {
-  margin-bottom: 30px;
+.step-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 107, 53, 0.2);
+  border-radius: 12px;
+  padding: 25px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  transition: all 0.3s ease;
 }
 
-.preparation-section h3 {
+.step-number {
+  background: linear-gradient(135deg, #ff6b35, #ff8c42);
+  color: #000;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  flex-shrink: 0;
+  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+}
+
+.step-content {
+  flex: 1;
+}
+
+.step-content h3 {
   color: #ff6b35;
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 22px;
+  margin-bottom: 15px;
   text-shadow: 0 0 8px #ff6b35;
   font-weight: 600;
 }
 
-.preparation-section p {
+.step-description p {
   color: #d1d5db;
   line-height: 1.7;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   font-size: 16px;
+}
+
+.step-image {
+  margin-top: 15px;
+}
+
+.step-image img {
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* Bad Ending Section */
@@ -459,28 +606,63 @@ const scrollToSection = (sectionId) => {
   z-index: 2;
 }
 
+.ending-image {
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 107, 53, 0.2);
+}
+
+.ending-image img {
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
 .ending-content {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px;
 }
 
-.ending-section {
-  margin-bottom: 30px;
+/* Card Layout */
+.ending-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 107, 53, 0.2);
+  border-radius: 12px;
+  padding: 25px;
+  transition: all 0.3s ease;
 }
 
-.ending-section h3 {
-  color: #ff6b35;
-  font-size: 24px;
+.ending-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 107, 53, 0.4);
+  transform: translateY(-2px);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
   margin-bottom: 20px;
+}
+
+.card-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.card-header h3 {
+  color: #ff6b35;
+  font-size: 20px;
+  margin: 0;
   text-shadow: 0 0 8px #ff6b35;
   font-weight: 600;
 }
 
-.ending-section p {
+.card-content p {
   color: #d1d5db;
   line-height: 1.7;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   font-size: 16px;
 }
 
@@ -503,6 +685,115 @@ const scrollToSection = (sectionId) => {
   z-index: 2;
 }
 
+/* Process Steps */
+.good-ending-process {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.process-step {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.step-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.step-indicator .step-number {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: #000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 0 4px 15px rgba(34, 197, 94, 0.3);
+  margin-bottom: 10px;
+}
+
+.step-line {
+  width: 3px;
+  height: 40px;
+  background: linear-gradient(to bottom, #22c55e, transparent);
+  border-radius: 2px;
+}
+
+.process-step:last-child .step-line {
+  display: none;
+}
+
+.step-content {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(34, 197, 94, 0.2);
+  border-radius: 12px;
+  padding: 25px;
+  transition: all 0.3s ease;
+}
+
+.step-content:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(34, 197, 94, 0.4);
+  transform: translateY(-2px);
+}
+
+.step-card {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  transition: none;
+}
+
+.step-card .card-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.step-card .card-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.step-card .card-header h3 {
+  color: #22c55e;
+  font-size: 20px;
+  margin: 0;
+  text-shadow: 0 0 8px #22c55e;
+  font-weight: 600;
+}
+
+.step-card .card-content p {
+  color: #d1d5db;
+  line-height: 1.7;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.step-image {
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 15px;
+  border-top: 1px solid rgba(34, 197, 94, 0.2);
+}
+
+.step-image img {
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+  height: auto;
+}
 
 /* Tips Section */
 .tips {
@@ -523,133 +814,198 @@ const scrollToSection = (sectionId) => {
   z-index: 2;
 }
 
-.tips-content {
+/* Tips Grid */
+.tips-grid {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
 }
 
-.tip-section {
-  margin-bottom: 30px;
+.tip-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(168, 85, 247, 0.2);
+  border-radius: 12px;
+  padding: 25px;
+  transition: all 0.3s ease;
 }
 
-.tip-section h3 {
-  color: #ff6b35;
-  font-size: 24px;
+.tip-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(168, 85, 247, 0.4);
+  transform: translateY(-2px);
+}
+
+.tip-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
   margin-bottom: 20px;
-  text-shadow: 0 0 8px #ff6b35;
+}
+
+.tip-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.tip-header h3 {
+  color: #a855f7;
+  font-size: 20px;
+  margin: 0;
+  text-shadow: 0 0 8px #a855f7;
   font-weight: 600;
 }
 
-.tip-section p {
+.tip-content p {
   color: #d1d5db;
   line-height: 1.7;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   font-size: 16px;
 }
 
 /* Responsive Design */
 @media (max-width: 1024px) {
-  .preparation-content,
-  .ending-content,
-  .tips-content {
+  .endings-nav {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .ending-content {
     grid-template-columns: 1fr;
+  }
+
+  .tips-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-step {
+    flex-direction: column;
     gap: 20px;
   }
 
-  .endings-nav {
-    grid-template-columns: repeat(3, 1fr);
+  .step-indicator {
+    flex-direction: row;
+    align-items: center;
     gap: 15px;
+  }
+
+  .step-line {
+    width: 40px;
+    height: 3px;
+    background: linear-gradient(to right, #22c55e, transparent);
   }
 }
 
 @media (max-width: 768px) {
   .section {
-    padding: 20px 0;
+    padding: 40px 0;
   }
 
   .hero-title {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
   }
 
-  .hero-description{
-    margin-bottom: 10px;
+  .hero-description {
+    margin-bottom: 30px;
   }
 
   .hero-description p {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .section-title {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 28px;
+    margin-bottom: 15px;
   }
 
-  .section-header{
-    margin-bottom: 10px;
+  .section-header {
+    margin-bottom: 30px;
   }
 
   .section-subtitle {
-    font-size: 12px;
-  }
-
-  .preparation-section,
-  .ending-section,
-  .tip-section {
-    padding: 15px;
-    margin-bottom: 10px;
-  }
-
-  .preparation-section p,
-  .ending-section p,
-  .tip-section p{
-    margin-bottom: 10px;
+    font-size: 16px;
   }
 
   .endings-nav {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    grid-template-columns: 1fr;
+    gap: 15px;
   }
 
   .nav-card {
-    padding: 5px 10px;
-    min-height: 30px;
+    padding: 20px;
+    min-height: 60px;
   }
 
-  .nav-card span {
-    font-size: 12px;
+  .nav-content h3 {
+    font-size: 14px;
+  }
+
+  .nav-content p {
+    font-size: 11px;
   }
 
   .preparation-wrapper,
   .bad-ending-wrapper,
   .good-ending-wrapper,
   .tips-wrapper {
-    padding: 10px;
+    padding: 20px;
   }
 
-  .preparation-content,
-  .ending-content,
-  .tips-content {
+  .step-card {
+    flex-direction: column;
     gap: 15px;
+    padding: 20px;
   }
 
-  .preparation-section,
-  .ending-section,
-  .tip-section {
-    padding: 15px;
-  }
-
-  .preparation-section h3,
-  .ending-section h3,
-  .tip-section h3 {
+  .step-number {
+    width: 35px;
+    height: 35px;
     font-size: 16px;
   }
 
-  .preparation-section p,
-  .ending-section p,
-  .tip-section p {
-    font-size: 12px;
+  .step-content h3 {
+    font-size: 18px;
+  }
+
+  .step-description p {
+    font-size: 14px;
+  }
+
+  .ending-card,
+  .tip-card {
+    padding: 20px;
+  }
+
+  .card-header h3,
+  .tip-header h3 {
+    font-size: 18px;
+  }
+
+  .card-content p,
+  .tip-content p {
+    font-size: 14px;
+  }
+
+  .process-step {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .step-indicator {
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .step-indicator .step-number {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .step-line {
+    width: 30px;
+    height: 3px;
   }
 }
 
@@ -657,65 +1013,65 @@ const scrollToSection = (sectionId) => {
   .container {
     padding: 0 15px;
   }
-  
+
   .hero-wrapper {
     padding: 25px 15px;
   }
-  
+
   .hero-title {
     font-size: 2rem;
     letter-spacing: 1px;
   }
-  
+
   .hero-description {
     font-size: 14px;
   }
-  
+
   .endings-nav {
     grid-template-columns: 1fr;
     gap: 8px;
   }
-  
+
   .nav-card {
     padding: 8px;
   }
-  
+
   .nav-card span {
     font-size: 11px;
   }
-  
+
   .preparation-wrapper,
   .bad-ending-wrapper,
   .good-ending-wrapper,
   .tips-wrapper {
     padding: 15px;
   }
-  
+
   .preparation-section,
   .ending-section,
   .tip-section {
     padding: 15px;
     margin-bottom: 20px;
   }
-  
+
   .preparation-section h3,
   .ending-section h3,
   .tip-section h3 {
     font-size: 16px;
     margin-bottom: 12px;
   }
-  
+
   .preparation-section p,
   .ending-section p,
   .tip-section p {
     font-size: 13px;
     line-height: 1.5;
   }
-  
+
   .section-title {
     font-size: 1.8rem;
   }
-  
+
   .section-subtitle {
     font-size: 0.9rem;
   }

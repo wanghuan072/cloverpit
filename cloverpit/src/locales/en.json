@@ -578,7 +578,7 @@
     "WikiPage": {
         "hero": {
             "title": "CloverPit Wiki",
-            "description": "Complete CloverPit Wiki database of CloverPit game mechanics, symbols, patterns, and strategies. This comprehensive CloverPit Wiki provides detailed information about CloverPit gameplay, CloverPit strategies, and CloverPit mechanics for all CloverPit players. For more game information, visit our <a href=\"/\" class=\"text-link\">homepage</a> or check out our <a href=\"/cloverpit-guide\" class=\"text-link\">strategy guide</a>.",
+            "description": "Complete CloverPit database of CloverPit game mechanics, symbols, patterns, and strategies. This comprehensive CloverPit provides detailed information about CloverPit gameplay, CloverPit strategies, and CloverPit mechanics for all CloverPit players. For more game information, visit our <a href=\"/\" class=\"text-link\">homepage</a> or check out our <a href=\"/cloverpit-guide\" class=\"text-link\">strategy guide</a>.",
             "nav": {
                 "gameInfo": "CloverPit Game Info",
                 "symbols": "CloverPit Symbols",
@@ -592,15 +592,15 @@
             "title": "CloverPit Game Information",
             "subtitle": "Essential CloverPit Wiki details about CloverPit: The Descent",
             "overview": {
-                "title": "CloverPit Wiki Game Overview",
+                "title": "CloverPit Game Overview",
                 "description1": "<strong>\"LET'S GO GAMBLING - Now, let's roll\"</strong> - CloverPit is a thrilling slot machine roguelike developed by Panik Arcade, an Italian indie studio. This CloverPit Wiki covers all aspects of CloverPit gameplay. Players must survive in a cell with a slot machine and ATM, earning coins through gambling to meet increasingly difficult quotas. The CloverPit Wiki documents over 150 unique charms, phone call systems, and various <a href=\"/cloverpit-endings\" class=\"text-link\">endings based on player choices</a>.",
                 "description2": "CloverPit presents a unique blend of horror, gambling mechanics, and strategic gameplay that challenges players to master both luck and skill. This comprehensive CloverPit Wiki explores the game's atmospheric design that creates an immersive experience where every spin of the slot machine could mean the difference between survival and death. With its deep progression systems and multiple endings, CloverPit offers hours of replayability for those brave enough to face the cursed machine, and this CloverPit Wiki provides essential guidance for success.",
                 "releaseInfo": {
-                    "title": "CloverPit Wiki Release Information",
+                    "title": "CloverPit Release Information",
                     "description": "The CloverPit DEMO version was released free of charge on Steam on April 10, 2025, with the official CloverPit release date on September 27, 2025. This CloverPit Wiki tracks the complete development timeline. Originally scheduled for September 3, 2025, the CloverPit Steam release was postponed due to the launch of HOLLOW KNIGHT: Silksong on the same day. The CloverPit Steam version has received positive reception from players who appreciate its unique take on the roguelike genre and innovative slot machine mechanics. Steam Clover Pit offers the complete gaming experience with full access to all CloverPit features and endings, and this CloverPit Wiki provides comprehensive coverage of all CloverPit content. <a href=\"/cloverpit-download\" class=\"text-link\">Download the game</a> to experience it yourself."
                 },
                 "gameplayMechanics": {
-                    "title": "CloverPit Wiki Core Gameplay",
+                    "title": "CloverPit Core Gameplay",
                     "items": {
                         "item1": "Survive by meeting coin quotas within deadlines",
                         "item2": "Use charms and phone upgrades to enhance slot machine performance",
@@ -655,10 +655,10 @@
             }
         },
         "symbols": {
-            "title": "CloverPit Wiki Slot Machine Symbols",
+            "title": "CloverPit Slot Machine Symbols",
             "subtitle": "This CloverPit Wiki section covers understanding CloverPit symbol values, probabilities, and strategic importance",
             "specialSymbols": {
-                "title": "CloverPit Wiki Special Symbols",
+                "title": "CloverPit Special Symbols",
                 "description": "This CloverPit Wiki section details the most important special symbols in CloverPit, including CloverPit 666 and CloverPit 999 mechanics.",
                 "number6": {
                     "title": "Number 6 (CloverPit 666)",
@@ -720,10 +720,10 @@
             }
         },
         "patterns": {
-            "title": "CloverPit Wiki Pattern System",
+            "title": "CloverPit Pattern System",
             "subtitle": "This CloverPit Wiki explains CloverPit slot machine patterns and their multipliers. For detailed strategies on using these patterns, check our <a href=\"/cloverpit-guide\" class=\"text-link\">strategy guide</a>.",
             "jackpotSystem": {
-                "title": "CloverPit Wiki Jackpot System",
+                "title": "CloverPit Jackpot System",
                 "description": "This CloverPit Wiki documents that when multiple jackpots are triggered through charm effects, they receive special names:",
                 "levels": {
                     "level2": "2nd Jackpot: <span class=\"highlight\">SUPER JACKPOT</span>",
@@ -734,7 +734,7 @@
                 "note": "Only the wording is different, but the rewards are all the same as the basic jackpot."
             },
             "calculationRules": {
-                "title": "CloverPit Wiki Pattern Calculation Rules",
+                "title": "CloverPit Pattern Calculation Rules",
                 "description": "This CloverPit Wiki section explains the complex pattern calculation rules that govern CloverPit gameplay mechanics.",
                 "patternHierarchy": {
                     "title": "Pattern Hierarchy",
@@ -807,7 +807,7 @@
             }
         },
         "rarity": {
-            "title": "CloverPit Wiki Rarity System",
+            "title": "CloverPit Rarity System",
             "subtitle": "This CloverPit Wiki covers CloverPit charm and phone call rarity levels",
             "stats": {
                 "frequency": "Frequency:"
@@ -852,10 +852,10 @@
             }
         },
         "phoneCalls": {
-            "title": "CloverPit Wiki Phone Call System",
+            "title": "CloverPit Phone Call System",
             "subtitle": "This CloverPit Wiki explores mysterious CloverPit phone calls that provide buffs and strategic options. Learn how to use these calls effectively in our <a href=\"/cloverpit-guide\" class=\"text-link\">strategy guide</a>.",
             "regularCalls": {
-                "title": "CloverPit Wiki Regular Phone Calls",
+                "title": "CloverPit Regular Phone Calls",
                 "description": "This CloverPit Wiki section covers standard phone calls that provide various beneficial effects. Characterized by sarcastic or rebellious dialogue addressing gambling addiction."
             },
             "redCalls": {
@@ -1117,7 +1117,7 @@
                 }
             },
             "endingsSystem": {
-                "title": "CloverPit Wiki Game Endings System",
+                "title": "CloverPit Game Endings System",
                 "description": "This CloverPit Wiki documents that CloverPit features multiple CloverPit endings based on player choices and strategic decisions throughout the CloverPit game. The CloverPit Wiki provides comprehensive coverage of all ending paths. For detailed walkthroughs, visit our <a href=\"/cloverpit-endings\" class=\"text-link\">endings page</a>.",
                 "normalEnding": {
                     "title": "Normal Ending",
@@ -1162,7 +1162,7 @@
                 }
             },
             "charmSystem": {
-                "title": "CloverPit Wiki Charm System",
+                "title": "CloverPit Charm System",
                 "description": "This CloverPit Wiki explains that the CloverPit charm system is the core of CloverPit's strategic gameplay, featuring over 150 unique CloverPit charms with various effects and synergies. The CloverPit Wiki provides detailed information about charm mechanics and strategies.",
                 "basicMechanics": {
                     "title": "Basic Charm Mechanics",
@@ -1210,87 +1210,87 @@
             }
         },
         "preparation": {
-            "title": "CloverPit Ending Preparation",
-            "subtitle": "Essential preparation steps before attempting any CloverPit ending. This CloverPit ending guide covers all necessary preparation for successful CloverPit ending achievement. For detailed game mechanics, check our <a href=\"/cloverpit-wiki\" class=\"text-link\">comprehensive wiki</a>.",
+            "title": "How to Beat CloverPit - Preparation",
+            "subtitle": "Essential preparation steps before attempting any CloverPit ending. This guide covers unlocking drawers, obtaining corpse pieces, and acquiring the skull. For detailed game mechanics, check our <a href=\"/cloverpit-wiki\" class=\"text-link\">comprehensive wiki</a>.",
             "drawerSlots": {
-                "title": "CloverPit Ending Drawer Slots Collection",
-                "description1": "Before attempting any CloverPit ending, you must ensure that you have obtained all your drawer slots, as these will be needed to store the corpse pieces for your run. This preparation requires drawer slots earned by reaching certain deadlines during your CloverPit runs. The important detail is that once you have obtained a key for a particular run, you cannot get another one in that same run, which means this preparation will require at least 3 separate CloverPit runs to complete.",
-                "description2": "The drawer system is crucial for CloverPit ending preparation. Each drawer slot represents a potential storage location for corpse pieces, and having all slots available gives you the maximum flexibility when planning your run. The slots are earned progressively as you reach higher deadlines, making them a natural reward for advancing through CloverPit's difficulty curve and preparing for your ending attempt."
+                "title": "Unlock the 4 Drawers",
+                "description1": "The first step toward beating CloverPit is unlocking the four drawers beneath the store. Those drawers are unlocked with gold keys that appear in the box to the right of the ATM, and players can earn one key per run. Notably, the deadline that players must complete to claim a gold key increases every time a drawer is unlocked, and they must achieve a score of 200,000 to earn the last one.",
+                "description2": "Each drawer represents a storage location for corpse pieces, and having all four drawers unlocked gives you the maximum flexibility when planning your ending run. The progressive unlocking system ensures you've mastered the game's difficulty curve before attempting the complex ending requirements."
             },
             "corpsePieces": {
-                "title": "CloverPit Ending Corpse Pieces Setup",
-                "description1": "The key to starting your CloverPit ending run with corpse pieces lies in how you end your previous run. If you want to guarantee that you start with all the corpse pieces (excluding the skull, which is found randomly in the shop), you must ensure that when you end a CloverPit run, all your drawers are filled with items. These items will then transform into corpse pieces in your next run, giving you a significant advantage from the start.",
-                "description2": "For example, if your last CloverPit run had two trinkets in the bottom two drawers (as shown in the reference image), you will be able to start your next run with 2 out of 4 corpse pieces already in place. This preparation method is much more reliable than trying to obtain corpse pieces during the actual run, as the criteria for gaining them mid-run is unclear and can add unnecessary complexity to an already challenging endeavor.",
-                "description3": "If your drawers are empty and you want to quickly fill them before starting a corpse run, you can use the \"Cold Affection\" memory card. This card allows you to buy 4 items and then restart, effectively giving you a quick way to populate your drawers without committing to a full run. Learn more about <a href=\"/cloverpit-wiki\" class=\"text-link\">memory cards and game mechanics</a> in our wiki."
+                "title": "Equip 4 Corpse Pieces & Skull",
+                "description1": "Once all four drawers are unlocked, players should take these actions: During a run, purchase four charms and put them in the four drawers. To put a Lucky Charm in a drawer, select it from the desk and choose the \"put in drawer\" option. Fail the run when the four drawers are filled.",
+                "description2": "Start a new run. The charms in the drawers will have transformed into Corpse items. Equip all four Corpse items and start working on the first deadline. Purchase a Skull from the shop. This purchase does not need to occur during the first deadline, as the Skull may not be in the first shop, though it is good to get the item early in a run.",
+                "description3": "When the Skull is equipped, random free charms appear in empty drawers at the beginning of every deadline. This effect will help players overcome the additional debt that is incurred by equipping Corpse items and the Skull, and it is why players should try to get the Skull during the first couple of deadlines if possible."
             },
             "skullAcquisition": {
-                "title": "CloverPit Ending Skull Acquisition",
-                "description1": "The skull is the easiest component to obtain for your CloverPit ending preparation, as it appears as a common rarity item in the shop. This makes it relatively straightforward to find during your run, and it's even better if you can find one with a modifier attached. The skull's common status means you don't need to worry too much about finding it, unlike the more complex preparation required for the other corpse pieces.",
-                "description2": "Once you have all your drawer slots unlocked, your corpse pieces prepared, and a clear understanding of where to find the skull, you'll have everything you need to attempt either of the two main CloverPit endings. This preparation phase is essential for success, as starting without these advantages makes the runs significantly more difficult."
+                "title": "Skull Benefits and Strategy",
+                "description1": "The Skull provides a crucial advantage during your ending run. When equipped, it causes random free charms to appear in empty drawers at the beginning of every deadline. This effect helps offset the additional debt incurred by equipping Corpse items and the Skull itself.",
+                "description2": "It's recommended to acquire the Skull as early as possible in your run, ideally during the first couple of deadlines. This ensures you have maximum benefit from the free charms throughout your entire ending attempt, making the challenging requirements more manageable."
             }
         },
         "badEnding": {
-            "title": "Obtaining the CloverPit Bad Ending",
-            "subtitle": "The straightforward path to escape CloverPit, but not the true CloverPit ending victory. This CloverPit ending guide covers the bad ending path. For advanced strategies, check our <a href=\"/cloverpit-guide\" class=\"text-link\">comprehensive guide</a>.",
+            "title": "How to Get CloverPit's Bad Ending",
+            "subtitle": "The straightforward path to escape CloverPit with the four Corpse items equipped. This guide covers the bad ending requirements and process. For advanced strategies, check our <a href=\"/cloverpit-guide\" class=\"text-link\">comprehensive guide</a>.",
             "simplePath": {
-                "title": "CloverPit Bad Ending Simple Path",
-                "description1": "Obtaining the CloverPit bad ending is relatively straightforward compared to the more complex good ending. This process involves playing through CloverPit normally and reaching a specific coin quota. For the standard bad ending, you need to accumulate 250,000 coins. However, if you're using the \"Delusions of grandeur\" memory card, this requirement doubles to 500,000 coins.",
-                "description2": "Once you reach the required coin quota, CloverPit will unlock the dark key, which serves as your ticket to freedom. With this key in hand, you can proceed to the exit located behind you in your cell and leave the cursed CloverPit slot machine behind forever. This process is intentionally simple, representing the path of least resistance - a quick escape rather than a true understanding or mastery of CloverPit's deeper mechanics required for the true ending."
+                "title": "Bad Ending Requirements",
+                "description1": "With the four Corpse items equipped, and a plan to purchase the Skull from the shop when it appears, players must simply work through deadlines as they have been. This time around, players must complete Deadline #8, scoring more than 250,000 points, to gain access to the black skull key in the box to the right of the ATM.",
+                "description2": "This key can be used to open the door that is across from the ATM, and interacting with the slot machine at the end of the corridor triggers the credits. The bad ending represents a straightforward escape without engaging with the game's deeper mechanics required for the true ending."
             },
             "rewards": {
-                "title": "CloverPit Bad Ending Rewards and Consequences",
-                "description1": "Successfully completing the CloverPit bad ending will grant you the game credits, marking the end of your journey through CloverPit. Additionally, the memory card you used during the run will receive a rainbow border effect, though it's worth noting that this effect is not fully holographic and represents a lesser achievement compared to what's possible with other strategies.",
-                "description2": "While the CloverPit bad ending does provide a sense of completion and allows you to escape the cursed machine, it's important to understand that this is considered the \"bad\" ending for a reason. It represents taking the easy way out without truly engaging with CloverPit's more complex systems and deeper mysteries. CloverPit clearly communicates that there are much more rewarding conclusions available for players who are willing to put in the additional effort and take on the more challenging path to the true ending. Learn about the <a href=\"/cloverpit-wiki\" class=\"text-link\">game's deeper mechanics</a> to understand why the true ending is more rewarding.",
-                "description3": "The CloverPit bad ending serves as both an achievement and a stepping stone. It proves you can survive and escape CloverPit, but it also hints at the greater rewards and deeper satisfaction that come from pursuing the more challenging good ending path. This guide recommends the bad ending as a starting point before attempting the true ending."
+                "title": "Bad Ending Rewards and Consequences",
+                "description1": "Successfully completing the bad ending will grant you the game credits, marking the end of your journey through CloverPit. This ending provides a sense of completion and allows you to escape the cursed machine, but it represents taking the easy way out without truly engaging with CloverPit's more complex systems.",
+                "description2": "While the bad ending does provide a sense of completion, it's important to understand that this is considered the \"bad\" ending for a reason. It represents a quick escape rather than a true understanding or mastery of CloverPit's deeper mechanics required for the true ending.",
+                "description3": "The bad ending serves as both an achievement and a stepping stone. It proves you can survive and escape CloverPit, but it also hints at the greater rewards and deeper satisfaction that come from pursuing the more challenging good ending path."
             }
         },
         "goodEnding": {
-            "title": "Obtaining the CloverPit Good Ending (+ Sacred Trinkets)",
-            "subtitle": "The true path to CloverPit victory and sacred trinkets. This CloverPit ending guide covers the complete good ending strategy. For detailed strategies, check our <a href=\"/cloverpit-guide\" class=\"text-link\">comprehensive guide</a>.",
+            "title": "How to Get CloverPit's 999 True Ending",
+            "subtitle": "The true path to CloverPit victory requiring specific phone call management and 666 patterns. This guide covers the complete good ending strategy. For detailed strategies, check our <a href=\"/cloverpit-guide\" class=\"text-link\">comprehensive guide</a>.",
             "memoryCard": {
-                "title": "CloverPit Good Ending Memory Card Recommendation",
-                "description1": "For achieving the CloverPit good ending, I strongly recommend using the 'Heartbreak' memory card. This choice is strategic because it guarantees that you will get at least one CloverPit 666 pattern during your run, which is absolutely essential for the transformation process. The CloverPit 666 pattern serves as a crucial trigger that forces your next phone call to be red, and without this pattern, you'll find yourself unable to complete the necessary steps for the good ending.",
-                "description2": "The Heartbreak memory card's ability to ensure a CloverPit 666 pattern is invaluable because it removes one of the most unpredictable elements from your strategy. Without this guarantee, you would be relying on random chance to roll the CloverPit 666 pattern, which could require multiple attempts and significantly extend your preparation time. By using Heartbreak, you can plan your run with confidence, knowing that you'll have access to the red phone calls needed for the transformation sequence."
+                "title": "Memory Card Strategy for 666 Patterns",
+                "description1": "To get CloverPit's true ending, players must complete Deadline #8 with the four Corpse items and the Skull equipped, just as they did for the bad ending. However, the key difference is that players must ignore three red text phone calls before beating Deadline #8. Two such calls are guaranteed to occur at the beginning of Deadline #3 and #7, and players should select \"Be Right Back\" and not return to the phone for those.",
+                "description2": "A mark will obscure a \"6\" on the disk that sits on the slot machine when a deadline is completed after ignoring a red text phone call. The goal is to mark all three 6's before the beginning of Deadline #8. This requires careful planning and understanding of when red calls will appear."
             },
             "phoneCalls": {
-                "title": "CloverPit Good Ending Phone Call Rules and Restrictions",
-                "description1": "The most critical rule for achieving the CloverPit good ending is that you must never take any phone calls that contain red text and feature a lower-pitched voice. These calls represent the corrupted or dangerous communications that will prevent the transformation from occurring. You can identify these forbidden calls by their distinctive red text color and the noticeably deeper, more menacing voice tone.",
-                "description2": "However, you are allowed to take calls from other sources or ignore them entirely if you prefer. The key distinction is specifically avoiding the red-text calls with the lower pitch. Additionally, opening the menu during calls is perfectly fine - you can simply hit \"Be right back\" and not return to the call, which counts as avoiding the forbidden communication.",
-                "description3": "This restriction is part of CloverPit's deeper narrative about choosing the right path and avoiding the temptations that lead to corruption. By consistently rejecting the red calls, you demonstrate your commitment to the purer path that leads to the true ending. This guide emphasizes the importance of this phone call discipline. Learn more about <a href=\"/cloverpit-wiki\" class=\"text-link\">phone call mechanics</a> in our wiki."
+                "title": "Red Phone Call Management",
+                "description1": "That leaves just one red text phone call that players must ignore, and they can force one to occur at the beginning of Deadline #6 by spinning a 666 during Deadline #5. To guarantee a 666 during Deadline #6, or to increase the chances of one occurring, players can take these actions:",
+                "description2": "Select the Heartbreak memory card at the beginning of the run, as it guarantees a 666 on the last round of every deadline. Select the Important Choice or Recovery Attempt memory cards at the beginning of the run to double the chances of a 666. Focus on spinning as much as possible every round to maximize the chances of a 666.",
+                "description3": "This means always selecting the seven spin option, and the Fake Coin and Cat Food charms, which can increase spins, can also be useful. Players should not shy away from spinning a 666 during Deadlines #3 and #4, as such a spin may cause a red text phone call to occur at the beginning of Deadlines #4 or #5."
             },
             "floppyDisk": {
-                "title": "CloverPit Good Ending 666 Floppy Disk System",
-                "description1": "The CloverPit ending transformation process centers around the CloverPit 666 floppy disk, which acts as a tracking mechanism for your progress toward the CloverPit good ending. Each time you finish a deadline that had a red phone call (which you correctly avoided), you will receive one mark on your CloverPit 666 floppy disk. This CloverPit ending system requires you to accumulate exactly three marks before the CloverPit ending transformation can occur.",
-                "description2": "The CloverPit ending process works as follows: First, you finish a deadline that featured a red phone call (which you avoided), earning your first mark. You then repeat this process two more times, each time avoiding the red calls and completing the deadline. Once you have accumulated three marks on your CloverPit 666 floppy disk, you take one more phone call - this time, the phone will transform and begin offering holy calls instead of the regular communications for your CloverPit ending.",
-                "description3": "This three-strike system represents a test of patience and discipline in CloverPit ending strategies. It requires you to consistently make the right choices over multiple deadlines, proving your worthiness for the CloverPit ending transformation. The CloverPit 666 floppy disk serves as both a progress tracker and a symbolic representation of your journey toward enlightenment in CloverPit ending achievement."
+                "title": "666 Pattern and Disk Marking System",
+                "description1": "The disk marking system is crucial for tracking your progress toward the true ending. Each time you ignore a red phone call and complete the deadline, one of the three \"6\" symbols on the disk will be marked. You need to mark all three 6's before Deadline #8 to unlock the true ending path.",
+                "description2": "The guaranteed red calls on Deadlines #3 and #7 provide two of the three required marks. The third mark must come from triggering a red call through a 666 pattern, which is why the Heartbreak memory card is so valuable - it guarantees you'll get the 666 pattern needed to trigger the third red call.",
+                "description3": "This three-strike system represents a test of patience and discipline. It requires you to consistently make the right choices over multiple deadlines, proving your worthiness for the true ending transformation."
             },
             "transformation": {
-                "title": "CloverPit Good Ending Transformation and Its Benefits",
-                "description1": "Once you have successfully accumulated three marks on your CloverPit 666 floppy disk, your next phone call will be holy in nature. This CloverPit ending transformation affects multiple aspects of the game simultaneously. The phone itself transforms, now offering holy calls instead of regular or red calls. These holy calls provide access to sacred charms, which are powerful items that can significantly enhance your CloverPit ending gameplay experience.",
-                "description2": "More importantly, the CloverPit ending transformation also affects the key that you use to exit the room. When you use this transformed key on the door, it will unlock the true CloverPit ending, providing a much more satisfying and complete conclusion to your journey through CloverPit. This represents the reward for your patience, discipline, and commitment to the proper path in CloverPit ending strategies.",
-                "description3": "The CloverPit ending transformation sequence is the culmination of all your preparation and careful decision-making. It represents CloverPit's way of rewarding players who choose to engage with its deeper mechanics and pursue the more challenging but ultimately more rewarding path to CloverPit ending victory."
+                "title": "True Ending Transformation and White Key",
+                "description1": "After ignoring the third red text phone call and completing Deadline #7, players should answer the phone at the beginning of Deadline #8. This answering will cause the phone, the key inside the box next to the ATM, and the disk on the slot machine to turn white.",
+                "description2": "Players must now simply complete Deadline #8, grab the white skull key from the box, and use it on the door across from the ATM to complete the 999 ending. This represents the true victory - escaping CloverPit through understanding and mastering its deeper mechanics rather than just accumulating wealth.",
+                "description3": "The white transformation sequence is the culmination of all your preparation and careful decision-making. It represents CloverPit's way of rewarding players who choose to engage with its deeper mechanics and pursue the more challenging but ultimately more rewarding path to true victory."
             }
         },
         "tips": {
             "title": "CloverPit Ending Tips & Tricks",
-            "subtitle": "Advanced CloverPit ending strategies and important details for CloverPit ending success. This CloverPit ending guide provides expert tips. For more strategies, check our <a href=\"/cloverpit-blog\" class=\"text-link\">community blog</a>.",
+            "subtitle": "Advanced strategies and important details for CloverPit ending success. This guide provides expert tips for mastering the game's ending mechanics. For more strategies, check our <a href=\"/cloverpit-blog\" class=\"text-link\">community blog</a>.",
             "threeStrikes": {
-                "title": "CloverPit Ending Getting Your 3 Strikes",
-                "description1": "To successfully complete the transformation process, you need to obtain all three strikes on your CloverPit 666 floppy disk. This requires careful planning and understanding of CloverPit's mechanics. The key insight is that you must obtain at least one 'CloverPit 666' pattern during your run, as this pattern forces your next phone call to be red, providing you with the third strike opportunity.",
-                "description2": "Without the CloverPit 666 pattern, you will only be able to get 2 red phone calls by deadline 8, as the other two red calls are guaranteed to appear on deadline 3 and deadline 7. This means you would fall short of the required three strikes, making the transformation impossible. The CloverPit 666 pattern is therefore not just helpful but absolutely essential for achieving the good ending.",
-                "description3": "This is why the Heartbreak memory card is so valuable - it guarantees that you will roll at least one CloverPit 666 pattern, ensuring that you have access to all three strike opportunities. Without this guarantee, you would be relying on random chance, which could require multiple attempts and significantly extend your preparation time. Learn more about <a href=\"/cloverpit-wiki\" class=\"text-link\">memory cards and patterns</a> in our wiki."
+                "title": "Getting Your 3 Strikes on the Disk",
+                "description1": "To successfully complete the transformation process, you need to obtain all three strikes on your 666 floppy disk. This requires careful planning and understanding of CloverPit's mechanics. The key insight is that you must obtain at least one '666' pattern during your run, as this pattern forces your next phone call to be red, providing you with the third strike opportunity.",
+                "description2": "Without the 666 pattern, you will only be able to get 2 red phone calls by deadline 8, as the other two red calls are guaranteed to appear on deadline 3 and deadline 7. This means you would fall short of the required three strikes, making the transformation impossible. The 666 pattern is therefore not just helpful but absolutely essential for achieving the good ending.",
+                "description3": "This is why the Heartbreak memory card is so valuable - it guarantees that you will roll at least one 666 pattern, ensuring that you have access to all three strike opportunities. Without this guarantee, you would be relying on random chance, which could require multiple attempts and significantly extend your preparation time."
             },
             "timing": {
-                "title": "CloverPit Ending Timing and Deadline Strategy",
+                "title": "Timing and Deadline Strategy",
                 "description1": "Understanding the timing of red phone calls is crucial for planning your strategy. CloverPit has a predictable pattern for when these calls appear, and knowing this schedule allows you to plan your approach accordingly.",
-                "description2": "Red phone calls are guaranteed to appear on deadline 3 and deadline 7 in CloverPit. These represent your first two opportunities to earn strikes on your CloverPit 666 floppy disk. However, to get the third strike, you need to trigger an additional red call through the CloverPit 666 pattern. This means you need to roll the CloverPit 666 pattern before deadline 8 to ensure you have enough time to complete the transformation process.",
-                "description3": "The timing becomes even more important when you consider that you need to avoid taking the red calls while still completing the deadlines that feature them in CloverPit. This requires careful balance - you need the red calls to appear so you can earn strikes, but you must resist the temptation to answer them. The CloverPit 666 pattern helps by providing a guaranteed third red call opportunity, making the timing more predictable and manageable."
+                "description2": "Red phone calls are guaranteed to appear on deadline 3 and deadline 7 in CloverPit. These represent your first two opportunities to earn strikes on your 666 floppy disk. However, to get the third strike, you need to trigger an additional red call through the 666 pattern. This means you need to roll the 666 pattern before deadline 8 to ensure you have enough time to complete the transformation process.",
+                "description3": "The timing becomes even more important when you consider that you need to avoid taking the red calls while still completing the deadlines that feature them. This requires careful balance - you need the red calls to appear so you can earn strikes, but you must resist the temptation to answer them. The 666 pattern helps by providing a guaranteed third red call opportunity, making the timing more predictable and manageable."
             },
             "sacredTrinkets": {
-                "title": "CloverPit Ending Sacred Trinkets and Holy Calls",
-                "description1": "Once you have successfully completed the transformation process, the phone will begin offering holy calls instead of regular or red calls. These holy calls are exclusive to the good ending path and provide access to sacred charms, which are among the most powerful items in CloverPit.",
-                "description2": "Sacred charms offer significant gameplay advantages and represent the ultimate reward for successfully navigating the complex transformation process. These items are not available through any other means and serve as a tangible benefit for choosing the more challenging but ultimately more rewarding path to the good ending.",
-                "description3": "The holy calls themselves also represent a thematic shift in CloverPit's narrative. Where regular calls might offer mundane rewards and red calls represent corruption or danger, holy calls provide access to items that align with the purer, more enlightened path you've chosen to pursue. This creates a cohesive experience where your choices throughout CloverPit directly impact the rewards and opportunities available to you."
+                "title": "Sacred Trinkets and White Key Transformation",
+                "description1": "Once you have successfully completed the transformation process by marking all three 6's on the disk, the phone will turn white and offer holy calls instead of regular or red calls. These holy calls are exclusive to the good ending path and provide access to sacred charms, which are among the most powerful items in CloverPit.",
+                "description2": "The white transformation also affects the key that you use to exit the room. When you use this transformed white key on the door, it will unlock the true CloverPit ending, providing a much more satisfying and complete conclusion to your journey through CloverPit.",
+                "description3": "The white transformation sequence represents the culmination of all your preparation and careful decision-making. It represents CloverPit's way of rewarding players who choose to engage with its deeper mechanics and pursue the more challenging but ultimately more rewarding path to true victory."
             }
         }
     },

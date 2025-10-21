@@ -46,7 +46,6 @@ a:hover{
 }
 
 .section.hero {
-  height: 100vh;
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
