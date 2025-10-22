@@ -60,8 +60,6 @@ a:hover{
   background-attachment: fixed;
   background-repeat: no-repeat;
   padding: 100px 0;
-  contain: layout; /* 限制布局影响范围 */
-  will-change: transform; /* 优化渲染性能 */
 }
 
 .section.hero {
@@ -69,14 +67,11 @@ a:hover{
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  contain: paint;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   overflow: hidden;
-  will-change: transform; /* 优化渲染性能 */
-  transform: translateZ(0); /* 强制硬件加速 */
 }
 
 .wrapper {
@@ -90,9 +85,6 @@ a:hover{
   z-index: 2;
   text-align: center;
   color: #fff;
-  contain: layout; /* 限制布局影响范围 */
-  will-change: transform; /* 优化渲染性能 */
-  transform: translateZ(0); /* 强制硬件加速 */
 }
 
 .title-main {
@@ -101,14 +93,11 @@ a:hover{
   margin-bottom: 30px;
   line-height: 1.2;
   font-weight: 700;
-  font-family: 'Creepster', 'Orbitron', monospace, cursive;
-  font-weight: 400;
+  font-family: 'Courier New', 'Monaco', 'Menlo', monospace;
   letter-spacing: 3px;
   text-transform: uppercase;
   text-align: center;
   text-shadow: 0 0 5px #ff6b35, 0 0 10px #ff6b35, 0 0 15px #ff6b35, 0 0 20px #ff6b35, 0 0 25px #ff6b35, 0 0 30px #ff6b35;
-  will-change: transform; /* 优化渲染性能 */
-  transform: translateZ(0); /* 强制硬件加速 */
 }
 
 /* 响应式设计 */

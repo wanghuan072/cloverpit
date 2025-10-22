@@ -38,10 +38,11 @@
              <div class="about-content">
                <div class="about-image">
                  <img 
-                   src="../../public/images/about-img.webp" 
+                   src="/images/about-img.webp" 
                    alt="CloverPit Game Screenshot"
                    loading="lazy"
                    decoding="async"
+                   fetchpriority="low"
                  />
                </div>
                <p v-html="$t('HomePage.about.description1')"></p>
