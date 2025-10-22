@@ -14,8 +14,8 @@ export default defineConfig({
     },
   },
   build: {
-    // 启用CSS代码分割
-    cssCodeSplit: true,
+    // 禁用CSS代码分割，减少HTTP请求
+    cssCodeSplit: false,
     // 使用默认压缩，避免terser依赖问题
     minify: 'esbuild'
   },
