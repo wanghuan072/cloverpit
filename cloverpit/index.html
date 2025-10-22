@@ -6,15 +6,6 @@
   <link rel="icon" href="/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- 关键图片预加载 - 优化LCP性能 -->
-  <link rel="preload" href="/images/2.webp" as="image" fetchpriority="high">
-
-  <!-- CSS预加载 - 优化关键渲染路径 -->
-  <link rel="preload" href="/assets/public-CNn_JEtD.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript>
-    <link rel="stylesheet" href="/assets/public-CNn_JEtD.css">
-  </noscript>
-
   <!-- Primary Meta Tags -->
   <title>CloverPit: The Descent - Complete Game Guide & Wiki</title>
   <meta name="title" content="CloverPit: The Descent - Complete Game Guide & Wiki">
@@ -48,11 +39,11 @@
   <link rel="canonical" href="https://321gogame.com/">
 
   <!-- Alternate hreflang -->
-  <link rel="alternate" hreflang="en" href="https://321gogame.com/">
-  <link rel="alternate" hreflang="x-default" href="https://321gogame.com/">
+  <!-- <link rel="alternate" hreflang="en" href="https://321gogame.com/">
+  <link rel="alternate" hreflang="x-default" href="https://321gogame.com/"> -->
 
   <!-- Google Analytics - 延迟加载优化性能 -->
-  <script>
+  <!-- <script>
     // 延迟加载Google Analytics
     window.addEventListener('load', function () {
       const script = document.createElement('script');
@@ -65,6 +56,18 @@
       gtag('js', new Date());
       gtag('config', 'G-7QKB6PQ10L');
     });
+  </script> -->
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7QKB6PQ10L"></script>
+  <script>
+    setTimeout(() => {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-7QKB6PQ10L');
+    }, 2000);
   </script>
 
 </head>
