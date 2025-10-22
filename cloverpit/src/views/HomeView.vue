@@ -264,13 +264,23 @@
 import { ref } from 'vue'
 import AppHeader from '../components/AppHeader.vue'
 import AppFooter from '../components/AppFooter.vue'
-import '@/assets/css/public.css'
+// 延迟加载CSS，避免阻塞渲染
 
 const videoPlaying = ref(false)
 
 const playVideo = () => {
   videoPlaying.value = true
 }
+
+// 延迟加载CSS
+import { onMounted } from 'vue'
+onMounted(() => {
+  // 页面加载完成后加载CSS
+  const link = document.createElement('link')
+  link.rel = 'stylesheet'
+  link.href = '/src/assets/css/public.css'
+  document.head.appendChild(link)
+})
 </script>
 
 <style scoped>
