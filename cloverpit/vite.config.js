@@ -14,33 +14,10 @@ export default defineConfig({
     },
   },
   build: {
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          // 将Vue相关库分离
-          'vue-vendor': ['vue', 'vue-router', 'vue-i18n'],
-          // 将路由组件分离
-          'views': [
-            './src/views/HomeView.vue',
-            './src/views/GuideView.vue',
-            './src/views/WikiView.vue',
-            './src/views/EndingsView.vue',
-            './src/views/BlogView.vue',
-            './src/views/DownloadView.vue'
-          ]
-        }
-      }
-    },
     // 启用CSS代码分割
     cssCodeSplit: true,
-    // 压缩选项
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true,
-        drop_debugger: true
-      }
-    }
+    // 使用默认压缩，避免terser依赖问题
+    minify: 'esbuild'
   },
   // 开发服务器优化
   server: {
