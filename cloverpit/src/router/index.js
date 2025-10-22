@@ -70,35 +70,33 @@ function detectLanguageFromPath(path) {
   return 'en' // 默认返回英文
 }
 
-// 简化路由守卫 - 减少阻塞
+// 路由守卫：根据URL设置语言和SEO
 router.beforeEach(async (to, from, next) => {
   // 从URL路径中检测语言
   const detectedLanguage = detectLanguageFromPath(to.path)
 
   try {
+    // 导入i18n实例并设置语言
+    const { default: i18n, loadLocale } = await import('@/i18n')
+
+    // 如果语言不是英文，先加载语言文件
+    if (detectedLanguage !== 'en') {
+      await loadLocale(detectedLanguage)
+    }
+
+    // 设置语言
+    i18n.global.locale.value = detectedLanguage
+    localStorage.setItem('language', detectedLanguage)
+
     // 设置HTML的lang属性
     document.documentElement.lang = detectedLanguage
     
-    // 异步设置语言和SEO，不阻塞路由
-    setTimeout(async () => {
-      try {
-        const { default: i18n, loadLocale } = await import('@/i18n')
-        
-        if (detectedLanguage !== 'en') {
-          await loadLocale(detectedLanguage)
-        }
-        
-        i18n.global.locale.value = detectedLanguage
-        localStorage.setItem('language', detectedLanguage)
-        setPageSEO(to, detectedLanguage)
-      } catch (error) {
-        console.warn('Language setup error:', error)
-      }
-    }, 0)
+    // 设置页面SEO
+    setPageSEO(to, detectedLanguage)
     
     next()
   } catch (error) {
-    console.error('Route guard error:', error)
+    console.error('Language switching error:', error)
     next()
   }
 })

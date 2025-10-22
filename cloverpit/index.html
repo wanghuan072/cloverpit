@@ -12,19 +12,14 @@
   <link rel="preload" href="/images/2.webp" as="image" fetchpriority="high">
   <link rel="preload" href="/images/logo.webp" as="image" fetchpriority="high">
   
-  <!-- 关键CSS内联 - 最小化首屏样式 -->
-  <style>
-    /* 最小化关键渲染路径CSS */
-    *{padding:0;margin:0;box-sizing:border-box}
-    body{margin:0;padding:0;font-family:'Courier New',monospace;overflow-x:hidden}
-    #app{min-height:100vh}
-    .section{position:relative;background-size:cover;background-position:center;padding:100px 0}
-    .section.hero{display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
-    .wrapper{background:rgba(0,0,0,0.4);backdrop-filter:blur(8px);border-radius:15px;padding:40px;text-align:center;color:#fff}
-    .title-main{font-size:4rem;color:#fff;margin-bottom:30px;line-height:1.2;font-weight:700;font-family:'Courier New',monospace;letter-spacing:3px;text-transform:uppercase;text-align:center;text-shadow:0 0 5px #ff6b35,0 0 10px #ff6b35,0 0 15px #ff6b35}
-    .container{max-width:1200px;margin:0 auto;padding:0 20px}
-    @media (max-width:768px){.title-main{font-size:24px;margin-bottom:20px}.section.hero{height:auto;padding:100px 0 20px 0}.wrapper{padding:20px}}
-  </style>
+  <!-- 关键JavaScript预加载 -->
+  <link rel="modulepreload" href="/src/main.js">
+  
+  <!-- 关键CSS预加载 - 优化关键渲染路径 -->
+  <link rel="preload" href="/assets/public-CNn_JEtD.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="/assets/public-CNn_JEtD.css">
+  </noscript>
   
   <!-- 移除JavaScript预加载，避免阻塞渲染 -->
   
@@ -81,7 +76,7 @@
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'G-7QKB6PQ10L');
-      }, 15000);
+      }, 20000);
     });
   </script>
 
