@@ -1,0 +1,119 @@
+# CloverPit: The Descent - Complete Game Guide & Wiki
+
+## About This Website
+
+This is a comprehensive fan-made guide website for the horror rogue-lite slot machine game "CloverPit: The Descent". The website provides detailed gameplay guides, strategy tips, charm combinations, endings walkthroughs, and a complete game encyclopedia.
+
+**Website URL**: https://321gogame.com
+**Domain**: 321gogame.com
+**Language**: Multilingual (English, Chinese, Japanese, Russian, Korean, German, French, Spanish, Portuguese)
+
+## Website Structure
+
+### Main Pages
+- **Home** (`/`) - Game introduction, features overview, FAQ, and video trailer
+- **Guide** (`/cloverpit-guide`) - Complete gameplay strategy guide with beginner tips and advanced strategies
+- **Wiki** (`/cloverpit-wiki`) - Comprehensive game encyclopedia covering mechanics, symbols, patterns, and rarity
+- **Endings** (`/cloverpit-endings`) - Detailed walkthrough for all game endings including true ending and sacred trinkets
+- **Blog** (`/cloverpit-blog`) - Latest game news, updates, and community content
+- **Download** (`/cloverpit-download`) - Official download links and system requirements
+
+### Legal Pages
+- **Privacy Policy** (`/privacy-policy`) - Data protection and privacy information
+- **Terms of Service** (`/terms-of-service`) - Website terms and conditions
+- **Copyright** (`/copyright`) - Copyright notice and intellectual property information
+- **About Us** (`/about-us`) - Information about the guide team
+- **Contact** (`/contact-us`) - Contact information and support
+
+## Game Information
+
+### CloverPit: The Descent
+- **Genre**: Rogue-lite, Slot Machine, Horror
+- **Platform**: PC (Steam)
+- **Developer**: Independent game developer
+- **Release**: Recent indie horror game
+- **Gameplay**: Players must survive by playing a cursed slot machine, managing resources, and making strategic decisions
+
+### Key Game Elements
+- **Charm Combinations**: Various charm synergies and combinations for survival
+- **Symbols**: Different slot machine symbols with varying effects and rarity
+- **Patterns**: Strategic patterns for optimal gameplay
+- **Phone Calls**: Interactive phone call system affecting gameplay
+- **Memory Cards**: Collectible items that provide game advantages
+- **Multiple Endings**: Various ending paths including true ending and bad endings
+
+## Website Features
+
+### Technical Stack
+- **Frontend**: Vue.js 3 with Composition API
+- **Build Tool**: Vite 7.1.7
+- **Routing**: Vue Router 4.5.1
+- **Internationalization**: Vue I18n 9.14.5
+- **Styling**: Native CSS with responsive design
+- **Performance**: Optimized with lazy loading, code splitting, and image optimization
+
+### Content Features
+- **Multilingual Support**: 9 languages with automatic detection
+- **SEO Optimized**: Complete meta tags, Open Graph, and Twitter Card support
+- **Responsive Design**: Mobile-first approach with multiple breakpoints
+- **Interactive Elements**: Video player, scroll navigation, hover effects
+- **Performance Optimized**: WebP images, lazy loading, critical resource preloading
+
+### Design Theme
+- **Visual Style**: Horror-themed with neon glow effects
+- **Color Scheme**: Dark backgrounds with orange accent color (#ff6b35)
+- **Typography**: Courier New monospace font for headers
+- **Effects**: Glass morphism, shadows, and smooth transitions
+- **Backgrounds**: Game screenshots as section backgrounds
+
+## Content Categories
+
+### Game Guides
+- Beginner tips and tutorials
+- Advanced strategies and techniques
+- Charm synergy combinations
+- Resource management strategies
+- Progression guides
+- Endless mode strategies
+
+### Game Encyclopedia
+- Complete symbol database
+- Pattern recognition guides
+- Rarity classifications
+- Phone call system explanations
+- Memory card collection guide
+- Game mechanics deep-dive
+
+### Endings Guide
+- Preparation strategies
+- Bad ending walkthroughs
+- Good ending requirements
+- True ending conditions
+- Sacred trinket locations
+- Ending-specific tips
+
+## Target Audience
+
+- CloverPit: The Descent players seeking comprehensive guides
+- Horror game enthusiasts
+- Rogue-lite game fans
+- Strategy game players
+- Gaming community members
+
+## Content Quality
+
+All content is professionally written by gaming experts and regularly updated to reflect the latest game information. The guides are comprehensive, well-structured, and designed to help players of all skill levels master the game.
+
+## Disclaimer
+
+This is an independent fan site created for informational purposes only. 321gogame.com is not affiliated with, endorsed by, or connected to the original game or its publishers. All trademarks and copyrights belong to their respective owners.
+
+## Contact Information
+
+- **Website**: https://321gogame.com
+- **Email**: wyong@321gogame.com
+- **Social Media**: @321gogame (Twitter, Facebook)
+
+## Last Updated
+
+This information is current as of January 2025 and is regularly maintained to ensure accuracy and completeness.

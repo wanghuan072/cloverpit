@@ -12,17 +12,22 @@
             <div class="social-links">
               <a href="https://x.com/monicaNilo83076/status/1980123107290644629" target="_blank" class="social-link">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  <path
+                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                 </svg>
               </a>
               <a href="https://www.facebook.com/profile.php?id=61582342691767" target="_blank" class="social-link">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                  <path
+                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                 </svg>
               </a>
+              <a href="https://yo.directory/" target="_blank"><img
+                  src="https://cdn.prod.website-files.com/65c1546fa73ea974db789e3d/65e1e171f89ebfa7bd0129ac_yodirectory-featured.png"
+                  alt="yo.directory" style="width: 150px; height: 54px;" width="150" height="54" /></a>
             </div>
           </div>
-          
+
           <div class="footer-section">
             <h4>{{ $t('footer.navigation') }}</h4>
             <ul class="footer-links">
@@ -34,7 +39,7 @@
               <li><a href="/cloverpit-download">{{ $t('nav.download') }}</a></li>
             </ul>
           </div>
-          
+
           <div class="footer-section">
             <h4>{{ $t('footer.legal') }}</h4>
             <ul class="footer-links">
@@ -46,7 +51,7 @@
             </ul>
           </div>
         </div>
-        
+
         <div class="footer-bottom">
           <div class="footer-bottom-content">
             <div class="copyright">
@@ -81,7 +86,7 @@
   margin-bottom: 40px;
 }
 
-.footer-section-logo{
+.footer-section-logo {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -203,37 +208,33 @@
     grid-template-columns: 1fr;
     gap: 30px;
   }
-  
+
   .footer-bottom-content {
     flex-direction: column;
     text-align: center;
   }
-  
+
   .social-links {
     justify-content: center;
   }
-  
+
 }
 
 @media (max-width: 480px) {
   .footer-wrapper {
     padding: 40px 0 0 0;
   }
-  
+
   .footer-content {
     gap: 25px;
   }
-  
+
   .footer-section h3 {
     font-size: 1.3rem;
   }
-  
+
   .footer-section h4 {
     font-size: 1.1rem;
   }
 }
 </style>
-
-
-
-
