@@ -40,9 +40,9 @@
                  <img 
                    src="/images/about-img.webp" 
                    alt="CloverPit Game Screenshot"
-                   loading="eager"
-                   decoding="sync"
-                   fetchpriority="high"
+                   loading="lazy"
+                   decoding="async"
+                   fetchpriority="low"
                  />
                </div>
                <p v-html="$t('HomePage.about.description1')"></p>
