@@ -25,16 +25,29 @@ const pageConfigs = [
   { path: '/blog/:slug', component: 'BlogDetailView', name: 'BlogDetail' }
 ]
 
-// 支持的语言列表 - 简化
-const supportedLanguages = ['en']
+// 支持的语言列表
+const supportedLanguages = ['en', 'zh', 'ja', 'ru', 'ko', 'de', 'fr', 'es', 'pt']
 
-// 简化路由生成 - 只生成英文路由
+// 动态生成路由 - 支持多语言但按需加载
 function generateRoutes() {
-  return pageConfigs.map(page => ({
-    path: page.path,
-    name: page.name,
-    component: () => import(`@/views/${page.component}.vue`)
-  }))
+  const routes = []
+
+  // 为每种语言生成路由
+  supportedLanguages.forEach(lang => {
+    pageConfigs.forEach(page => {
+      const isDefaultLang = lang === 'en'
+      const path = isDefaultLang ? page.path : `/${lang}${page.path}`
+      const name = isDefaultLang ? page.name : `${page.name}${lang.charAt(0).toUpperCase() + lang.slice(1)}`
+
+      routes.push({
+        path,
+        name,
+        component: () => import(`@/views/${page.component}.vue`)
+      })
+    })
+  })
+
+  return routes
 }
 
 // 生成路由配置
@@ -57,38 +70,59 @@ function detectLanguageFromPath(path) {
   return 'en' // 默认返回英文
 }
 
-// 简化路由守卫 - 只设置SEO
+// 路由守卫：根据URL设置语言和SEO
 router.beforeEach(async (to, from, next) => {
+  // 从URL路径中检测语言
+  const detectedLanguage = detectLanguageFromPath(to.path)
+
   try {
+    // 导入i18n实例并设置语言
+    const { default: i18n, loadLocale } = await import('@/i18n')
+
+    // 如果语言不是英文，先加载语言文件
+    if (detectedLanguage !== 'en') {
+      await loadLocale(detectedLanguage)
+    }
+
+    // 设置语言
+    i18n.global.locale.value = detectedLanguage
+    localStorage.setItem('language', detectedLanguage)
+
     // 设置HTML的lang属性
-    document.documentElement.lang = 'en'
+    document.documentElement.lang = detectedLanguage
     
     // 设置页面SEO
-    setPageSEO(to, 'en')
+    setPageSEO(to, detectedLanguage)
     
     next()
   } catch (error) {
-    console.error('Route guard error:', error)
+    console.error('Language switching error:', error)
     next()
   }
 })
 
-// 简化SEO设置函数
+// SEO设置函数 - 支持多语言
 async function setPageSEO(route, language) {
   // 获取页面SEO配置
-  const seoKey = getSEOKey(route.path)
+  const seoKey = getSEOKey(route.path, language)
 
-  // 从英文语言文件获取SEO数据
-  const localeData = localeDataMap['en']
+  // 从对应语言文件获取SEO数据
+  const localeData = localeDataMap[language] || localeDataMap['en']
   const seoData = localeData?.seo?.[seoKey]
 
   if (seoData && typeof document !== 'undefined') {
-    setSEO(seoData, route.path, seoKey, 'en')
+    setSEO(seoData, route.path, seoKey, language)
   }
 }
 
 // 根据路径获取SEO配置键
-function getSEOKey(path) {
+function getSEOKey(path, language) {
+  // 移除语言前缀
+  let cleanPath = path
+  if (language !== 'en') {
+    cleanPath = path.replace(`/${language}`, '') || '/'
+  }
+
   const pathMap = {
     '/': 'home',
     '/cloverpit-guide': 'guide',
@@ -103,7 +137,7 @@ function getSEOKey(path) {
     '/contact-us': 'contact'
   }
 
-  return pathMap[path] || 'home'
+  return pathMap[cleanPath] || 'home'
 }
 
 export default router

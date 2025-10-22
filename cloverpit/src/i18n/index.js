@@ -34,13 +34,13 @@ const getInitialLocale = () => {
     return 'en'
 }
 
-// 创建i18n实例 - 只加载英文，其他语言按需加载
+// 创建i18n实例 - 支持多语言但按需加载
 const i18n = createI18n({
     legacy: false,
-    locale: 'en', // 默认英文
+    locale: getInitialLocale(), // 使用检测到的语言
     fallbackLocale: 'en',
     messages: {
-        en // 只加载英文
+        en // 只加载英文，其他语言按需加载
     },
     warnHtmlMessage: false,
     allowComposition: true,
@@ -65,9 +65,13 @@ export const loadLocale = async (locale) => {
 // 导出i18n实例
 export default i18n
 
-// 导出语言切换函数
-export const switchLocale = (locale) => {
+// 导出语言切换函数 - 支持按需加载
+export const switchLocale = async (locale) => {
     if (supportedLanguages.includes(locale)) {
+        // 如果语言不是英文，先加载语言文件
+        if (locale !== 'en') {
+            await loadLocale(locale)
+        }
         i18n.global.locale.value = locale
         localStorage.setItem('language', locale)
     }
