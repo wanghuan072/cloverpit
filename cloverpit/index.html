@@ -6,7 +6,9 @@
   <link rel="icon" href="/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- 资源提示优化 - 移除网络请求 -->
+  <!-- 资源提示优化 - 预连接关键域名 -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
 
   <!-- 关键图片预加载 - 优化LCP性能 -->
   <link rel="preload" href="/images/2.webp" as="image" fetchpriority="high">
@@ -14,15 +16,31 @@
   
   <!-- 关键JavaScript预加载 -->
   <link rel="modulepreload" href="/src/main.js">
+  <link rel="modulepreload" href="/src/App.vue">
   
-  <!-- 关键CSS预加载 - 优化关键渲染路径 -->
+  <!-- 关键CSS内联 - 优化LCP性能 -->
+  <style>
+    /* 关键渲染路径CSS - 内联减少阻塞 */
+    *{padding:0;margin:0;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif}
+    html{scroll-behavior:smooth}
+    body{margin:0;padding:0;font-family:'Courier New',monospace;overflow-x:hidden}
+    #app{min-height:100vh;contain:layout}
+    .container{max-width:1200px;margin:0 auto;padding:0 20px}
+    a{color:#ff6b35;text-decoration:none}
+    a:hover{text-decoration:underline}
+    .page-content{padding:70px 0 0 0}
+    .section{position:relative;background-size:cover;background-position:center;background-attachment:fixed;background-repeat:no-repeat;padding:100px 0}
+    .section.hero{background-attachment:fixed;background-position:center center;background-size:cover;background-repeat:no-repeat;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+    .wrapper{background:rgba(0,0,0,0.4);backdrop-filter:blur(8px);border-radius:15px;box-shadow:0 10px 30px rgba(0,0,0,0.7);border:1px solid rgba(255,255,255,0.1);padding:40px;position:relative;z-index:2;text-align:center;color:#fff}
+    .title-main{font-size:4rem;color:#ffffff;margin-bottom:30px;line-height:1.2;font-weight:700;font-family:'Courier New',monospace;letter-spacing:3px;text-transform:uppercase;text-align:center;text-shadow:0 0 5px #ff6b35,0 0 10px #ff6b35,0 0 15px #ff6b35,0 0 20px #ff6b35,0 0 25px #ff6b35,0 0 30px #ff6b35}
+    @media (max-width:768px){.container{padding:0 10px}.title-main{font-size:24px;margin-bottom:20px}.section.hero{height:auto;padding:100px 0 20px 0}.wrapper{padding:20px}}
+  </style>
+  
+  <!-- 非关键CSS异步加载 -->
   <link rel="preload" href="/assets/public-CNn_JEtD.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
     <link rel="stylesheet" href="/assets/public-CNn_JEtD.css">
   </noscript>
-  
-  <!-- 移除JavaScript预加载，避免阻塞渲染 -->
-  
   
 
   <!-- Primary Meta Tags -->
